@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T12:42:15.686792+00:00",
+  "generated_at": "2026-09-08T19:19:28.764697+00:00",
   "current_week": 1,
   "season": "2026",
   "leagues": [
@@ -3087,55 +3087,18 @@
               "search_rank": 40,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "11581",
-                "name": "MarShawn Lloyd",
+                "player_id": "7611",
+                "name": "Rhamondre Stevenson",
                 "position": "RB",
-                "team": "GB",
+                "team": "NE",
                 "bye_week": 11,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 99
+                "search_rank": 58
               }
             },
             {
               "slot": "FLEX",
-              "player_id": "7611",
-              "name": "Rhamondre Stevenson",
-              "position": "RB",
-              "team": "NE",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 58,
-              "status": "OK"
-            },
-            {
-              "slot": "K",
-              "player_id": "5189",
-              "name": "Eddy Pineiro",
-              "position": "K",
-              "team": "SF",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 173,
-              "status": "OK"
-            },
-            {
-              "slot": "DEF",
-              "player_id": "NE",
-              "name": "New England Patriots",
-              "position": "DEF",
-              "team": "NE",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 999999,
-              "status": "OK"
-            }
-          ],
-          "bench": [
-            {
               "player_id": "11581",
               "name": "MarShawn Lloyd",
               "position": "RB",
@@ -3146,6 +3109,32 @@
               "search_rank": 99,
               "status": "OK"
             },
+            {
+              "slot": "K",
+              "player_id": "12185",
+              "name": "Spencer Shrader",
+              "position": "K",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 355,
+              "status": "OK"
+            },
+            {
+              "slot": "DEF",
+              "player_id": "LAC",
+              "name": "Los Angeles Chargers",
+              "position": "DEF",
+              "team": "LAC",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 999999,
+              "status": "OK"
+            }
+          ],
+          "bench": [
             {
               "player_id": "11583",
               "name": "Jonathon Brooks",
@@ -3169,6 +3158,17 @@
               "status": "QUESTIONABLE"
             },
             {
+              "player_id": "7611",
+              "name": "Rhamondre Stevenson",
+              "position": "RB",
+              "team": "NE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 58,
+              "status": "OK"
+            },
+            {
               "player_id": "8136",
               "name": "Rachaad White",
               "position": "RB",
@@ -3187,7 +3187,7 @@
               "player_name": "Luther Burden",
               "status": "QUESTIONABLE",
               "detail": "Lower Body",
-              "suggested_swap": "MarShawn Lloyd"
+              "suggested_swap": "Rhamondre Stevenson"
             }
           ],
           "waiver_suggestions": [
@@ -3248,7 +3248,7 @@
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 150,
-              "upgrade_over": "Eddy Pineiro",
+              "upgrade_over": "Spencer Shrader",
               "status": "OK"
             }
           ]
