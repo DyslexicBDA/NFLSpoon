@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T03:46:21.770306+00:00",
+  "generated_at": "2026-09-08T04:30:33.061277+00:00",
   "current_week": 1,
   "season": "2026",
   "leagues": [
@@ -211,6 +211,68 @@
               "detail": "Hip",
               "suggested_swap": "Dallas Goedert"
             }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Mike Washington",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": null,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Jayden Reed",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "3214",
+              "name": "Hunter Henry",
+              "position": "TE",
+              "team": "NE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 92,
+              "upgrade_over": "Dallas Goedert",
+              "status": "OK"
+            },
+            {
+              "player_id": "12711",
+              "name": "Tyler Loop",
+              "position": "K",
+              "team": "BAL",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 150,
+              "upgrade_over": "Harrison Mevis",
+              "status": "OK"
+            }
           ]
         },
         {
@@ -414,6 +476,68 @@
               "status": "QUESTIONABLE",
               "detail": "Leg",
               "suggested_swap": "Tony Pollard"
+            }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Jacob Saylors",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": null,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "7523",
+              "name": "Trevor Lawrence",
+              "position": "QB",
+              "team": "JAX",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 43,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Michael Pittman",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "8183",
+              "name": "Brock Purdy",
+              "position": "QB",
+              "team": "SF",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 55,
+              "upgrade_over": null,
+              "status": "OK"
             }
           ]
         },
@@ -632,6 +756,68 @@
               "status": "QUESTIONABLE",
               "detail": "Foot",
               "suggested_swap": "Matthew Stafford"
+            }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Rachaad White",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": "Matthew Stafford",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "7523",
+              "name": "Trevor Lawrence",
+              "position": "QB",
+              "team": "JAX",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 43,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Deebo Samuel",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "8183",
+              "name": "Brock Purdy",
+              "position": "QB",
+              "team": "SF",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 55,
+              "upgrade_over": null,
+              "status": "OK"
             }
           ]
         },
@@ -859,6 +1045,68 @@
               "status": "QUESTIONABLE",
               "detail": "Lower Body",
               "suggested_swap": "RJ Harvey"
+            }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Jonathon Brooks",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": null,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "7523",
+              "name": "Trevor Lawrence",
+              "position": "QB",
+              "team": "JAX",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 43,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Makai Lemon",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "8183",
+              "name": "Brock Purdy",
+              "position": "QB",
+              "team": "SF",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 55,
+              "upgrade_over": null,
+              "status": "OK"
             }
           ]
         },
@@ -1111,6 +1359,68 @@
               "detail": "Achilles",
               "suggested_swap": "Bo Nix"
             }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Kyle Monangai",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": "Bo Nix",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "7523",
+              "name": "Trevor Lawrence",
+              "position": "QB",
+              "team": "JAX",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 43,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Rome Odunze",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "12711",
+              "name": "Tyler Loop",
+              "position": "K",
+              "team": "BAL",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 150,
+              "upgrade_over": "Chris Boswell",
+              "status": "OK"
+            }
           ]
         },
         {
@@ -1321,6 +1631,68 @@
               "detail": "Undisclosed",
               "suggested_swap": "Terry McLaurin"
             }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Jordan Mason",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": null,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Brian Thomas",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "3214",
+              "name": "Hunter Henry",
+              "position": "TE",
+              "team": "NE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 92,
+              "upgrade_over": "Jake Ferguson",
+              "status": "OK"
+            },
+            {
+              "player_id": "12711",
+              "name": "Tyler Loop",
+              "position": "K",
+              "team": "BAL",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 150,
+              "upgrade_over": "Will Reichard",
+              "status": "OK"
+            }
           ]
         },
         {
@@ -1513,6 +1885,68 @@
               "detail": "Undisclosed",
               "suggested_swap": null
             }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Chuba Hubbard",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": "Kyler Murray",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "7523",
+              "name": "Trevor Lawrence",
+              "position": "QB",
+              "team": "JAX",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 43,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Matthew Golden",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "8183",
+              "name": "Brock Purdy",
+              "position": "QB",
+              "team": "SF",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 55,
+              "upgrade_over": null,
+              "status": "OK"
+            }
           ]
         },
         {
@@ -1688,7 +2122,69 @@
             }
           ],
           "alert_count": 0,
-          "alerts": []
+          "alerts": [],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "MarShawn Lloyd",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": null,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Jordan Addison",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "3214",
+              "name": "Hunter Henry",
+              "position": "TE",
+              "team": "NE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 92,
+              "upgrade_over": "Isaiah Likely",
+              "status": "OK"
+            },
+            {
+              "player_id": "12711",
+              "name": "Tyler Loop",
+              "position": "K",
+              "team": "BAL",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 150,
+              "upgrade_over": "Harrison Butker",
+              "status": "OK"
+            }
+          ]
         },
         {
           "roster_id": 1,
@@ -1898,6 +2394,68 @@
               "detail": "Undisclosed",
               "suggested_swap": "Chris Godwin"
             }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Jacory Croskey-Merritt",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": null,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "7523",
+              "name": "Trevor Lawrence",
+              "position": "QB",
+              "team": "JAX",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 43,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Chris Godwin",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "8183",
+              "name": "Brock Purdy",
+              "position": "QB",
+              "team": "SF",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 55,
+              "upgrade_over": null,
+              "status": "OK"
+            }
           ]
         },
         {
@@ -2090,6 +2648,68 @@
               "status": "QUESTIONABLE",
               "detail": "Undisclosed",
               "suggested_swap": "Oronde Gadsden"
+            }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Kenny Gainwell",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": null,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "7523",
+              "name": "Trevor Lawrence",
+              "position": "QB",
+              "team": "JAX",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 43,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Quentin Johnston",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "8183",
+              "name": "Brock Purdy",
+              "position": "QB",
+              "team": "SF",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 55,
+              "upgrade_over": null,
+              "status": "OK"
             }
           ]
         }
@@ -2303,6 +2923,68 @@
               "detail": "Knee - ACL",
               "suggested_swap": "Parker Washington"
             }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Chuba Hubbard",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": "Brock Purdy",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "De'Zhaun Stribling",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "3163",
+              "name": "Jared Goff",
+              "position": "QB",
+              "team": "DET",
+              "bye_week": 6,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 62,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "13281",
+              "name": "Jordyn Tyson",
+              "position": "WR",
+              "team": "NO",
+              "bye_week": 8,
+              "injury_status": "IR",
+              "injury_body_part": "Hamstring",
+              "search_rank": 62,
+              "upgrade_over": null,
+              "status": "OUT"
+            }
           ]
         },
         {
@@ -2496,6 +3178,68 @@
               "detail": "Lower Body",
               "suggested_swap": "MarShawn Lloyd"
             }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Rachaad White",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": null,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Michael Pittman",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "3163",
+              "name": "Jared Goff",
+              "position": "QB",
+              "team": "DET",
+              "bye_week": 6,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 62,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "12711",
+              "name": "Tyler Loop",
+              "position": "K",
+              "team": "BAL",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 150,
+              "upgrade_over": "Eddy Pineiro",
+              "status": "OK"
+            }
           ]
         },
         {
@@ -2688,6 +3432,68 @@
               "status": "QUESTIONABLE",
               "detail": "Undisclosed",
               "suggested_swap": "Christian Watson"
+            }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Cam Skattebo",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": null,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "KC Concepcion",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "3163",
+              "name": "Jared Goff",
+              "position": "QB",
+              "team": "DET",
+              "bye_week": 6,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 62,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "12493",
+              "name": "Oronde Gadsden",
+              "position": "TE",
+              "team": "LAC",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 83,
+              "upgrade_over": "Jake Ferguson",
+              "status": "OK"
             }
           ]
         },
@@ -2889,6 +3695,68 @@
               "status": "QUESTIONABLE",
               "detail": "Groin",
               "suggested_swap": null
+            }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Blake Corum",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": "Bo Nix",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Jayden Reed",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "3163",
+              "name": "Jared Goff",
+              "position": "QB",
+              "team": "DET",
+              "bye_week": 6,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 62,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "12711",
+              "name": "Tyler Loop",
+              "position": "K",
+              "team": "BAL",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 150,
+              "upgrade_over": "Harrison Mevis",
+              "status": "OK"
             }
           ]
         },
@@ -3108,6 +3976,68 @@
               "detail": "Groin",
               "suggested_swap": "Jalen Hurts"
             }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Kenny Gainwell",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": null,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Matthew Golden",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "3163",
+              "name": "Jared Goff",
+              "position": "QB",
+              "team": "DET",
+              "bye_week": 6,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 62,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "12493",
+              "name": "Oronde Gadsden",
+              "position": "TE",
+              "team": "LAC",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 83,
+              "upgrade_over": "Mark Andrews",
+              "status": "OK"
+            }
           ]
         },
         {
@@ -3283,7 +4213,69 @@
             }
           ],
           "alert_count": 0,
-          "alerts": []
+          "alerts": [],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "RJ Harvey",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": "Trevor Lawrence",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Quentin Johnston",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "3163",
+              "name": "Jared Goff",
+              "position": "QB",
+              "team": "DET",
+              "bye_week": 6,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 62,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "12493",
+              "name": "Oronde Gadsden",
+              "position": "TE",
+              "team": "LAC",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 83,
+              "upgrade_over": "Isaiah Likely",
+              "status": "OK"
+            }
+          ]
         },
         {
           "roster_id": 3,
@@ -3517,6 +4509,68 @@
               "status": "QUESTIONABLE",
               "detail": "Undisclosed",
               "suggested_swap": "Courtland Sutton"
+            }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Jacory Croskey-Merritt",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": "Matthew Stafford",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "DK Metcalf",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "12493",
+              "name": "Oronde Gadsden",
+              "position": "TE",
+              "team": "LAC",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 83,
+              "upgrade_over": "Dallas Goedert",
+              "status": "OK"
+            },
+            {
+              "player_id": "12711",
+              "name": "Tyler Loop",
+              "position": "K",
+              "team": "BAL",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 150,
+              "upgrade_over": "Chris Boswell",
+              "status": "OK"
             }
           ]
         },
@@ -3752,6 +4806,68 @@
               "detail": "Undisclosed",
               "suggested_swap": null
             }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Kyle Monangai",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": "Jaxson Dart",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Michael Wilson",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "3163",
+              "name": "Jared Goff",
+              "position": "QB",
+              "team": "DET",
+              "bye_week": 6,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 62,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "13281",
+              "name": "Jordyn Tyson",
+              "position": "WR",
+              "team": "NO",
+              "bye_week": 8,
+              "injury_status": "IR",
+              "injury_body_part": "Hamstring",
+              "search_rank": 62,
+              "upgrade_over": null,
+              "status": "OUT"
+            }
           ]
         },
         {
@@ -3979,6 +5095,68 @@
               "detail": "Illness",
               "suggested_swap": "Jadarian Price"
             }
+          ],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Rico Dowdle",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": null,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Stefon Diggs",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "12493",
+              "name": "Oronde Gadsden",
+              "position": "TE",
+              "team": "LAC",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 83,
+              "upgrade_over": "Travis Kelce",
+              "status": "OK"
+            },
+            {
+              "player_id": "12711",
+              "name": "Tyler Loop",
+              "position": "K",
+              "team": "BAL",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 150,
+              "upgrade_over": "Harrison Butker",
+              "status": "OK"
+            }
           ]
         },
         {
@@ -4154,7 +5332,69 @@
             }
           ],
           "alert_count": 0,
-          "alerts": []
+          "alerts": [],
+          "waiver_suggestions": [
+            {
+              "player_id": "2315",
+              "name": "Todd Gurley",
+              "position": "RB",
+              "team": null,
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 27,
+              "upgrade_over": "Jordan Mason",
+              "status": "OK"
+            },
+            {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 39,
+              "upgrade_over": null,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "9499",
+              "name": "Bryce Ford-Wheaton",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 44,
+              "upgrade_over": "Jordan Addison",
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "3163",
+              "name": "Jared Goff",
+              "position": "QB",
+              "team": "DET",
+              "bye_week": 6,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 62,
+              "upgrade_over": null,
+              "status": "OK"
+            },
+            {
+              "player_id": "13281",
+              "name": "Jordyn Tyson",
+              "position": "WR",
+              "team": "NO",
+              "bye_week": 8,
+              "injury_status": "IR",
+              "injury_body_part": "Hamstring",
+              "search_rank": 62,
+              "upgrade_over": null,
+              "status": "OUT"
+            }
+          ]
         }
       ]
     }
