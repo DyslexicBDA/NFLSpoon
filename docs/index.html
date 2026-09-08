@@ -165,4 +165,148 @@
   }
 </style>
 </head>
-<
+<body>
+<header>
+  <h1>🏈 Fantasy Season Tracker</h1>
+  <p id="meta-line">Loading...</p>
+</header>
+<main>
+  <div class="pickers">
+    <select id="league-select"><option>Loading leagues...</option></select>
+    <select id="team-select"><option>Pick a league first</option></select>
+  </div>
+  <div id="content"><div class="loading">Pick your league and team above.</div></div>
+</main>
+<footer>Data from Sleeper. Refreshed on a schedule &mdash; not real-time.</footer>
+
+<script>
+let DATA = null;
+
+const leagueSelect = document.getElementById('league-select');
+const teamSelect = document.getElementById('team-select');
+const content = document.getElementById('content');
+const metaLine = document.getElementById('meta-line');
+
+function statusLabel(status) {
+  return { OK: 'Good to go', BYE: 'Bye week', QUESTIONABLE: 'Questionable', OUT: 'Out / Doubtful' }[status] || status;
+}
+
+// League color themes: "Winfield Blue Cup" gets blue, everything else gets
+// green. Matched by name (not league_id) so it keeps working if a league
+// gets recreated with a new ID next season.
+const THEME_COLORS = { 'theme-blue': '#1e3a8a', 'theme-green': '#14532d' };
+function themeClassFor(league) {
+  return /blue/i.test(league.league_name || '') ? 'theme-blue' : 'theme-green';
+}
+function applyLeagueTheme(league) {
+  document.body.classList.remove('theme-blue', 'theme-green');
+  if (!league) return;
+  const cls = themeClassFor(league);
+  document.body.classList.add(cls);
+  const metaTheme = document.querySelector('meta[name="theme-color"]');
+  if (metaTheme) metaTheme.setAttribute('content', THEME_COLORS[cls]);
+}
+
+function playerRow(p, isStarter) {
+  const badge = `<span class="badge ${p.status}">${statusLabel(p.status)}</span>`;
+  const meta = [p.position, p.team].filter(Boolean).join(' · ');
+  const swap = isStarter && p.suggested_swap
+    ? `<div class="swap">Consider starting ${p.suggested_swap.name} instead</div>`
+    : '';
+  return `
+    <div class="row">
+      ${isStarter ? `<div class="slot">${p.slot}</div>` : ''}
+      <div class="name">${p.name}<span class="meta">${meta}</span>${swap}</div>
+      ${badge}
+    </div>`;
+}
+
+function renderTeam(team) {
+  const alertCount = team.alert_count;
+  const summaryClass = alertCount > 0 ? 'warn' : 'ok';
+  const summaryText = alertCount > 0
+    ? `${alertCount} starter${alertCount > 1 ? 's' : ''} need${alertCount > 1 ? '' : 's'} attention`
+    : 'Full strength — no bye/injury issues in your starting lineup';
+
+  const starterRows = team.starters.map(p => playerRow(p, true)).join('');
+  const benchRows = team.bench.map(p => playerRow(p, false)).join('');
+
+  content.innerHTML = `
+    <div class="card">
+      <div class="alert-summary ${summaryClass}">${alertCount > 0 ? '⚠️' : '✅'} ${summaryText}</div>
+    </div>
+    <h2>Starting lineup</h2>
+    <div class="card">${starterRows}</div>
+    <h2>Bench</h2>
+    <div class="card">
+      <details>
+        <summary>Show ${team.bench.length} bench players</summary>
+        ${benchRows}
+      </details>
+    </div>
+  `;
+}
+
+function populateTeams(league) {
+  teamSelect.innerHTML = league.teams
+    .map(t => `<option value="${t.roster_id}">${t.team_name}</option>`)
+    .join('');
+  const saved = localStorage.getItem('team-' + league.league_id);
+  if (saved && league.teams.some(t => String(t.roster_id) === saved)) {
+    teamSelect.value = saved;
+  }
+  showSelectedTeam();
+}
+
+function showSelectedTeam() {
+  const league = DATA.leagues.find(l => l.league_id === leagueSelect.value);
+  if (!league) return;
+  const team = league.teams.find(t => String(t.roster_id) === teamSelect.value);
+  if (!team) return;
+  localStorage.setItem('league', league.league_id);
+  localStorage.setItem('team-' + league.league_id, team.roster_id);
+  renderTeam(team);
+}
+
+leagueSelect.addEventListener('change', () => {
+  const league = DATA.leagues.find(l => l.league_id === leagueSelect.value);
+  applyLeagueTheme(league);
+  populateTeams(league);
+});
+teamSelect.addEventListener('change', showSelectedTeam);
+
+fetch('data.json?_=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    DATA = data;
+    if (!data.leagues || data.leagues.length === 0) {
+      metaLine.textContent = 'No data yet — waiting on the first refresh.';
+      content.innerHTML = '<div class="empty">The data file hasn’t been generated yet. Run the refresh script or wait for the scheduled job.</div>';
+      leagueSelect.innerHTML = '<option>No leagues yet</option>';
+      return;
+    }
+    metaLine.textContent = `Week ${data.current_week} · updated ${new Date(data.generated_at).toLocaleString()}`;
+    leagueSelect.innerHTML = data.leagues
+      .map(l => `<option value="${l.league_id}">${l.league_name}</option>`)
+      .join('');
+    const savedLeague = localStorage.getItem('league');
+    if (savedLeague && data.leagues.some(l => l.league_id === savedLeague)) {
+      leagueSelect.value = savedLeague;
+    }
+    const initialLeague = data.leagues.find(l => l.league_id === leagueSelect.value);
+    applyLeagueTheme(initialLeague);
+    populateTeams(initialLeague);
+  })
+  .catch(err => {
+    metaLine.textContent = 'Could not load data.json';
+    content.innerHTML = `<div class="empty">Error loading data: ${err}</div>`;
+  });
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
+</script>
+</body>
+</html>
