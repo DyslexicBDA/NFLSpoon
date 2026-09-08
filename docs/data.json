@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T19:19:28.764697+00:00",
+  "generated_at": "2026-09-08T22:27:25.399372+00:00",
   "current_week": 1,
   "season": "2026",
   "leagues": [
@@ -359,10 +359,10 @@
               "position": "RB",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Leg",
+              "injury_status": "Out",
+              "injury_body_part": "Ankle",
               "search_rank": 39,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": {
                 "player_id": "5967",
                 "name": "Tony Pollard",
@@ -473,8 +473,8 @@
             {
               "slot": "FLEX",
               "player_name": "TreVeyon Henderson",
-              "status": "QUESTIONABLE",
-              "detail": "Leg",
+              "status": "OUT",
+              "detail": "Ankle",
               "suggested_swap": "Tony Pollard"
             }
           ],
@@ -4463,10 +4463,10 @@
               "position": "RB",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Leg",
+              "injury_status": "Out",
+              "injury_body_part": "Ankle",
               "search_rank": 39,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "5022",
