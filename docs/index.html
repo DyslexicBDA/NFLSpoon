@@ -6,31 +6,23 @@
 <title>Fantasy Season Tracker</title>
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-192.png">
-<meta name="theme-color" content="#1a2332">
+<meta name="theme-color" content="#0d2b4a">
 <style>
+  /* One fixed theme app-wide, styled after the Detroit Lions' Honolulu
+     Blue / silver / black palette. Deliberately not tied to league or
+     system light/dark mode - same look everywhere, every time. */
   :root {
-    --bg: #f5f6f8;
-    --card: #ffffff;
-    --text: #1a2332;
-    --muted: #6b7280;
-    --border: #e5e7eb;
-    --accent: #2f6fed;
-    --ok: #1a8a4a;
-    --warn: #b8860b;
-    --bad: #c0392b;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #14181f;
-      --card: #1e242e;
-      --text: #eef1f5;
-      --muted: #9aa4b2;
-      --border: #303845;
-      --accent: #6c9bff;
-      --ok: #35c073;
-      --warn: #e0a52c;
-      --bad: #e0574c;
-    }
+    --bg: #071b30;
+    --bg-band: #0d2b4a;
+    --card: #123454;
+    --border: #24507a;
+    --text: #f5f8fa;
+    --muted: #a9c1d6;
+    --accent: #4db2ff;
+    --silver: #c7ccd1;
+    --ok: #35c073;
+    --warn: #e6b23d;
+    --bad: #ef5b50;
   }
   * { box-sizing: border-box; }
   body {
@@ -39,37 +31,22 @@
     color: var(--text);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     padding-bottom: 3rem;
-    transition: background 0.25s ease;
-  }
-  /* Per-league color themes, set on <body> by JS once a league is picked. */
-  body.theme-blue {
-    background: #1e3a8a;
-  }
-  body.theme-green {
-    background: #14532d;
-  }
-  body.theme-blue header h1, body.theme-blue header p,
-  body.theme-green header h1, body.theme-green header p {
-    color: #fff;
-  }
-  body.theme-blue select, body.theme-green select {
-    border-color: transparent;
-  }
-  body.theme-blue .empty, body.theme-blue .loading, body.theme-blue footer,
-  body.theme-green .empty, body.theme-green .loading, body.theme-green footer {
-    color: rgba(255, 255, 255, 0.75);
   }
   header {
-    padding: 1.25rem 1rem 1rem;
+    background: linear-gradient(180deg, var(--bg-band), var(--bg));
+    border-bottom: 1px solid var(--border);
+    padding: 1.5rem 1rem 1.25rem;
     text-align: center;
   }
   header h1 {
-    font-size: 1.3rem;
-    margin: 0 0 0.15rem;
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    margin: 0 0 0.25rem;
   }
   header p {
     margin: 0;
-    color: var(--muted);
+    color: var(--silver);
     font-size: 0.85rem;
   }
   main {
@@ -79,12 +56,22 @@
   }
   .pickers {
     display: flex;
-    gap: 0.6rem;
-    margin-bottom: 1rem;
+    flex-direction: column;
+    gap: 0.85rem;
+    margin: 1.25rem 0 1rem;
+  }
+  .picker-group label {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    margin-bottom: 0.35rem;
   }
   select {
-    flex: 1;
-    padding: 0.6rem 0.7rem;
+    width: 100%;
+    padding: 0.65rem 0.75rem;
     border-radius: 10px;
     border: 1px solid var(--border);
     background: var(--card);
@@ -110,7 +97,7 @@
     font-size: 0.95rem;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    color: var(--muted);
+    color: var(--silver);
     margin: 1.4rem 0 0.6rem;
   }
   .row {
@@ -136,10 +123,10 @@
     border-radius: 999px;
     white-space: nowrap;
   }
-  .badge.OK { color: var(--ok); background: color-mix(in srgb, var(--ok) 15%, transparent); }
-  .badge.BYE { color: var(--warn); background: color-mix(in srgb, var(--warn) 15%, transparent); }
-  .badge.QUESTIONABLE { color: var(--warn); background: color-mix(in srgb, var(--warn) 15%, transparent); }
-  .badge.OUT { color: var(--bad); background: color-mix(in srgb, var(--bad) 15%, transparent); }
+  .badge.OK { color: var(--ok); background: color-mix(in srgb, var(--ok) 18%, transparent); }
+  .badge.BYE { color: var(--warn); background: color-mix(in srgb, var(--warn) 18%, transparent); }
+  .badge.QUESTIONABLE { color: var(--warn); background: color-mix(in srgb, var(--warn) 18%, transparent); }
+  .badge.OUT { color: var(--bad); background: color-mix(in srgb, var(--bad) 18%, transparent); }
   .swap {
     font-size: 0.78rem;
     color: var(--accent);
@@ -167,17 +154,23 @@
 </head>
 <body>
 <header>
-  <h1>🏈 Fantasy Season Tracker</h1>
+  <h1>🦁 Fantasy Tracker</h1>
   <p id="meta-line">Loading...</p>
 </header>
 <main>
   <div class="pickers">
-    <select id="league-select"><option>Loading leagues...</option></select>
-    <select id="team-select"><option>Pick a league first</option></select>
+    <div class="picker-group">
+      <label for="league-select">League</label>
+      <select id="league-select"><option>Loading leagues...</option></select>
+    </div>
+    <div class="picker-group">
+      <label for="team-select">Your team</label>
+      <select id="team-select"><option>Pick a league first</option></select>
+    </div>
   </div>
   <div id="content"><div class="loading">Pick your league and team above.</div></div>
 </main>
-<footer>Data from Sleeper. Refreshed on a schedule &mdash; not real-time.</footer>
+<footer>Data from Sleeper &middot; refreshed on a schedule, not live.</footer>
 
 <script>
 let DATA = null;
@@ -189,22 +182,6 @@ const metaLine = document.getElementById('meta-line');
 
 function statusLabel(status) {
   return { OK: 'Good to go', BYE: 'Bye week', QUESTIONABLE: 'Questionable', OUT: 'Out / Doubtful' }[status] || status;
-}
-
-// League color themes: "Winfield Blue Cup" gets blue, everything else gets
-// green. Matched by name (not league_id) so it keeps working if a league
-// gets recreated with a new ID next season.
-const THEME_COLORS = { 'theme-blue': '#1e3a8a', 'theme-green': '#14532d' };
-function themeClassFor(league) {
-  return /blue/i.test(league.league_name || '') ? 'theme-blue' : 'theme-green';
-}
-function applyLeagueTheme(league) {
-  document.body.classList.remove('theme-blue', 'theme-green');
-  if (!league) return;
-  const cls = themeClassFor(league);
-  document.body.classList.add(cls);
-  const metaTheme = document.querySelector('meta[name="theme-color"]');
-  if (metaTheme) metaTheme.setAttribute('content', THEME_COLORS[cls]);
 }
 
 function playerRow(p, isStarter) {
@@ -271,7 +248,6 @@ function showSelectedTeam() {
 
 leagueSelect.addEventListener('change', () => {
   const league = DATA.leagues.find(l => l.league_id === leagueSelect.value);
-  applyLeagueTheme(league);
   populateTeams(league);
 });
 teamSelect.addEventListener('change', showSelectedTeam);
@@ -294,9 +270,7 @@ fetch('data.json?_=' + Date.now())
     if (savedLeague && data.leagues.some(l => l.league_id === savedLeague)) {
       leagueSelect.value = savedLeague;
     }
-    const initialLeague = data.leagues.find(l => l.league_id === leagueSelect.value);
-    applyLeagueTheme(initialLeague);
-    populateTeams(initialLeague);
+    populateTeams(data.leagues.find(l => l.league_id === leagueSelect.value));
   })
   .catch(err => {
     metaLine.textContent = 'Could not load data.json';
