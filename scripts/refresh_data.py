@@ -137,12 +137,18 @@ WAIVER_RANK_CAP = 600
 
 def build_free_agents(player_lookup, rostered_ids):
     """Every fantasy-relevant player not on any roster in this league,
-    cheapest (best) search_rank first."""
+    cheapest (best) search_rank first. Sleeper's player database includes
+    retired and currently-teamless players (search_rank and all) - "team"
+    being empty is the signal that a player isn't actually on an NFL
+    roster right now, so that's excluded here too, not just league
+    rostering.
+    """
     candidates = [
         p for p in player_lookup.values()
         if p["player_id"] not in rostered_ids
         and p["position"] in WAIVER_POSITIONS
         and p["search_rank"] < WAIVER_RANK_CAP
+        and p["team"]
     ]
     candidates.sort(key=lambda p: p["search_rank"])
     return candidates
