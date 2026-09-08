@@ -209,7 +209,8 @@ function applyLeagueTheme(league) {
 
 function playerRow(p, isStarter) {
   const badge = `<span class="badge ${p.status}">${statusLabel(p.status)}</span>`;
-  const meta = [p.position, p.team].filter(Boolean).join(' · ');
+  const byeText = p.bye_week ? `Bye wk ${p.bye_week}` : null;
+  const meta = [p.position, p.team, byeText].filter(Boolean).join(' · ');
   const swap = isStarter && p.suggested_swap
     ? `<div class="swap">Consider starting ${p.suggested_swap.name} instead</div>`
     : '';
