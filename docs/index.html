@@ -199,6 +199,20 @@ function playerRow(p, isStarter) {
     </div>`;
 }
 
+function waiverRow(p) {
+  const badge = `<span class="badge ${p.status}">${statusLabel(p.status)}</span>`;
+  const byeText = p.bye_week ? `Bye wk ${p.bye_week}` : null;
+  const meta = [p.position, p.team, byeText].filter(Boolean).join(' · ');
+  const note = p.upgrade_over
+    ? `<div class="swap">Upgrade over ${p.upgrade_over}</div>`
+    : `<div class="swap">Available depth add</div>`;
+  return `
+    <div class="row">
+      <div class="name">${p.name}<span class="meta">${meta}</span>${note}</div>
+      ${badge}
+    </div>`;
+}
+
 function renderTeam(team) {
   const alertCount = team.alert_count;
   const summaryClass = alertCount > 0 ? 'warn' : 'ok';
@@ -208,6 +222,12 @@ function renderTeam(team) {
 
   const starterRows = team.starters.map(p => playerRow(p, true)).join('');
   const benchRows = team.bench.map(p => playerRow(p, false)).join('');
+  const waiverRows = (team.waiver_suggestions || []).map(waiverRow).join('');
+  const waiverSection = waiverRows
+    ? `
+    <h2>Waiver wire suggestions</h2>
+    <div class="card">${waiverRows}</div>`
+    : '';
 
   content.innerHTML = `
     <div class="card">
@@ -222,6 +242,7 @@ function renderTeam(team) {
         ${benchRows}
       </details>
     </div>
+    ${waiverSection}
   `;
 }
 
