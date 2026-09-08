@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fantasy Season Tracker</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="theme-color" content="#1a2332">
+<style>
+  :root {
+    --bg: #f5f6f8;
+    --card: #ffffff;
+    --text: #1a2332;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --accent: #2f6fed;
+    --ok: #1a8a4a;
+    --warn: #b8860b;
+    --bad: #c0392b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14181f;
+      --card: #1e242e;
+      --text: #eef1f5;
+      --muted: #9aa4b2;
+      --border: #303845;
+      --accent: #6c9bff;
+      --ok: #35c073;
+      --warn: #e0a52c;
+      --bad: #e0574c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding-bottom: 3rem;
+  }
+  header {
+    padding: 1.25rem 1rem 1rem;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 1.3rem;
+    margin: 0 0 0.15rem;
+  }
+  header p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .pickers {
+    display: flex;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+  }
+  select {
+    flex: 1;
+    padding: 0.6rem 0.7rem;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  .alert-summary {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+  }
+  .alert-summary.ok { color: var(--ok); }
+  .alert-summary.warn { color: var(--bad); }
+  h2 {
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    margin: 1.4rem 0 0.6rem;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .row:last-child { border-bottom: none; }
+  .slot {
+    font-size: 0.72rem;
+    color: var(--muted);
+    width: 2.6rem;
+    flex-shrink: 0;
+  }
+  .name { flex: 1; font-size: 0.92rem; }
+  .name .meta { display: block; color: var(--muted); font-size: 0.76rem; }
+  .badge {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .badge.OK { color: var(--ok); background: color-mix(in srgb, var(--ok) 15%, transparent); }
+  .badge.BYE { color: var(--warn); background: color-mix(in srgb, var(--warn) 15%, transparent); }
+  .badge.QUESTIONABLE { color: var(--warn); background: color-mix(in srgb, var(--warn) 15%, transparent); }
+  .badge.OUT { color: var(--bad); background: color-mix(in srgb, var(--bad) 15%, transparent); }
+  .swap {
+    font-size: 0.78rem;
+    color: var(--accent);
+    margin-top: 0.15rem;
+  }
+  details summary {
+    cursor: pointer;
+    color: var(--muted);
+    font-size: 0.85rem;
+    padding: 0.4rem 0;
+  }
+  .empty, .loading {
+    text-align: center;
+    color: var(--muted);
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.72rem;
+    margin-top: 1.5rem;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🏈 Fantasy Season Tracker</h1>
+  <p id="meta-line">Loading...</p>
+</header>
+<main>
+  <div class="pickers">
+    <select id="league-select"><option>Loading leagues...</option></select>
+    <select id="team-select"><option>Pick a league first</option></select>
+  </div>
+  <div id="content"><div class="loading">Pick your league and team above.</div></div>
+</main>
+<footer>Data from Sleeper. Refreshed on a schedule &mdash; not real-time.</footer>
+
+<script>
+let DATA = null;
+
+const leagueSelect = document.getElementById('league-select');
+const teamSelect = document.getElementById('team-select');
+const content = document.getElementById('content');
+const metaLine = document.getElementById('meta-line');
+
+function statusLabel(status) {
+  return { OK: 'Good to go', BYE: 'Bye week', QUESTIONABLE: 'Questionable', OUT: 'Out / Doubtful' }[status] || status;
+}
+
+function playerRow(p, isStarter) {
+  const badge = `<span class="badge ${p.status}">${statusLabel(p.status)}</span>`;
+  const meta = [p.position, p.team].filter(Boolean).join(' · ');
+  const swap = isStarter && p.suggested_swap
+    ? `<div class="swap">Consider starting ${p.suggested_swap.name} instead</div>`
+    : '';
+  return `
+    <div class="row">
+      ${isStarter ? `<div class="slot">${p.slot}</div>` : ''}
+      <div class="name">${p.name}<span class="meta">${meta}</span>${swap}</div>
+      ${badge}
+    </div>`;
+}
+
+function renderTeam(team) {
+  const alertCount = team.alert_count;
+  const summaryClass = alertCount > 0 ? 'warn' : 'ok';
+  const summaryText = alertCount > 0
+    ? `${alertCount} starter${alertCount > 1 ? 's' : ''} need${alertCount > 1 ? '' : 's'} attention`
+    : 'Full strength — no bye/injury issues in your starting lineup';
+
+  const starterRows = team.starters.map(p => playerRow(p, true)).join('');
+  const benchRows = team.bench.map(p => playerRow(p, false)).join('');
+
+  content.innerHTML = `
+    <div class="card">
+      <div class="alert-summary ${summaryClass}">${alertCount > 0 ? '⚠️' : '✅'} ${summaryText}</div>
+    </div>
+    <h2>Starting lineup</h2>
+    <div class="card">${starterRows}</div>
+    <h2>Bench</h2>
+    <div class="card">
+      <details>
+        <summary>Show ${team.bench.length} bench players</summary>
+        ${benchRows}
+      </details>
+    </div>
+  `;
+}
+
+function populateTeams(league) {
+  teamSelect.innerHTML = league.teams
+    .map(t => `<option value="${t.roster_id}">${t.team_name}</option>`)
+    .join('');
+  const saved = localStorage.getItem('team-' + league.league_id);
+  if (saved && league.teams.some(t => String(t.roster_id) === saved)) {
+    teamSelect.value = saved;
+  }
+  showSelectedTeam();
+}
+
+function showSelectedTeam() {
+  const league = DATA.leagues.find(l => l.league_id === leagueSelect.value);
+  if (!league) return;
+  const team = league.teams.find(t => String(t.roster_id) === teamSelect.value);
+  if (!team) return;
+  localStorage.setItem('league', league.league_id);
+  localStorage.setItem('team-' + league.league_id, team.roster_id);
+  renderTeam(team);
+}
+
+leagueSelect.addEventListener('change', () => {
+  const league = DATA.leagues.find(l => l.league_id === leagueSelect.value);
+  populateTeams(league);
+});
+teamSelect.addEventListener('change', showSelectedTeam);
+
+fetch('data.json?_=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    DATA = data;
+    if (!data.leagues || data.leagues.length === 0) {
+      metaLine.textContent = 'No data yet — waiting on the first refresh.';
+      content.innerHTML = '<div class="empty">The data file hasn’t been generated yet. Run the refresh script or wait for the scheduled job.</div>';
+      leagueSelect.innerHTML = '<option>No leagues yet</option>';
+      return;
+    }
+    metaLine.textContent = `Week ${data.current_week} · updated ${new Date(data.generated_at).toLocaleString()}`;
+    leagueSelect.innerHTML = data.leagues
+      .map(l => `<option value="${l.league_id}">${l.league_name}</option>`)
+      .join('');
+    const savedLeague = localStorage.getItem('league');
+    if (savedLeague && data.leagues.some(l => l.league_id === savedLeague)) {
+      leagueSelect.value = savedLeague;
+    }
+    populateTeams(data.leagues.find(l => l.league_id === leagueSelect.value));
+  })
+  .catch(err => {
+    metaLine.textContent = 'Could not load data.json';
+    content.innerHTML = `<div class="empty">Error loading data: ${err}</div>`;
+  });
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
+</script>
+</body>
+</html>
