@@ -124,6 +124,73 @@ def best_bench_replacement(bench_players, slot_position, current_week):
     return eligible[0] if eligible else None
 
 
+# Waiver-wire suggestions only cover these positions: defenses ("DEF") are
+# represented in rosters by a team abbreviation rather than a real player
+# entry, so we have no search_rank (or any other signal) to rank them by -
+# same placeholder-ranking caveat as best_bench_replacement above.
+WAIVER_POSITIONS = ("QB", "RB", "WR", "TE", "K")
+# Sleeper's search_rank is a popularity/notability ranking, not a
+# projection - this cap just keeps "free agents" to plausibly-relevant
+# players rather than every inactive/practice-squad name in the DB.
+WAIVER_RANK_CAP = 600
+
+
+def build_free_agents(player_lookup, rostered_ids):
+    """Every fantasy-relevant player not on any roster in this league,
+    cheapest (best) search_rank first."""
+    candidates = [
+        p for p in player_lookup.values()
+        if p["player_id"] not in rostered_ids
+        and p["position"] in WAIVER_POSITIONS
+        and p["search_rank"] < WAIVER_RANK_CAP
+    ]
+    candidates.sort(key=lambda p: p["search_rank"])
+    return candidates
+
+
+def suggest_waivers(roster_players, free_agents, current_week, limit=5):
+    """Up to `limit` waiver-wire targets for one team: first, the single
+    best available free agent at each position that's a clear upgrade over
+    that team's weakest rostered player there; then backfilled with the
+    next-best free agents overall (regardless of position) if that leaves
+    fewer than `limit`. Each suggestion carries its own BYE/injury status so
+    a "hot pickup" who's on bye this week doesn't look falsely appealing.
+    """
+    by_position = {}
+    for p in roster_players:
+        by_position.setdefault(p["position"], []).append(p)
+
+    suggestions = []
+    used_ids = set()
+
+    for pos in WAIVER_POSITIONS:
+        roster_at_pos = by_position.get(pos)
+        if not roster_at_pos:
+            continue
+        weakest = max(roster_at_pos, key=lambda p: p["search_rank"])
+        for fa in free_agents:
+            if fa["player_id"] in used_ids or fa["position"] != pos:
+                continue
+            if fa["search_rank"] < weakest["search_rank"]:
+                suggestions.append({**fa, "upgrade_over": weakest["name"]})
+                used_ids.add(fa["player_id"])
+                break
+
+    for fa in free_agents:
+        if len(suggestions) >= limit:
+            break
+        if fa["player_id"] in used_ids:
+            continue
+        suggestions.append({**fa, "upgrade_over": None})
+        used_ids.add(fa["player_id"])
+
+    suggestions.sort(key=lambda p: p["search_rank"])
+    suggestions = suggestions[:limit]
+    for s in suggestions:
+        s["status"] = player_status(s, current_week)
+    return suggestions
+
+
 def build_league_payload(league_id, player_lookup, bye_weeks, current_week):
     league = get(f"{API}/league/{league_id}")
     users = get(f"{API}/league/{league_id}/users")
@@ -132,12 +199,26 @@ def build_league_payload(league_id, player_lookup, bye_weeks, current_week):
     user_by_id = {u["user_id"]: u for u in users}
     roster_slots = [s for s in league["roster_positions"] if s != "BN"]
 
+    # First pass: resolve every roster's players and collect every player
+    # id rostered anywhere in the league, so free agents can be computed
+    # league-wide before building each team's individual view.
+    roster_players_by_id = {}
+    all_rostered_ids = set()
+    for roster in rosters:
+        pids = roster.get("players") or []
+        roster_players_by_id[roster["roster_id"]] = [
+            resolve_player(pid, player_lookup, bye_weeks) for pid in pids
+        ]
+        all_rostered_ids.update(pids)
+
+    free_agents = build_free_agents(player_lookup, all_rostered_ids)
+
     teams = []
     for roster in rosters:
         owner = user_by_id.get(roster.get("owner_id"), {})
         team_name = (owner.get("metadata") or {}).get("team_name") or owner.get("display_name") or f"Team {roster['roster_id']}"
 
-        all_players = [resolve_player(pid, player_lookup, bye_weeks) for pid in (roster.get("players") or [])]
+        all_players = roster_players_by_id[roster["roster_id"]]
         starter_ids = roster.get("starters") or []
         starters_raw = [resolve_player(pid, player_lookup, bye_weeks) for pid in starter_ids]
         bench = [p for p in all_players if p["player_id"] not in starter_ids]
@@ -172,6 +253,7 @@ def build_league_payload(league_id, player_lookup, bye_weeks, current_week):
             "bench": bench_flagged,
             "alert_count": len(alerts),
             "alerts": alerts,
+            "waiver_suggestions": suggest_waivers(all_players, free_agents, current_week),
         })
 
     teams.sort(key=lambda t: t["team_name"].lower())
