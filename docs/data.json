@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T22:27:25.399372+00:00",
+  "generated_at": "2026-09-09T03:48:40.411002+00:00",
   "current_week": 1,
   "season": "2026",
   "leagues": [
@@ -39,14 +39,14 @@
             },
             {
               "slot": "RB",
-              "player_id": "11584",
-              "name": "Bucky Irving",
+              "player_id": "8228",
+              "name": "Jaylen Warren",
               "position": "RB",
-              "team": "TB",
-              "bye_week": 10,
+              "team": "PIT",
+              "bye_week": 9,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 32,
+              "search_rank": 52,
               "status": "OK"
             },
             {
@@ -109,14 +109,14 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "8228",
-              "name": "Jaylen Warren",
+              "player_id": "11584",
+              "name": "Bucky Irving",
               "position": "RB",
-              "team": "PIT",
-              "bye_week": 9,
+              "team": "TB",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 52,
+              "search_rank": 32,
               "status": "OK"
             },
             {
@@ -169,14 +169,14 @@
               "status": "OK"
             },
             {
-              "player_id": "11628",
-              "name": "Marvin Harrison",
+              "player_id": "11646",
+              "name": "Jalen Coker",
               "position": "WR",
-              "team": "ARI",
-              "bye_week": 14,
+              "team": "CAR",
+              "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 74,
+              "search_rank": 132,
               "status": "OK"
             },
             {
@@ -226,16 +226,16 @@
               "status": "QUESTIONABLE"
             },
             {
-              "player_id": "5947",
-              "name": "Jakobi Meyers",
+              "player_id": "11628",
+              "name": "Marvin Harrison",
               "position": "WR",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hand",
-              "search_rank": 77,
-              "upgrade_over": "Jayden Reed",
-              "status": "QUESTIONABLE"
+              "team": "ARI",
+              "bye_week": 14,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 74,
+              "upgrade_over": "Jalen Coker",
+              "status": "OK"
             },
             {
               "player_id": "8154",
@@ -354,25 +354,15 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "12529",
-              "name": "TreVeyon Henderson",
+              "player_id": "5967",
+              "name": "Tony Pollard",
               "position": "RB",
-              "team": "NE",
-              "bye_week": 11,
-              "injury_status": "Out",
-              "injury_body_part": "Ankle",
-              "search_rank": 39,
-              "status": "OUT",
-              "suggested_swap": {
-                "player_id": "5967",
-                "name": "Tony Pollard",
-                "position": "RB",
-                "team": "TEN",
-                "bye_week": 9,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 63
-              }
+              "team": "TEN",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 63,
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -424,6 +414,17 @@
               "status": "OK"
             },
             {
+              "player_id": "12529",
+              "name": "TreVeyon Henderson",
+              "position": "RB",
+              "team": "NE",
+              "bye_week": 11,
+              "injury_status": "Out",
+              "injury_body_part": "Ankle",
+              "search_rank": 39,
+              "status": "OUT"
+            },
+            {
               "player_id": "13281",
               "name": "Jordyn Tyson",
               "position": "WR",
@@ -433,17 +434,6 @@
               "injury_body_part": "Hamstring",
               "search_rank": 62,
               "status": "OUT"
-            },
-            {
-              "player_id": "5967",
-              "name": "Tony Pollard",
-              "position": "RB",
-              "team": "TEN",
-              "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 63,
-              "status": "OK"
             },
             {
               "player_id": "6819",
@@ -468,16 +458,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "FLEX",
-              "player_name": "TreVeyon Henderson",
-              "status": "OUT",
-              "detail": "Ankle",
-              "suggested_swap": "Tony Pollard"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "4046",
@@ -516,16 +498,16 @@
               "status": "OK"
             },
             {
-              "player_id": "5947",
-              "name": "Jakobi Meyers",
+              "player_id": "11628",
+              "name": "Marvin Harrison",
               "position": "WR",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hand",
-              "search_rank": 77,
+              "team": "ARI",
+              "bye_week": 14,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 74,
               "upgrade_over": "Michael Pittman",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "8154",
@@ -636,20 +618,10 @@
               "position": "WR",
               "team": "SF",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Foot",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 60,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "421",
-                "name": "Matthew Stafford",
-                "position": "QB",
-                "team": "LAR",
-                "bye_week": 11,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 66
-              }
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -734,7 +706,7 @@
               "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 2,
           "alerts": [
             {
               "slot": "RB",
@@ -749,13 +721,6 @@
               "status": "QUESTIONABLE",
               "detail": "Knee",
               "suggested_swap": "Deebo Samuel"
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "Mike Evans",
-              "status": "QUESTIONABLE",
-              "detail": "Foot",
-              "suggested_swap": "Matthew Stafford"
             }
           ],
           "waiver_suggestions": [
@@ -796,16 +761,16 @@
               "status": "OK"
             },
             {
-              "player_id": "5947",
-              "name": "Jakobi Meyers",
+              "player_id": "11628",
+              "name": "Marvin Harrison",
               "position": "WR",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hand",
-              "search_rank": 77,
+              "team": "ARI",
+              "bye_week": 14,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 74,
               "upgrade_over": "Deebo Samuel",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "8154",
@@ -845,20 +810,10 @@
               "position": "RB",
               "team": "SF",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 4,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "12489",
-                "name": "RJ Harvey",
-                "position": "RB",
-                "team": "DEN",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 56
-              }
+              "status": "OK"
             },
             {
               "slot": "RB",
@@ -1023,15 +978,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 2,
           "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "Christian McCaffrey",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": "RJ Harvey"
-            },
             {
               "slot": "RB",
               "player_name": "Jeremiyah Love",
@@ -1085,16 +1033,16 @@
               "status": "OK"
             },
             {
-              "player_id": "5947",
-              "name": "Jakobi Meyers",
+              "player_id": "11628",
+              "name": "Marvin Harrison",
               "position": "WR",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hand",
-              "search_rank": 77,
+              "team": "ARI",
+              "bye_week": 14,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 74,
               "upgrade_over": "Makai Lemon",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "8154",
@@ -1471,20 +1419,10 @@
               "position": "WR",
               "team": "LAR",
               "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 5,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "5927",
-                "name": "Terry McLaurin",
-                "position": "WR",
-                "team": "WAS",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 55
-              }
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -1615,15 +1553,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
-            {
-              "slot": "WR",
-              "player_name": "Puka Nacua",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": "Terry McLaurin"
-            },
             {
               "slot": "FLEX",
               "player_name": "Zay Flowers",
@@ -1646,15 +1577,15 @@
               "status": "QUESTIONABLE"
             },
             {
-              "player_id": "7523",
-              "name": "Trevor Lawrence",
-              "position": "QB",
-              "team": "JAX",
-              "bye_week": 7,
+              "player_id": "11628",
+              "name": "Marvin Harrison",
+              "position": "WR",
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 41,
-              "upgrade_over": null,
+              "search_rank": 74,
+              "upgrade_over": "Brian Thomas",
               "status": "OK"
             },
             {
@@ -1936,16 +1867,16 @@
               "status": "OK"
             },
             {
-              "player_id": "5947",
-              "name": "Jakobi Meyers",
+              "player_id": "11628",
+              "name": "Marvin Harrison",
               "position": "WR",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hand",
-              "search_rank": 77,
+              "team": "ARI",
+              "bye_week": 14,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 74,
               "upgrade_over": "Matthew Golden",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             }
           ]
         },
@@ -2137,16 +2068,16 @@
               "status": "QUESTIONABLE"
             },
             {
-              "player_id": "5947",
-              "name": "Jakobi Meyers",
+              "player_id": "11628",
+              "name": "Marvin Harrison",
               "position": "WR",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hand",
-              "search_rank": 77,
+              "team": "ARI",
+              "bye_week": 14,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 74,
               "upgrade_over": "Jordan Addison",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "8154",
@@ -2433,16 +2364,16 @@
               "status": "OK"
             },
             {
-              "player_id": "5947",
-              "name": "Jakobi Meyers",
+              "player_id": "11628",
+              "name": "Marvin Harrison",
               "position": "WR",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hand",
-              "search_rank": 77,
+              "team": "ARI",
+              "bye_week": 14,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 74,
               "upgrade_over": "Chris Godwin",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "8154",
@@ -2688,16 +2619,16 @@
               "status": "OK"
             },
             {
-              "player_id": "5947",
-              "name": "Jakobi Meyers",
+              "player_id": "11628",
+              "name": "Marvin Harrison",
               "position": "WR",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hand",
-              "search_rank": 77,
+              "team": "ARI",
+              "bye_week": 14,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 74,
               "upgrade_over": "Quentin Johnston",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "8154",
@@ -2897,10 +2828,10 @@
               "position": "WR",
               "team": "SF",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Shoulder",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 113,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "7594",
@@ -3795,11 +3726,10 @@
               "position": "RB",
               "team": "SF",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 4,
-              "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "status": "OK"
             },
             {
               "slot": "RB",
@@ -3964,15 +3894,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 2,
           "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "Christian McCaffrey",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": null
-            },
             {
               "slot": "TE",
               "player_name": "Sam LaPorta",
@@ -4118,15 +4041,25 @@
             },
             {
               "slot": "TE",
-              "player_id": "8131",
-              "name": "Isaiah Likely",
+              "player_id": "9484",
+              "name": "Tucker Kraft",
               "position": "TE",
-              "team": "NYG",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 107,
-              "status": "OK"
+              "team": "GB",
+              "bye_week": 11,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 65,
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "8131",
+                "name": "Isaiah Likely",
+                "position": "TE",
+                "team": "NYG",
+                "bye_week": 8,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 107
+              }
             },
             {
               "slot": "FLEX",
@@ -4201,15 +4134,15 @@
               "status": "OK"
             },
             {
-              "player_id": "9484",
-              "name": "Tucker Kraft",
+              "player_id": "8131",
+              "name": "Isaiah Likely",
               "position": "TE",
-              "team": "GB",
-              "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
-              "search_rank": 65,
-              "status": "QUESTIONABLE"
+              "team": "NYG",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 107,
+              "status": "OK"
             },
             {
               "player_id": "9754",
@@ -4223,8 +4156,16 @@
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "TE",
+              "player_name": "Tucker Kraft",
+              "status": "QUESTIONABLE",
+              "detail": "Knee - ACL",
+              "suggested_swap": "Isaiah Likely"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "4046",
@@ -4337,20 +4278,10 @@
               "position": "WR",
               "team": "LAR",
               "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 5,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "5045",
-                "name": "Courtland Sutton",
-                "position": "WR",
-                "team": "DEN",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 72
-              }
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -4491,7 +4422,7 @@
               "status": "OK"
             }
           ],
-          "alert_count": 4,
+          "alert_count": 3,
           "alerts": [
             {
               "slot": "RB",
@@ -4499,13 +4430,6 @@
               "status": "QUESTIONABLE",
               "detail": "Undisclosed",
               "suggested_swap": null
-            },
-            {
-              "slot": "WR",
-              "player_name": "Puka Nacua",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": "Courtland Sutton"
             },
             {
               "slot": "FLEX",
@@ -5314,10 +5238,10 @@
               "position": "WR",
               "team": "SF",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Foot",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 60,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "8408",
