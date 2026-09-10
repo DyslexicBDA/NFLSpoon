@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T22:21:22.199174+00:00",
+  "generated_at": "2026-09-10T03:47:17.712423+00:00",
   "current_week": 1,
   "season": "2026",
   "leagues": [
@@ -1640,11 +1640,10 @@
               "position": "K",
               "team": "LAC",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 118,
-              "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "status": "OK"
             },
             {
               "slot": "DEF",
@@ -1705,16 +1704,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "K",
-              "player_name": "Cameron Dicker",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": null
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "4046",
@@ -1857,14 +1848,14 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "11581",
-              "name": "MarShawn Lloyd",
+              "player_id": "13286",
+              "name": "Jadarian Price",
               "position": "RB",
-              "team": "GB",
+              "team": "SEA",
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 97,
+              "search_rank": 54,
               "status": "OK"
             },
             {
@@ -1906,6 +1897,17 @@
           ],
           "bench": [
             {
+              "player_id": "11581",
+              "name": "MarShawn Lloyd",
+              "position": "RB",
+              "team": "GB",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 97,
+              "status": "OK"
+            },
+            {
               "player_id": "11604",
               "name": "Brock Bowers",
               "position": "TE",
@@ -1915,17 +1917,6 @@
               "injury_body_part": "Knee - Meniscus",
               "search_rank": 23,
               "status": "OUT"
-            },
-            {
-              "player_id": "13286",
-              "name": "Jadarian Price",
-              "position": "RB",
-              "team": "SEA",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 54,
-              "status": "OK"
             },
             {
               "player_id": "6806",
@@ -2300,10 +2291,20 @@
               "position": "WR",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Ankle",
               "search_rank": 17,
-              "status": "OK"
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "9754",
+                "name": "Quentin Johnston",
+                "position": "WR",
+                "team": "LAC",
+                "bye_week": 7,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 103
+              }
             },
             {
               "slot": "WR",
@@ -2424,8 +2425,16 @@
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "A.J. Brown",
+              "status": "OUT",
+              "detail": "Ankle",
+              "suggested_swap": "Quentin Johnston"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "4046",
@@ -2834,10 +2843,20 @@
               "position": "WR",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Ankle",
               "search_rank": 17,
-              "status": "OK"
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "6819",
+                "name": "Michael Pittman",
+                "position": "WR",
+                "team": "PIT",
+                "bye_week": 9,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 104
+              }
             },
             {
               "slot": "TE",
@@ -2947,8 +2966,15 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "A.J. Brown",
+              "status": "OUT",
+              "detail": "Ankle",
+              "suggested_swap": "Michael Pittman"
+            },
             {
               "slot": "TE",
               "player_name": "Brock Bowers",
@@ -3348,14 +3374,14 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "5967",
-              "name": "Tony Pollard",
-              "position": "RB",
-              "team": "TEN",
-              "bye_week": 9,
+              "player_id": "10222",
+              "name": "Jayden Reed",
+              "position": "WR",
+              "team": "GB",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 63,
+              "search_rank": 100,
               "status": "OK"
             },
             {
@@ -3384,17 +3410,6 @@
             }
           ],
           "bench": [
-            {
-              "player_id": "10222",
-              "name": "Jayden Reed",
-              "position": "WR",
-              "team": "GB",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 100,
-              "status": "OK"
-            },
             {
               "player_id": "11563",
               "name": "Bo Nix",
@@ -3426,6 +3441,17 @@
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 75,
+              "status": "OK"
+            },
+            {
+              "player_id": "5967",
+              "name": "Tony Pollard",
+              "position": "RB",
+              "team": "TEN",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 63,
               "status": "OK"
             }
           ],
@@ -4369,11 +4395,10 @@
               "position": "K",
               "team": "LAC",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 118,
-              "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "status": "OK"
             },
             {
               "slot": "DEF",
@@ -4434,7 +4459,7 @@
               "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 2,
           "alerts": [
             {
               "slot": "WR",
@@ -4449,13 +4474,6 @@
               "status": "QUESTIONABLE",
               "detail": "Ankle",
               "suggested_swap": "Jayden Daniels"
-            },
-            {
-              "slot": "K",
-              "player_name": "Cameron Dicker",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": null
             }
           ],
           "waiver_suggestions": [
