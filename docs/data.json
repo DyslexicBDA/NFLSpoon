@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T16:03:26.014295+00:00",
+  "generated_at": "2026-09-10T22:20:29.621570+00:00",
   "current_week": 1,
   "season": "2026",
   "leagues": [
@@ -201,11 +201,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "11628",
@@ -449,11 +449,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "7523",
@@ -686,11 +686,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": "Matthew Stafford",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "7523",
@@ -941,11 +941,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "7523",
@@ -1175,7 +1175,7 @@
               "team": "GB",
               "bye_week": 11,
               "injury_status": "NA",
-              "injury_body_part": "Groin",
+              "injury_body_part": "Personal",
               "search_rank": 20,
               "status": "OUT"
             }
@@ -1204,11 +1204,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": "Bo Nix",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "7523",
@@ -1356,20 +1356,10 @@
               "position": "WR",
               "team": "BAL",
               "bye_week": 13,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 39,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "5927",
-                "name": "Terry McLaurin",
-                "position": "WR",
-                "team": "WAS",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 55
-              }
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -1442,16 +1432,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "FLEX",
-              "player_name": "Zay Flowers",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": "Terry McLaurin"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "4046",
@@ -1459,11 +1441,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "11628",
@@ -1696,11 +1678,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": "Kyler Murray",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "7523",
@@ -1896,7 +1878,7 @@
               "position": "TE",
               "team": "LV",
               "bye_week": 13,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Knee - Meniscus",
               "search_rank": 23,
               "status": "OUT"
@@ -1933,11 +1915,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "11628",
@@ -2170,11 +2152,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "7523",
@@ -2425,11 +2407,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "7523",
@@ -2710,11 +2692,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": "Brock Purdy",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "3163",
@@ -2848,7 +2830,7 @@
               "position": "TE",
               "team": "LV",
               "bye_week": 13,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Knee - Meniscus",
               "search_rank": 23,
               "status": "OUT",
@@ -2973,11 +2955,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "3163",
@@ -3210,11 +3192,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "3163",
@@ -3447,11 +3429,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": "Bo Nix",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "3163",
@@ -3594,25 +3576,15 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "5850",
-              "name": "Josh Jacobs",
-              "position": "RB",
+              "player_id": "12501",
+              "name": "Matthew Golden",
+              "position": "WR",
               "team": "GB",
               "bye_week": 11,
-              "injury_status": "NA",
-              "injury_body_part": "Groin",
-              "search_rank": 20,
-              "status": "OUT",
-              "suggested_swap": {
-                "player_id": "6904",
-                "name": "Jalen Hurts",
-                "position": "QB",
-                "team": "PHI",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 28
-              }
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 119,
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -3641,17 +3613,6 @@
           ],
           "bench": [
             {
-              "player_id": "12501",
-              "name": "Matthew Golden",
-              "position": "WR",
-              "team": "GB",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 119,
-              "status": "OK"
-            },
-            {
               "player_id": "13294",
               "name": "Makai Lemon",
               "position": "WR",
@@ -3674,6 +3635,17 @@
               "status": "OK"
             },
             {
+              "player_id": "5850",
+              "name": "Josh Jacobs",
+              "position": "RB",
+              "team": "GB",
+              "bye_week": 11,
+              "injury_status": "NA",
+              "injury_body_part": "Personal",
+              "search_rank": 20,
+              "status": "OUT"
+            },
+            {
               "player_id": "6904",
               "name": "Jalen Hurts",
               "position": "QB",
@@ -3685,16 +3657,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "FLEX",
-              "player_name": "Josh Jacobs",
-              "status": "OUT",
-              "detail": "Groin",
-              "suggested_swap": "Jalen Hurts"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "4046",
@@ -3702,11 +3666,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "3163",
@@ -3939,11 +3903,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": "Trevor Lawrence",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "3163",
@@ -4014,25 +3978,15 @@
             },
             {
               "slot": "RB",
-              "player_id": "12533",
-              "name": "Jacory Croskey-Merritt",
+              "player_id": "12527",
+              "name": "Ashton Jeanty",
               "position": "RB",
-              "team": "WAS",
-              "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
-              "search_rank": 95,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "12527",
-                "name": "Ashton Jeanty",
-                "position": "RB",
-                "team": "LV",
-                "bye_week": 13,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 12
-              }
+              "team": "LV",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 12,
+              "status": "OK"
             },
             {
               "slot": "RB",
@@ -4133,17 +4087,6 @@
           ],
           "bench": [
             {
-              "player_id": "12527",
-              "name": "Ashton Jeanty",
-              "position": "RB",
-              "team": "LV",
-              "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 12,
-              "status": "OK"
-            },
-            {
               "player_id": "12529",
               "name": "TreVeyon Henderson",
               "position": "RB",
@@ -4153,6 +4096,17 @@
               "injury_body_part": "Ankle",
               "search_rank": 39,
               "status": "OUT"
+            },
+            {
+              "player_id": "12533",
+              "name": "Jacory Croskey-Merritt",
+              "position": "RB",
+              "team": "WAS",
+              "bye_week": 7,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
+              "search_rank": 95,
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5022",
@@ -4177,16 +4131,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "Jacory Croskey-Merritt",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": "Ashton Jeanty"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "4046",
@@ -4194,11 +4140,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": "Matthew Stafford",
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "3163",
@@ -4466,11 +4412,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "3163",
@@ -4582,20 +4528,10 @@
               "position": "WR",
               "team": "BAL",
               "bye_week": 13,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 39,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "2449",
-                "name": "Stefon Diggs",
-                "position": "WR",
-                "team": "WAS",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 107
-              }
+              "status": "OK"
             },
             {
               "slot": "TE",
@@ -4704,16 +4640,8 @@
               "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "WR",
-              "player_name": "Zay Flowers",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": "Stefon Diggs"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "4046",
@@ -4721,11 +4649,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "3163",
@@ -4958,11 +4886,11 @@
               "position": "QB",
               "team": "KC",
               "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee - ACL",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 40,
               "upgrade_over": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "3163",
