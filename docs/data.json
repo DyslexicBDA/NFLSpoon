@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T22:20:29.621570+00:00",
+  "generated_at": "2026-09-11T03:44:11.314966+00:00",
   "current_week": 1,
   "season": "2026",
   "leagues": [
@@ -2642,14 +2642,14 @@
               "status": "OUT"
             },
             {
-              "player_id": "13417",
-              "name": "De'Zhaun Stribling",
+              "player_id": "13285",
+              "name": "Malachi Fields",
               "position": "WR",
-              "team": "SF",
+              "team": "NYG",
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 112,
+              "search_rank": 200,
               "status": "OK"
             },
             {
@@ -2743,7 +2743,7 @@
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 105,
-              "upgrade_over": "De'Zhaun Stribling",
+              "upgrade_over": "Malachi Fields",
               "status": "OK"
             }
           ]
@@ -2825,16 +2825,15 @@
             },
             {
               "slot": "TE",
-              "player_id": "11604",
-              "name": "Brock Bowers",
+              "player_id": "7002",
+              "name": "Juwan Johnson",
               "position": "TE",
-              "team": "LV",
-              "bye_week": 13,
-              "injury_status": "Out",
-              "injury_body_part": "Knee - Meniscus",
-              "search_rank": 23,
-              "status": "OUT",
-              "suggested_swap": null
+              "team": "NO",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 103,
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -2898,6 +2897,17 @@
               "status": "QUESTIONABLE"
             },
             {
+              "player_id": "11604",
+              "name": "Brock Bowers",
+              "position": "TE",
+              "team": "LV",
+              "bye_week": 13,
+              "injury_status": "Out",
+              "injury_body_part": "Knee - Meniscus",
+              "search_rank": 23,
+              "status": "OUT"
+            },
+            {
               "player_id": "6819",
               "name": "Michael Pittman",
               "position": "WR",
@@ -2918,20 +2928,9 @@
               "injury_body_part": null,
               "search_rank": 58,
               "status": "OK"
-            },
-            {
-              "player_id": "8136",
-              "name": "Rachaad White",
-              "position": "RB",
-              "team": "WAS",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 125,
-              "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
             {
               "slot": "WR",
@@ -2939,13 +2938,6 @@
               "status": "OUT",
               "detail": "Ankle",
               "suggested_swap": "Michael Pittman"
-            },
-            {
-              "slot": "TE",
-              "player_name": "Brock Bowers",
-              "status": "OUT",
-              "detail": "Knee - Meniscus",
-              "suggested_swap": null
             }
           ],
           "waiver_suggestions": [
@@ -2974,18 +2966,6 @@
               "status": "OK"
             },
             {
-              "player_id": "6804",
-              "name": "Jordan Love",
-              "position": "QB",
-              "team": "GB",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 68,
-              "upgrade_over": null,
-              "status": "OK"
-            },
-            {
               "player_id": "8154",
               "name": "Brian Robinson",
               "position": "RB",
@@ -2994,7 +2974,19 @@
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 80,
-              "upgrade_over": "Rachaad White",
+              "upgrade_over": "MarShawn Lloyd",
+              "status": "OK"
+            },
+            {
+              "player_id": "12493",
+              "name": "Oronde Gadsden",
+              "position": "TE",
+              "team": "LAC",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 83,
+              "upgrade_over": "Juwan Johnson",
               "status": "OK"
             },
             {
