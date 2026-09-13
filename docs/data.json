@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T18:37:13.663224+00:00",
+  "generated_at": "2026-09-13T22:13:41.240197+00:00",
   "current_week": 1,
   "season": "2026",
   "leagues": [
@@ -778,20 +778,10 @@
               "position": "RB",
               "team": "ARI",
               "bye_week": 14,
-              "injury_status": "Questionable",
-              "injury_body_part": "Ankle",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 15,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "12489",
-                "name": "RJ Harvey",
-                "position": "RB",
-                "team": "DEN",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 56
-              }
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -924,16 +914,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "Jeremiyah Love",
-              "status": "QUESTIONABLE",
-              "detail": "Ankle",
-              "suggested_swap": "RJ Harvey"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "4046",
@@ -1348,10 +1330,20 @@
               "position": "WR",
               "team": "BAL",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Hamstring",
               "search_rank": 41,
-              "status": "OK"
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "5927",
+                "name": "Terry McLaurin",
+                "position": "WR",
+                "team": "WAS",
+                "bye_week": 7,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 55
+              }
             },
             {
               "slot": "K",
@@ -1424,8 +1416,16 @@
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "FLEX",
+              "player_name": "Zay Flowers",
+              "status": "OUT",
+              "detail": "Hamstring",
+              "suggested_swap": "Terry McLaurin"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "4046",
@@ -1644,10 +1644,10 @@
               "position": "QB",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Concussion",
               "search_rank": 88,
-              "status": "OK"
+              "status": "OUT"
             },
             {
               "player_id": "7594",
@@ -4269,20 +4269,10 @@
               "position": "RB",
               "team": "ARI",
               "bye_week": 14,
-              "injury_status": "Questionable",
-              "injury_body_part": "Ankle",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 15,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "11566",
-                "name": "Jayden Daniels",
-                "position": "QB",
-                "team": "WAS",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 21
-              }
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -4355,16 +4345,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "FLEX",
-              "player_name": "Jeremiyah Love",
-              "status": "QUESTIONABLE",
-              "detail": "Ankle",
-              "suggested_swap": "Jayden Daniels"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "4046",
@@ -4488,10 +4470,20 @@
               "position": "WR",
               "team": "BAL",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Hamstring",
               "search_rank": 41,
-              "status": "OK"
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "8142",
+                "name": "Alec Pierce",
+                "position": "WR",
+                "team": "IND",
+                "bye_week": 13,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 94
+              }
             },
             {
               "slot": "TE",
@@ -4600,8 +4592,16 @@
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Zay Flowers",
+              "status": "OUT",
+              "detail": "Hamstring",
+              "suggested_swap": "Alec Pierce"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "4046",
