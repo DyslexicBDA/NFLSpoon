@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T14:50:42.433342+00:00",
+  "generated_at": "2026-09-14T20:11:43.686854+00:00",
   "current_week": 1,
   "season": "2026",
   "leagues": [
@@ -164,10 +164,10 @@
               "position": "WR",
               "team": "CAR",
               "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
               "search_rank": 132,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "13305",
@@ -1392,10 +1392,10 @@
               "position": "RB",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Thumb",
               "search_rank": 91,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
           "alert_count": 1,
@@ -4838,10 +4838,10 @@
               "position": "RB",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Thumb",
               "search_rank": 91,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "9756",
