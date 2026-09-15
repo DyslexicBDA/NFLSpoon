@@ -149,10 +149,21 @@ def build_weekly_aggregates(matchups_by_week):
     player who has sat on waivers all season won't appear here at all,
     which is exactly the signal used to fall back to compute_points() for
     free agents.
+
+    Sleeper still returns a fully zero-filled matchups entry for a week
+    whose games haven't been played yet, rather than omitting it - if every
+    single team scored exactly 0 that week, it hasn't happened yet (real
+    football weeks always produce *some* points across a whole league), so
+    that week is skipped entirely rather than counted as "a real game where
+    everyone scored zero", which would otherwise drag PPG down for no
+    reason before the games have even kicked off.
     """
     player_weekly_points = {}
     team_weekly_points = {}
     for week, entries in matchups_by_week.items():
+        week_has_scores = any((e.get("custom_points") or e.get("points") or 0) for e in entries)
+        if not week_has_scores:
+            continue
         for entry in entries:
             roster_id = entry["roster_id"]
             custom = entry.get("custom_points")
