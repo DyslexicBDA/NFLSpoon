@@ -132,6 +132,29 @@
     color: var(--accent);
     margin-top: 0.15rem;
   }
+  .weekly-scores {
+    display: block;
+    color: var(--muted);
+    font-size: 0.72rem;
+    margin-top: 0.15rem;
+  }
+  .team-scores {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--silver);
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--border);
+  }
+  .team-scores b { color: var(--text); }
+  .drop-add {
+    font-size: 0.78rem;
+    color: var(--bad);
+    margin-top: 0.15rem;
+  }
+  .drop-add b { color: var(--accent); }
   details summary {
     cursor: pointer;
     color: var(--muted);
@@ -184,6 +207,20 @@ function statusLabel(status) {
   return { OK: 'Good to go', BYE: 'Bye week', QUESTIONABLE: 'Questionable', OUT: 'Out / Doubtful' }[status] || status;
 }
 
+function sortedWeeks(weeklyPoints) {
+  return Object.entries(weeklyPoints || {})
+    .map(([week, pts]) => [Number(week), pts])
+    .sort((a, b) => a[0] - b[0]);
+}
+
+function weeklyScoresLine(p, cap = 4) {
+  const weeks = sortedWeeks(p.weekly_points);
+  if (!weeks.length) return '';
+  const recent = weeks.slice(-cap);
+  const text = recent.map(([wk, pts]) => `W${wk} ${pts}`).join(' · ');
+  return `<span class="weekly-scores">${text}${p.ppg != null ? ` &middot; ${p.ppg} ppg` : ''}</span>`;
+}
+
 function playerRow(p, isStarter) {
   const badge = `<span class="badge ${p.status}">${statusLabel(p.status)}</span>`;
   const byeText = p.bye_week ? `Bye wk ${p.bye_week}` : null;
@@ -194,7 +231,7 @@ function playerRow(p, isStarter) {
   return `
     <div class="row">
       ${isStarter ? `<div class="slot">${p.slot}</div>` : ''}
-      <div class="name">${p.name}<span class="meta">${meta}</span>${swap}</div>
+      <div class="name">${p.name}<span class="meta">${meta}</span>${weeklyScoresLine(p)}${swap}</div>
       ${badge}
     </div>`;
 }
@@ -203,12 +240,13 @@ function waiverRow(p) {
   const badge = `<span class="badge ${p.status}">${statusLabel(p.status)}</span>`;
   const byeText = p.bye_week ? `Bye wk ${p.bye_week}` : null;
   const meta = [p.position, p.team, byeText].filter(Boolean).join(' · ');
-  const note = p.upgrade_over
-    ? `<div class="swap">Upgrade over ${p.upgrade_over}</div>`
+  const drop = p.drop_candidate;
+  const note = drop
+    ? `<div class="drop-add">Drop <b>${drop.name}</b>${drop.ppg != null ? ` (${drop.ppg} ppg)` : ''} &rarr; add ${p.name}</div>`
     : `<div class="swap">Available depth add</div>`;
   return `
     <div class="row">
-      <div class="name">${p.name}<span class="meta">${meta}</span>${note}</div>
+      <div class="name">${p.name}<span class="meta">${meta}</span>${weeklyScoresLine(p)}${note}</div>
       ${badge}
     </div>`;
 }
@@ -219,6 +257,17 @@ function renderTeam(team) {
   const summaryText = alertCount > 0
     ? `${alertCount} starter${alertCount > 1 ? 's' : ''} need${alertCount > 1 ? '' : 's'} attention`
     : 'Full strength — no bye/injury issues in your starting lineup';
+
+  const teamWeeks = sortedWeeks(team.weekly_points);
+  const latestWeek = teamWeeks.length ? teamWeeks[teamWeeks.length - 1] : null;
+  const avgPerWeek = teamWeeks.length ? (team.season_points / teamWeeks.length).toFixed(1) : null;
+  const teamScores = teamWeeks.length
+    ? `
+    <div class="team-scores">
+      <span>Season total: <b>${team.season_points}</b> (${avgPerWeek}/wk)</span>
+      ${latestWeek ? `<span>Wk ${latestWeek[0]}: <b>${latestWeek[1]}</b></span>` : ''}
+    </div>`
+    : '';
 
   const starterRows = team.starters.map(p => playerRow(p, true)).join('');
   const benchRows = team.bench.map(p => playerRow(p, false)).join('');
@@ -232,6 +281,7 @@ function renderTeam(team) {
   content.innerHTML = `
     <div class="card">
       <div class="alert-summary ${summaryClass}">${alertCount > 0 ? '⚠️' : '✅'} ${summaryText}</div>
+      ${teamScores}
     </div>
     <h2>Starting lineup</h2>
     <div class="card">${starterRows}</div>
