@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T22:47:11.626187+00:00",
+  "generated_at": "2026-09-16T04:00:07.842923+00:00",
   "current_week": 2,
   "season": "2026",
   "leagues": [
@@ -6543,21 +6543,21 @@
             },
             {
               "slot": "WR",
-              "player_id": "9487",
-              "name": "Parker Washington",
+              "player_id": "9493",
+              "name": "Puka Nacua",
               "position": "WR",
-              "team": "JAX",
-              "bye_week": 7,
+              "team": "LAR",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 68,
+              "search_rank": 4,
               "weekly_points": {
-                "1": 19.3
+                "1": 12.4
               },
-              "season_points": 19.3,
+              "season_points": 12.4,
               "games_played": 1,
-              "ppg": 19.3,
-              "recent_ppg": 19.3,
+              "ppg": 12.4,
+              "recent_ppg": 12.4,
               "status": "OK"
             },
             {
@@ -6579,21 +6579,21 @@
               "recent_ppg": 19.2,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "9493",
-                "name": "Puka Nacua",
+                "player_id": "9487",
+                "name": "Parker Washington",
                 "position": "WR",
-                "team": "LAR",
-                "bye_week": 11,
+                "team": "JAX",
+                "bye_week": 7,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 4,
+                "search_rank": 68,
                 "weekly_points": {
-                  "1": 12.4
+                  "1": 19.3
                 },
-                "season_points": 12.4,
+                "season_points": 19.3,
                 "games_played": 1,
-                "ppg": 12.4,
-                "recent_ppg": 12.4
+                "ppg": 19.3,
+                "recent_ppg": 19.3
               }
             },
             {
@@ -6748,21 +6748,21 @@
               "status": "OK"
             },
             {
-              "player_id": "9493",
-              "name": "Puka Nacua",
+              "player_id": "9487",
+              "name": "Parker Washington",
               "position": "WR",
-              "team": "LAR",
-              "bye_week": 11,
+              "team": "JAX",
+              "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 4,
+              "search_rank": 68,
               "weekly_points": {
-                "1": 12.4
+                "1": 19.3
               },
-              "season_points": 12.4,
+              "season_points": 19.3,
               "games_played": 1,
-              "ppg": 12.4,
-              "recent_ppg": 12.4,
+              "ppg": 19.3,
+              "recent_ppg": 19.3,
               "status": "OK"
             }
           ],
@@ -6773,7 +6773,7 @@
               "player_name": "Ladd McConkey",
               "status": "QUESTIONABLE",
               "detail": "Chest",
-              "suggested_swap": "Puka Nacua"
+              "suggested_swap": "Parker Washington"
             }
           ],
           "waiver_suggestions": [
