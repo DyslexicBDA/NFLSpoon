@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:36:58.177374+00:00",
+  "generated_at": "2026-09-17T22:43:30.597531+00:00",
   "current_week": 2,
   "season": "2026",
   "leagues": [
@@ -524,8 +524,8 @@
               "position": "WR",
               "team": "NO",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hamstring",
               "search_rank": 29,
               "weekly_points": {
                 "1": 28.2
@@ -534,7 +534,22 @@
               "games_played": 1,
               "ppg": 28.2,
               "recent_ppg": 28.2,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "13296",
+                "name": "Caleb Douglas",
+                "position": "WR",
+                "team": "MIA",
+                "bye_week": 6,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 198,
+                "weekly_points": {},
+                "season_points": 0.0,
+                "games_played": 0,
+                "ppg": null,
+                "recent_ppg": null
+              }
             },
             {
               "slot": "TE",
@@ -574,21 +589,21 @@
               "recent_ppg": 8.8,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "8142",
-                "name": "Alec Pierce",
-                "position": "WR",
-                "team": "IND",
-                "bye_week": 13,
+                "player_id": "12529",
+                "name": "TreVeyon Henderson",
+                "position": "RB",
+                "team": "NE",
+                "bye_week": 11,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 93,
+                "search_rank": 39,
                 "weekly_points": {
-                  "1": 10.1
+                  "1": 0.0
                 },
-                "season_points": 10.1,
+                "season_points": 0.0,
                 "games_played": 1,
-                "ppg": 10.1,
-                "recent_ppg": 10.1
+                "ppg": 0.0,
+                "recent_ppg": 0.0
               }
             },
             {
@@ -726,8 +741,8 @@
               "position": "WR",
               "team": "IND",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Heel",
               "search_rank": 93,
               "weekly_points": {
                 "1": 10.1
@@ -736,10 +751,10 @@
               "games_played": 1,
               "ppg": 10.1,
               "recent_ppg": 10.1,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 3,
           "alerts": [
             {
               "slot": "QB",
@@ -749,11 +764,18 @@
               "suggested_swap": null
             },
             {
+              "slot": "WR",
+              "player_name": "Chris Olave",
+              "status": "QUESTIONABLE",
+              "detail": "Hamstring",
+              "suggested_swap": "Caleb Douglas"
+            },
+            {
               "slot": "FLEX",
               "player_name": "Michael Pittman",
               "status": "QUESTIONABLE",
               "detail": "Foot",
-              "suggested_swap": "Alec Pierce"
+              "suggested_swap": "TreVeyon Henderson"
             }
           ],
           "waiver_suggestions": [
@@ -5847,8 +5869,8 @@
               "position": "WR",
               "team": "NO",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hamstring",
               "search_rank": 29,
               "weekly_points": {
                 "1": 28.2
@@ -5857,7 +5879,24 @@
               "games_played": 1,
               "ppg": 28.2,
               "recent_ppg": 28.2,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "4037",
+                "name": "Chris Godwin",
+                "position": "WR",
+                "team": "TB",
+                "bye_week": 10,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 88,
+                "weekly_points": {
+                  "1": 8.3
+                },
+                "season_points": 8.3,
+                "games_played": 1,
+                "ppg": 8.3,
+                "recent_ppg": 8.3
+              }
             },
             {
               "slot": "WR",
@@ -6046,8 +6085,16 @@
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Chris Olave",
+              "status": "QUESTIONABLE",
+              "detail": "Hamstring",
+              "suggested_swap": "Chris Godwin"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "9228",
