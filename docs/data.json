@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T13:10:52.314916+00:00",
+  "generated_at": "2026-09-17T19:36:58.177374+00:00",
   "current_week": 2,
   "season": "2026",
   "leagues": [
@@ -557,20 +557,39 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "0",
-              "name": "0 D/ST",
-              "position": "DEF",
-              "team": "0",
-              "bye_week": null,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 999999,
-              "weekly_points": {},
-              "season_points": 0.0,
-              "games_played": 0,
-              "ppg": null,
-              "recent_ppg": null,
-              "status": "OK"
+              "player_id": "6819",
+              "name": "Michael Pittman",
+              "position": "WR",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": "Questionable",
+              "injury_body_part": "Foot",
+              "search_rank": 105,
+              "weekly_points": {
+                "1": 8.8
+              },
+              "season_points": 8.8,
+              "games_played": 1,
+              "ppg": 8.8,
+              "recent_ppg": 8.8,
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "8142",
+                "name": "Alec Pierce",
+                "position": "WR",
+                "team": "IND",
+                "bye_week": 13,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 93,
+                "weekly_points": {
+                  "1": 10.1
+                },
+                "season_points": 10.1,
+                "games_played": 1,
+                "ppg": 10.1,
+                "recent_ppg": 10.1
+              }
             },
             {
               "slot": "FLEX",
@@ -702,24 +721,6 @@
               "status": "OK"
             },
             {
-              "player_id": "6819",
-              "name": "Michael Pittman",
-              "position": "WR",
-              "team": "PIT",
-              "bye_week": 9,
-              "injury_status": "Questionable",
-              "injury_body_part": "Foot",
-              "search_rank": 105,
-              "weekly_points": {
-                "1": 8.8
-              },
-              "season_points": 8.8,
-              "games_played": 1,
-              "ppg": 8.8,
-              "recent_ppg": 8.8,
-              "status": "QUESTIONABLE"
-            },
-            {
               "player_id": "8142",
               "name": "Alec Pierce",
               "position": "WR",
@@ -738,7 +739,7 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
             {
               "slot": "QB",
@@ -746,6 +747,13 @@
               "status": "QUESTIONABLE",
               "detail": "Back",
               "suggested_swap": null
+            },
+            {
+              "slot": "FLEX",
+              "player_name": "Michael Pittman",
+              "status": "QUESTIONABLE",
+              "detail": "Foot",
+              "suggested_swap": "Alec Pierce"
             }
           ],
           "waiver_suggestions": [
@@ -7983,21 +7991,19 @@
             },
             {
               "slot": "DEF",
-              "player_id": "PIT",
-              "name": "Pittsburgh Steelers",
+              "player_id": "0",
+              "name": "0 D/ST",
               "position": "DEF",
-              "team": "PIT",
-              "bye_week": 9,
+              "team": "0",
+              "bye_week": null,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
-              "weekly_points": {
-                "1": 20.0
-              },
-              "season_points": 20.0,
-              "games_played": 1,
-              "ppg": 20.0,
-              "recent_ppg": 20.0,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
               "status": "OK"
             }
           ],
@@ -8072,6 +8078,22 @@
               "games_played": 1,
               "ppg": 0.0,
               "recent_ppg": 0.0,
+              "status": "OK"
+            },
+            {
+              "player_id": "KC",
+              "name": "Kansas City Chiefs",
+              "position": "DEF",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 999999,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
               "status": "OK"
             }
           ],
