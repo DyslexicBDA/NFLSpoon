@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T22:43:58.013240+00:00",
+  "generated_at": "2026-09-17T04:06:04.704642+00:00",
   "current_week": 2,
   "season": "2026",
   "leagues": [
@@ -1840,8 +1840,8 @@
               "position": "TE",
               "team": "SF",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
               "search_rank": 81,
               "weekly_points": {
                 "1": 3.2
@@ -1850,7 +1850,24 @@
               "games_played": 1,
               "ppg": 3.2,
               "recent_ppg": 3.2,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "10236",
+                "name": "Dalton Kincaid",
+                "position": "TE",
+                "team": "BUF",
+                "bye_week": 7,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 81,
+                "weekly_points": {
+                  "1": 18.0
+                },
+                "season_points": 18.0,
+                "games_played": 1,
+                "ppg": 18.0,
+                "recent_ppg": 18.0
+              }
             },
             {
               "slot": "K",
@@ -1965,8 +1982,16 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "FLEX",
+              "player_name": "George Kittle",
+              "status": "QUESTIONABLE",
+              "detail": "Achilles",
+              "suggested_swap": "Dalton Kincaid"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "9228",
@@ -3397,21 +3422,21 @@
             },
             {
               "slot": "WR",
-              "player_id": "7526",
-              "name": "Jaylen Waddle",
+              "player_id": "12514",
+              "name": "Emeka Egbuka",
               "position": "WR",
-              "team": "DEN",
+              "team": "TB",
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 42,
+              "search_rank": 39,
               "weekly_points": {
-                "1": 1.2
+                "1": 11.3
               },
-              "season_points": 1.2,
+              "season_points": 11.3,
               "games_played": 1,
-              "ppg": 1.2,
-              "recent_ppg": 1.2,
+              "ppg": 11.3,
+              "recent_ppg": 11.3,
               "status": "OK"
             },
             {
@@ -3547,24 +3572,6 @@
               "status": "OK"
             },
             {
-              "player_id": "12514",
-              "name": "Emeka Egbuka",
-              "position": "WR",
-              "team": "TB",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 39,
-              "weekly_points": {
-                "1": 11.3
-              },
-              "season_points": 11.3,
-              "games_played": 1,
-              "ppg": 11.3,
-              "recent_ppg": 11.3,
-              "status": "OK"
-            },
-            {
               "player_id": "13279",
               "name": "Carnell Tate",
               "position": "WR",
@@ -3598,6 +3605,24 @@
               "games_played": 1,
               "ppg": 8.3,
               "recent_ppg": 8.3,
+              "status": "OK"
+            },
+            {
+              "player_id": "7526",
+              "name": "Jaylen Waddle",
+              "position": "WR",
+              "team": "DEN",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 42,
+              "weekly_points": {
+                "1": 1.2
+              },
+              "season_points": 1.2,
+              "games_played": 1,
+              "ppg": 1.2,
+              "recent_ppg": 1.2,
               "status": "OK"
             }
           ],
@@ -7100,8 +7125,8 @@
               "position": "TE",
               "team": "SF",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
               "search_rank": 81,
               "weekly_points": {
                 "1": 3.2
@@ -7110,7 +7135,8 @@
               "games_played": 1,
               "ppg": 3.2,
               "recent_ppg": 3.2,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "FLEX",
@@ -7261,13 +7287,20 @@
               "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
             {
               "slot": "RB",
               "player_name": "D'Andre Swift",
               "status": "QUESTIONABLE",
               "detail": "Knee",
+              "suggested_swap": null
+            },
+            {
+              "slot": "TE",
+              "player_name": "George Kittle",
+              "status": "QUESTIONABLE",
+              "detail": "Achilles",
               "suggested_swap": null
             }
           ],
