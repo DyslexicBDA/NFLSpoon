@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T08:53:38.388171+00:00",
+  "generated_at": "2026-09-18T16:04:00.646106+00:00",
   "current_week": 2,
   "season": "2026",
   "leagues": [
@@ -2751,41 +2751,23 @@
             },
             {
               "slot": "WR",
-              "player_id": "11635",
-              "name": "Ladd McConkey",
+              "player_id": "2133",
+              "name": "Davante Adams",
               "position": "WR",
-              "team": "LAC",
-              "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Chest",
-              "search_rank": 36,
+              "team": "LAR",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 46,
               "weekly_points": {
-                "1": 19.2,
+                "1": 5.6,
                 "2": 0.0
               },
-              "season_points": 19.2,
+              "season_points": 5.6,
               "games_played": 2,
-              "ppg": 9.6,
-              "recent_ppg": 9.6,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "2449",
-                "name": "Stefon Diggs",
-                "position": "WR",
-                "team": "WAS",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 104,
-                "weekly_points": {
-                  "1": 15.5,
-                  "2": 0.0
-                },
-                "season_points": 15.5,
-                "games_played": 2,
-                "ppg": 7.75,
-                "recent_ppg": 7.75
-              }
+              "ppg": 2.8,
+              "recent_ppg": 2.8,
+              "status": "OK"
             },
             {
               "slot": "TE",
@@ -2809,23 +2791,41 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "2133",
-              "name": "Davante Adams",
+              "player_id": "11635",
+              "name": "Ladd McConkey",
               "position": "WR",
-              "team": "LAR",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 46,
+              "team": "LAC",
+              "bye_week": 7,
+              "injury_status": "Questionable",
+              "injury_body_part": "Chest",
+              "search_rank": 36,
               "weekly_points": {
-                "1": 5.6,
+                "1": 19.2,
                 "2": 0.0
               },
-              "season_points": 5.6,
+              "season_points": 19.2,
               "games_played": 2,
-              "ppg": 2.8,
-              "recent_ppg": 2.8,
-              "status": "OK"
+              "ppg": 9.6,
+              "recent_ppg": 9.6,
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "7594",
+                "name": "Chuba Hubbard",
+                "position": "RB",
+                "team": "CAR",
+                "bye_week": 5,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 66,
+                "weekly_points": {
+                  "1": 23.7,
+                  "2": 0.0
+                },
+                "season_points": 23.7,
+                "games_played": 2,
+                "ppg": 11.85,
+                "recent_ppg": 11.85
+              }
             },
             {
               "slot": "FLEX",
@@ -2946,23 +2946,23 @@
               "status": "OK"
             },
             {
-              "player_id": "5849",
-              "name": "Kyler Murray",
-              "position": "QB",
-              "team": "MIN",
-              "bye_week": 6,
-              "injury_status": "Questionable",
-              "injury_body_part": "Concussion",
-              "search_rank": 87,
+              "player_id": "5967",
+              "name": "Tony Pollard",
+              "position": "RB",
+              "team": "TEN",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 63,
               "weekly_points": {
-                "1": 0.62,
+                "1": 4.4,
                 "2": 0.0
               },
-              "season_points": 0.62,
+              "season_points": 4.4,
               "games_played": 2,
-              "ppg": 0.31,
-              "recent_ppg": 0.31,
-              "status": "QUESTIONABLE"
+              "ppg": 2.2,
+              "recent_ppg": 2.2,
+              "status": "OK"
             },
             {
               "player_id": "7594",
@@ -2987,11 +2987,11 @@
           "alert_count": 2,
           "alerts": [
             {
-              "slot": "WR",
+              "slot": "FLEX",
               "player_name": "Ladd McConkey",
               "status": "QUESTIONABLE",
               "detail": "Chest",
-              "suggested_swap": "Stefon Diggs"
+              "suggested_swap": "Chuba Hubbard"
             },
             {
               "slot": "FLEX",
@@ -3019,9 +3019,9 @@
               "ppg": 39.44,
               "recent_ppg": 39.44,
               "drop_candidate": {
-                "name": "Kyler Murray",
-                "ppg": 0.31,
-                "recent_ppg": 0.31
+                "name": "Jaxson Dart",
+                "ppg": 13.3,
+                "recent_ppg": 13.3
               },
               "status": "OK"
             },
@@ -3111,9 +3111,9 @@
               "ppg": 9.0,
               "recent_ppg": 9.0,
               "drop_candidate": {
-                "name": "Omarion Hampton",
-                "ppg": 4.15,
-                "recent_ppg": 4.15
+                "name": "Tony Pollard",
+                "ppg": 2.2,
+                "recent_ppg": 2.2
               },
               "status": "OK"
             }
