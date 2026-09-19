@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:36:34.529189+00:00",
+  "generated_at": "2026-09-19T18:29:03.510196+00:00",
   "current_week": 2,
   "season": "2026",
   "leagues": [
@@ -578,8 +578,8 @@
               "position": "WR",
               "team": "PIT",
               "bye_week": 9,
-              "injury_status": "Questionable",
-              "injury_body_part": "Foot",
+              "injury_status": "Out",
+              "injury_body_part": "Ankle",
               "search_rank": 105,
               "weekly_points": {
                 "1": 8.8,
@@ -589,7 +589,7 @@
               "games_played": 2,
               "ppg": 4.4,
               "recent_ppg": 4.4,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": {
                 "player_id": "8142",
                 "name": "Alec Pierce",
@@ -785,8 +785,8 @@
             {
               "slot": "FLEX",
               "player_name": "Michael Pittman",
-              "status": "QUESTIONABLE",
-              "detail": "Foot",
+              "status": "OUT",
+              "detail": "Ankle",
               "suggested_swap": "Alec Pierce"
             }
           ],
@@ -4024,20 +4024,19 @@
             },
             {
               "slot": "TE",
-              "player_id": "7553",
-              "name": "Kyle Pitts",
+              "player_id": "5001",
+              "name": "Dalton Schultz",
               "position": "TE",
-              "team": "ATL",
-              "bye_week": 11,
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 67,
+              "search_rank": 98,
               "weekly_points": {
-                "1": 0.0,
                 "2": 0.0
               },
               "season_points": 0.0,
-              "games_played": 2,
+              "games_played": 1,
               "ppg": 0.0,
               "recent_ppg": 0.0,
               "status": "OK"
@@ -4141,25 +4140,6 @@
               "status": "OK"
             },
             {
-              "player_id": "12493",
-              "name": "Oronde Gadsden",
-              "position": "TE",
-              "team": "LAC",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 83,
-              "weekly_points": {
-                "1": 5.2,
-                "2": 0.0
-              },
-              "season_points": 5.2,
-              "games_played": 2,
-              "ppg": 2.6,
-              "recent_ppg": 2.6,
-              "status": "OK"
-            },
-            {
               "player_id": "13414",
               "name": "Kaelon Black",
               "position": "RB",
@@ -4195,6 +4175,25 @@
               "ppg": 2.8,
               "recent_ppg": 2.8,
               "status": "OUT"
+            },
+            {
+              "player_id": "7553",
+              "name": "Kyle Pitts",
+              "position": "TE",
+              "team": "ATL",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 67,
+              "weekly_points": {
+                "1": 0.0,
+                "2": 0.0
+              },
+              "season_points": 0.0,
+              "games_played": 2,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "OK"
             },
             {
               "player_id": "LAR",
@@ -4278,7 +4277,7 @@
               "ppg": 18.8,
               "recent_ppg": 18.8,
               "drop_candidate": {
-                "name": "Kyle Pitts",
+                "name": "Dalton Schultz",
                 "ppg": 0.0,
                 "recent_ppg": 0.0
               },
