@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T22:23:27.003685+00:00",
+  "generated_at": "2026-09-19T03:48:51.401748+00:00",
   "current_week": 2,
   "season": "2026",
   "leagues": [
@@ -2234,8 +2234,8 @@
               "position": "WR",
               "team": "LAR",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hip",
               "search_rank": 4,
               "weekly_points": {
                 "1": 12.4,
@@ -2245,7 +2245,25 @@
               "games_played": 2,
               "ppg": 6.2,
               "recent_ppg": 6.2,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "11631",
+                "name": "Brian Thomas",
+                "position": "WR",
+                "team": "JAX",
+                "bye_week": 7,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 75,
+                "weekly_points": {
+                  "1": 7.0,
+                  "2": 0.0
+                },
+                "season_points": 7.0,
+                "games_played": 2,
+                "ppg": 3.5,
+                "recent_ppg": 3.5
+              }
             },
             {
               "slot": "WR",
@@ -2482,8 +2500,15 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Puka Nacua",
+              "status": "QUESTIONABLE",
+              "detail": "Hip",
+              "suggested_swap": "Brian Thomas"
+            },
             {
               "slot": "FLEX",
               "player_name": "Zay Flowers",
@@ -4865,22 +4890,22 @@
             },
             {
               "slot": "TE",
-              "player_id": "8110",
-              "name": "Jake Ferguson",
+              "player_id": "3214",
+              "name": "Hunter Henry",
               "position": "TE",
-              "team": "DAL",
-              "bye_week": 14,
+              "team": "NE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 97,
+              "search_rank": 92,
               "weekly_points": {
-                "1": 2.6,
+                "1": 5.6,
                 "2": 0.0
               },
-              "season_points": 2.6,
+              "season_points": 5.6,
               "games_played": 2,
-              "ppg": 1.3,
-              "recent_ppg": 1.3,
+              "ppg": 2.8,
+              "recent_ppg": 2.8,
               "status": "OK"
             },
             {
@@ -5003,22 +5028,21 @@
               "status": "OK"
             },
             {
-              "player_id": "3214",
-              "name": "Hunter Henry",
+              "player_id": "13330",
+              "name": "Kenyon Sadiq",
               "position": "TE",
-              "team": "NE",
-              "bye_week": 11,
+              "team": "NYJ",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 92,
+              "search_rank": 109,
               "weekly_points": {
-                "1": 5.6,
                 "2": 0.0
               },
-              "season_points": 5.6,
-              "games_played": 2,
-              "ppg": 2.8,
-              "recent_ppg": 2.8,
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
               "status": "OK"
             },
             {
@@ -5130,9 +5154,9 @@
               "ppg": 15.6,
               "recent_ppg": 15.6,
               "drop_candidate": {
-                "name": "Jake Ferguson",
-                "ppg": 1.3,
-                "recent_ppg": 1.3
+                "name": "Kenyon Sadiq",
+                "ppg": 0.0,
+                "recent_ppg": 0.0
               },
               "status": "OK"
             },
@@ -5238,8 +5262,8 @@
               "position": "WR",
               "team": "LAR",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hip",
               "search_rank": 4,
               "weekly_points": {
                 "1": 12.4,
@@ -5249,7 +5273,25 @@
               "games_played": 2,
               "ppg": 6.2,
               "recent_ppg": 6.2,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "9487",
+                "name": "Parker Washington",
+                "position": "WR",
+                "team": "JAX",
+                "bye_week": 7,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 68,
+                "weekly_points": {
+                  "1": 19.3,
+                  "2": 0.0
+                },
+                "season_points": 19.3,
+                "games_played": 2,
+                "ppg": 9.65,
+                "recent_ppg": 9.65
+              }
             },
             {
               "slot": "WR",
@@ -5466,8 +5508,15 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Puka Nacua",
+              "status": "QUESTIONABLE",
+              "detail": "Hip",
+              "suggested_swap": "Parker Washington"
+            },
             {
               "slot": "FLEX",
               "player_name": "Ladd McConkey",
@@ -7844,41 +7893,22 @@
             },
             {
               "slot": "WR",
-              "player_id": "9997",
-              "name": "Zay Flowers",
+              "player_id": "11834",
+              "name": "Devaughn Vele",
               "position": "WR",
-              "team": "BAL",
-              "bye_week": 13,
-              "injury_status": "Doubtful",
-              "injury_body_part": "Hamstring",
-              "search_rank": 40,
+              "team": "NO",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 209,
               "weekly_points": {
-                "1": 26.0,
                 "2": 0.0
               },
-              "season_points": 26.0,
-              "games_played": 2,
-              "ppg": 13.0,
-              "recent_ppg": 13.0,
-              "status": "OUT",
-              "suggested_swap": {
-                "player_id": "2449",
-                "name": "Stefon Diggs",
-                "position": "WR",
-                "team": "WAS",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 104,
-                "weekly_points": {
-                  "1": 15.5,
-                  "2": 0.0
-                },
-                "season_points": 15.5,
-                "games_played": 2,
-                "ppg": 7.75,
-                "recent_ppg": 7.75
-              }
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "OK"
             },
             {
               "slot": "TE",
@@ -7982,24 +8012,6 @@
           ],
           "bench": [
             {
-              "player_id": "11834",
-              "name": "Devaughn Vele",
-              "position": "WR",
-              "team": "NO",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 209,
-              "weekly_points": {
-                "2": 0.0
-              },
-              "season_points": 0.0,
-              "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
-              "status": "OK"
-            },
-            {
               "player_id": "12490",
               "name": "Bhayshul Tuten",
               "position": "RB",
@@ -8055,18 +8067,29 @@
               "ppg": 2.05,
               "recent_ppg": 2.05,
               "status": "OK"
-            }
-          ],
-          "alert_count": 1,
-          "alerts": [
+            },
             {
-              "slot": "WR",
-              "player_name": "Zay Flowers",
-              "status": "OUT",
-              "detail": "Hamstring",
-              "suggested_swap": "Stefon Diggs"
+              "player_id": "9997",
+              "name": "Zay Flowers",
+              "position": "WR",
+              "team": "BAL",
+              "bye_week": 13,
+              "injury_status": "Doubtful",
+              "injury_body_part": "Hamstring",
+              "search_rank": 40,
+              "weekly_points": {
+                "1": 26.0,
+                "2": 0.0
+              },
+              "season_points": 26.0,
+              "games_played": 2,
+              "ppg": 13.0,
+              "recent_ppg": 13.0,
+              "status": "OUT"
             }
           ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "9228",
