@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:34:10.656637+00:00",
+  "generated_at": "2026-09-22T22:48:26.685936+00:00",
   "current_week": 3,
   "season": "2026",
   "leagues": [
@@ -1024,39 +1024,40 @@
             },
             {
               "slot": "WR",
-              "player_id": "7569",
-              "name": "Nico Collins",
+              "player_id": "2216",
+              "name": "Mike Evans",
               "position": "WR",
-              "team": "HOU",
+              "team": "SF",
               "bye_week": 8,
-              "injury_status": "Out",
-              "injury_body_part": "Hamstring",
-              "search_rank": 23,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hip",
+              "search_rank": 60,
               "weekly_points": {
-                "1": 21.2,
-                "2": 0.0
+                "1": 16.9,
+                "2": 8.4
               },
-              "season_points": 21.2,
+              "season_points": 25.3,
               "games_played": 2,
-              "ppg": 10.6,
-              "recent_ppg": 10.6,
-              "status": "OUT",
+              "ppg": 12.65,
+              "recent_ppg": 12.65,
+              "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "8134",
-                "name": "Khalil Shakir",
+                "player_id": "5872",
+                "name": "Deebo Samuel",
                 "position": "WR",
-                "team": "BUF",
-                "bye_week": 7,
+                "team": "SF",
+                "bye_week": 8,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 120,
+                "search_rank": 131,
                 "weekly_points": {
-                  "2": 6.8
+                  "1": 18.0,
+                  "2": 6.5
                 },
-                "season_points": 6.8,
-                "games_played": 1,
-                "ppg": 6.8,
-                "recent_ppg": 6.8
+                "season_points": 24.5,
+                "games_played": 2,
+                "ppg": 12.25,
+                "recent_ppg": 12.25
               }
             },
             {
@@ -1081,22 +1082,41 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "2216",
-              "name": "Mike Evans",
+              "player_id": "8121",
+              "name": "Romeo Doubs",
               "position": "WR",
-              "team": "SF",
-              "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hip",
-              "search_rank": 60,
+              "team": "NE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 117,
               "weekly_points": {
-                "1": 16.9,
-                "2": 8.4
+                "1": 0.0,
+                "2": 12.6
               },
-              "season_points": 25.3,
+              "season_points": 12.6,
               "games_played": 2,
-              "ppg": 12.65,
-              "recent_ppg": 12.65,
+              "ppg": 6.3,
+              "recent_ppg": 6.3,
+              "status": "OK"
+            },
+            {
+              "slot": "FLEX",
+              "player_id": "4199",
+              "name": "Aaron Jones",
+              "position": "RB",
+              "team": "MIN",
+              "bye_week": 6,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee",
+              "search_rank": 85,
+              "weekly_points": {
+                "2": 10.5
+              },
+              "season_points": 10.5,
+              "games_played": 1,
+              "ppg": 10.5,
+              "recent_ppg": 10.5,
               "status": "QUESTIONABLE",
               "suggested_swap": {
                 "player_id": "421",
@@ -1116,26 +1136,6 @@
                 "ppg": 17.54,
                 "recent_ppg": 17.54
               }
-            },
-            {
-              "slot": "FLEX",
-              "player_id": "5872",
-              "name": "Deebo Samuel",
-              "position": "WR",
-              "team": "SF",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 131,
-              "weekly_points": {
-                "1": 18.0,
-                "2": 6.5
-              },
-              "season_points": 24.5,
-              "games_played": 2,
-              "ppg": 12.25,
-              "recent_ppg": 12.25,
-              "status": "OK"
             },
             {
               "slot": "K",
@@ -1180,24 +1180,6 @@
           ],
           "bench": [
             {
-              "player_id": "4199",
-              "name": "Aaron Jones",
-              "position": "RB",
-              "team": "MIN",
-              "bye_week": 6,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee",
-              "search_rank": 85,
-              "weekly_points": {
-                "2": 10.5
-              },
-              "season_points": 10.5,
-              "games_played": 1,
-              "ppg": 10.5,
-              "recent_ppg": 10.5,
-              "status": "QUESTIONABLE"
-            },
-            {
               "player_id": "421",
               "name": "Matthew Stafford",
               "position": "QB",
@@ -1217,23 +1199,42 @@
               "status": "OK"
             },
             {
-              "player_id": "8121",
-              "name": "Romeo Doubs",
+              "player_id": "5872",
+              "name": "Deebo Samuel",
               "position": "WR",
-              "team": "NE",
-              "bye_week": 11,
+              "team": "SF",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 117,
+              "search_rank": 131,
               "weekly_points": {
-                "1": 0.0,
-                "2": 12.6
+                "1": 18.0,
+                "2": 6.5
               },
-              "season_points": 12.6,
+              "season_points": 24.5,
               "games_played": 2,
-              "ppg": 6.3,
-              "recent_ppg": 6.3,
+              "ppg": 12.25,
+              "recent_ppg": 12.25,
               "status": "OK"
+            },
+            {
+              "player_id": "7569",
+              "name": "Nico Collins",
+              "position": "WR",
+              "team": "HOU",
+              "bye_week": 8,
+              "injury_status": "Out",
+              "injury_body_part": "Hamstring",
+              "search_rank": 23,
+              "weekly_points": {
+                "1": 21.2,
+                "2": 0.0
+              },
+              "season_points": 21.2,
+              "games_played": 2,
+              "ppg": 10.6,
+              "recent_ppg": 10.6,
+              "status": "OUT"
             },
             {
               "player_id": "8134",
@@ -1258,16 +1259,16 @@
           "alerts": [
             {
               "slot": "WR",
-              "player_name": "Nico Collins",
-              "status": "OUT",
-              "detail": "Hamstring",
-              "suggested_swap": "Khalil Shakir"
-            },
-            {
-              "slot": "FLEX",
               "player_name": "Mike Evans",
               "status": "QUESTIONABLE",
               "detail": "Hip",
+              "suggested_swap": "Deebo Samuel"
+            },
+            {
+              "slot": "FLEX",
+              "player_name": "Aaron Jones",
+              "status": "QUESTIONABLE",
+              "detail": "Knee",
               "suggested_swap": "Matthew Stafford"
             }
           ],
@@ -3310,23 +3311,23 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "13286",
-              "name": "Jadarian Price",
-              "position": "RB",
-              "team": "SEA",
-              "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Chest",
-              "search_rank": 52,
+              "player_id": "11604",
+              "name": "Brock Bowers",
+              "position": "TE",
+              "team": "LV",
+              "bye_week": 13,
+              "injury_status": "Out",
+              "injury_body_part": "Knee - Meniscus",
+              "search_rank": 23,
               "weekly_points": {
-                "1": 7.8,
-                "2": 5.0
+                "1": 0.0,
+                "2": 0.0
               },
-              "season_points": 12.8,
+              "season_points": 0.0,
               "games_played": 2,
-              "ppg": 6.4,
-              "recent_ppg": 6.4,
-              "status": "QUESTIONABLE",
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "OUT",
               "suggested_swap": {
                 "player_id": "11581",
                 "name": "MarShawn Lloyd",
@@ -3428,23 +3429,23 @@
               "status": "OK"
             },
             {
-              "player_id": "11604",
-              "name": "Brock Bowers",
-              "position": "TE",
-              "team": "LV",
-              "bye_week": 13,
-              "injury_status": "Out",
-              "injury_body_part": "Knee - Meniscus",
-              "search_rank": 23,
+              "player_id": "13286",
+              "name": "Jadarian Price",
+              "position": "RB",
+              "team": "SEA",
+              "bye_week": 11,
+              "injury_status": "Questionable",
+              "injury_body_part": "Chest",
+              "search_rank": 52,
               "weekly_points": {
-                "1": 0.0,
-                "2": 0.0
+                "1": 7.8,
+                "2": 5.0
               },
-              "season_points": 0.0,
+              "season_points": 12.8,
               "games_played": 2,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
-              "status": "OUT"
+              "ppg": 6.4,
+              "recent_ppg": 6.4,
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6806",
@@ -3489,9 +3490,9 @@
           "alerts": [
             {
               "slot": "FLEX",
-              "player_name": "Jadarian Price",
-              "status": "QUESTIONABLE",
-              "detail": "Chest",
+              "player_name": "Brock Bowers",
+              "status": "OUT",
+              "detail": "Knee - Meniscus",
               "suggested_swap": "MarShawn Lloyd"
             }
           ],
@@ -4278,7 +4279,7 @@
               "position": "RB",
               "team": "PIT",
               "bye_week": 9,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Toe",
               "search_rank": 65,
               "weekly_points": {
@@ -4289,7 +4290,7 @@
               "games_played": 2,
               "ppg": 5.25,
               "recent_ppg": 5.25,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "7553",
@@ -4582,23 +4583,41 @@
             },
             {
               "slot": "TE",
-              "player_id": "7002",
-              "name": "Juwan Johnson",
+              "player_id": "11604",
+              "name": "Brock Bowers",
               "position": "TE",
-              "team": "NO",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 103,
+              "team": "LV",
+              "bye_week": 13,
+              "injury_status": "Out",
+              "injury_body_part": "Knee - Meniscus",
+              "search_rank": 23,
               "weekly_points": {
-                "1": 14.4,
-                "2": 10.6
+                "1": 0.0,
+                "2": 0.0
               },
-              "season_points": 25.0,
+              "season_points": 0.0,
               "games_played": 2,
-              "ppg": 12.5,
-              "recent_ppg": 12.5,
-              "status": "OK"
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "7002",
+                "name": "Juwan Johnson",
+                "position": "TE",
+                "team": "NO",
+                "bye_week": 8,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 103,
+                "weekly_points": {
+                  "1": 14.4,
+                  "2": 10.6
+                },
+                "season_points": 25.0,
+                "games_played": 2,
+                "ppg": 12.5,
+                "recent_ppg": 12.5
+              }
             },
             {
               "slot": "FLEX",
@@ -4701,25 +4720,6 @@
               "status": "QUESTIONABLE"
             },
             {
-              "player_id": "11604",
-              "name": "Brock Bowers",
-              "position": "TE",
-              "team": "LV",
-              "bye_week": 13,
-              "injury_status": "Out",
-              "injury_body_part": "Knee - Meniscus",
-              "search_rank": 23,
-              "weekly_points": {
-                "1": 0.0,
-                "2": 0.0
-              },
-              "season_points": 0.0,
-              "games_played": 2,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
-              "status": "OUT"
-            },
-            {
               "player_id": "11631",
               "name": "Brian Thomas",
               "position": "WR",
@@ -4775,10 +4775,37 @@
               "ppg": 2.8,
               "recent_ppg": 2.8,
               "status": "OUT"
+            },
+            {
+              "player_id": "7002",
+              "name": "Juwan Johnson",
+              "position": "TE",
+              "team": "NO",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 103,
+              "weekly_points": {
+                "1": 14.4,
+                "2": 10.6
+              },
+              "season_points": 25.0,
+              "games_played": 2,
+              "ppg": 12.5,
+              "recent_ppg": 12.5,
+              "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "TE",
+              "player_name": "Brock Bowers",
+              "status": "OUT",
+              "detail": "Knee - Meniscus",
+              "suggested_swap": "Juwan Johnson"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "9228",
@@ -8207,7 +8234,7 @@
               "position": "RB",
               "team": "PIT",
               "bye_week": 9,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Toe",
               "search_rank": 65,
               "weekly_points": {
@@ -8218,7 +8245,7 @@
               "games_played": 2,
               "ppg": 5.25,
               "recent_ppg": 5.25,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             }
           ],
           "alert_count": 2,
