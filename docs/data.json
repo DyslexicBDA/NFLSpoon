@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T20:18:40.396686+00:00",
+  "generated_at": "2026-09-22T04:00:00.318573+00:00",
   "current_week": 2,
   "season": "2026",
   "leagues": [
@@ -274,12 +274,12 @@
               "search_rank": 68,
               "weekly_points": {
                 "1": 5.4,
-                "2": 0.0
+                "2": 10.2
               },
-              "season_points": 5.4,
+              "season_points": 15.6,
               "games_played": 2,
-              "ppg": 2.7,
-              "recent_ppg": 2.7,
+              "ppg": 7.8,
+              "recent_ppg": 7.8,
               "status": "OK"
             },
             {
@@ -442,8 +442,8 @@
               "recent_ppg": 9.5,
               "drop_candidate": {
                 "name": "Blake Corum",
-                "ppg": 2.7,
-                "recent_ppg": 2.7
+                "ppg": 7.8,
+                "recent_ppg": 7.8
               },
               "status": "OK"
             }
@@ -1099,21 +1099,22 @@
               "recent_ppg": 12.65,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "8134",
-                "name": "Khalil Shakir",
-                "position": "WR",
-                "team": "BUF",
-                "bye_week": 7,
+                "player_id": "421",
+                "name": "Matthew Stafford",
+                "position": "QB",
+                "team": "LAR",
+                "bye_week": 11,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 120,
+                "search_rank": 65,
                 "weekly_points": {
-                  "2": 6.8
+                  "1": 6.1,
+                  "2": 28.98
                 },
-                "season_points": 6.8,
-                "games_played": 1,
-                "ppg": 6.8,
-                "recent_ppg": 6.8
+                "season_points": 35.08,
+                "games_played": 2,
+                "ppg": 17.54,
+                "recent_ppg": 17.54
               }
             },
             {
@@ -1207,12 +1208,12 @@
               "search_rank": 65,
               "weekly_points": {
                 "1": 6.1,
-                "2": 0.0
+                "2": 28.98
               },
-              "season_points": 6.1,
+              "season_points": 35.08,
               "games_played": 2,
-              "ppg": 3.05,
-              "recent_ppg": 3.05,
+              "ppg": 17.54,
+              "recent_ppg": 17.54,
               "status": "OK"
             },
             {
@@ -1267,7 +1268,7 @@
               "player_name": "Mike Evans",
               "status": "QUESTIONABLE",
               "detail": "Hip",
-              "suggested_swap": "Khalil Shakir"
+              "suggested_swap": "Matthew Stafford"
             }
           ],
           "waiver_suggestions": [
@@ -1289,9 +1290,9 @@
               "ppg": 32.26,
               "recent_ppg": 32.26,
               "drop_candidate": {
-                "name": "Matthew Stafford",
-                "ppg": 3.05,
-                "recent_ppg": 3.05
+                "name": "Drake Maye",
+                "ppg": 11.42,
+                "recent_ppg": 11.42
               },
               "status": "OK"
             },
@@ -1960,18 +1961,36 @@
               "position": "WR",
               "team": "NYG",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Shoulder",
               "search_rank": 27,
               "weekly_points": {
                 "1": 12.9,
-                "2": 0.0
+                "2": 1.1
               },
-              "season_points": 12.9,
+              "season_points": 14.0,
               "games_played": 2,
-              "ppg": 6.45,
-              "recent_ppg": 6.45,
-              "status": "OK"
+              "ppg": 7.0,
+              "recent_ppg": 7.0,
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "12534",
+                "name": "Kyle Monangai",
+                "position": "RB",
+                "team": "CHI",
+                "bye_week": 10,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 61,
+                "weekly_points": {
+                  "1": 23.4,
+                  "2": 7.8
+                },
+                "season_points": 31.2,
+                "games_played": 2,
+                "ppg": 15.6,
+                "recent_ppg": 15.6
+              }
             },
             {
               "slot": "FLEX",
@@ -2112,8 +2131,16 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "FLEX",
+              "player_name": "Malik Nabers",
+              "status": "QUESTIONABLE",
+              "detail": "Shoulder",
+              "suggested_swap": "Kyle Monangai"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "9228",
@@ -2158,8 +2185,8 @@
               "recent_ppg": 19.2,
               "drop_candidate": {
                 "name": "Malik Nabers",
-                "ppg": 6.45,
-                "recent_ppg": 6.45
+                "ppg": 7.0,
+                "recent_ppg": 7.0
               },
               "status": "OK"
             },
@@ -2238,9 +2265,9 @@
           ],
           "weekly_points": {
             "1": 132.76,
-            "2": 102.98
+            "2": 104.08
           },
-          "season_points": 235.74
+          "season_points": 236.84
         },
         {
           "roster_id": 2,
@@ -2315,7 +2342,7 @@
               "position": "WR",
               "team": "LAR",
               "bye_week": 11,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Hip",
               "search_rank": 4,
               "weekly_points": {
@@ -2326,7 +2353,7 @@
               "games_played": 2,
               "ppg": 6.2,
               "recent_ppg": 6.2,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": {
                 "player_id": "11631",
                 "name": "Brian Thomas",
@@ -2575,7 +2602,7 @@
             {
               "slot": "WR",
               "player_name": "Puka Nacua",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Hip",
               "suggested_swap": "Brian Thomas"
             }
@@ -2720,18 +2747,19 @@
               "position": "QB",
               "team": "NYG",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Knee",
               "search_rank": 42,
               "weekly_points": {
                 "1": 26.6,
-                "2": 0.0
+                "2": 0.8
               },
-              "season_points": 26.6,
+              "season_points": 27.4,
               "games_played": 2,
-              "ppg": 13.3,
-              "recent_ppg": 13.3,
-              "status": "OK"
+              "ppg": 13.7,
+              "recent_ppg": 13.7,
+              "status": "OUT",
+              "suggested_swap": null
             },
             {
               "slot": "RB",
@@ -2765,12 +2793,12 @@
               "search_rank": 37,
               "weekly_points": {
                 "1": 14.1,
-                "2": 0.0
+                "2": 9.5
               },
-              "season_points": 14.1,
+              "season_points": 23.6,
               "games_played": 2,
-              "ppg": 7.05,
-              "recent_ppg": 7.05,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "status": "OK"
             },
             {
@@ -2805,12 +2833,12 @@
               "search_rank": 46,
               "weekly_points": {
                 "1": 5.6,
-                "2": 0.0
+                "2": 39.5
               },
-              "season_points": 5.6,
+              "season_points": 45.1,
               "games_played": 2,
-              "ppg": 2.8,
-              "recent_ppg": 2.8,
+              "ppg": 22.55,
+              "recent_ppg": 22.55,
               "status": "OK"
             },
             {
@@ -3010,8 +3038,15 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
+            {
+              "slot": "QB",
+              "player_name": "Jaxson Dart",
+              "status": "OUT",
+              "detail": "Knee",
+              "suggested_swap": null
+            },
             {
               "slot": "FLEX",
               "player_name": "DJ Moore",
@@ -3040,8 +3075,8 @@
               "recent_ppg": 32.26,
               "drop_candidate": {
                 "name": "Jaxson Dart",
-                "ppg": 13.3,
-                "recent_ppg": 13.3
+                "ppg": 13.7,
+                "recent_ppg": 13.7
               },
               "status": "OK"
             },
@@ -3063,9 +3098,9 @@
               "ppg": 19.2,
               "recent_ppg": 19.2,
               "drop_candidate": {
-                "name": "Davante Adams",
-                "ppg": 2.8,
-                "recent_ppg": 2.8
+                "name": "DJ Moore",
+                "ppg": 10.95,
+                "recent_ppg": 10.95
               },
               "status": "OK"
             },
@@ -3144,9 +3179,9 @@
           ],
           "weekly_points": {
             "1": 142.0,
-            "2": 94.5
+            "2": 144.3
           },
-          "season_points": 236.5
+          "season_points": 286.3
         },
         {
           "roster_id": 6,
@@ -3265,12 +3300,12 @@
               "search_rank": 105,
               "weekly_points": {
                 "1": 27.8,
-                "2": 0.0
+                "2": 8.3
               },
-              "season_points": 27.8,
+              "season_points": 36.1,
               "games_played": 2,
-              "ppg": 13.9,
-              "recent_ppg": 13.9,
+              "ppg": 18.05,
+              "recent_ppg": 18.05,
               "status": "OK"
             },
             {
@@ -3584,9 +3619,9 @@
           ],
           "weekly_points": {
             "1": 149.1,
-            "2": 125.76
+            "2": 134.06
           },
-          "season_points": 274.86
+          "season_points": 283.16
         },
         {
           "roster_id": 1,
@@ -4034,12 +4069,12 @@
               "search_rank": 13,
               "weekly_points": {
                 "1": 15.5,
-                "2": 0.0
+                "2": 15.7
               },
-              "season_points": 15.5,
+              "season_points": 31.2,
               "games_played": 2,
-              "ppg": 7.75,
-              "recent_ppg": 7.75,
+              "ppg": 15.6,
+              "recent_ppg": 15.6,
               "status": "OK"
             },
             {
@@ -4286,12 +4321,12 @@
               "search_rank": 999999,
               "weekly_points": {
                 "1": 2.0,
-                "2": 0.0
+                "2": 13.0
               },
-              "season_points": 2.0,
+              "season_points": 15.0,
               "games_played": 2,
-              "ppg": 1.0,
-              "recent_ppg": 1.0,
+              "ppg": 7.5,
+              "recent_ppg": 7.5,
               "status": "OK"
             }
           ],
@@ -4417,9 +4452,9 @@
           ],
           "weekly_points": {
             "1": 110.56,
-            "2": 116.72
+            "2": 132.42
           },
-          "season_points": 227.28
+          "season_points": 242.98
         }
       ]
     },
@@ -5009,12 +5044,12 @@
               "search_rank": 13,
               "weekly_points": {
                 "1": 15.5,
-                "2": 0.0
+                "2": 15.7
               },
-              "season_points": 15.5,
+              "season_points": 31.2,
               "games_played": 2,
-              "ppg": 7.75,
-              "recent_ppg": 7.75,
+              "ppg": 15.6,
+              "recent_ppg": 15.6,
               "status": "OK"
             },
             {
@@ -5029,12 +5064,12 @@
               "search_rank": 37,
               "weekly_points": {
                 "1": 14.1,
-                "2": 0.0
+                "2": 9.5
               },
-              "season_points": 14.1,
+              "season_points": 23.6,
               "games_played": 2,
-              "ppg": 7.05,
-              "recent_ppg": 7.05,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "status": "OK"
             },
             {
@@ -5182,6 +5217,26 @@
               "status": "OK"
             },
             {
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 40,
+              "weekly_points": {
+                "1": 22.66,
+                "2": 28.98
+              },
+              "season_points": 51.64,
+              "games_played": 2,
+              "ppg": 25.82,
+              "recent_ppg": 25.82,
+              "drop_candidate": null,
+              "status": "OK"
+            },
+            {
               "player_id": "13346",
               "name": "Denzel Boston",
               "position": "WR",
@@ -5252,37 +5307,13 @@
                 "recent_ppg": 7.0
               },
               "status": "OK"
-            },
-            {
-              "player_id": "8136",
-              "name": "Rachaad White",
-              "position": "RB",
-              "team": "WAS",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 125,
-              "weekly_points": {
-                "1": 4.7,
-                "2": 14.3
-              },
-              "season_points": 19.0,
-              "games_played": 2,
-              "ppg": 9.5,
-              "recent_ppg": 9.5,
-              "drop_candidate": {
-                "name": "Cam Skattebo",
-                "ppg": 7.05,
-                "recent_ppg": 7.05
-              },
-              "status": "OK"
             }
           ],
           "weekly_points": {
             "1": 145.46,
-            "2": 109.18
+            "2": 134.38
           },
-          "season_points": 254.64
+          "season_points": 279.84
         },
         {
           "roster_id": 8,
@@ -5356,7 +5387,7 @@
               "position": "WR",
               "team": "LAR",
               "bye_week": 11,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Hip",
               "search_rank": 4,
               "weekly_points": {
@@ -5367,7 +5398,7 @@
               "games_played": 2,
               "ppg": 6.2,
               "recent_ppg": 6.2,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": {
                 "player_id": "9487",
                 "name": "Parker Washington",
@@ -5589,7 +5620,7 @@
             {
               "slot": "WR",
               "player_name": "Puka Nacua",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Hip",
               "suggested_swap": "Parker Washington"
             }
@@ -5911,12 +5942,12 @@
               "search_rank": 154,
               "weekly_points": {
                 "1": 1.0,
-                "2": 0.0
+                "2": 3.0
               },
-              "season_points": 1.0,
+              "season_points": 4.0,
               "games_played": 2,
-              "ppg": 0.5,
-              "recent_ppg": 0.5,
+              "ppg": 2.0,
+              "recent_ppg": 2.0,
               "status": "OK"
             },
             {
@@ -5971,12 +6002,12 @@
               "search_rank": 68,
               "weekly_points": {
                 "1": 5.4,
-                "2": 0.0
+                "2": 10.2
               },
-              "season_points": 5.4,
+              "season_points": 15.6,
               "games_played": 2,
-              "ppg": 2.7,
-              "recent_ppg": 2.7,
+              "ppg": 7.8,
+              "recent_ppg": 7.8,
               "status": "OK"
             },
             {
@@ -6120,8 +6151,8 @@
               "recent_ppg": 15.5,
               "drop_candidate": {
                 "name": "Harrison Mevis",
-                "ppg": 0.5,
-                "recent_ppg": 0.5
+                "ppg": 2.0,
+                "recent_ppg": 2.0
               },
               "status": "OK"
             },
@@ -6143,18 +6174,18 @@
               "ppg": 9.5,
               "recent_ppg": 9.5,
               "drop_candidate": {
-                "name": "Blake Corum",
-                "ppg": 2.7,
-                "recent_ppg": 2.7
+                "name": "Tony Pollard",
+                "ppg": 5.95,
+                "recent_ppg": 5.95
               },
               "status": "OK"
             }
           ],
           "weekly_points": {
             "1": 137.76,
-            "2": 91.9
+            "2": 94.9
           },
-          "season_points": 229.66
+          "season_points": 232.66
         },
         {
           "roster_id": 5,
@@ -6371,12 +6402,12 @@
               "search_rank": 999999,
               "weekly_points": {
                 "1": 2.0,
-                "2": 0.0
+                "2": 12.0
               },
-              "season_points": 2.0,
+              "season_points": 14.0,
               "games_played": 2,
-              "ppg": 1.0,
-              "recent_ppg": 1.0,
+              "ppg": 7.0,
+              "recent_ppg": 7.0,
               "status": "OK"
             }
           ],
@@ -6592,9 +6623,9 @@
           ],
           "weekly_points": {
             "1": 132.16,
-            "2": 122.92
+            "2": 134.92
           },
-          "season_points": 255.08
+          "season_points": 267.08
         },
         {
           "roster_id": 3,
@@ -6613,12 +6644,12 @@
               "search_rank": 65,
               "weekly_points": {
                 "1": 5.1,
-                "2": 0.0
+                "2": 27.98
               },
-              "season_points": 5.1,
+              "season_points": 33.08,
               "games_played": 2,
-              "ppg": 2.55,
-              "recent_ppg": 2.55,
+              "ppg": 16.54,
+              "recent_ppg": 16.54,
               "status": "OK"
             },
             {
@@ -6686,18 +6717,19 @@
               "position": "WR",
               "team": "NYG",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Shoulder",
               "search_rank": 27,
               "weekly_points": {
                 "1": 12.9,
-                "2": 0.0
+                "2": 1.1
               },
-              "season_points": 12.9,
+              "season_points": 14.0,
               "games_played": 2,
-              "ppg": 6.45,
-              "recent_ppg": 6.45,
-              "status": "OK"
+              "ppg": 7.0,
+              "recent_ppg": 7.0,
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "WR",
@@ -6896,7 +6928,7 @@
               "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
             {
               "slot": "RB",
@@ -6904,6 +6936,13 @@
               "status": "QUESTIONABLE",
               "detail": "Knee",
               "suggested_swap": "Jacory Croskey-Merritt"
+            },
+            {
+              "slot": "WR",
+              "player_name": "Malik Nabers",
+              "status": "QUESTIONABLE",
+              "detail": "Shoulder",
+              "suggested_swap": null
             }
           ],
           "waiver_suggestions": [
@@ -6926,8 +6965,8 @@
               "recent_ppg": 28.26,
               "drop_candidate": {
                 "name": "Matthew Stafford",
-                "ppg": 2.55,
-                "recent_ppg": 2.55
+                "ppg": 16.54,
+                "recent_ppg": 16.54
               },
               "status": "OK"
             },
@@ -7030,9 +7069,9 @@
           ],
           "weekly_points": {
             "1": 106.0,
-            "2": 75.0
+            "2": 104.08
           },
-          "season_points": 181.0
+          "season_points": 210.08
         },
         {
           "roster_id": 2,
@@ -7151,12 +7190,12 @@
               "search_rank": 105,
               "weekly_points": {
                 "1": 27.8,
-                "2": 0.0
+                "2": 8.3
               },
-              "season_points": 27.8,
+              "season_points": 36.1,
               "games_played": 2,
-              "ppg": 13.9,
-              "recent_ppg": 13.9,
+              "ppg": 18.05,
+              "recent_ppg": 18.05,
               "status": "OK"
             },
             {
@@ -7191,12 +7230,12 @@
               "search_rank": 46,
               "weekly_points": {
                 "1": 5.6,
-                "2": 0.0
+                "2": 39.5
               },
-              "season_points": 5.6,
+              "season_points": 45.1,
               "games_played": 2,
-              "ppg": 2.8,
-              "recent_ppg": 2.8,
+              "ppg": 22.55,
+              "recent_ppg": 22.55,
               "status": "OK"
             },
             {
@@ -7362,9 +7401,9 @@
               "ppg": 17.2,
               "recent_ppg": 17.2,
               "drop_candidate": {
-                "name": "Davante Adams",
-                "ppg": 2.8,
-                "recent_ppg": 2.8
+                "name": "Quentin Johnston",
+                "ppg": 3.05,
+                "recent_ppg": 3.05
               },
               "status": "OK"
             },
@@ -7443,9 +7482,9 @@
           ],
           "weekly_points": {
             "1": 149.3,
-            "2": 101.96
+            "2": 149.76
           },
-          "season_points": 251.26
+          "season_points": 299.06
         },
         {
           "roster_id": 9,
@@ -7471,24 +7510,7 @@
               "ppg": 16.2,
               "recent_ppg": 16.2,
               "status": "OUT",
-              "suggested_swap": {
-                "player_id": "12508",
-                "name": "Jaxson Dart",
-                "position": "QB",
-                "team": "NYG",
-                "bye_week": 8,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 42,
-                "weekly_points": {
-                  "1": 26.6,
-                  "2": 0.0
-                },
-                "season_points": 26.6,
-                "games_played": 2,
-                "ppg": 13.3,
-                "recent_ppg": 13.3
-              }
+              "suggested_swap": null
             },
             {
               "slot": "RB",
@@ -7696,18 +7718,18 @@
               "position": "QB",
               "team": "NYG",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Knee",
               "search_rank": 42,
               "weekly_points": {
                 "1": 26.6,
-                "2": 0.0
+                "2": 0.8
               },
-              "season_points": 26.6,
+              "season_points": 27.4,
               "games_played": 2,
-              "ppg": 13.3,
-              "recent_ppg": 13.3,
-              "status": "OK"
+              "ppg": 13.7,
+              "recent_ppg": 13.7,
+              "status": "OUT"
             },
             {
               "player_id": "12534",
@@ -7755,7 +7777,7 @@
               "player_name": "Jayden Daniels",
               "status": "OUT",
               "detail": "Elbow",
-              "suggested_swap": "Jaxson Dart"
+              "suggested_swap": null
             }
           ],
           "waiver_suggestions": [
@@ -7778,8 +7800,8 @@
               "recent_ppg": 28.26,
               "drop_candidate": {
                 "name": "Jaxson Dart",
-                "ppg": 13.3,
-                "recent_ppg": 13.3
+                "ppg": 13.7,
+                "recent_ppg": 13.7
               },
               "status": "OK"
             },
