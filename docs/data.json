@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T22:48:26.685936+00:00",
+  "generated_at": "2026-09-23T03:57:14.055322+00:00",
   "current_week": 3,
   "season": "2026",
   "leagues": [
@@ -519,22 +519,22 @@
               "recent_ppg": 6.0,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "12529",
-                "name": "TreVeyon Henderson",
+                "player_id": "11237",
+                "name": "Jacob Saylors",
                 "position": "RB",
-                "team": "NE",
-                "bye_week": 11,
+                "team": "DET",
+                "bye_week": 6,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 39,
+                "search_rank": 644,
                 "weekly_points": {
                   "1": 0.0,
-                  "2": 13.6
+                  "2": 0.0
                 },
-                "season_points": 13.6,
+                "season_points": 0.0,
                 "games_played": 2,
-                "ppg": 6.8,
-                "recent_ppg": 6.8
+                "ppg": 0.0,
+                "recent_ppg": 0.0
               }
             },
             {
@@ -599,41 +599,23 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "8142",
-              "name": "Alec Pierce",
-              "position": "WR",
-              "team": "IND",
-              "bye_week": 13,
-              "injury_status": "Out",
-              "injury_body_part": "Heel",
-              "search_rank": 93,
+              "player_id": "12529",
+              "name": "TreVeyon Henderson",
+              "position": "RB",
+              "team": "NE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 39,
               "weekly_points": {
-                "1": 10.1,
-                "2": 2.1
+                "1": 0.0,
+                "2": 13.6
               },
-              "season_points": 12.2,
+              "season_points": 13.6,
               "games_played": 2,
-              "ppg": 6.1,
-              "recent_ppg": 6.1,
-              "status": "OUT",
-              "suggested_swap": {
-                "player_id": "12529",
-                "name": "TreVeyon Henderson",
-                "position": "RB",
-                "team": "NE",
-                "bye_week": 11,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 39,
-                "weekly_points": {
-                  "1": 0.0,
-                  "2": 13.6
-                },
-                "season_points": 13.6,
-                "games_played": 2,
-                "ppg": 6.8,
-                "recent_ppg": 6.8
-              }
+              "ppg": 6.8,
+              "recent_ppg": 6.8,
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -717,25 +699,6 @@
               "status": "OK"
             },
             {
-              "player_id": "12529",
-              "name": "TreVeyon Henderson",
-              "position": "RB",
-              "team": "NE",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 39,
-              "weekly_points": {
-                "1": 0.0,
-                "2": 13.6
-              },
-              "season_points": 13.6,
-              "games_played": 2,
-              "ppg": 6.8,
-              "recent_ppg": 6.8,
-              "status": "OK"
-            },
-            {
               "player_id": "13281",
               "name": "Jordyn Tyson",
               "position": "WR",
@@ -790,23 +753,35 @@
               "ppg": 4.4,
               "recent_ppg": 4.4,
               "status": "OUT"
+            },
+            {
+              "player_id": "8142",
+              "name": "Alec Pierce",
+              "position": "WR",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": "Out",
+              "injury_body_part": "Heel",
+              "search_rank": 93,
+              "weekly_points": {
+                "1": 10.1,
+                "2": 2.1
+              },
+              "season_points": 12.2,
+              "games_played": 2,
+              "ppg": 6.1,
+              "recent_ppg": 6.1,
+              "status": "OUT"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
             {
               "slot": "RB",
               "player_name": "Saquon Barkley",
               "status": "QUESTIONABLE",
               "detail": "Arm",
-              "suggested_swap": "TreVeyon Henderson"
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "Alec Pierce",
-              "status": "OUT",
-              "detail": "Heel",
-              "suggested_swap": "TreVeyon Henderson"
+              "suggested_swap": "Jacob Saylors"
             }
           ],
           "waiver_suggestions": [
