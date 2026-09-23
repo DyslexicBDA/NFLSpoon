@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T16:24:41.202095+00:00",
+  "generated_at": "2026-09-23T22:48:54.578987+00:00",
   "current_week": 3,
   "season": "2026",
   "leagues": [
@@ -72,8 +72,8 @@
               "position": "RB",
               "team": "PIT",
               "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 52,
               "weekly_points": {
                 "1": 10.3,
@@ -83,7 +83,25 @@
               "games_played": 2,
               "ppg": 10.0,
               "recent_ppg": 10.0,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "12512",
+                "name": "Quinshon Judkins",
+                "position": "RB",
+                "team": "CLE",
+                "bye_week": 11,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 45,
+                "weekly_points": {
+                  "1": 7.0,
+                  "2": 9.8
+                },
+                "season_points": 16.8,
+                "games_played": 2,
+                "ppg": 8.4,
+                "recent_ppg": 8.4
+              }
             },
             {
               "slot": "WR",
@@ -169,8 +187,8 @@
               "position": "WR",
               "team": "CAR",
               "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
               "search_rank": 132,
               "weekly_points": {
                 "1": 36.8,
@@ -180,7 +198,25 @@
               "games_played": 2,
               "ppg": 25.7,
               "recent_ppg": 25.7,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "12512",
+                "name": "Quinshon Judkins",
+                "position": "RB",
+                "team": "CLE",
+                "bye_week": 11,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 45,
+                "weekly_points": {
+                  "1": 7.0,
+                  "2": 9.8
+                },
+                "season_points": 16.8,
+                "games_played": 2,
+                "ppg": 8.4,
+                "recent_ppg": 8.4
+              }
             },
             {
               "slot": "K",
@@ -297,8 +333,23 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 2,
+          "alerts": [
+            {
+              "slot": "RB",
+              "player_name": "Jaylen Warren",
+              "status": "QUESTIONABLE",
+              "detail": "Undisclosed",
+              "suggested_swap": "Quinshon Judkins"
+            },
+            {
+              "slot": "FLEX",
+              "player_name": "Jalen Coker",
+              "status": "QUESTIONABLE",
+              "detail": "Ankle",
+              "suggested_swap": "Quinshon Judkins"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "12545",
@@ -1143,8 +1194,8 @@
               "position": "RB",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 85,
               "weekly_points": {
                 "2": 10.5
@@ -1153,7 +1204,7 @@
               "games_played": 1,
               "ppg": 10.5,
               "recent_ppg": 10.5,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "8134",
@@ -1521,7 +1572,7 @@
               "position": "QB",
               "team": "WAS",
               "bye_week": 7,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Elbow",
               "search_rank": 20,
               "weekly_points": {
@@ -1863,22 +1914,22 @@
               "recent_ppg": 7.0,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "12534",
-                "name": "Kyle Monangai",
-                "position": "RB",
-                "team": "CHI",
+                "player_id": "11563",
+                "name": "Bo Nix",
+                "position": "QB",
+                "team": "DEN",
                 "bye_week": 10,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 61,
+                "search_rank": 44,
                 "weekly_points": {
-                  "1": 23.4,
-                  "2": 7.8
+                  "1": 6.44,
+                  "2": 16.12
                 },
-                "season_points": 31.2,
+                "season_points": 22.56,
                 "games_played": 2,
-                "ppg": 15.6,
-                "recent_ppg": 15.6
+                "ppg": 11.28,
+                "recent_ppg": 11.28
               }
             },
             {
@@ -1968,8 +2019,8 @@
               "position": "RB",
               "team": "CHI",
               "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 61,
               "weekly_points": {
                 "1": 23.4,
@@ -1979,7 +2030,7 @@
               "games_played": 2,
               "ppg": 15.6,
               "recent_ppg": 15.6,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "4217",
@@ -2027,7 +2078,7 @@
               "player_name": "Malik Nabers",
               "status": "QUESTIONABLE",
               "detail": "Shoulder",
-              "suggested_swap": "Kyle Monangai"
+              "suggested_swap": "Bo Nix"
             }
           ],
           "waiver_suggestions": [
@@ -2921,8 +2972,8 @@
               "position": "RB",
               "team": "TEN",
               "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 63,
               "weekly_points": {
                 "1": 4.4,
@@ -2932,7 +2983,7 @@
               "games_played": 2,
               "ppg": 5.95,
               "recent_ppg": 5.95,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
           "alert_count": 1,
@@ -3338,15 +3389,15 @@
               "position": "RB",
               "team": "DEN",
               "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
               "search_rank": 118,
               "weekly_points": {},
               "season_points": 0.0,
               "games_played": 0,
               "ppg": null,
               "recent_ppg": null,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "9756",
@@ -3956,8 +4007,8 @@
               "position": "RB",
               "team": "NO",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hamstring",
               "search_rank": 34,
               "weekly_points": {
                 "1": 14.8,
@@ -3967,7 +4018,8 @@
               "games_played": 2,
               "ppg": 10.95,
               "recent_ppg": 10.95,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "WR",
@@ -4190,8 +4242,16 @@
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "RB",
+              "player_name": "Travis Etienne",
+              "status": "QUESTIONABLE",
+              "detail": "Hamstring",
+              "suggested_swap": null
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "12545",
@@ -4387,8 +4447,8 @@
               "position": "RB",
               "team": "PIT",
               "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 52,
               "weekly_points": {
                 "1": 10.3,
@@ -4398,7 +4458,8 @@
               "games_played": 2,
               "ppg": 10.0,
               "recent_ppg": 10.0,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "WR",
@@ -4603,15 +4664,15 @@
               "position": "RB",
               "team": "DEN",
               "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
               "search_rank": 118,
               "weekly_points": {},
               "season_points": 0.0,
               "games_played": 0,
               "ppg": null,
               "recent_ppg": null,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5859",
@@ -4652,8 +4713,15 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
+            {
+              "slot": "RB",
+              "player_name": "Jaylen Warren",
+              "status": "QUESTIONABLE",
+              "detail": "Undisclosed",
+              "suggested_swap": null
+            },
             {
               "slot": "TE",
               "player_name": "Brock Bowers",
@@ -5861,8 +5929,8 @@
               "position": "RB",
               "team": "TEN",
               "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 63,
               "weekly_points": {
                 "1": 4.4,
@@ -5872,7 +5940,7 @@
               "games_played": 2,
               "ppg": 5.95,
               "recent_ppg": 5.95,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6804",
@@ -6505,8 +6573,8 @@
               "position": "RB",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 85,
               "weekly_points": {
                 "1": 10.0,
@@ -6516,7 +6584,25 @@
               "games_played": 2,
               "ppg": 10.25,
               "recent_ppg": 10.25,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "12533",
+                "name": "Jacory Croskey-Merritt",
+                "position": "RB",
+                "team": "WAS",
+                "bye_week": 7,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 95,
+                "weekly_points": {
+                  "1": 12.6,
+                  "2": 5.8
+                },
+                "season_points": 18.4,
+                "games_played": 2,
+                "ppg": 9.2,
+                "recent_ppg": 9.2
+              }
             },
             {
               "slot": "WR",
@@ -6736,8 +6822,15 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
+            {
+              "slot": "RB",
+              "player_name": "Aaron Jones",
+              "status": "QUESTIONABLE",
+              "detail": "Undisclosed",
+              "suggested_swap": "Jacory Croskey-Merritt"
+            },
             {
               "slot": "WR",
               "player_name": "Malik Nabers",
@@ -7352,8 +7445,8 @@
               "position": "WR",
               "team": "CAR",
               "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
               "search_rank": 132,
               "weekly_points": {
                 "2": 14.6
@@ -7362,7 +7455,25 @@
               "games_played": 1,
               "ppg": 14.6,
               "recent_ppg": 14.6,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "11620",
+                "name": "Rome Odunze",
+                "position": "WR",
+                "team": "CHI",
+                "bye_week": 10,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 65,
+                "weekly_points": {
+                  "1": 7.2,
+                  "2": 7.3
+                },
+                "season_points": 14.5,
+                "games_played": 2,
+                "ppg": 7.25,
+                "recent_ppg": 7.25
+              }
             },
             {
               "slot": "WR",
@@ -7511,7 +7622,7 @@
               "position": "QB",
               "team": "WAS",
               "bye_week": 7,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Elbow",
               "search_rank": 20,
               "weekly_points": {
@@ -7549,8 +7660,8 @@
               "position": "RB",
               "team": "CHI",
               "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 61,
               "weekly_points": {
                 "1": 20.4,
@@ -7560,11 +7671,19 @@
               "games_played": 2,
               "ppg": 14.1,
               "recent_ppg": 14.1,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Jalen Coker",
+              "status": "QUESTIONABLE",
+              "detail": "Ankle",
+              "suggested_swap": "Rome Odunze"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "12545",
@@ -7733,43 +7852,26 @@
               "ppg": 6.0,
               "recent_ppg": 6.0,
               "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "12490",
-                "name": "Bhayshul Tuten",
-                "position": "RB",
-                "team": "JAX",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 44,
-                "weekly_points": {
-                  "1": 9.8,
-                  "2": 14.2
-                },
-                "season_points": 24.0,
-                "games_played": 2,
-                "ppg": 12.0,
-                "recent_ppg": 12.0
-              }
+              "suggested_swap": null
             },
             {
               "slot": "RB",
-              "player_id": "7543",
-              "name": "Travis Etienne",
+              "player_id": "12490",
+              "name": "Bhayshul Tuten",
               "position": "RB",
-              "team": "NO",
-              "bye_week": 8,
+              "team": "JAX",
+              "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 34,
+              "search_rank": 44,
               "weekly_points": {
-                "1": 14.8,
-                "2": 7.1
+                "1": 9.8,
+                "2": 14.2
               },
-              "season_points": 21.9,
+              "season_points": 24.0,
               "games_played": 2,
-              "ppg": 10.95,
-              "recent_ppg": 10.95,
+              "ppg": 12.0,
+              "recent_ppg": 12.0,
               "status": "OK"
             },
             {
@@ -7929,25 +8031,6 @@
           ],
           "bench": [
             {
-              "player_id": "12490",
-              "name": "Bhayshul Tuten",
-              "position": "RB",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 44,
-              "weekly_points": {
-                "1": 9.8,
-                "2": 14.2
-              },
-              "season_points": 24.0,
-              "games_played": 2,
-              "ppg": 12.0,
-              "recent_ppg": 12.0,
-              "status": "OK"
-            },
-            {
               "player_id": "13286",
               "name": "Jadarian Price",
               "position": "RB",
@@ -8003,6 +8086,25 @@
               "ppg": 5.25,
               "recent_ppg": 5.25,
               "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "7543",
+              "name": "Travis Etienne",
+              "position": "RB",
+              "team": "NO",
+              "bye_week": 8,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hamstring",
+              "search_rank": 34,
+              "weekly_points": {
+                "1": 14.8,
+                "2": 7.1
+              },
+              "season_points": 21.9,
+              "games_played": 2,
+              "ppg": 10.95,
+              "recent_ppg": 10.95,
+              "status": "QUESTIONABLE"
             }
           ],
           "alert_count": 2,
@@ -8012,7 +8114,7 @@
               "player_name": "Saquon Barkley",
               "status": "QUESTIONABLE",
               "detail": "Arm",
-              "suggested_swap": "Bhayshul Tuten"
+              "suggested_swap": null
             },
             {
               "slot": "WR",
@@ -8194,15 +8296,16 @@
               "position": "RB",
               "team": "TEN",
               "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 122,
               "weekly_points": {},
               "season_points": 0.0,
               "games_played": 0,
               "ppg": null,
               "recent_ppg": null,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "WR",
@@ -8422,8 +8525,16 @@
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "RB",
+              "player_name": "Tyjae Spears",
+              "status": "QUESTIONABLE",
+              "detail": "Undisclosed",
+              "suggested_swap": null
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "12545",
