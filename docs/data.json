@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T09:07:26.524386+00:00",
+  "generated_at": "2026-09-24T16:46:15.250309+00:00",
   "current_week": 3,
   "season": "2026",
   "leagues": [
@@ -1466,22 +1466,19 @@
             },
             {
               "slot": "TE",
-              "player_id": "12517",
-              "name": "Colston Loveland",
+              "player_id": "5012",
+              "name": "Mark Andrews",
               "position": "TE",
-              "team": "CHI",
-              "bye_week": 10,
+              "team": "BAL",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 36,
-              "weekly_points": {
-                "1": 0.0,
-                "2": 1.3
-              },
-              "season_points": 1.3,
-              "games_played": 2,
-              "ppg": 0.65,
-              "recent_ppg": 0.65,
+              "search_rank": 96,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
               "status": "OK"
             },
             {
@@ -1605,19 +1602,22 @@
               "status": "OUT"
             },
             {
-              "player_id": "5012",
-              "name": "Mark Andrews",
+              "player_id": "12517",
+              "name": "Colston Loveland",
               "position": "TE",
-              "team": "BAL",
-              "bye_week": 13,
+              "team": "CHI",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 96,
-              "weekly_points": {},
-              "season_points": 0.0,
-              "games_played": 0,
-              "ppg": null,
-              "recent_ppg": null,
+              "search_rank": 36,
+              "weekly_points": {
+                "1": 0.0,
+                "2": 1.3
+              },
+              "season_points": 1.3,
+              "games_played": 2,
+              "ppg": 0.65,
+              "recent_ppg": 0.65,
               "status": "OK"
             },
             {
