@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T13:24:01.491192+00:00",
+  "generated_at": "2026-09-25T19:54:27.713884+00:00",
   "current_week": 3,
   "season": "2026",
   "leagues": [
@@ -759,7 +759,7 @@
               "position": "WR",
               "team": "MIA",
               "bye_week": 6,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Ankle",
               "search_rank": 201,
               "weekly_points": {
@@ -770,7 +770,7 @@
               "games_played": 2,
               "ppg": 1.95,
               "recent_ppg": 1.95,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "6819",
@@ -984,8 +984,8 @@
               "position": "RB",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 85,
               "weekly_points": {
                 "2": 10.5,
@@ -995,26 +995,7 @@
               "games_played": 2,
               "ppg": 5.25,
               "recent_ppg": 5.25,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "6790",
-                "name": "D'Andre Swift",
-                "position": "RB",
-                "team": "CHI",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 45,
-                "weekly_points": {
-                  "1": 32.4,
-                  "2": 12.9,
-                  "3": 0.0
-                },
-                "season_points": 45.3,
-                "games_played": 3,
-                "ppg": 15.1,
-                "recent_ppg": 15.1
-              }
+              "status": "OK"
             },
             {
               "slot": "RB",
@@ -1060,23 +1041,23 @@
             },
             {
               "slot": "WR",
-              "player_id": "7569",
-              "name": "Nico Collins",
+              "player_id": "2216",
+              "name": "Mike Evans",
               "position": "WR",
-              "team": "HOU",
+              "team": "SF",
               "bye_week": 8,
               "injury_status": "Questionable",
-              "injury_body_part": "Hamstring",
-              "search_rank": 23,
+              "injury_body_part": "Hip",
+              "search_rank": 60,
               "weekly_points": {
-                "1": 21.2,
-                "2": 0.0,
+                "1": 16.9,
+                "2": 8.4,
                 "3": 0.0
               },
-              "season_points": 21.2,
+              "season_points": 25.3,
               "games_played": 3,
-              "ppg": 7.07,
-              "recent_ppg": 7.07,
+              "ppg": 8.43,
+              "recent_ppg": 8.43,
               "status": "QUESTIONABLE",
               "suggested_swap": {
                 "player_id": "8134",
@@ -1120,43 +1101,22 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "2216",
-              "name": "Mike Evans",
+              "player_id": "13346",
+              "name": "Denzel Boston",
               "position": "WR",
-              "team": "SF",
-              "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hip",
-              "search_rank": 60,
+              "team": "CLE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 153,
               "weekly_points": {
-                "1": 16.9,
-                "2": 8.4,
                 "3": 0.0
               },
-              "season_points": 25.3,
-              "games_played": 3,
-              "ppg": 8.43,
-              "recent_ppg": 8.43,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "6790",
-                "name": "D'Andre Swift",
-                "position": "RB",
-                "team": "CHI",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 45,
-                "weekly_points": {
-                  "1": 32.4,
-                  "2": 12.9,
-                  "3": 0.0
-                },
-                "season_points": 45.3,
-                "games_played": 3,
-                "ppg": 15.1,
-                "recent_ppg": 15.1
-              }
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -1240,24 +1200,6 @@
               "status": "OK"
             },
             {
-              "player_id": "13346",
-              "name": "Denzel Boston",
-              "position": "WR",
-              "team": "CLE",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 153,
-              "weekly_points": {
-                "3": 0.0
-              },
-              "season_points": 0.0,
-              "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
-              "status": "OK"
-            },
-            {
               "player_id": "6790",
               "name": "D'Andre Swift",
               "position": "RB",
@@ -1276,6 +1218,26 @@
               "ppg": 15.1,
               "recent_ppg": 15.1,
               "status": "OK"
+            },
+            {
+              "player_id": "7569",
+              "name": "Nico Collins",
+              "position": "WR",
+              "team": "HOU",
+              "bye_week": 8,
+              "injury_status": "Doubtful",
+              "injury_body_part": "Hamstring",
+              "search_rank": 23,
+              "weekly_points": {
+                "1": 21.2,
+                "2": 0.0,
+                "3": 0.0
+              },
+              "season_points": 21.2,
+              "games_played": 3,
+              "ppg": 7.07,
+              "recent_ppg": 7.07,
+              "status": "OUT"
             },
             {
               "player_id": "8134",
@@ -1297,28 +1259,14 @@
               "status": "OK"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 1,
           "alerts": [
             {
-              "slot": "RB",
-              "player_name": "Aaron Jones",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": "D'Andre Swift"
-            },
-            {
               "slot": "WR",
-              "player_name": "Nico Collins",
-              "status": "QUESTIONABLE",
-              "detail": "Hamstring",
-              "suggested_swap": "Khalil Shakir"
-            },
-            {
-              "slot": "FLEX",
               "player_name": "Mike Evans",
               "status": "QUESTIONABLE",
               "detail": "Hip",
-              "suggested_swap": "D'Andre Swift"
+              "suggested_swap": "Khalil Shakir"
             }
           ],
           "waiver_suggestions": [
@@ -2147,8 +2095,8 @@
               "position": "RB",
               "team": "CHI",
               "bye_week": 10,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 61,
               "weekly_points": {
                 "1": 23.4,
@@ -2159,7 +2107,7 @@
               "games_played": 3,
               "ppg": 10.4,
               "recent_ppg": 10.4,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "4217",
@@ -2406,8 +2354,8 @@
               "position": "WR",
               "team": "LAR",
               "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Groin",
+              "injury_status": "Doubtful",
+              "injury_body_part": "Hip",
               "search_rank": 4,
               "weekly_points": {
                 "1": 12.4,
@@ -2418,7 +2366,7 @@
               "games_played": 3,
               "ppg": 4.13,
               "recent_ppg": 4.13,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": {
                 "player_id": "11631",
                 "name": "Brian Thomas",
@@ -2689,8 +2637,8 @@
             {
               "slot": "WR",
               "player_name": "Puka Nacua",
-              "status": "QUESTIONABLE",
-              "detail": "Groin",
+              "status": "OUT",
+              "detail": "Hip",
               "suggested_swap": "Brian Thomas"
             },
             {
@@ -4266,8 +4214,8 @@
               "position": "RB",
               "team": "NO",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hamstring",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 34,
               "weekly_points": {
                 "1": 14.8,
@@ -4278,8 +4226,7 @@
               "games_played": 3,
               "ppg": 7.3,
               "recent_ppg": 7.3,
-              "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -4519,16 +4466,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "Travis Etienne",
-              "status": "QUESTIONABLE",
-              "detail": "Hamstring",
-              "suggested_swap": null
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "12545",
@@ -5855,8 +5794,8 @@
               "position": "WR",
               "team": "LAR",
               "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Groin",
+              "injury_status": "Doubtful",
+              "injury_body_part": "Hip",
               "search_rank": 4,
               "weekly_points": {
                 "1": 12.4,
@@ -5867,7 +5806,7 @@
               "games_played": 3,
               "ppg": 4.13,
               "recent_ppg": 4.13,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             }
           ],
           "alert_count": 0,
@@ -6581,7 +6520,7 @@
               "position": "WR",
               "team": "HOU",
               "bye_week": 8,
-              "injury_status": "Questionable",
+              "injury_status": "Doubtful",
               "injury_body_part": "Hamstring",
               "search_rank": 23,
               "weekly_points": {
@@ -6593,7 +6532,7 @@
               "games_played": 3,
               "ppg": 7.07,
               "recent_ppg": 7.07,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": {
                 "player_id": "6904",
                 "name": "Jalen Hurts",
@@ -6742,7 +6681,7 @@
             {
               "slot": "FLEX",
               "player_name": "Nico Collins",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Hamstring",
               "suggested_swap": "Jalen Hurts"
             }
@@ -6930,8 +6869,8 @@
               "position": "RB",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 85,
               "weekly_points": {
                 "1": 10.0,
@@ -6942,26 +6881,7 @@
               "games_played": 3,
               "ppg": 6.83,
               "recent_ppg": 6.83,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "12533",
-                "name": "Jacory Croskey-Merritt",
-                "position": "RB",
-                "team": "WAS",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 95,
-                "weekly_points": {
-                  "1": 12.6,
-                  "2": 5.8,
-                  "3": 0.0
-                },
-                "season_points": 18.4,
-                "games_played": 3,
-                "ppg": 6.13,
-                "recent_ppg": 6.13
-              }
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -7157,7 +7077,7 @@
               "position": "WR",
               "team": "MIA",
               "bye_week": 6,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Ankle",
               "search_rank": 201,
               "weekly_points": {
@@ -7168,7 +7088,7 @@
               "games_played": 2,
               "ppg": 1.95,
               "recent_ppg": 1.95,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "5022",
@@ -7209,16 +7129,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "Aaron Jones",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": "Jacory Croskey-Merritt"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "12545",
@@ -8098,8 +8010,8 @@
               "position": "RB",
               "team": "CHI",
               "bye_week": 10,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 61,
               "weekly_points": {
                 "1": 20.4,
@@ -8110,7 +8022,7 @@
               "games_played": 3,
               "ppg": 9.4,
               "recent_ppg": 9.4,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             }
           ],
           "alert_count": 1,
@@ -8298,7 +8210,25 @@
               "ppg": 4.0,
               "recent_ppg": 4.0,
               "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "suggested_swap": {
+                "player_id": "7543",
+                "name": "Travis Etienne",
+                "position": "RB",
+                "team": "NO",
+                "bye_week": 8,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 34,
+                "weekly_points": {
+                  "1": 14.8,
+                  "2": 7.1,
+                  "3": 0.0
+                },
+                "season_points": 21.9,
+                "games_played": 3,
+                "ppg": 7.3,
+                "recent_ppg": 7.3
+              }
             },
             {
               "slot": "RB",
@@ -8552,8 +8482,8 @@
               "position": "RB",
               "team": "NO",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hamstring",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 34,
               "weekly_points": {
                 "1": 14.8,
@@ -8564,7 +8494,7 @@
               "games_played": 3,
               "ppg": 7.3,
               "recent_ppg": 7.3,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             }
           ],
           "alert_count": 2,
@@ -8574,7 +8504,7 @@
               "player_name": "Saquon Barkley",
               "status": "QUESTIONABLE",
               "detail": "Arm",
-              "suggested_swap": null
+              "suggested_swap": "Travis Etienne"
             },
             {
               "slot": "WR",
