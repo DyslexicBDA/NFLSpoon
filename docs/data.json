@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T04:10:58.318815+00:00",
+  "generated_at": "2026-09-26T12:47:10.247437+00:00",
   "current_week": 3,
   "season": "2026",
   "leagues": [
@@ -401,7 +401,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -679,7 +679,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 129,
+              "search_rank": 127,
               "weekly_points": {
                 "1": 9.0,
                 "2": 6.0,
@@ -760,7 +760,7 @@
               "bye_week": 6,
               "injury_status": "Out",
               "injury_body_part": "Ankle",
-              "search_rank": 201,
+              "search_rank": 199,
               "weekly_points": {
                 "2": 3.9,
                 "3": 0.0
@@ -847,7 +847,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -1051,22 +1051,21 @@
               "recent_ppg": 8.43,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "8134",
-                "name": "Khalil Shakir",
+                "player_id": "13346",
+                "name": "Denzel Boston",
                 "position": "WR",
-                "team": "BUF",
-                "bye_week": 7,
+                "team": "CLE",
+                "bye_week": 11,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 120,
+                "search_rank": 153,
                 "weekly_points": {
-                  "2": 6.8,
                   "3": 0.0
                 },
-                "season_points": 6.8,
-                "games_played": 2,
-                "ppg": 3.4,
-                "recent_ppg": 3.4
+                "season_points": 0.0,
+                "games_played": 1,
+                "ppg": 0.0,
+                "recent_ppg": 0.0
               }
             },
             {
@@ -1092,23 +1091,22 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "6790",
-              "name": "D'Andre Swift",
-              "position": "RB",
-              "team": "CHI",
-              "bye_week": 10,
+              "player_id": "8134",
+              "name": "Khalil Shakir",
+              "position": "WR",
+              "team": "BUF",
+              "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 45,
+              "search_rank": 120,
               "weekly_points": {
-                "1": 32.4,
-                "2": 12.9,
+                "2": 6.8,
                 "3": 0.0
               },
-              "season_points": 45.3,
-              "games_played": 3,
-              "ppg": 15.1,
-              "recent_ppg": 15.1,
+              "season_points": 6.8,
+              "games_played": 2,
+              "ppg": 3.4,
+              "recent_ppg": 3.4,
               "status": "OK"
             },
             {
@@ -1120,7 +1118,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 130,
+              "search_rank": 131,
               "weekly_points": {
                 "1": 18.0,
                 "2": 6.5,
@@ -1211,6 +1209,26 @@
               "status": "OK"
             },
             {
+              "player_id": "6790",
+              "name": "D'Andre Swift",
+              "position": "RB",
+              "team": "CHI",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 45,
+              "weekly_points": {
+                "1": 32.4,
+                "2": 12.9,
+                "3": 0.0
+              },
+              "season_points": 45.3,
+              "games_played": 3,
+              "ppg": 15.1,
+              "recent_ppg": 15.1,
+              "status": "OK"
+            },
+            {
               "player_id": "7569",
               "name": "Nico Collins",
               "position": "WR",
@@ -1229,25 +1247,6 @@
               "ppg": 7.07,
               "recent_ppg": 7.07,
               "status": "OUT"
-            },
-            {
-              "player_id": "8134",
-              "name": "Khalil Shakir",
-              "position": "WR",
-              "team": "BUF",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 120,
-              "weekly_points": {
-                "2": 6.8,
-                "3": 0.0
-              },
-              "season_points": 6.8,
-              "games_played": 2,
-              "ppg": 3.4,
-              "recent_ppg": 3.4,
-              "status": "OK"
             }
           ],
           "alert_count": 1,
@@ -1257,7 +1256,7 @@
               "player_name": "Mike Evans",
               "status": "QUESTIONABLE",
               "detail": "Hip",
-              "suggested_swap": "Khalil Shakir"
+              "suggested_swap": "Denzel Boston"
             }
           ],
           "waiver_suggestions": [
@@ -1731,7 +1730,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -1904,7 +1903,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 65,
+              "search_rank": 63,
               "weekly_points": {
                 "1": 7.2,
                 "2": 7.3,
@@ -1946,7 +1945,7 @@
               "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 49,
+              "search_rank": 47,
               "weekly_points": {
                 "1": 10.3,
                 "2": 14.4,
@@ -1967,7 +1966,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 27,
+              "search_rank": 28,
               "weekly_points": {
                 "1": 12.9,
                 "2": 1.1,
@@ -2160,7 +2159,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -2270,7 +2269,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 133,
+              "search_rank": 134,
               "weekly_points": {
                 "3": 0.0
               },
@@ -2555,7 +2554,7 @@
               "bye_week": 6,
               "injury_status": "IR",
               "injury_body_part": "Thumb",
-              "search_rank": 90,
+              "search_rank": 92,
               "weekly_points": {
                 "1": 11.9,
                 "2": 0.0,
@@ -2631,7 +2630,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -2802,7 +2801,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 6,
+              "search_rank": 7,
               "weekly_points": {
                 "1": 28.7,
                 "2": 35.2,
@@ -2844,7 +2843,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 65,
+              "search_rank": 64,
               "weekly_points": {
                 "1": 9.5,
                 "2": 3.5,
@@ -2886,7 +2885,7 @@
               "bye_week": 7,
               "injury_status": "Questionable",
               "injury_body_part": "Shoulder - AC Joint",
-              "search_rank": 48,
+              "search_rank": 50,
               "weekly_points": {
                 "1": 22.0,
                 "2": -0.1,
@@ -2969,7 +2968,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 34,
+              "search_rank": 35,
               "weekly_points": {
                 "1": 19.2,
                 "2": 6.5,
@@ -3085,7 +3084,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -3319,7 +3318,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 104,
+              "search_rank": 106,
               "weekly_points": {
                 "1": 27.8,
                 "2": 8.3,
@@ -3591,7 +3590,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -3743,7 +3742,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 13,
+              "search_rank": 15,
               "weekly_points": {
                 "1": 18.8,
                 "2": 11.2,
@@ -3949,7 +3948,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 88,
+              "search_rank": 87,
               "weekly_points": {
                 "1": 8.3,
                 "2": 8.8,
@@ -4473,7 +4472,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -4997,7 +4996,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -5348,7 +5347,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 133,
+              "search_rank": 134,
               "weekly_points": {
                 "3": 0.0
               },
@@ -5418,7 +5417,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -5567,7 +5566,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 34,
+              "search_rank": 35,
               "weekly_points": {
                 "1": 19.2,
                 "2": 6.5,
@@ -5844,7 +5843,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -5993,7 +5992,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 130,
+              "search_rank": 131,
               "weekly_points": {
                 "2": 6.5,
                 "3": 0.0
@@ -6034,7 +6033,7 @@
               "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 49,
+              "search_rank": 47,
               "weekly_points": {
                 "1": 10.3,
                 "2": 14.4,
@@ -6156,7 +6155,7 @@
               "bye_week": 7,
               "injury_status": "Questionable",
               "injury_body_part": "Shoulder - AC Joint",
-              "search_rank": 48,
+              "search_rank": 50,
               "weekly_points": {
                 "1": 21.0,
                 "2": -0.1,
@@ -6267,7 +6266,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -6719,7 +6718,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -6868,7 +6867,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 27,
+              "search_rank": 28,
               "weekly_points": {
                 "1": 12.9,
                 "2": 1.1,
@@ -7055,7 +7054,7 @@
               "bye_week": 6,
               "injury_status": "Out",
               "injury_body_part": "Ankle",
-              "search_rank": 201,
+              "search_rank": 199,
               "weekly_points": {
                 "2": 3.9,
                 "3": 0.0
@@ -7164,7 +7163,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -7292,7 +7291,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 13,
+              "search_rank": 15,
               "weekly_points": {
                 "1": 18.8,
                 "2": 11.2,
@@ -7355,7 +7354,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 65,
+              "search_rank": 64,
               "weekly_points": {
                 "1": 9.5,
                 "2": 3.5,
@@ -7416,7 +7415,7 @@
                 "bye_week": 8,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 104,
+                "search_rank": 106,
                 "weekly_points": {
                   "1": 27.8,
                   "2": 8.3,
@@ -7497,7 +7496,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 88,
+              "search_rank": 87,
               "weekly_points": {
                 "1": 8.3,
                 "2": 8.8,
@@ -7517,7 +7516,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 104,
+              "search_rank": 106,
               "weekly_points": {
                 "1": 27.8,
                 "2": 8.3,
@@ -7615,7 +7614,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -7780,7 +7779,7 @@
                 "bye_week": 10,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 65,
+                "search_rank": 63,
                 "weekly_points": {
                   "1": 7.2,
                   "2": 7.3,
@@ -7968,7 +7967,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 65,
+              "search_rank": 63,
               "weekly_points": {
                 "1": 7.2,
                 "2": 7.3,
@@ -8068,7 +8067,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
@@ -8665,7 +8664,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 6,
+              "search_rank": 7,
               "weekly_points": {
                 "1": 28.7,
                 "2": 35.2,
@@ -8852,7 +8851,7 @@
               "bye_week": 6,
               "injury_status": "IR",
               "injury_body_part": "Thumb",
-              "search_rank": 90,
+              "search_rank": 92,
               "weekly_points": {
                 "1": 11.9,
                 "2": 0.0,
@@ -8952,7 +8951,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 353,
+              "search_rank": 354,
               "weekly_points": {
                 "1": 4.8,
                 "2": 18.3
