@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T19:06:07.703363+00:00",
+  "generated_at": "2026-09-26T22:30:37.223176+00:00",
   "current_week": 3,
   "season": "2026",
   "leagues": [
@@ -336,7 +336,7 @@
               "position": "TE",
               "team": "PHI",
               "bye_week": 10,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Knee - MCL",
               "search_rank": 94,
               "weekly_points": {
@@ -2513,7 +2513,7 @@
               "position": "QB",
               "team": "CHI",
               "bye_week": 10,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Hamstring",
               "search_rank": 21,
               "weekly_points": {
@@ -3296,8 +3296,8 @@
               "position": "WR",
               "team": "PHI",
               "bye_week": 10,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hamstring",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 33,
               "weekly_points": {
                 "1": 8.3,
@@ -3308,26 +3308,7 @@
               "games_played": 3,
               "ppg": 12.0,
               "recent_ppg": 12.0,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "9756",
-                "name": "Jordan Addison",
-                "position": "WR",
-                "team": "MIN",
-                "bye_week": 6,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 99,
-                "weekly_points": {
-                  "1": 0.0,
-                  "2": 4.1,
-                  "3": 0.0
-                },
-                "season_points": 4.1,
-                "games_played": 3,
-                "ppg": 1.37,
-                "recent_ppg": 1.37
-              }
+              "status": "OK"
             },
             {
               "slot": "TE",
@@ -3397,7 +3378,7 @@
               "position": "RB",
               "team": "DEN",
               "bye_week": 10,
-              "injury_status": "Out",
+              "injury_status": "IR",
               "injury_body_part": "Ankle",
               "search_rank": 118,
               "weekly_points": {
@@ -3553,15 +3534,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 2,
           "alerts": [
-            {
-              "slot": "WR",
-              "player_name": "DeVonta Smith",
-              "status": "QUESTIONABLE",
-              "detail": "Hamstring",
-              "suggested_swap": "Jordan Addison"
-            },
             {
               "slot": "FLEX",
               "player_name": "Brock Bowers",
@@ -4887,7 +4861,7 @@
               "position": "RB",
               "team": "DEN",
               "bye_week": 10,
-              "injury_status": "Out",
+              "injury_status": "IR",
               "injury_body_part": "Ankle",
               "search_rank": 118,
               "weekly_points": {
@@ -7089,7 +7063,7 @@
               "position": "TE",
               "team": "PHI",
               "bye_week": 10,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Knee - MCL",
               "search_rank": 94,
               "weekly_points": {
@@ -7412,8 +7386,8 @@
               "position": "WR",
               "team": "PHI",
               "bye_week": 10,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hamstring",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 33,
               "weekly_points": {
                 "1": 8.3,
@@ -7424,26 +7398,7 @@
               "games_played": 3,
               "ppg": 12.0,
               "recent_ppg": 12.0,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "8131",
-                "name": "Isaiah Likely",
-                "position": "TE",
-                "team": "NYG",
-                "bye_week": 8,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 106,
-                "weekly_points": {
-                  "1": 27.8,
-                  "2": 8.3,
-                  "3": 0.0
-                },
-                "season_points": 36.1,
-                "games_played": 3,
-                "ppg": 12.03,
-                "recent_ppg": 12.03
-              }
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -7565,16 +7520,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "FLEX",
-              "player_name": "DeVonta Smith",
-              "status": "QUESTIONABLE",
-              "detail": "Hamstring",
-              "suggested_swap": "Isaiah Likely"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "12545",
@@ -8827,7 +8774,7 @@
               "position": "QB",
               "team": "CHI",
               "bye_week": 10,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Hamstring",
               "search_rank": 21,
               "weekly_points": {
