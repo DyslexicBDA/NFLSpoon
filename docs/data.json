@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T19:38:13.015126+00:00",
+  "generated_at": "2026-09-27T22:52:51.058761+00:00",
   "current_week": 3,
   "season": "2026",
   "leagues": [
@@ -59,12 +59,12 @@
               "weekly_points": {
                 "1": 20.3,
                 "2": 13.0,
-                "3": 0.0
+                "3": 7.2
               },
-              "season_points": 33.3,
+              "season_points": 40.5,
               "games_played": 3,
-              "ppg": 11.1,
-              "recent_ppg": 11.1,
+              "ppg": 13.5,
+              "recent_ppg": 13.5,
               "status": "OK"
             },
             {
@@ -80,12 +80,12 @@
               "weekly_points": {
                 "1": 10.3,
                 "2": 9.7,
-                "3": 16.4
+                "3": 20.6
               },
-              "season_points": 36.4,
+              "season_points": 40.6,
               "games_played": 3,
-              "ppg": 12.13,
-              "recent_ppg": 12.13,
+              "ppg": 13.53,
+              "recent_ppg": 13.53,
               "status": "OK"
             },
             {
@@ -95,19 +95,20 @@
               "position": "WR",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Ankle",
               "search_rank": 13,
               "weekly_points": {
                 "1": 31.2,
                 "2": 8.5,
-                "3": 0.0
+                "3": 5.2
               },
-              "season_points": 39.7,
+              "season_points": 44.9,
               "games_played": 3,
-              "ppg": 13.23,
-              "recent_ppg": 13.23,
-              "status": "OK"
+              "ppg": 14.97,
+              "recent_ppg": 14.97,
+              "status": "OUT",
+              "suggested_swap": null
             },
             {
               "slot": "WR",
@@ -122,12 +123,12 @@
               "weekly_points": {
                 "1": 15.4,
                 "2": 35.3,
-                "3": 0.0
+                "3": 11.9
               },
-              "season_points": 50.7,
+              "season_points": 62.6,
               "games_played": 3,
-              "ppg": 16.9,
-              "recent_ppg": 16.9,
+              "ppg": 20.87,
+              "recent_ppg": 20.87,
               "status": "OK"
             },
             {
@@ -162,12 +163,12 @@
               "injury_body_part": null,
               "search_rank": 679,
               "weekly_points": {
-                "3": 5.7
+                "3": 8.5
               },
-              "season_points": 5.7,
+              "season_points": 8.5,
               "games_played": 1,
-              "ppg": 5.7,
-              "recent_ppg": 5.7,
+              "ppg": 8.5,
+              "recent_ppg": 8.5,
               "status": "OK"
             },
             {
@@ -202,12 +203,12 @@
                 "weekly_points": {
                   "1": 7.0,
                   "2": 9.8,
-                  "3": 7.2
+                  "3": 9.9
                 },
-                "season_points": 24.0,
+                "season_points": 26.7,
                 "games_played": 3,
-                "ppg": 8.0,
-                "recent_ppg": 8.0
+                "ppg": 8.9,
+                "recent_ppg": 8.9
               }
             },
             {
@@ -222,12 +223,12 @@
               "search_rank": 150,
               "weekly_points": {
                 "2": 5.0,
-                "3": 0.0
+                "3": 6.0
               },
-              "season_points": 5.0,
+              "season_points": 11.0,
               "games_played": 2,
-              "ppg": 2.5,
-              "recent_ppg": 2.5,
+              "ppg": 5.5,
+              "recent_ppg": 5.5,
               "status": "OK"
             },
             {
@@ -243,12 +244,12 @@
               "weekly_points": {
                 "1": 16.0,
                 "2": 3.0,
-                "3": 17.0
+                "3": 18.0
               },
-              "season_points": 36.0,
+              "season_points": 37.0,
               "games_played": 3,
-              "ppg": 12.0,
-              "recent_ppg": 12.0,
+              "ppg": 12.33,
+              "recent_ppg": 12.33,
               "status": "OK"
             }
           ],
@@ -285,12 +286,12 @@
               "weekly_points": {
                 "1": 7.0,
                 "2": 9.8,
-                "3": 7.2
+                "3": 9.9
               },
-              "season_points": 24.0,
+              "season_points": 26.7,
               "games_played": 3,
-              "ppg": 8.0,
-              "recent_ppg": 8.0,
+              "ppg": 8.9,
+              "recent_ppg": 8.9,
               "status": "OK"
             },
             {
@@ -332,8 +333,15 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Justin Jefferson",
+              "status": "OUT",
+              "detail": "Ankle",
+              "suggested_swap": null
+            },
             {
               "slot": "FLEX",
               "player_name": "Jalen Coker",
@@ -354,12 +362,13 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 27.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 49.58,
-              "games_played": 2,
-              "ppg": 24.79,
-              "recent_ppg": 24.79,
+              "season_points": 76.5,
+              "games_played": 3,
+              "ppg": 25.5,
+              "recent_ppg": 25.5,
               "drop_candidate": {
                 "name": "Jalen Hurts",
                 "ppg": 15.63,
@@ -379,18 +388,43 @@
               "weekly_points": {
                 "1": 11.4,
                 "2": 3.7,
-                "3": 19.3
+                "3": 23.5
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "Zach Ertz",
                 "ppg": 0.0,
                 "recent_ppg": 0.0
               },
               "status": "OK"
+            },
+            {
+              "player_id": "12185",
+              "name": "Spencer Shrader",
+              "position": "K",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": "Questionable",
+              "injury_body_part": "Groin",
+              "search_rank": 355,
+              "weekly_points": {
+                "1": 6.0,
+                "2": 14.0,
+                "3": 17.0
+              },
+              "season_points": 37.0,
+              "games_played": 3,
+              "ppg": 12.33,
+              "recent_ppg": 12.33,
+              "drop_candidate": {
+                "name": "Tyler Loop",
+                "ppg": 5.5,
+                "recent_ppg": 5.5
+              },
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5947",
@@ -404,41 +438,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Xavier Hutchinson",
-                "ppg": 5.7,
-                "recent_ppg": 5.7
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "12961",
-              "name": "Ryan Fitzgerald",
-              "position": "K",
-              "team": "CAR",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 327,
-              "weekly_points": {
-                "1": 7.0,
-                "2": 10.0,
-                "3": 15.0
-              },
-              "season_points": 32.0,
-              "games_played": 3,
-              "ppg": 10.67,
-              "recent_ppg": 10.67,
-              "drop_candidate": {
-                "name": "Tyler Loop",
-                "ppg": 2.5,
-                "recent_ppg": 2.5
+                "ppg": 8.5,
+                "recent_ppg": 8.5
               },
               "status": "OK"
             },
@@ -454,12 +463,12 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Blake Corum",
                 "ppg": 5.2,
@@ -471,9 +480,9 @@
           "weekly_points": {
             "1": 144.72,
             "2": 125.86,
-            "3": 50.3
+            "3": 88.6
           },
-          "season_points": 320.88
+          "season_points": 359.18
         },
         {
           "roster_id": 10,
@@ -493,12 +502,12 @@
               "weekly_points": {
                 "1": 13.16,
                 "2": 16.18,
-                "3": 22.98
+                "3": 22.58
               },
-              "season_points": 52.32,
+              "season_points": 51.92,
               "games_played": 3,
-              "ppg": 17.44,
-              "recent_ppg": 17.44,
+              "ppg": 17.31,
+              "recent_ppg": 17.31,
               "status": "OK"
             },
             {
@@ -514,12 +523,12 @@
               "weekly_points": {
                 "1": 9.9,
                 "2": 20.9,
-                "3": 6.6
+                "3": 19.4
               },
-              "season_points": 37.4,
+              "season_points": 50.2,
               "games_played": 3,
-              "ppg": 12.47,
-              "recent_ppg": 12.47,
+              "ppg": 16.73,
+              "recent_ppg": 16.73,
               "status": "OK"
             },
             {
@@ -577,12 +586,12 @@
               "weekly_points": {
                 "1": 28.2,
                 "2": 22.6,
-                "3": 0.0
+                "3": 10.9
               },
-              "season_points": 50.8,
+              "season_points": 61.7,
               "games_played": 3,
-              "ppg": 16.93,
-              "recent_ppg": 16.93,
+              "ppg": 20.57,
+              "recent_ppg": 20.57,
               "status": "OK"
             },
             {
@@ -598,12 +607,12 @@
               "weekly_points": {
                 "1": 4.1,
                 "2": 10.4,
-                "3": 14.0
+                "3": 24.1
               },
-              "season_points": 28.5,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 9.5,
-              "recent_ppg": 9.5,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "status": "OK"
             },
             {
@@ -661,12 +670,12 @@
               "weekly_points": {
                 "1": 9.0,
                 "2": 6.0,
-                "3": 4.0
+                "3": 5.0
               },
-              "season_points": 19.0,
+              "season_points": 20.0,
               "games_played": 3,
-              "ppg": 6.33,
-              "recent_ppg": 6.33,
+              "ppg": 6.67,
+              "recent_ppg": 6.67,
               "status": "OK"
             },
             {
@@ -682,12 +691,12 @@
               "weekly_points": {
                 "1": 20.0,
                 "2": 10.0,
-                "3": 0.0
+                "3": 5.0
               },
-              "season_points": 30.0,
+              "season_points": 35.0,
               "games_played": 3,
-              "ppg": 10.0,
-              "recent_ppg": 10.0,
+              "ppg": 11.67,
+              "recent_ppg": 11.67,
               "status": "OK"
             }
           ],
@@ -702,12 +711,12 @@
               "injury_body_part": null,
               "search_rank": 185,
               "weekly_points": {
-                "3": 0.0
+                "3": 5.8
               },
-              "season_points": 0.0,
+              "season_points": 5.8,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 5.8,
+              "recent_ppg": 5.8,
               "status": "OK"
             },
             {
@@ -722,12 +731,12 @@
               "weekly_points": {
                 "1": 10.6,
                 "2": 3.8,
-                "3": 0.0
+                "3": 21.7
               },
-              "season_points": 14.4,
+              "season_points": 36.1,
               "games_played": 3,
-              "ppg": 4.8,
-              "recent_ppg": 4.8,
+              "ppg": 12.03,
+              "recent_ppg": 12.03,
               "status": "OK"
             },
             {
@@ -824,43 +833,65 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 27.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 49.58,
-              "games_played": 2,
-              "ppg": 24.79,
-              "recent_ppg": 24.79,
+              "season_points": 76.5,
+              "games_played": 3,
+              "ppg": 25.5,
+              "recent_ppg": 25.5,
               "drop_candidate": {
                 "name": "Joe Burrow",
-                "ppg": 17.44,
-                "recent_ppg": 17.44
+                "ppg": 17.31,
+                "recent_ppg": 17.31
               },
               "status": "OK"
             },
             {
-              "player_id": "13330",
-              "name": "Kenyon Sadiq",
-              "position": "TE",
-              "team": "NYJ",
-              "bye_week": 13,
+              "player_id": "3163",
+              "name": "Jared Goff",
+              "position": "QB",
+              "team": "DET",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 109,
+              "search_rank": 61,
               "weekly_points": {
-                "1": 11.4,
-                "2": 3.7,
-                "3": 19.3
+                "1": 16.44,
+                "2": 29.78,
+                "3": 20.36
               },
-              "season_points": 34.4,
+              "season_points": 66.58,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
-              "drop_candidate": {
-                "name": "Harold Fannin",
-                "ppg": 9.5,
-                "recent_ppg": 9.5
-              },
+              "ppg": 22.19,
+              "recent_ppg": 22.19,
+              "drop_candidate": null,
               "status": "OK"
+            },
+            {
+              "player_id": "12185",
+              "name": "Spencer Shrader",
+              "position": "K",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": "Questionable",
+              "injury_body_part": "Groin",
+              "search_rank": 355,
+              "weekly_points": {
+                "1": 6.0,
+                "2": 14.0,
+                "3": 17.0
+              },
+              "season_points": 37.0,
+              "games_played": 3,
+              "ppg": 12.33,
+              "recent_ppg": 12.33,
+              "drop_candidate": {
+                "name": "Ka'imi Fairbairn",
+                "ppg": 6.67,
+                "recent_ppg": 6.67
+              },
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5947",
@@ -874,41 +905,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
-                "name": "Tre Tucker",
+                "name": "Jordyn Tyson",
                 "ppg": 0.0,
                 "recent_ppg": 0.0
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "12961",
-              "name": "Ryan Fitzgerald",
-              "position": "K",
-              "team": "CAR",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 327,
-              "weekly_points": {
-                "1": 7.0,
-                "2": 10.0,
-                "3": 15.0
-              },
-              "season_points": 32.0,
-              "games_played": 3,
-              "ppg": 10.67,
-              "recent_ppg": 10.67,
-              "drop_candidate": {
-                "name": "Ka'imi Fairbairn",
-                "ppg": 6.33,
-                "recent_ppg": 6.33
               },
               "status": "OK"
             },
@@ -924,12 +930,12 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Saquon Barkley",
                 "ppg": 4.0,
@@ -941,9 +947,9 @@
           "weekly_points": {
             "1": 111.76,
             "2": 105.38,
-            "3": 88.78
+            "3": 128.18
           },
-          "season_points": 305.92
+          "season_points": 345.32
         },
         {
           "roster_id": 7,
@@ -962,12 +968,12 @@
               "search_rank": 86,
               "weekly_points": {
                 "1": 0.62,
-                "3": 0.0
+                "3": 12.46
               },
-              "season_points": 0.62,
+              "season_points": 13.08,
               "games_played": 2,
-              "ppg": 0.31,
-              "recent_ppg": 0.31,
+              "ppg": 6.54,
+              "recent_ppg": 6.54,
               "status": "OK"
             },
             {
@@ -982,12 +988,12 @@
               "search_rank": 85,
               "weekly_points": {
                 "2": 10.5,
-                "3": 0.0
+                "3": 5.2
               },
-              "season_points": 10.5,
+              "season_points": 15.7,
               "games_played": 2,
-              "ppg": 5.25,
-              "recent_ppg": 5.25,
+              "ppg": 7.85,
+              "recent_ppg": 7.85,
               "status": "OK"
             },
             {
@@ -1003,12 +1009,12 @@
               "weekly_points": {
                 "1": 24.2,
                 "2": 8.0,
-                "3": 0.0
+                "3": 18.1
               },
-              "season_points": 32.2,
+              "season_points": 50.3,
               "games_played": 3,
-              "ppg": 10.73,
-              "recent_ppg": 10.73,
+              "ppg": 16.77,
+              "recent_ppg": 16.77,
               "status": "OK"
             },
             {
@@ -1024,12 +1030,12 @@
               "weekly_points": {
                 "1": 3.2,
                 "2": 26.5,
-                "3": 19.8
+                "3": 24.8
               },
-              "season_points": 49.5,
+              "season_points": 54.5,
               "games_played": 3,
-              "ppg": 16.5,
-              "recent_ppg": 16.5,
+              "ppg": 18.17,
+              "recent_ppg": 18.17,
               "status": "OK"
             },
             {
@@ -1039,19 +1045,36 @@
               "position": "WR",
               "team": "SF",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Ribs",
               "search_rank": 60,
               "weekly_points": {
                 "1": 16.9,
                 "2": 8.4,
-                "3": 0.0
+                "3": 12.4
               },
-              "season_points": 25.3,
+              "season_points": 37.7,
               "games_played": 3,
-              "ppg": 8.43,
-              "recent_ppg": 8.43,
-              "status": "OK"
+              "ppg": 12.57,
+              "recent_ppg": 12.57,
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "13346",
+                "name": "Denzel Boston",
+                "position": "WR",
+                "team": "CLE",
+                "bye_week": 11,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 153,
+                "weekly_points": {
+                  "3": 8.1
+                },
+                "season_points": 8.1,
+                "games_played": 1,
+                "ppg": 8.1,
+                "recent_ppg": 8.1
+              }
             },
             {
               "slot": "TE",
@@ -1066,12 +1089,12 @@
               "weekly_points": {
                 "1": 24.5,
                 "2": 18.1,
-                "3": 0.0
+                "3": 10.3
               },
-              "season_points": 42.6,
+              "season_points": 52.9,
               "games_played": 3,
-              "ppg": 14.2,
-              "recent_ppg": 14.2,
+              "ppg": 17.63,
+              "recent_ppg": 17.63,
               "status": "OK"
             },
             {
@@ -1107,12 +1130,12 @@
               "weekly_points": {
                 "1": 18.0,
                 "2": 6.5,
-                "3": 0.0
+                "3": 18.4
               },
-              "season_points": 24.5,
+              "season_points": 42.9,
               "games_played": 3,
-              "ppg": 8.17,
-              "recent_ppg": 8.17,
+              "ppg": 14.3,
+              "recent_ppg": 14.3,
               "status": "OK"
             },
             {
@@ -1145,12 +1168,12 @@
               "injury_body_part": null,
               "search_rank": 999999,
               "weekly_points": {
-                "3": 2.0
+                "3": 3.0
               },
-              "season_points": 2.0,
+              "season_points": 3.0,
               "games_played": 1,
-              "ppg": 2.0,
-              "recent_ppg": 2.0,
+              "ppg": 3.0,
+              "recent_ppg": 3.0,
               "status": "OK"
             }
           ],
@@ -1185,12 +1208,12 @@
               "injury_body_part": null,
               "search_rank": 153,
               "weekly_points": {
-                "3": 0.0
+                "3": 8.1
               },
-              "season_points": 0.0,
+              "season_points": 8.1,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 8.1,
+              "recent_ppg": 8.1,
               "status": "OK"
             },
             {
@@ -1234,8 +1257,16 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Mike Evans",
+              "status": "OUT",
+              "detail": "Ribs",
+              "suggested_swap": "Denzel Boston"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "12545",
@@ -1248,59 +1279,65 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 27.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 49.58,
-              "games_played": 2,
-              "ppg": 24.79,
-              "recent_ppg": 24.79,
+              "season_points": 76.5,
+              "games_played": 3,
+              "ppg": 25.5,
+              "recent_ppg": 25.5,
               "drop_candidate": {
                 "name": "Kyler Murray",
-                "ppg": 0.31,
-                "recent_ppg": 0.31
+                "ppg": 6.54,
+                "recent_ppg": 6.54
               },
               "status": "OK"
             },
             {
-              "player_id": "6804",
-              "name": "Jordan Love",
+              "player_id": "3163",
+              "name": "Jared Goff",
               "position": "QB",
-              "team": "GB",
-              "bye_week": 11,
+              "team": "DET",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 69,
+              "search_rank": 61,
               "weekly_points": {
-                "1": 28.48,
-                "2": 13.8,
-                "3": 20.48
+                "1": 16.44,
+                "2": 29.78,
+                "3": 20.36
               },
-              "season_points": 62.76,
+              "season_points": 66.58,
               "games_played": 3,
-              "ppg": 20.92,
-              "recent_ppg": 20.92,
+              "ppg": 22.19,
+              "recent_ppg": 22.19,
               "drop_candidate": null,
               "status": "OK"
             },
             {
-              "player_id": "1166",
-              "name": "Kirk Cousins",
-              "position": "QB",
-              "team": "LV",
+              "player_id": "12185",
+              "name": "Spencer Shrader",
+              "position": "K",
+              "team": "IND",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 274,
+              "injury_status": "Questionable",
+              "injury_body_part": "Groin",
+              "search_rank": 355,
               "weekly_points": {
-                "1": 15.8,
-                "2": 25.22
+                "1": 6.0,
+                "2": 14.0,
+                "3": 17.0
               },
-              "season_points": 41.02,
-              "games_played": 2,
-              "ppg": 20.51,
-              "recent_ppg": 20.51,
-              "drop_candidate": null,
-              "status": "OK"
+              "season_points": 37.0,
+              "games_played": 3,
+              "ppg": 12.33,
+              "recent_ppg": 12.33,
+              "drop_candidate": {
+                "name": "Evan McPherson",
+                "ppg": 11.0,
+                "recent_ppg": 11.0
+              },
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5947",
@@ -1314,16 +1351,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
-                "name": "Denzel Boston",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
+                "name": "Khalil Shakir",
+                "ppg": 4.2,
+                "recent_ppg": 4.2
               },
               "status": "OK"
             },
@@ -1339,16 +1376,16 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Aaron Jones",
-                "ppg": 5.25,
-                "recent_ppg": 5.25
+                "ppg": 7.85,
+                "recent_ppg": 7.85
               },
               "status": "QUESTIONABLE"
             }
@@ -1356,9 +1393,9 @@
           "weekly_points": {
             "1": 155.22,
             "2": 112.22,
-            "3": 34.4
+            "3": 117.26
           },
-          "season_points": 301.84
+          "season_points": 384.7
         },
         {
           "roster_id": 8,
@@ -1376,12 +1413,12 @@
               "injury_body_part": null,
               "search_rank": 56,
               "weekly_points": {
-                "3": 0.0
+                "3": 28.64
               },
-              "season_points": 0.0,
+              "season_points": 28.64,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 28.64,
+              "recent_ppg": 28.64,
               "status": "OK"
             },
             {
@@ -1397,12 +1434,12 @@
               "weekly_points": {
                 "1": 13.8,
                 "2": 22.6,
-                "3": 0.0
+                "3": 18.6
               },
-              "season_points": 36.4,
+              "season_points": 55.0,
               "games_played": 3,
-              "ppg": 12.13,
-              "recent_ppg": 12.13,
+              "ppg": 18.33,
+              "recent_ppg": 18.33,
               "status": "OK"
             },
             {
@@ -1418,12 +1455,12 @@
               "weekly_points": {
                 "1": 13.0,
                 "2": 7.5,
-                "3": 0.0
+                "3": 19.3
               },
-              "season_points": 20.5,
+              "season_points": 39.8,
               "games_played": 3,
-              "ppg": 6.83,
-              "recent_ppg": 6.83,
+              "ppg": 13.27,
+              "recent_ppg": 13.27,
               "status": "OK"
             },
             {
@@ -1439,12 +1476,12 @@
               "weekly_points": {
                 "1": 27.2,
                 "2": 45.5,
-                "3": 15.7
+                "3": 35.36
               },
-              "season_points": 88.4,
+              "season_points": 108.06,
               "games_played": 3,
-              "ppg": 29.47,
-              "recent_ppg": 29.47,
+              "ppg": 36.02,
+              "recent_ppg": 36.02,
               "status": "OK"
             },
             {
@@ -1475,17 +1512,36 @@
               "position": "TE",
               "team": "BAL",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hand",
               "search_rank": 96,
               "weekly_points": {
-                "3": 0.0
+                "3": 1.9
               },
-              "season_points": 0.0,
+              "season_points": 1.9,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
-              "status": "OK"
+              "ppg": 1.9,
+              "recent_ppg": 1.9,
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "12517",
+                "name": "Colston Loveland",
+                "position": "TE",
+                "team": "CHI",
+                "bye_week": 10,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 35,
+                "weekly_points": {
+                  "1": 0.0,
+                  "2": 1.3,
+                  "3": 0.0
+                },
+                "season_points": 1.3,
+                "games_played": 3,
+                "ppg": 0.43,
+                "recent_ppg": 0.43
+              }
             },
             {
               "slot": "FLEX",
@@ -1542,12 +1598,12 @@
               "weekly_points": {
                 "1": 7.0,
                 "2": 7.0,
-                "3": 6.0
+                "3": 7.0
               },
-              "season_points": 20.0,
+              "season_points": 21.0,
               "games_played": 3,
-              "ppg": 6.67,
-              "recent_ppg": 6.67,
+              "ppg": 7.0,
+              "recent_ppg": 7.0,
               "status": "OK"
             },
             {
@@ -1563,12 +1619,12 @@
               "weekly_points": {
                 "1": 13.0,
                 "2": 8.0,
-                "3": 1.0
+                "3": 2.0
               },
-              "season_points": 22.0,
+              "season_points": 23.0,
               "games_played": 3,
-              "ppg": 7.33,
-              "recent_ppg": 7.33,
+              "ppg": 7.67,
+              "recent_ppg": 7.67,
               "status": "OK"
             }
           ],
@@ -1644,12 +1700,12 @@
               "search_rank": 42,
               "weekly_points": {
                 "2": 7.16,
-                "3": 18.76
+                "3": 20.78
               },
-              "season_points": 25.92,
+              "season_points": 27.94,
               "games_played": 2,
-              "ppg": 12.96,
-              "recent_ppg": 12.96,
+              "ppg": 13.97,
+              "recent_ppg": 13.97,
               "status": "OK"
             },
             {
@@ -1671,8 +1727,16 @@
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "TE",
+              "player_name": "Mark Andrews",
+              "status": "QUESTIONABLE",
+              "detail": "Hand",
+              "suggested_swap": "Colston Loveland"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "12545",
@@ -1685,16 +1749,17 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 27.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 49.58,
-              "games_played": 2,
-              "ppg": 24.79,
-              "recent_ppg": 24.79,
+              "season_points": 76.5,
+              "games_played": 3,
+              "ppg": 25.5,
+              "recent_ppg": 25.5,
               "drop_candidate": {
-                "name": "Brock Purdy",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
+                "name": "Jayden Daniels",
+                "ppg": 10.8,
+                "recent_ppg": 10.8
               },
               "status": "OK"
             },
@@ -1710,18 +1775,43 @@
               "weekly_points": {
                 "1": 11.4,
                 "2": 3.7,
-                "3": 19.3
+                "3": 23.5
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
-                "name": "Mark Andrews",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
+                "name": "Colston Loveland",
+                "ppg": 0.43,
+                "recent_ppg": 0.43
               },
               "status": "OK"
+            },
+            {
+              "player_id": "12185",
+              "name": "Spencer Shrader",
+              "position": "K",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": "Questionable",
+              "injury_body_part": "Groin",
+              "search_rank": 355,
+              "weekly_points": {
+                "1": 6.0,
+                "2": 14.0,
+                "3": 17.0
+              },
+              "season_points": 37.0,
+              "games_played": 3,
+              "ppg": 12.33,
+              "recent_ppg": 12.33,
+              "drop_candidate": {
+                "name": "Jake Bates",
+                "ppg": 7.0,
+                "recent_ppg": 7.0
+              },
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5947",
@@ -1735,41 +1825,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Dontayvion Wicks",
                 "ppg": 0.0,
                 "recent_ppg": 0.0
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "12961",
-              "name": "Ryan Fitzgerald",
-              "position": "K",
-              "team": "CAR",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 327,
-              "weekly_points": {
-                "1": 7.0,
-                "2": 10.0,
-                "3": 15.0
-              },
-              "season_points": 32.0,
-              "games_played": 3,
-              "ppg": 10.67,
-              "recent_ppg": 10.67,
-              "drop_candidate": {
-                "name": "Jake Bates",
-                "ppg": 6.67,
-                "recent_ppg": 6.67
               },
               "status": "OK"
             },
@@ -1785,12 +1850,12 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Jonathon Brooks",
                 "ppg": 3.1,
@@ -1802,9 +1867,9 @@
           "weekly_points": {
             "1": 121.96,
             "2": 140.74,
-            "3": 39.4
+            "3": 129.5
           },
-          "season_points": 302.1
+          "season_points": 392.2
         },
         {
           "roster_id": 9,
@@ -1824,12 +1889,12 @@
               "weekly_points": {
                 "1": 14.26,
                 "2": 10.88,
-                "3": 10.68
+                "3": 13.74
               },
-              "season_points": 35.82,
+              "season_points": 38.88,
               "games_played": 3,
-              "ppg": 11.94,
-              "recent_ppg": 11.94,
+              "ppg": 12.96,
+              "recent_ppg": 12.96,
               "status": "OK"
             },
             {
@@ -1866,12 +1931,12 @@
               "weekly_points": {
                 "1": 32.7,
                 "2": 10.3,
-                "3": 0.0
+                "3": 6.5
               },
-              "season_points": 43.0,
+              "season_points": 49.5,
               "games_played": 3,
-              "ppg": 14.33,
-              "recent_ppg": 14.33,
+              "ppg": 16.5,
+              "recent_ppg": 16.5,
               "status": "OK"
             },
             {
@@ -1908,12 +1973,12 @@
               "weekly_points": {
                 "1": 8.9,
                 "2": 14.5,
-                "3": 19.2
+                "3": 21.0
               },
-              "season_points": 42.6,
+              "season_points": 44.4,
               "games_played": 3,
-              "ppg": 14.2,
-              "recent_ppg": 14.2,
+              "ppg": 14.8,
+              "recent_ppg": 14.8,
               "status": "OK"
             },
             {
@@ -1950,12 +2015,12 @@
               "weekly_points": {
                 "1": 12.9,
                 "2": 1.1,
-                "3": 5.4
+                "3": 7.6
               },
-              "season_points": 19.4,
+              "season_points": 21.6,
               "games_played": 3,
-              "ppg": 6.47,
-              "recent_ppg": 6.47,
+              "ppg": 7.2,
+              "recent_ppg": 7.2,
               "status": "OK"
             },
             {
@@ -1992,12 +2057,12 @@
               "weekly_points": {
                 "1": 8.0,
                 "2": 4.0,
-                "3": 7.0
+                "3": 13.0
               },
-              "season_points": 19.0,
+              "season_points": 25.0,
               "games_played": 3,
-              "ppg": 6.33,
-              "recent_ppg": 6.33,
+              "ppg": 8.33,
+              "recent_ppg": 8.33,
               "status": "OK"
             },
             {
@@ -2075,12 +2140,12 @@
               "weekly_points": {
                 "1": 3.2,
                 "2": 18.0,
-                "3": 0.0
+                "3": 17.2
               },
-              "season_points": 21.2,
+              "season_points": 38.4,
               "games_played": 3,
-              "ppg": 7.07,
-              "recent_ppg": 7.07,
+              "ppg": 12.8,
+              "recent_ppg": 12.8,
               "status": "OK"
             },
             {
@@ -2118,12 +2183,13 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 27.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 49.58,
-              "games_played": 2,
-              "ppg": 24.79,
-              "recent_ppg": 24.79,
+              "season_points": 76.5,
+              "games_played": 3,
+              "ppg": 25.5,
+              "recent_ppg": 25.5,
               "drop_candidate": {
                 "name": "Bo Nix",
                 "ppg": 7.52,
@@ -2143,18 +2209,43 @@
               "weekly_points": {
                 "1": 11.4,
                 "2": 3.7,
-                "3": 19.3
+                "3": 23.5
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "George Kittle",
-                "ppg": 7.07,
-                "recent_ppg": 7.07
+                "ppg": 12.8,
+                "recent_ppg": 12.8
               },
               "status": "OK"
+            },
+            {
+              "player_id": "12185",
+              "name": "Spencer Shrader",
+              "position": "K",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": "Questionable",
+              "injury_body_part": "Groin",
+              "search_rank": 355,
+              "weekly_points": {
+                "1": 6.0,
+                "2": 14.0,
+                "3": 17.0
+              },
+              "season_points": 37.0,
+              "games_played": 3,
+              "ppg": 12.33,
+              "recent_ppg": 12.33,
+              "drop_candidate": {
+                "name": "Chris Boswell",
+                "ppg": 8.33,
+                "recent_ppg": 8.33
+              },
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5947",
@@ -2168,41 +2259,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Rome Odunze",
                 "ppg": 4.83,
                 "recent_ppg": 4.83
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "12961",
-              "name": "Ryan Fitzgerald",
-              "position": "K",
-              "team": "CAR",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 327,
-              "weekly_points": {
-                "1": 7.0,
-                "2": 10.0,
-                "3": 15.0
-              },
-              "season_points": 32.0,
-              "games_played": 3,
-              "ppg": 10.67,
-              "recent_ppg": 10.67,
-              "drop_candidate": {
-                "name": "Chris Boswell",
-                "ppg": 6.33,
-                "recent_ppg": 6.33
               },
               "status": "OK"
             },
@@ -2218,12 +2284,12 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Josh Jacobs",
                 "ppg": 0.0,
@@ -2235,9 +2301,9 @@
           "weekly_points": {
             "1": 132.76,
             "2": 104.08,
-            "3": 96.08
+            "3": 115.64
           },
-          "season_points": 332.92
+          "season_points": 352.48
         },
         {
           "roster_id": 2,
@@ -2255,12 +2321,12 @@
               "injury_body_part": null,
               "search_rank": 134,
               "weekly_points": {
-                "3": 8.52
+                "3": 14.64
               },
-              "season_points": 8.52,
+              "season_points": 14.64,
               "games_played": 1,
-              "ppg": 8.52,
-              "recent_ppg": 8.52,
+              "ppg": 14.64,
+              "recent_ppg": 14.64,
               "status": "OK"
             },
             {
@@ -2276,12 +2342,12 @@
               "weekly_points": {
                 "1": 35.3,
                 "2": 17.7,
-                "3": 0.0
+                "3": 20.7
               },
-              "season_points": 53.0,
+              "season_points": 73.7,
               "games_played": 3,
-              "ppg": 17.67,
-              "recent_ppg": 17.67,
+              "ppg": 24.57,
+              "recent_ppg": 24.57,
               "status": "OK"
             },
             {
@@ -2319,12 +2385,12 @@
               "weekly_points": {
                 "1": 3.4,
                 "2": 7.0,
-                "3": 16.5
+                "3": 19.7
               },
-              "season_points": 26.9,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 8.97,
-              "recent_ppg": 8.97,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "status": "OK"
             },
             {
@@ -2340,12 +2406,12 @@
               "weekly_points": {
                 "1": 13.9,
                 "2": 16.7,
-                "3": 18.9
+                "3": 26.7
               },
-              "season_points": 49.5,
+              "season_points": 57.3,
               "games_played": 3,
-              "ppg": 16.5,
-              "recent_ppg": 16.5,
+              "ppg": 19.1,
+              "recent_ppg": 19.1,
               "status": "OK"
             },
             {
@@ -2361,12 +2427,12 @@
               "weekly_points": {
                 "1": 2.6,
                 "2": 20.3,
-                "3": 0.0
+                "3": 9.3
               },
-              "season_points": 22.9,
+              "season_points": 32.2,
               "games_played": 3,
-              "ppg": 7.63,
-              "recent_ppg": 7.63,
+              "ppg": 10.73,
+              "recent_ppg": 10.73,
               "status": "OK"
             },
             {
@@ -2382,12 +2448,12 @@
               "weekly_points": {
                 "1": 37.1,
                 "2": 23.8,
-                "3": 21.6
+                "3": 21.3
               },
-              "season_points": 82.5,
+              "season_points": 82.2,
               "games_played": 3,
-              "ppg": 27.5,
-              "recent_ppg": 27.5,
+              "ppg": 27.4,
+              "recent_ppg": 27.4,
               "status": "OK"
             },
             {
@@ -2403,12 +2469,12 @@
               "weekly_points": {
                 "1": 29.0,
                 "2": 0.0,
-                "3": 0.0
+                "3": 6.9
               },
-              "season_points": 29.0,
+              "season_points": 35.9,
               "games_played": 3,
-              "ppg": 9.67,
-              "recent_ppg": 9.67,
+              "ppg": 11.97,
+              "recent_ppg": 11.97,
               "status": "OK"
             },
             {
@@ -2424,12 +2490,12 @@
               "weekly_points": {
                 "1": 7.0,
                 "2": 10.0,
-                "3": 0.0
+                "3": 7.0
               },
-              "season_points": 17.0,
+              "season_points": 24.0,
               "games_played": 3,
-              "ppg": 5.67,
-              "recent_ppg": 5.67,
+              "ppg": 8.0,
+              "recent_ppg": 8.0,
               "status": "OK"
             },
             {
@@ -2444,12 +2510,12 @@
               "search_rank": 999999,
               "weekly_points": {
                 "1": 12.0,
-                "3": 0.0
+                "3": 13.0
               },
-              "season_points": 12.0,
+              "season_points": 25.0,
               "games_played": 2,
-              "ppg": 6.0,
-              "recent_ppg": 6.0,
+              "ppg": 12.5,
+              "recent_ppg": 12.5,
               "status": "OK"
             }
           ],
@@ -2505,12 +2571,12 @@
               "search_rank": 103,
               "weekly_points": {
                 "2": 10.6,
-                "3": 0.0
+                "3": 20.5
               },
-              "season_points": 10.6,
+              "season_points": 31.1,
               "games_played": 2,
-              "ppg": 5.3,
-              "recent_ppg": 5.3,
+              "ppg": 15.55,
+              "recent_ppg": 15.55,
               "status": "OK"
             },
             {
@@ -2576,16 +2642,17 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 27.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 49.58,
-              "games_played": 2,
-              "ppg": 24.79,
-              "recent_ppg": 24.79,
+              "season_points": 76.5,
+              "games_played": 3,
+              "ppg": 25.5,
+              "recent_ppg": 25.5,
               "drop_candidate": {
                 "name": "Bryce Young",
-                "ppg": 8.52,
-                "recent_ppg": 8.52
+                "ppg": 14.64,
+                "recent_ppg": 14.64
               },
               "status": "OK"
             },
@@ -2601,18 +2668,43 @@
               "weekly_points": {
                 "1": 11.4,
                 "2": 3.7,
-                "3": 19.3
+                "3": 23.5
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
-                "name": "Juwan Johnson",
-                "ppg": 5.3,
-                "recent_ppg": 5.3
+                "name": "Jake Ferguson",
+                "ppg": 10.73,
+                "recent_ppg": 10.73
               },
               "status": "OK"
+            },
+            {
+              "player_id": "12185",
+              "name": "Spencer Shrader",
+              "position": "K",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": "Questionable",
+              "injury_body_part": "Groin",
+              "search_rank": 355,
+              "weekly_points": {
+                "1": 6.0,
+                "2": 14.0,
+                "3": 17.0
+              },
+              "season_points": 37.0,
+              "games_played": 3,
+              "ppg": 12.33,
+              "recent_ppg": 12.33,
+              "drop_candidate": {
+                "name": "Will Reichard",
+                "ppg": 8.0,
+                "recent_ppg": 8.0
+              },
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5947",
@@ -2626,41 +2718,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Puka Nacua",
                 "ppg": 4.13,
                 "recent_ppg": 4.13
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "12961",
-              "name": "Ryan Fitzgerald",
-              "position": "K",
-              "team": "CAR",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 327,
-              "weekly_points": {
-                "1": 7.0,
-                "2": 10.0,
-                "3": 15.0
-              },
-              "season_points": 32.0,
-              "games_played": 3,
-              "ppg": 10.67,
-              "recent_ppg": 10.67,
-              "drop_candidate": {
-                "name": "Will Reichard",
-                "ppg": 5.67,
-                "recent_ppg": 5.67
               },
               "status": "OK"
             },
@@ -2676,12 +2743,12 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Jordan Mason",
                 "ppg": 3.97,
@@ -2693,9 +2760,9 @@
           "weekly_points": {
             "1": 194.16,
             "2": 125.02,
-            "3": 67.22
+            "3": 140.94
           },
-          "season_points": 386.4
+          "season_points": 460.12
         },
         {
           "roster_id": 5,
@@ -2713,12 +2780,12 @@
               "injury_body_part": null,
               "search_rank": 40,
               "weekly_points": {
-                "3": 11.54
+                "3": 17.94
               },
-              "season_points": 11.54,
+              "season_points": 17.94,
               "games_played": 1,
-              "ppg": 11.54,
-              "recent_ppg": 11.54,
+              "ppg": 17.94,
+              "recent_ppg": 17.94,
               "status": "OK"
             },
             {
@@ -2734,12 +2801,12 @@
               "weekly_points": {
                 "1": 8.3,
                 "2": 17.5,
-                "3": 4.9
+                "3": 5.6
               },
-              "season_points": 30.7,
+              "season_points": 31.4,
               "games_played": 3,
-              "ppg": 10.23,
-              "recent_ppg": 10.23,
+              "ppg": 10.47,
+              "recent_ppg": 10.47,
               "status": "OK"
             },
             {
@@ -2755,12 +2822,12 @@
               "weekly_points": {
                 "1": 14.1,
                 "2": 9.5,
-                "3": 12.5
+                "3": 13.0
               },
-              "season_points": 36.1,
+              "season_points": 36.6,
               "games_played": 3,
-              "ppg": 12.03,
-              "recent_ppg": 12.03,
+              "ppg": 12.2,
+              "recent_ppg": 12.2,
               "status": "OK"
             },
             {
@@ -2839,12 +2906,12 @@
               "weekly_points": {
                 "1": 23.7,
                 "2": 14.4,
-                "3": 11.0
+                "3": 15.0
               },
-              "season_points": 49.1,
+              "season_points": 53.1,
               "games_played": 3,
-              "ppg": 16.37,
-              "recent_ppg": 16.37,
+              "ppg": 17.7,
+              "recent_ppg": 17.7,
               "status": "OK"
             },
             {
@@ -2860,12 +2927,12 @@
               "weekly_points": {
                 "1": 22.0,
                 "2": -0.1,
-                "3": 10.1
+                "3": 12.7
               },
-              "season_points": 32.0,
+              "season_points": 34.6,
               "games_played": 3,
-              "ppg": 10.67,
-              "recent_ppg": 10.67,
+              "ppg": 11.53,
+              "recent_ppg": 11.53,
               "status": "OK"
             },
             {
@@ -2881,12 +2948,12 @@
               "weekly_points": {
                 "1": 2.0,
                 "2": 1.0,
-                "3": 6.0
+                "3": 9.0
               },
-              "season_points": 9.0,
+              "season_points": 12.0,
               "games_played": 3,
-              "ppg": 3.0,
-              "recent_ppg": 3.0,
+              "ppg": 4.0,
+              "recent_ppg": 4.0,
               "status": "OK"
             },
             {
@@ -2902,12 +2969,12 @@
               "weekly_points": {
                 "1": 6.0,
                 "2": 23.0,
-                "3": 2.0
+                "3": -1.0
               },
-              "season_points": 31.0,
+              "season_points": 28.0,
               "games_played": 3,
-              "ppg": 10.33,
-              "recent_ppg": 10.33,
+              "ppg": 9.33,
+              "recent_ppg": 9.33,
               "status": "OK"
             }
           ],
@@ -2924,12 +2991,12 @@
               "weekly_points": {
                 "1": 19.2,
                 "2": 6.5,
-                "3": 6.7
+                "3": 10.6
               },
-              "season_points": 32.4,
+              "season_points": 36.3,
               "games_played": 3,
-              "ppg": 10.8,
-              "recent_ppg": 10.8,
+              "ppg": 12.1,
+              "recent_ppg": 12.1,
               "status": "OK"
             },
             {
@@ -2964,12 +3031,12 @@
               "weekly_points": {
                 "1": 15.5,
                 "2": 21.7,
-                "3": 3.9
+                "3": 7.3
               },
-              "season_points": 41.1,
+              "season_points": 44.5,
               "games_played": 3,
-              "ppg": 13.7,
-              "recent_ppg": 13.7,
+              "ppg": 14.83,
+              "recent_ppg": 14.83,
               "status": "OK"
             },
             {
@@ -2984,12 +3051,12 @@
               "weekly_points": {
                 "1": 4.4,
                 "2": 7.5,
-                "3": 10.2
+                "3": 13.6
               },
-              "season_points": 22.1,
+              "season_points": 25.5,
               "games_played": 3,
-              "ppg": 7.37,
-              "recent_ppg": 7.37,
+              "ppg": 8.5,
+              "recent_ppg": 8.5,
               "status": "OK"
             }
           ],
@@ -3007,16 +3074,17 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 27.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 49.58,
-              "games_played": 2,
-              "ppg": 24.79,
-              "recent_ppg": 24.79,
+              "season_points": 76.5,
+              "games_played": 3,
+              "ppg": 25.5,
+              "recent_ppg": 25.5,
               "drop_candidate": {
                 "name": "Patrick Mahomes",
-                "ppg": 11.54,
-                "recent_ppg": 11.54
+                "ppg": 17.94,
+                "recent_ppg": 17.94
               },
               "status": "OK"
             },
@@ -3032,18 +3100,43 @@
               "weekly_points": {
                 "1": 11.4,
                 "2": 3.7,
-                "3": 19.3
+                "3": 23.5
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "Tucker Kraft",
                 "ppg": 6.53,
                 "recent_ppg": 6.53
               },
               "status": "OK"
+            },
+            {
+              "player_id": "12185",
+              "name": "Spencer Shrader",
+              "position": "K",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": "Questionable",
+              "injury_body_part": "Groin",
+              "search_rank": 355,
+              "weekly_points": {
+                "1": 6.0,
+                "2": 14.0,
+                "3": 17.0
+              },
+              "season_points": 37.0,
+              "games_played": 3,
+              "ppg": 12.33,
+              "recent_ppg": 12.33,
+              "drop_candidate": {
+                "name": "Cameron Dicker",
+                "ppg": 4.0,
+                "recent_ppg": 4.0
+              },
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5947",
@@ -3057,41 +3150,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "DJ Moore",
-                "ppg": 10.67,
-                "recent_ppg": 10.67
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "12961",
-              "name": "Ryan Fitzgerald",
-              "position": "K",
-              "team": "CAR",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 327,
-              "weekly_points": {
-                "1": 7.0,
-                "2": 10.0,
-                "3": 15.0
-              },
-              "season_points": 32.0,
-              "games_played": 3,
-              "ppg": 10.67,
-              "recent_ppg": 10.67,
-              "drop_candidate": {
-                "name": "Cameron Dicker",
-                "ppg": 3.0,
-                "recent_ppg": 3.0
+                "ppg": 11.53,
+                "recent_ppg": 11.53
               },
               "status": "OK"
             },
@@ -3107,16 +3175,16 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Tony Pollard",
-                "ppg": 7.37,
-                "recent_ppg": 7.37
+                "ppg": 8.5,
+                "recent_ppg": 8.5
               },
               "status": "QUESTIONABLE"
             }
@@ -3124,9 +3192,9 @@
           "weekly_points": {
             "1": 142.0,
             "2": 144.3,
-            "3": 76.54
+            "3": 90.74
           },
-          "season_points": 362.84
+          "season_points": 377.04
         },
         {
           "roster_id": 6,
@@ -3146,12 +3214,12 @@
               "weekly_points": {
                 "1": 15.4,
                 "2": 29.76,
-                "3": 0.0
+                "3": 12.94
               },
-              "season_points": 45.16,
+              "season_points": 58.1,
               "games_played": 3,
-              "ppg": 15.05,
-              "recent_ppg": 15.05,
+              "ppg": 19.37,
+              "recent_ppg": 19.37,
               "status": "OK"
             },
             {
@@ -3167,12 +3235,12 @@
               "weekly_points": {
                 "1": 33.6,
                 "2": 23.3,
-                "3": 31.8
+                "3": 41.4
               },
-              "season_points": 88.7,
+              "season_points": 98.3,
               "games_played": 3,
-              "ppg": 29.57,
-              "recent_ppg": 29.57,
+              "ppg": 32.77,
+              "recent_ppg": 32.77,
               "status": "OK"
             },
             {
@@ -3209,12 +3277,12 @@
               "weekly_points": {
                 "1": 5.8,
                 "2": 10.0,
-                "3": 0.0
+                "3": 12.6
               },
-              "season_points": 15.8,
+              "season_points": 28.4,
               "games_played": 3,
-              "ppg": 5.27,
-              "recent_ppg": 5.27,
+              "ppg": 9.47,
+              "recent_ppg": 9.47,
               "status": "OK"
             },
             {
@@ -3272,12 +3340,12 @@
               "weekly_points": {
                 "1": 0.0,
                 "2": 0.0,
-                "3": 0.0
+                "3": 20.2
               },
-              "season_points": 0.0,
+              "season_points": 20.2,
               "games_played": 3,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 6.73,
+              "recent_ppg": 6.73,
               "status": "OK"
             },
             {
@@ -3352,12 +3420,12 @@
               "weekly_points": {
                 "1": 0.0,
                 "2": 6.0,
-                "3": 9.0
+                "3": 13.0
               },
-              "season_points": 15.0,
+              "season_points": 19.0,
               "games_played": 3,
-              "ppg": 5.0,
-              "recent_ppg": 5.0,
+              "ppg": 6.33,
+              "recent_ppg": 6.33,
               "status": "OK"
             }
           ],
@@ -3434,12 +3502,12 @@
               "weekly_points": {
                 "1": 0.0,
                 "2": 4.1,
-                "3": 0.0
+                "3": 17.5
               },
-              "season_points": 4.1,
+              "season_points": 21.6,
               "games_played": 3,
-              "ppg": 1.37,
-              "recent_ppg": 1.37,
+              "ppg": 7.2,
+              "recent_ppg": 7.2,
               "status": "OK"
             }
           ],
@@ -3465,16 +3533,17 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 27.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 49.58,
-              "games_played": 2,
-              "ppg": 24.79,
-              "recent_ppg": 24.79,
+              "season_points": 76.5,
+              "games_played": 3,
+              "ppg": 25.5,
+              "recent_ppg": 25.5,
               "drop_candidate": {
                 "name": "Dak Prescott",
-                "ppg": 15.05,
-                "recent_ppg": 15.05
+                "ppg": 19.37,
+                "recent_ppg": 19.37
               },
               "status": "OK"
             },
@@ -3490,18 +3559,43 @@
               "weekly_points": {
                 "1": 11.4,
                 "2": 3.7,
-                "3": 19.3
+                "3": 23.5
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "Brock Bowers",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
+                "ppg": 6.73,
+                "recent_ppg": 6.73
               },
               "status": "OK"
+            },
+            {
+              "player_id": "12185",
+              "name": "Spencer Shrader",
+              "position": "K",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": "Questionable",
+              "injury_body_part": "Groin",
+              "search_rank": 355,
+              "weekly_points": {
+                "1": 6.0,
+                "2": 14.0,
+                "3": 17.0
+              },
+              "season_points": 37.0,
+              "games_played": 3,
+              "ppg": 12.33,
+              "recent_ppg": 12.33,
+              "drop_candidate": {
+                "name": "Harrison Butker",
+                "ppg": 9.33,
+                "recent_ppg": 9.33
+              },
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5947",
@@ -3515,41 +3609,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Jordan Addison",
-                "ppg": 1.37,
-                "recent_ppg": 1.37
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "12961",
-              "name": "Ryan Fitzgerald",
-              "position": "K",
-              "team": "CAR",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 327,
-              "weekly_points": {
-                "1": 7.0,
-                "2": 10.0,
-                "3": 15.0
-              },
-              "season_points": 32.0,
-              "games_played": 3,
-              "ppg": 10.67,
-              "recent_ppg": 10.67,
-              "drop_candidate": {
-                "name": "Harrison Butker",
-                "ppg": 9.33,
-                "recent_ppg": 9.33
+                "ppg": 7.2,
+                "recent_ppg": 7.2
               },
               "status": "OK"
             },
@@ -3565,12 +3634,12 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Jonah Coleman",
                 "ppg": 0.0,
@@ -3582,9 +3651,9 @@
           "weekly_points": {
             "1": 149.1,
             "2": 134.06,
-            "3": 55.9
+            "3": 115.24
           },
-          "season_points": 339.06
+          "season_points": 398.4
         },
         {
           "roster_id": 1,
@@ -3604,12 +3673,12 @@
               "weekly_points": {
                 "1": 32.96,
                 "2": 16.8,
-                "3": 0.0
+                "3": 11.96
               },
-              "season_points": 49.76,
+              "season_points": 61.72,
               "games_played": 3,
-              "ppg": 16.59,
-              "recent_ppg": 16.59,
+              "ppg": 20.57,
+              "recent_ppg": 20.57,
               "status": "OK"
             },
             {
@@ -3625,12 +3694,12 @@
               "weekly_points": {
                 "1": 25.1,
                 "2": 29.2,
-                "3": 7.8
+                "3": 9.2
               },
-              "season_points": 62.1,
+              "season_points": 63.5,
               "games_played": 3,
-              "ppg": 20.7,
-              "recent_ppg": 20.7,
+              "ppg": 21.17,
+              "recent_ppg": 21.17,
               "status": "OK"
             },
             {
@@ -3646,12 +3715,12 @@
               "weekly_points": {
                 "1": 18.8,
                 "2": 11.2,
-                "3": 8.3
+                "3": 8.9
               },
-              "season_points": 38.3,
+              "season_points": 38.9,
               "games_played": 3,
-              "ppg": 12.77,
-              "recent_ppg": 12.77,
+              "ppg": 12.97,
+              "recent_ppg": 12.97,
               "status": "OK"
             },
             {
@@ -3688,12 +3757,12 @@
               "weekly_points": {
                 "1": 11.3,
                 "2": 10.3,
-                "3": 0.0
+                "3": 11.2
               },
-              "season_points": 21.6,
+              "season_points": 32.8,
               "games_played": 3,
-              "ppg": 7.2,
-              "recent_ppg": 7.2,
+              "ppg": 10.93,
+              "recent_ppg": 10.93,
               "status": "OK"
             },
             {
@@ -3709,12 +3778,12 @@
               "weekly_points": {
                 "1": 10.1,
                 "2": 25.1,
-                "3": 5.8
+                "3": 13.9
               },
-              "season_points": 41.0,
+              "season_points": 49.1,
               "games_played": 3,
-              "ppg": 13.67,
-              "recent_ppg": 13.67,
+              "ppg": 16.37,
+              "recent_ppg": 16.37,
               "status": "OK"
             },
             {
@@ -3724,8 +3793,8 @@
               "position": "RB",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Thigh",
               "search_rank": 27,
               "weekly_points": {
                 "1": 19.8,
@@ -3736,7 +3805,26 @@
               "games_played": 3,
               "ppg": 14.17,
               "recent_ppg": 14.17,
-              "status": "OK"
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "12490",
+                "name": "Bhayshul Tuten",
+                "position": "RB",
+                "team": "JAX",
+                "bye_week": 7,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 44,
+                "weekly_points": {
+                  "1": 9.8,
+                  "2": 14.2,
+                  "3": 17.0
+                },
+                "season_points": 41.0,
+                "games_played": 3,
+                "ppg": 13.67,
+                "recent_ppg": 13.67
+              }
             },
             {
               "slot": "FLEX",
@@ -3772,12 +3860,12 @@
               "weekly_points": {
                 "1": 1.0,
                 "2": 17.0,
-                "3": 0.0
+                "3": 6.0
               },
-              "season_points": 18.0,
+              "season_points": 24.0,
               "games_played": 3,
-              "ppg": 6.0,
-              "recent_ppg": 6.0,
+              "ppg": 8.0,
+              "recent_ppg": 8.0,
               "status": "OK"
             },
             {
@@ -3815,12 +3903,12 @@
               "weekly_points": {
                 "1": 9.8,
                 "2": 14.2,
-                "3": 8.9
+                "3": 17.0
               },
-              "season_points": 32.9,
+              "season_points": 41.0,
               "games_played": 3,
-              "ppg": 10.97,
-              "recent_ppg": 10.97,
+              "ppg": 13.67,
+              "recent_ppg": 13.67,
               "status": "OK"
             },
             {
@@ -3835,12 +3923,12 @@
               "weekly_points": {
                 "1": 12.6,
                 "2": 5.8,
-                "3": 5.1
+                "3": 5.3
               },
-              "season_points": 23.5,
+              "season_points": 23.7,
               "games_played": 3,
-              "ppg": 7.83,
-              "recent_ppg": 7.83,
+              "ppg": 7.9,
+              "recent_ppg": 7.9,
               "status": "OK"
             },
             {
@@ -3853,12 +3941,12 @@
               "injury_body_part": null,
               "search_rank": 113,
               "weekly_points": {
-                "3": 1.3
+                "3": 1.7
               },
-              "season_points": 1.3,
+              "season_points": 1.7,
               "games_played": 1,
-              "ppg": 1.3,
-              "recent_ppg": 1.3,
+              "ppg": 1.7,
+              "recent_ppg": 1.7,
               "status": "OK"
             },
             {
@@ -3873,17 +3961,25 @@
               "weekly_points": {
                 "1": 8.3,
                 "2": 8.8,
-                "3": 0.0
+                "3": 5.5
               },
-              "season_points": 17.1,
+              "season_points": 22.6,
               "games_played": 3,
-              "ppg": 5.7,
-              "recent_ppg": 5.7,
+              "ppg": 7.53,
+              "recent_ppg": 7.53,
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "FLEX",
+              "player_name": "Breece Hall",
+              "status": "OUT",
+              "detail": "Thigh",
+              "suggested_swap": "Bhayshul Tuten"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "12545",
@@ -3896,39 +3992,65 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 27.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 49.58,
-              "games_played": 2,
-              "ppg": 24.79,
-              "recent_ppg": 24.79,
+              "season_points": 76.5,
+              "games_played": 3,
+              "ppg": 25.5,
+              "recent_ppg": 25.5,
               "drop_candidate": {
                 "name": "Lamar Jackson",
-                "ppg": 16.59,
-                "recent_ppg": 16.59
+                "ppg": 20.57,
+                "recent_ppg": 20.57
               },
               "status": "OK"
             },
             {
-              "player_id": "6804",
-              "name": "Jordan Love",
+              "player_id": "3163",
+              "name": "Jared Goff",
               "position": "QB",
-              "team": "GB",
-              "bye_week": 11,
+              "team": "DET",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 69,
+              "search_rank": 61,
               "weekly_points": {
-                "1": 28.48,
-                "2": 13.8,
-                "3": 20.48
+                "1": 16.44,
+                "2": 29.78,
+                "3": 20.36
               },
-              "season_points": 62.76,
+              "season_points": 66.58,
               "games_played": 3,
-              "ppg": 20.92,
-              "recent_ppg": 20.92,
+              "ppg": 22.19,
+              "recent_ppg": 22.19,
               "drop_candidate": null,
               "status": "OK"
+            },
+            {
+              "player_id": "12185",
+              "name": "Spencer Shrader",
+              "position": "K",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": "Questionable",
+              "injury_body_part": "Groin",
+              "search_rank": 355,
+              "weekly_points": {
+                "1": 6.0,
+                "2": 14.0,
+                "3": 17.0
+              },
+              "season_points": 37.0,
+              "games_played": 3,
+              "ppg": 12.33,
+              "recent_ppg": 12.33,
+              "drop_candidate": {
+                "name": "Brandon Aubrey",
+                "ppg": 8.0,
+                "recent_ppg": 8.0
+              },
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5947",
@@ -3942,41 +4064,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Chris Godwin",
-                "ppg": 5.7,
-                "recent_ppg": 5.7
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "12961",
-              "name": "Ryan Fitzgerald",
-              "position": "K",
-              "team": "CAR",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 327,
-              "weekly_points": {
-                "1": 7.0,
-                "2": 10.0,
-                "3": 15.0
-              },
-              "season_points": 32.0,
-              "games_played": 3,
-              "ppg": 10.67,
-              "recent_ppg": 10.67,
-              "drop_candidate": {
-                "name": "Brandon Aubrey",
-                "ppg": 6.0,
-                "recent_ppg": 6.0
+                "ppg": 7.53,
+                "recent_ppg": 7.53
               },
               "status": "OK"
             },
@@ -3992,16 +4089,16 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Emmett Johnson",
-                "ppg": 1.3,
-                "recent_ppg": 1.3
+                "ppg": 1.7,
+                "recent_ppg": 1.7
               },
               "status": "QUESTIONABLE"
             }
@@ -4009,9 +4106,9 @@
           "weekly_points": {
             "1": 177.96,
             "2": 153.7,
-            "3": 53.0
+            "3": 92.26
           },
-          "season_points": 384.66
+          "season_points": 423.92
         },
         {
           "roster_id": 3,
@@ -4031,12 +4128,12 @@
               "weekly_points": {
                 "1": 39.66,
                 "2": 43.82,
-                "3": 10.52
+                "3": 19.46
               },
-              "season_points": 94.0,
+              "season_points": 102.94,
               "games_played": 3,
-              "ppg": 31.33,
-              "recent_ppg": 31.33,
+              "ppg": 34.31,
+              "recent_ppg": 34.31,
               "status": "OK"
             },
             {
@@ -4067,19 +4164,20 @@
               "position": "RB",
               "team": "NO",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 34,
               "weekly_points": {
                 "1": 14.8,
                 "2": 7.1,
-                "3": 0.0
+                "3": 9.0
               },
-              "season_points": 21.9,
+              "season_points": 30.9,
               "games_played": 3,
-              "ppg": 7.3,
-              "recent_ppg": 7.3,
-              "status": "OK"
+              "ppg": 10.3,
+              "recent_ppg": 10.3,
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "WR",
@@ -4092,12 +4190,12 @@
               "injury_body_part": null,
               "search_rank": 203,
               "weekly_points": {
-                "3": 0.0
+                "3": 5.7
               },
-              "season_points": 0.0,
+              "season_points": 5.7,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 5.7,
+              "recent_ppg": 5.7,
               "status": "OK"
             },
             {
@@ -4113,12 +4211,12 @@
               "weekly_points": {
                 "1": 9.9,
                 "2": 12.3,
-                "3": 8.9
+                "3": 15.8
               },
-              "season_points": 31.1,
+              "season_points": 38.0,
               "games_played": 3,
-              "ppg": 10.37,
-              "recent_ppg": 10.37,
+              "ppg": 12.67,
+              "recent_ppg": 12.67,
               "status": "OK"
             },
             {
@@ -4133,12 +4231,12 @@
               "search_rank": 98,
               "weekly_points": {
                 "2": 26.0,
-                "3": 3.3
+                "3": 6.0
               },
-              "season_points": 29.3,
+              "season_points": 32.0,
               "games_played": 2,
-              "ppg": 14.65,
-              "recent_ppg": 14.65,
+              "ppg": 16.0,
+              "recent_ppg": 16.0,
               "status": "OK"
             },
             {
@@ -4172,12 +4270,12 @@
               "search_rank": 209,
               "weekly_points": {
                 "2": 11.4,
-                "3": 0.0
+                "3": 6.9
               },
-              "season_points": 11.4,
+              "season_points": 18.3,
               "games_played": 2,
-              "ppg": 5.7,
-              "recent_ppg": 5.7,
+              "ppg": 9.15,
+              "recent_ppg": 9.15,
               "status": "OK"
             },
             {
@@ -4191,12 +4289,12 @@
               "injury_body_part": null,
               "search_rank": 199,
               "weekly_points": {
-                "3": 0.0
+                "3": 7.0
               },
-              "season_points": 0.0,
+              "season_points": 7.0,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 7.0,
+              "recent_ppg": 7.0,
               "status": "OK"
             },
             {
@@ -4210,12 +4308,12 @@
               "injury_body_part": null,
               "search_rank": 999999,
               "weekly_points": {
-                "3": 7.0
+                "3": 5.0
               },
-              "season_points": 7.0,
+              "season_points": 5.0,
               "games_played": 1,
-              "ppg": 7.0,
-              "recent_ppg": 7.0,
+              "ppg": 5.0,
+              "recent_ppg": 5.0,
               "status": "OK"
             }
           ],
@@ -4308,17 +4406,25 @@
               "injury_body_part": null,
               "search_rank": 999999,
               "weekly_points": {
-                "3": 0.0
+                "3": 2.0
               },
-              "season_points": 0.0,
+              "season_points": 2.0,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 2.0,
+              "recent_ppg": 2.0,
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "RB",
+              "player_name": "Travis Etienne",
+              "status": "QUESTIONABLE",
+              "detail": "Undisclosed",
+              "suggested_swap": null
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "12545",
@@ -4331,12 +4437,13 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 27.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 49.58,
-              "games_played": 2,
-              "ppg": 24.79,
-              "recent_ppg": 24.79,
+              "season_points": 76.5,
+              "games_played": 3,
+              "ppg": 25.5,
+              "recent_ppg": 25.5,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -4352,18 +4459,43 @@
               "weekly_points": {
                 "1": 11.4,
                 "2": 3.7,
-                "3": 19.3
+                "3": 23.5
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "Kyle Pitts",
                 "ppg": 1.33,
                 "recent_ppg": 1.33
               },
               "status": "OK"
+            },
+            {
+              "player_id": "12185",
+              "name": "Spencer Shrader",
+              "position": "K",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": "Questionable",
+              "injury_body_part": "Groin",
+              "search_rank": 355,
+              "weekly_points": {
+                "1": 6.0,
+                "2": 14.0,
+                "3": 17.0
+              },
+              "season_points": 37.0,
+              "games_played": 3,
+              "ppg": 12.33,
+              "recent_ppg": 12.33,
+              "drop_candidate": {
+                "name": "Chase McLaughlin",
+                "ppg": 7.0,
+                "recent_ppg": 7.0
+              },
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5947",
@@ -4377,39 +4509,14 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
-                "name": "Rashod Bateman",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "12961",
-              "name": "Ryan Fitzgerald",
-              "position": "K",
-              "team": "CAR",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 327,
-              "weekly_points": {
-                "1": 7.0,
-                "2": 10.0,
-                "3": 15.0
-              },
-              "season_points": 32.0,
-              "games_played": 3,
-              "ppg": 10.67,
-              "recent_ppg": 10.67,
-              "drop_candidate": {
-                "name": "Chase McLaughlin",
+                "name": "Adonai Mitchell",
                 "ppg": 0.0,
                 "recent_ppg": 0.0
               },
@@ -4427,12 +4534,12 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Rico Dowdle",
                 "ppg": 3.5,
@@ -4444,9 +4551,9 @@
           "weekly_points": {
             "1": 110.56,
             "2": 132.42,
-            "3": 42.42
+            "3": 87.56
           },
-          "season_points": 285.4
+          "season_points": 330.54
         }
       ]
     },
@@ -4506,12 +4613,12 @@
               "weekly_points": {
                 "1": 24.2,
                 "2": 8.0,
-                "3": 0.0
+                "3": 18.1
               },
-              "season_points": 32.2,
+              "season_points": 50.3,
               "games_played": 3,
-              "ppg": 10.73,
-              "recent_ppg": 10.73,
+              "ppg": 16.77,
+              "recent_ppg": 16.77,
               "status": "OK"
             },
             {
@@ -4527,12 +4634,12 @@
               "weekly_points": {
                 "1": 10.3,
                 "2": 9.7,
-                "3": 16.4
+                "3": 20.6
               },
-              "season_points": 36.4,
+              "season_points": 40.6,
               "games_played": 3,
-              "ppg": 12.13,
-              "recent_ppg": 12.13,
+              "ppg": 13.53,
+              "recent_ppg": 13.53,
               "status": "OK"
             },
             {
@@ -4548,12 +4655,12 @@
               "weekly_points": {
                 "1": 26.2,
                 "2": 42.5,
-                "3": 15.7
+                "3": 35.36
               },
-              "season_points": 84.4,
+              "season_points": 104.06,
               "games_played": 3,
-              "ppg": 28.13,
-              "recent_ppg": 28.13,
+              "ppg": 34.69,
+              "recent_ppg": 34.69,
               "status": "OK"
             },
             {
@@ -4590,12 +4697,12 @@
               "weekly_points": {
                 "1": 0.0,
                 "2": 0.0,
-                "3": 0.0
+                "3": 20.2
               },
-              "season_points": 0.0,
+              "season_points": 20.2,
               "games_played": 3,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 6.73,
+              "recent_ppg": 6.73,
               "status": "OK"
             },
             {
@@ -4652,12 +4759,12 @@
               "search_rank": 239,
               "weekly_points": {
                 "2": 8.0,
-                "3": 0.0
+                "3": 11.0
               },
-              "season_points": 8.0,
+              "season_points": 19.0,
               "games_played": 2,
-              "ppg": 4.0,
-              "recent_ppg": 4.0,
+              "ppg": 9.5,
+              "recent_ppg": 9.5,
               "status": "OK"
             },
             {
@@ -4673,12 +4780,12 @@
               "weekly_points": {
                 "1": 13.0,
                 "2": 8.0,
-                "3": 1.0
+                "3": 2.0
               },
-              "season_points": 22.0,
+              "season_points": 23.0,
               "games_played": 3,
-              "ppg": 7.33,
-              "recent_ppg": 7.33,
+              "ppg": 7.67,
+              "recent_ppg": 7.67,
               "status": "OK"
             }
           ],
@@ -4773,12 +4880,12 @@
               "weekly_points": {
                 "1": 14.4,
                 "2": 10.6,
-                "3": 0.0
+                "3": 20.5
               },
-              "season_points": 25.0,
+              "season_points": 45.5,
               "games_played": 3,
-              "ppg": 8.33,
-              "recent_ppg": 8.33,
+              "ppg": 15.17,
+              "recent_ppg": 15.17,
               "status": "OK"
             }
           ],
@@ -4796,12 +4903,13 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 25.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 47.58,
-              "games_played": 2,
-              "ppg": 23.79,
-              "recent_ppg": 23.79,
+              "season_points": 74.5,
+              "games_played": 3,
+              "ppg": 24.83,
+              "recent_ppg": 24.83,
               "drop_candidate": {
                 "name": "Drake Maye",
                 "ppg": 9.2,
@@ -4820,41 +4928,42 @@
               "search_rank": 199,
               "weekly_points": {
                 "1": 11.0,
-                "2": 16.0
+                "2": 16.0,
+                "3": 12.0
               },
-              "season_points": 27.0,
-              "games_played": 2,
-              "ppg": 13.5,
-              "recent_ppg": 13.5,
+              "season_points": 39.0,
+              "games_played": 3,
+              "ppg": 13.0,
+              "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Matt Gay",
-                "ppg": 4.0,
-                "recent_ppg": 4.0
+                "ppg": 9.5,
+                "recent_ppg": 9.5
               },
               "status": "OK"
             },
             {
-              "player_id": "13330",
-              "name": "Kenyon Sadiq",
+              "player_id": "12506",
+              "name": "Harold Fannin",
               "position": "TE",
-              "team": "NYJ",
-              "bye_week": 13,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 109,
+              "search_rank": 63,
               "weekly_points": {
-                "1": 11.4,
-                "2": 3.7,
-                "3": 19.3
+                "1": 4.1,
+                "2": 10.4,
+                "3": 24.1
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "Brock Bowers",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
+                "ppg": 6.73,
+                "recent_ppg": 6.73
               },
               "status": "OK"
             },
@@ -4870,12 +4979,12 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "A.J. Brown",
                 "ppg": 1.87,
@@ -4895,12 +5004,12 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Jonah Coleman",
                 "ppg": 0.0,
@@ -4912,9 +5021,9 @@
           "weekly_points": {
             "1": 113.72,
             "2": 114.22,
-            "3": 49.46
+            "3": 123.62
           },
-          "season_points": 277.4
+          "season_points": 351.56
         },
         {
           "roster_id": 10,
@@ -4934,12 +5043,12 @@
               "weekly_points": {
                 "1": 14.26,
                 "2": 9.88,
-                "3": 10.68
+                "3": 13.74
               },
-              "season_points": 34.82,
+              "season_points": 37.88,
               "games_played": 3,
-              "ppg": 11.61,
-              "recent_ppg": 11.61,
+              "ppg": 12.63,
+              "recent_ppg": 12.63,
               "status": "OK"
             },
             {
@@ -4955,12 +5064,12 @@
               "weekly_points": {
                 "1": 33.6,
                 "2": 23.3,
-                "3": 31.8
+                "3": 41.4
               },
-              "season_points": 88.7,
+              "season_points": 98.3,
               "games_played": 3,
-              "ppg": 29.57,
-              "recent_ppg": 29.57,
+              "ppg": 32.77,
+              "recent_ppg": 32.77,
               "status": "OK"
             },
             {
@@ -4976,12 +5085,12 @@
               "weekly_points": {
                 "1": 34.1,
                 "2": 23.8,
-                "3": 21.6
+                "3": 21.3
               },
-              "season_points": 79.5,
+              "season_points": 79.2,
               "games_played": 3,
-              "ppg": 26.5,
-              "recent_ppg": 26.5,
+              "ppg": 26.4,
+              "recent_ppg": 26.4,
               "status": "OK"
             },
             {
@@ -5038,12 +5147,12 @@
               "search_rank": 97,
               "weekly_points": {
                 "1": 2.6,
-                "3": 0.0
+                "3": 9.3
               },
-              "season_points": 2.6,
+              "season_points": 11.9,
               "games_played": 2,
-              "ppg": 1.3,
-              "recent_ppg": 1.3,
+              "ppg": 5.95,
+              "recent_ppg": 5.95,
               "status": "OK"
             },
             {
@@ -5080,12 +5189,12 @@
               "weekly_points": {
                 "1": 14.1,
                 "2": 9.5,
-                "3": 12.5
+                "3": 13.0
               },
-              "season_points": 36.1,
+              "season_points": 36.6,
               "games_played": 3,
-              "ppg": 12.03,
-              "recent_ppg": 12.03,
+              "ppg": 12.2,
+              "recent_ppg": 12.2,
               "status": "OK"
             },
             {
@@ -5101,12 +5210,12 @@
               "weekly_points": {
                 "1": 7.0,
                 "2": 7.0,
-                "3": 7.0
+                "3": 9.0
               },
-              "season_points": 21.0,
+              "season_points": 23.0,
               "games_played": 3,
-              "ppg": 7.0,
-              "recent_ppg": 7.0,
+              "ppg": 7.67,
+              "recent_ppg": 7.67,
               "status": "OK"
             },
             {
@@ -5121,12 +5230,12 @@
               "search_rank": 999999,
               "weekly_points": {
                 "2": 9.0,
-                "3": 0.0
+                "3": 3.0
               },
-              "season_points": 9.0,
+              "season_points": 12.0,
               "games_played": 2,
-              "ppg": 4.5,
-              "recent_ppg": 4.5,
+              "ppg": 6.0,
+              "recent_ppg": 6.0,
               "status": "OK"
             }
           ],
@@ -5141,12 +5250,12 @@
               "injury_body_part": null,
               "search_rank": 185,
               "weekly_points": {
-                "3": 0.0
+                "3": 5.8
               },
-              "season_points": 0.0,
+              "season_points": 5.8,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 5.8,
+              "recent_ppg": 5.8,
               "status": "OK"
             },
             {
@@ -5161,12 +5270,12 @@
               "weekly_points": {
                 "1": 7.8,
                 "2": 5.7,
-                "3": 10.2
+                "3": 11.8
               },
-              "season_points": 23.7,
+              "season_points": 25.3,
               "games_played": 3,
-              "ppg": 7.9,
-              "recent_ppg": 7.9,
+              "ppg": 8.43,
+              "recent_ppg": 8.43,
               "status": "OK"
             },
             {
@@ -5197,12 +5306,12 @@
               "injury_body_part": null,
               "search_rank": 134,
               "weekly_points": {
-                "3": 8.28
+                "3": 14.64
               },
-              "season_points": 8.28,
+              "season_points": 14.64,
               "games_played": 1,
-              "ppg": 8.28,
-              "recent_ppg": 8.28,
+              "ppg": 14.64,
+              "recent_ppg": 14.64,
               "status": "OK"
             }
           ],
@@ -5220,36 +5329,38 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 25.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 47.58,
-              "games_played": 2,
-              "ppg": 23.79,
-              "recent_ppg": 23.79,
+              "season_points": 74.5,
+              "games_played": 3,
+              "ppg": 24.83,
+              "recent_ppg": 24.83,
               "drop_candidate": {
-                "name": "Bryce Young",
-                "ppg": 8.28,
-                "recent_ppg": 8.28
+                "name": "Justin Herbert",
+                "ppg": 12.63,
+                "recent_ppg": 12.63
               },
               "status": "OK"
             },
             {
-              "player_id": "1166",
-              "name": "Kirk Cousins",
+              "player_id": "4017",
+              "name": "Deshaun Watson",
               "position": "QB",
-              "team": "LV",
-              "bye_week": 13,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 274,
+              "search_rank": 294,
               "weekly_points": {
-                "1": 15.8,
-                "2": 21.22
+                "1": 15.0,
+                "2": 19.72,
+                "3": 20.26
               },
-              "season_points": 37.02,
-              "games_played": 2,
-              "ppg": 18.51,
-              "recent_ppg": 18.51,
+              "season_points": 54.98,
+              "games_played": 3,
+              "ppg": 18.33,
+              "recent_ppg": 18.33,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -5264,41 +5375,42 @@
               "search_rank": 199,
               "weekly_points": {
                 "1": 11.0,
-                "2": 16.0
+                "2": 16.0,
+                "3": 12.0
               },
-              "season_points": 27.0,
-              "games_played": 2,
-              "ppg": 13.5,
-              "recent_ppg": 13.5,
+              "season_points": 39.0,
+              "games_played": 3,
+              "ppg": 13.0,
+              "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Jason Myers",
-                "ppg": 7.0,
-                "recent_ppg": 7.0
+                "ppg": 7.67,
+                "recent_ppg": 7.67
               },
               "status": "OK"
             },
             {
-              "player_id": "13330",
-              "name": "Kenyon Sadiq",
+              "player_id": "12506",
+              "name": "Harold Fannin",
               "position": "TE",
-              "team": "NYJ",
-              "bye_week": 13,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 109,
+              "search_rank": 63,
               "weekly_points": {
-                "1": 11.4,
-                "2": 3.7,
-                "3": 19.3
+                "1": 4.1,
+                "2": 10.4,
+                "3": 24.1
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "Jake Ferguson",
-                "ppg": 1.3,
-                "recent_ppg": 1.3
+                "ppg": 5.95,
+                "recent_ppg": 5.95
               },
               "status": "OK"
             },
@@ -5314,12 +5426,12 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Darius Slayton",
                 "ppg": 0.0,
@@ -5331,9 +5443,9 @@
           "weekly_points": {
             "1": 145.46,
             "2": 134.38,
-            "3": 109.88
+            "3": 137.04
           },
-          "season_points": 389.72
+          "season_points": 416.88
         },
         {
           "roster_id": 8,
@@ -5353,12 +5465,12 @@
               "weekly_points": {
                 "1": 22.1,
                 "2": 28.48,
-                "3": 0.0
+                "3": 22.64
               },
-              "season_points": 50.58,
+              "season_points": 73.22,
               "games_played": 3,
-              "ppg": 16.86,
-              "recent_ppg": 16.86,
+              "ppg": 24.41,
+              "recent_ppg": 24.41,
               "status": "OK"
             },
             {
@@ -5374,12 +5486,12 @@
               "weekly_points": {
                 "1": 25.1,
                 "2": 29.2,
-                "3": 7.8
+                "3": 9.2
               },
-              "season_points": 62.1,
+              "season_points": 63.5,
               "games_played": 3,
-              "ppg": 20.7,
-              "recent_ppg": 20.7,
+              "ppg": 21.17,
+              "recent_ppg": 21.17,
               "status": "OK"
             },
             {
@@ -5395,12 +5507,12 @@
               "weekly_points": {
                 "1": 8.3,
                 "2": 17.5,
-                "3": 4.9
+                "3": 5.6
               },
-              "season_points": 30.7,
+              "season_points": 31.4,
               "games_played": 3,
-              "ppg": 10.23,
-              "recent_ppg": 10.23,
+              "ppg": 10.47,
+              "recent_ppg": 10.47,
               "status": "OK"
             },
             {
@@ -5416,12 +5528,12 @@
               "weekly_points": {
                 "1": 19.2,
                 "2": 6.5,
-                "3": 6.7
+                "3": 10.6
               },
-              "season_points": 32.4,
+              "season_points": 36.3,
               "games_played": 3,
-              "ppg": 10.8,
-              "recent_ppg": 10.8,
+              "ppg": 12.1,
+              "recent_ppg": 12.1,
               "status": "OK"
             },
             {
@@ -5479,12 +5591,12 @@
               "weekly_points": {
                 "1": 20.3,
                 "2": 13.0,
-                "3": 0.0
+                "3": 7.2
               },
-              "season_points": 33.3,
+              "season_points": 40.5,
               "games_played": 3,
-              "ppg": 11.1,
-              "recent_ppg": 11.1,
+              "ppg": 13.5,
+              "recent_ppg": 13.5,
               "status": "OK"
             },
             {
@@ -5500,12 +5612,12 @@
               "weekly_points": {
                 "1": 23.7,
                 "2": 14.4,
-                "3": 11.0
+                "3": 15.0
               },
-              "season_points": 49.1,
+              "season_points": 53.1,
               "games_played": 3,
-              "ppg": 16.37,
-              "recent_ppg": 16.37,
+              "ppg": 17.7,
+              "recent_ppg": 17.7,
               "status": "OK"
             },
             {
@@ -5521,12 +5633,12 @@
               "weekly_points": {
                 "1": 12.0,
                 "2": 7.0,
-                "3": 3.0
+                "3": 4.0
               },
-              "season_points": 22.0,
+              "season_points": 23.0,
               "games_played": 3,
-              "ppg": 7.33,
-              "recent_ppg": 7.33,
+              "ppg": 7.67,
+              "recent_ppg": 7.67,
               "status": "OK"
             },
             {
@@ -5563,12 +5675,12 @@
               "weekly_points": {
                 "1": 4.3,
                 "2": 0.0,
-                "3": 0.0
+                "3": 4.1
               },
-              "season_points": 4.3,
+              "season_points": 8.4,
               "games_played": 3,
-              "ppg": 1.43,
-              "recent_ppg": 1.43,
+              "ppg": 2.8,
+              "recent_ppg": 2.8,
               "status": "OK"
             },
             {
@@ -5581,12 +5693,12 @@
               "injury_body_part": null,
               "search_rank": 98,
               "weekly_points": {
-                "3": 3.3
+                "3": 6.0
               },
-              "season_points": 3.3,
+              "season_points": 6.0,
               "games_played": 1,
-              "ppg": 3.3,
-              "recent_ppg": 3.3,
+              "ppg": 6.0,
+              "recent_ppg": 6.0,
               "status": "OK"
             },
             {
@@ -5601,12 +5713,12 @@
               "weekly_points": {
                 "1": 3.4,
                 "2": 7.0,
-                "3": 16.5
+                "3": 19.7
               },
-              "season_points": 26.9,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 8.97,
-              "recent_ppg": 8.97,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "status": "OK"
             },
             {
@@ -5644,36 +5756,38 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 25.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 47.58,
-              "games_played": 2,
-              "ppg": 23.79,
-              "recent_ppg": 23.79,
+              "season_points": 74.5,
+              "games_played": 3,
+              "ppg": 24.83,
+              "recent_ppg": 24.83,
               "drop_candidate": {
                 "name": "Brock Purdy",
-                "ppg": 16.86,
-                "recent_ppg": 16.86
+                "ppg": 24.41,
+                "recent_ppg": 24.41
               },
               "status": "OK"
             },
             {
-              "player_id": "1166",
-              "name": "Kirk Cousins",
+              "player_id": "4017",
+              "name": "Deshaun Watson",
               "position": "QB",
-              "team": "LV",
-              "bye_week": 13,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 274,
+              "search_rank": 294,
               "weekly_points": {
-                "1": 15.8,
-                "2": 21.22
+                "1": 15.0,
+                "2": 19.72,
+                "3": 20.26
               },
-              "season_points": 37.02,
-              "games_played": 2,
-              "ppg": 18.51,
-              "recent_ppg": 18.51,
+              "season_points": 54.98,
+              "games_played": 3,
+              "ppg": 18.33,
+              "recent_ppg": 18.33,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -5688,41 +5802,42 @@
               "search_rank": 199,
               "weekly_points": {
                 "1": 11.0,
-                "2": 16.0
+                "2": 16.0,
+                "3": 12.0
               },
-              "season_points": 27.0,
-              "games_played": 2,
-              "ppg": 13.5,
-              "recent_ppg": 13.5,
+              "season_points": 39.0,
+              "games_played": 3,
+              "ppg": 13.0,
+              "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Cam Little",
-                "ppg": 7.33,
-                "recent_ppg": 7.33
+                "ppg": 7.67,
+                "recent_ppg": 7.67
               },
               "status": "OK"
             },
             {
-              "player_id": "13330",
-              "name": "Kenyon Sadiq",
+              "player_id": "12506",
+              "name": "Harold Fannin",
               "position": "TE",
-              "team": "NYJ",
-              "bye_week": 13,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 109,
+              "search_rank": 63,
               "weekly_points": {
-                "1": 11.4,
-                "2": 3.7,
-                "3": 19.3
+                "1": 4.1,
+                "2": 10.4,
+                "3": 24.1
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "Dalton Schultz",
-                "ppg": 3.3,
-                "recent_ppg": 3.3
+                "ppg": 6.0,
+                "recent_ppg": 6.0
               },
               "status": "OK"
             },
@@ -5738,16 +5853,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Marvin Harrison",
-                "ppg": 1.43,
-                "recent_ppg": 1.43
+                "ppg": 2.8,
+                "recent_ppg": 2.8
               },
               "status": "OK"
             }
@@ -5755,9 +5870,9 @@
           "weekly_points": {
             "1": 162.7,
             "2": 152.98,
-            "3": 48.2
+            "3": 89.04
           },
-          "season_points": 363.88
+          "season_points": 404.72
         },
         {
           "roster_id": 6,
@@ -5775,12 +5890,12 @@
               "injury_body_part": null,
               "search_rank": 61,
               "weekly_points": {
-                "3": 12.92
+                "3": 19.36
               },
-              "season_points": 12.92,
+              "season_points": 19.36,
               "games_played": 1,
-              "ppg": 12.92,
-              "recent_ppg": 12.92,
+              "ppg": 19.36,
+              "recent_ppg": 19.36,
               "status": "OK"
             },
             {
@@ -5817,12 +5932,12 @@
               "weekly_points": {
                 "1": 35.3,
                 "2": 17.7,
-                "3": 0.0
+                "3": 20.7
               },
-              "season_points": 53.0,
+              "season_points": 73.7,
               "games_played": 3,
-              "ppg": 17.67,
-              "recent_ppg": 17.67,
+              "ppg": 24.57,
+              "recent_ppg": 24.57,
               "status": "OK"
             },
             {
@@ -5837,12 +5952,12 @@
               "search_rank": 131,
               "weekly_points": {
                 "2": 6.5,
-                "3": 0.0
+                "3": 15.4
               },
-              "season_points": 6.5,
+              "season_points": 21.9,
               "games_played": 2,
-              "ppg": 3.25,
-              "recent_ppg": 3.25,
+              "ppg": 10.95,
+              "recent_ppg": 10.95,
               "status": "OK"
             },
             {
@@ -5858,12 +5973,12 @@
               "weekly_points": {
                 "1": 8.9,
                 "2": 14.5,
-                "3": 19.2
+                "3": 21.0
               },
-              "season_points": 42.6,
+              "season_points": 44.4,
               "games_played": 3,
-              "ppg": 14.2,
-              "recent_ppg": 14.2,
+              "ppg": 14.8,
+              "recent_ppg": 14.8,
               "status": "OK"
             },
             {
@@ -5900,12 +6015,12 @@
               "weekly_points": {
                 "1": 21.0,
                 "2": -0.1,
-                "3": 10.1
+                "3": 12.7
               },
-              "season_points": 31.0,
+              "season_points": 33.6,
               "games_played": 3,
-              "ppg": 10.33,
-              "recent_ppg": 10.33,
+              "ppg": 11.2,
+              "recent_ppg": 11.2,
               "status": "OK"
             },
             {
@@ -5921,12 +6036,12 @@
               "weekly_points": {
                 "1": 5.8,
                 "2": 10.0,
-                "3": 0.0
+                "3": 12.6
               },
-              "season_points": 15.8,
+              "season_points": 28.4,
               "games_played": 3,
-              "ppg": 5.27,
-              "recent_ppg": 5.27,
+              "ppg": 9.47,
+              "recent_ppg": 9.47,
               "status": "OK"
             },
             {
@@ -5940,12 +6055,12 @@
               "injury_body_part": null,
               "search_rank": 174,
               "weekly_points": {
-                "3": 0.0
+                "3": 5.0
               },
-              "season_points": 0.0,
+              "season_points": 5.0,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 5.0,
+              "recent_ppg": 5.0,
               "status": "OK"
             },
             {
@@ -6003,12 +6118,12 @@
               "weekly_points": {
                 "1": 4.4,
                 "2": 7.5,
-                "3": 10.2
+                "3": 13.6
               },
-              "season_points": 22.1,
+              "season_points": 25.5,
               "games_played": 3,
-              "ppg": 7.37,
-              "recent_ppg": 7.37,
+              "ppg": 8.5,
+              "recent_ppg": 8.5,
               "status": "OK"
             },
             {
@@ -6023,12 +6138,12 @@
               "weekly_points": {
                 "1": 15.16,
                 "2": 16.18,
-                "3": 22.98
+                "3": 22.58
               },
-              "season_points": 54.32,
+              "season_points": 53.92,
               "games_played": 3,
-              "ppg": 18.11,
-              "recent_ppg": 18.11,
+              "ppg": 17.97,
+              "recent_ppg": 17.97,
               "status": "OK"
             },
             {
@@ -6064,36 +6179,38 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 25.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 47.58,
-              "games_played": 2,
-              "ppg": 23.79,
-              "recent_ppg": 23.79,
+              "season_points": 74.5,
+              "games_played": 3,
+              "ppg": 24.83,
+              "recent_ppg": 24.83,
               "drop_candidate": {
-                "name": "Jared Goff",
-                "ppg": 12.92,
-                "recent_ppg": 12.92
+                "name": "Joe Burrow",
+                "ppg": 17.97,
+                "recent_ppg": 17.97
               },
               "status": "OK"
             },
             {
-              "player_id": "1166",
-              "name": "Kirk Cousins",
+              "player_id": "4017",
+              "name": "Deshaun Watson",
               "position": "QB",
-              "team": "LV",
-              "bye_week": 13,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 274,
+              "search_rank": 294,
               "weekly_points": {
-                "1": 15.8,
-                "2": 21.22
+                "1": 15.0,
+                "2": 19.72,
+                "3": 20.26
               },
-              "season_points": 37.02,
-              "games_played": 2,
-              "ppg": 18.51,
-              "recent_ppg": 18.51,
+              "season_points": 54.98,
+              "games_played": 3,
+              "ppg": 18.33,
+              "recent_ppg": 18.33,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -6108,16 +6225,17 @@
               "search_rank": 199,
               "weekly_points": {
                 "1": 11.0,
-                "2": 16.0
+                "2": 16.0,
+                "3": 12.0
               },
-              "season_points": 27.0,
-              "games_played": 2,
-              "ppg": 13.5,
-              "recent_ppg": 13.5,
+              "season_points": 39.0,
+              "games_played": 3,
+              "ppg": 13.0,
+              "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Eddy Pineiro",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
+                "ppg": 5.0,
+                "recent_ppg": 5.0
               },
               "status": "OK"
             },
@@ -6133,12 +6251,12 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Dontayvion Wicks",
                 "ppg": 0.0,
@@ -6158,12 +6276,12 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Blake Corum",
                 "ppg": 5.2,
@@ -6175,9 +6293,9 @@
           "weekly_points": {
             "1": 137.76,
             "2": 94.9,
-            "3": 92.22
+            "3": 156.76
           },
-          "season_points": 324.88
+          "season_points": 389.42
         },
         {
           "roster_id": 5,
@@ -6197,12 +6315,12 @@
               "weekly_points": {
                 "1": 35.66,
                 "2": 40.82,
-                "3": 10.52
+                "3": 19.46
               },
-              "season_points": 87.0,
+              "season_points": 95.94,
               "games_played": 3,
-              "ppg": 29.0,
-              "recent_ppg": 29.0,
+              "ppg": 31.98,
+              "recent_ppg": 31.98,
               "status": "OK"
             },
             {
@@ -6218,12 +6336,12 @@
               "weekly_points": {
                 "1": 13.8,
                 "2": 22.6,
-                "3": 0.0
+                "3": 18.6
               },
-              "season_points": 36.4,
+              "season_points": 55.0,
               "games_played": 3,
-              "ppg": 12.13,
-              "recent_ppg": 12.13,
+              "ppg": 18.33,
+              "recent_ppg": 18.33,
               "status": "OK"
             },
             {
@@ -6239,12 +6357,12 @@
               "weekly_points": {
                 "1": 2.8,
                 "2": 4.5,
-                "3": 0.0
+                "3": 0.6
               },
-              "season_points": 7.3,
+              "season_points": 7.9,
               "games_played": 3,
-              "ppg": 2.43,
-              "recent_ppg": 2.43,
+              "ppg": 2.63,
+              "recent_ppg": 2.63,
               "status": "OK"
             },
             {
@@ -6281,12 +6399,12 @@
               "weekly_points": {
                 "1": 13.9,
                 "2": 16.7,
-                "3": 15.7
+                "3": 26.7
               },
-              "season_points": 46.3,
+              "season_points": 57.3,
               "games_played": 3,
-              "ppg": 15.43,
-              "recent_ppg": 15.43,
+              "ppg": 19.1,
+              "recent_ppg": 19.1,
               "status": "OK"
             },
             {
@@ -6321,12 +6439,12 @@
               "injury_body_part": null,
               "search_rank": 153,
               "weekly_points": {
-                "3": 0.0
+                "3": 8.1
               },
-              "season_points": 0.0,
+              "season_points": 8.1,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 8.1,
+              "recent_ppg": 8.1,
               "status": "OK"
             },
             {
@@ -6398,19 +6516,19 @@
               "position": "TE",
               "team": "BAL",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hand",
               "search_rank": 96,
               "weekly_points": {
                 "1": 8.9,
                 "2": 10.9,
-                "3": 0.0
+                "3": 1.9
               },
-              "season_points": 19.8,
+              "season_points": 21.7,
               "games_played": 3,
-              "ppg": 6.6,
-              "recent_ppg": 6.6,
-              "status": "OK"
+              "ppg": 7.23,
+              "recent_ppg": 7.23,
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5850",
@@ -6487,12 +6605,13 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 25.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 47.58,
-              "games_played": 2,
-              "ppg": 23.79,
-              "recent_ppg": 23.79,
+              "season_points": 74.5,
+              "games_played": 3,
+              "ppg": 24.83,
+              "recent_ppg": 24.83,
               "drop_candidate": {
                 "name": "Jalen Hurts",
                 "ppg": 14.29,
@@ -6511,12 +6630,13 @@
               "search_rank": 199,
               "weekly_points": {
                 "1": 11.0,
-                "2": 16.0
+                "2": 16.0,
+                "3": 12.0
               },
-              "season_points": 27.0,
-              "games_played": 2,
-              "ppg": 13.5,
-              "recent_ppg": 13.5,
+              "season_points": 39.0,
+              "games_played": 3,
+              "ppg": 13.0,
+              "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Evan McPherson",
                 "ppg": 11.0,
@@ -6525,27 +6645,27 @@
               "status": "OK"
             },
             {
-              "player_id": "13330",
-              "name": "Kenyon Sadiq",
+              "player_id": "12506",
+              "name": "Harold Fannin",
               "position": "TE",
-              "team": "NYJ",
-              "bye_week": 13,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 109,
+              "search_rank": 63,
               "weekly_points": {
-                "1": 11.4,
-                "2": 3.7,
-                "3": 19.3
+                "1": 4.1,
+                "2": 10.4,
+                "3": 24.1
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "Mark Andrews",
-                "ppg": 6.6,
-                "recent_ppg": 6.6
+                "ppg": 7.23,
+                "recent_ppg": 7.23
               },
               "status": "OK"
             },
@@ -6561,16 +6681,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
-                "name": "Denzel Boston",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
+                "name": "Nico Collins",
+                "ppg": 7.07,
+                "recent_ppg": 7.07
               },
               "status": "OK"
             },
@@ -6586,12 +6706,12 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Josh Jacobs",
                 "ppg": 0.0,
@@ -6603,9 +6723,9 @@
           "weekly_points": {
             "1": 132.16,
             "2": 137.02,
-            "3": 74.52
+            "3": 121.76
           },
-          "season_points": 343.7
+          "season_points": 390.94
         },
         {
           "roster_id": 3,
@@ -6646,12 +6766,12 @@
               "weekly_points": {
                 "1": 32.7,
                 "2": 10.3,
-                "3": 0.0
+                "3": 6.5
               },
-              "season_points": 43.0,
+              "season_points": 49.5,
               "games_played": 3,
-              "ppg": 14.33,
-              "recent_ppg": 14.33,
+              "ppg": 16.5,
+              "recent_ppg": 16.5,
               "status": "OK"
             },
             {
@@ -6667,12 +6787,12 @@
               "weekly_points": {
                 "1": 10.0,
                 "2": 10.5,
-                "3": 0.0
+                "3": 5.2
               },
-              "season_points": 20.5,
+              "season_points": 25.7,
               "games_played": 3,
-              "ppg": 6.83,
-              "recent_ppg": 6.83,
+              "ppg": 8.57,
+              "recent_ppg": 8.57,
               "status": "OK"
             },
             {
@@ -6688,12 +6808,12 @@
               "weekly_points": {
                 "1": 12.9,
                 "2": 1.1,
-                "3": 5.4
+                "3": 7.6
               },
-              "season_points": 19.4,
+              "season_points": 21.6,
               "games_played": 3,
-              "ppg": 6.47,
-              "recent_ppg": 6.47,
+              "ppg": 7.2,
+              "recent_ppg": 7.2,
               "status": "OK"
             },
             {
@@ -6751,12 +6871,12 @@
               "weekly_points": {
                 "1": 11.3,
                 "2": 10.3,
-                "3": 0.0
+                "3": 11.2
               },
-              "season_points": 21.6,
+              "season_points": 32.8,
               "games_played": 3,
-              "ppg": 7.2,
-              "recent_ppg": 7.2,
+              "ppg": 10.93,
+              "recent_ppg": 10.93,
               "status": "OK"
             },
             {
@@ -6772,12 +6892,12 @@
               "weekly_points": {
                 "1": 8.0,
                 "2": 6.7,
-                "3": 9.7
+                "3": 12.1
               },
-              "season_points": 24.4,
+              "season_points": 26.8,
               "games_played": 3,
-              "ppg": 8.13,
-              "recent_ppg": 8.13,
+              "ppg": 8.93,
+              "recent_ppg": 8.93,
               "status": "OK"
             },
             {
@@ -6793,12 +6913,12 @@
               "weekly_points": {
                 "1": 8.0,
                 "2": 4.0,
-                "3": 7.0
+                "3": 13.0
               },
-              "season_points": 19.0,
+              "season_points": 25.0,
               "games_played": 3,
-              "ppg": 6.33,
-              "recent_ppg": 6.33,
+              "ppg": 8.33,
+              "recent_ppg": 8.33,
               "status": "OK"
             },
             {
@@ -6813,12 +6933,12 @@
               "search_rank": 999999,
               "weekly_points": {
                 "2": 23.0,
-                "3": 2.0
+                "3": -1.0
               },
-              "season_points": 25.0,
+              "season_points": 22.0,
               "games_played": 2,
-              "ppg": 12.5,
-              "recent_ppg": 12.5,
+              "ppg": 11.0,
+              "recent_ppg": 11.0,
               "status": "OK"
             }
           ],
@@ -6835,12 +6955,12 @@
               "weekly_points": {
                 "1": 12.6,
                 "2": 5.8,
-                "3": 5.1
+                "3": 5.3
               },
-              "season_points": 23.5,
+              "season_points": 23.7,
               "games_played": 3,
-              "ppg": 7.83,
-              "recent_ppg": 7.83,
+              "ppg": 7.9,
+              "recent_ppg": 7.9,
               "status": "OK"
             },
             {
@@ -6912,12 +7032,12 @@
               "injury_body_part": null,
               "search_rank": 117,
               "weekly_points": {
-                "3": 4.9
+                "3": 7.9
               },
-              "season_points": 4.9,
+              "season_points": 7.9,
               "games_played": 1,
-              "ppg": 4.9,
-              "recent_ppg": 4.9,
+              "ppg": 7.9,
+              "recent_ppg": 7.9,
               "status": "OK"
             }
           ],
@@ -6935,12 +7055,13 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 25.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 47.58,
-              "games_played": 2,
-              "ppg": 23.79,
-              "recent_ppg": 23.79,
+              "season_points": 74.5,
+              "games_played": 3,
+              "ppg": 24.83,
+              "recent_ppg": 24.83,
               "drop_candidate": {
                 "name": "Matthew Stafford",
                 "ppg": 11.03,
@@ -6959,37 +7080,38 @@
               "search_rank": 199,
               "weekly_points": {
                 "1": 11.0,
-                "2": 16.0
+                "2": 16.0,
+                "3": 12.0
               },
-              "season_points": 27.0,
-              "games_played": 2,
-              "ppg": 13.5,
-              "recent_ppg": 13.5,
+              "season_points": 39.0,
+              "games_played": 3,
+              "ppg": 13.0,
+              "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Chris Boswell",
-                "ppg": 6.33,
-                "recent_ppg": 6.33
+                "ppg": 8.33,
+                "recent_ppg": 8.33
               },
               "status": "OK"
             },
             {
-              "player_id": "13330",
-              "name": "Kenyon Sadiq",
+              "player_id": "12506",
+              "name": "Harold Fannin",
               "position": "TE",
-              "team": "NYJ",
-              "bye_week": 13,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 109,
+              "search_rank": 63,
               "weekly_points": {
-                "1": 11.4,
-                "2": 3.7,
-                "3": 19.3
+                "1": 4.1,
+                "2": 10.4,
+                "3": 24.1
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "Colston Loveland",
                 "ppg": 0.43,
@@ -7009,12 +7131,12 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Jordyn Tyson",
                 "ppg": 0.0,
@@ -7034,16 +7156,16 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
-                "name": "Aaron Jones",
-                "ppg": 6.83,
-                "recent_ppg": 6.83
+                "name": "Jacory Croskey-Merritt",
+                "ppg": 7.9,
+                "recent_ppg": 7.9
               },
               "status": "QUESTIONABLE"
             }
@@ -7051,9 +7173,9 @@
           "weekly_points": {
             "1": 106.0,
             "2": 104.08,
-            "3": 52.5
+            "3": 83.0
           },
-          "season_points": 262.58
+          "season_points": 293.08
         },
         {
           "roster_id": 2,
@@ -7073,12 +7195,12 @@
               "weekly_points": {
                 "1": 26.1,
                 "2": 7.16,
-                "3": 18.76
+                "3": 20.78
               },
-              "season_points": 52.02,
+              "season_points": 54.04,
               "games_played": 3,
-              "ppg": 17.34,
-              "recent_ppg": 17.34,
+              "ppg": 18.01,
+              "recent_ppg": 18.01,
               "status": "OK"
             },
             {
@@ -7094,12 +7216,12 @@
               "weekly_points": {
                 "1": 9.9,
                 "2": 20.9,
-                "3": 6.6
+                "3": 19.4
               },
-              "season_points": 37.4,
+              "season_points": 50.2,
               "games_played": 3,
-              "ppg": 12.47,
-              "recent_ppg": 12.47,
+              "ppg": 16.73,
+              "recent_ppg": 16.73,
               "status": "OK"
             },
             {
@@ -7115,12 +7237,12 @@
               "weekly_points": {
                 "1": 18.8,
                 "2": 11.2,
-                "3": 8.3
+                "3": 8.9
               },
-              "season_points": 38.3,
+              "season_points": 38.9,
               "games_played": 3,
-              "ppg": 12.77,
-              "recent_ppg": 12.77,
+              "ppg": 12.97,
+              "recent_ppg": 12.97,
               "status": "OK"
             },
             {
@@ -7136,12 +7258,12 @@
               "weekly_points": {
                 "1": 28.2,
                 "2": 22.6,
-                "3": 0.0
+                "3": 10.9
               },
-              "season_points": 50.8,
+              "season_points": 61.7,
               "games_played": 3,
-              "ppg": 16.93,
-              "recent_ppg": 16.93,
+              "ppg": 20.57,
+              "recent_ppg": 20.57,
               "status": "OK"
             },
             {
@@ -7240,12 +7362,12 @@
               "search_rank": 150,
               "weekly_points": {
                 "2": 5.0,
-                "3": 0.0
+                "3": 6.0
               },
-              "season_points": 5.0,
+              "season_points": 11.0,
               "games_played": 2,
-              "ppg": 2.5,
-              "recent_ppg": 2.5,
+              "ppg": 5.5,
+              "recent_ppg": 5.5,
               "status": "OK"
             },
             {
@@ -7259,12 +7381,12 @@
               "injury_body_part": null,
               "search_rank": 999999,
               "weekly_points": {
-                "3": 2.0
+                "3": 3.0
               },
-              "season_points": 2.0,
+              "season_points": 3.0,
               "games_played": 1,
-              "ppg": 2.0,
-              "recent_ppg": 2.0,
+              "ppg": 3.0,
+              "recent_ppg": 3.0,
               "status": "OK"
             }
           ],
@@ -7301,12 +7423,12 @@
               "weekly_points": {
                 "1": 8.3,
                 "2": 8.8,
-                "3": 0.0
+                "3": 5.5
               },
-              "season_points": 17.1,
+              "season_points": 22.6,
               "games_played": 3,
-              "ppg": 5.7,
-              "recent_ppg": 5.7,
+              "ppg": 7.53,
+              "recent_ppg": 7.53,
               "status": "OK"
             },
             {
@@ -7362,16 +7484,17 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 25.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 47.58,
-              "games_played": 2,
-              "ppg": 23.79,
-              "recent_ppg": 23.79,
+              "season_points": 74.5,
+              "games_played": 3,
+              "ppg": 24.83,
+              "recent_ppg": 24.83,
               "drop_candidate": {
                 "name": "Trevor Lawrence",
-                "ppg": 17.34,
-                "recent_ppg": 17.34
+                "ppg": 18.01,
+                "recent_ppg": 18.01
               },
               "status": "OK"
             },
@@ -7386,37 +7509,38 @@
               "search_rank": 199,
               "weekly_points": {
                 "1": 11.0,
-                "2": 16.0
+                "2": 16.0,
+                "3": 12.0
               },
-              "season_points": 27.0,
-              "games_played": 2,
-              "ppg": 13.5,
-              "recent_ppg": 13.5,
+              "season_points": 39.0,
+              "games_played": 3,
+              "ppg": 13.0,
+              "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Tyler Loop",
-                "ppg": 2.5,
-                "recent_ppg": 2.5
+                "ppg": 5.5,
+                "recent_ppg": 5.5
               },
               "status": "OK"
             },
             {
-              "player_id": "13330",
-              "name": "Kenyon Sadiq",
+              "player_id": "12506",
+              "name": "Harold Fannin",
               "position": "TE",
-              "team": "NYJ",
-              "bye_week": 13,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 109,
+              "search_rank": 63,
               "weekly_points": {
-                "1": 11.4,
-                "2": 3.7,
-                "3": 19.3
+                "1": 4.1,
+                "2": 10.4,
+                "3": 24.1
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "Tucker Kraft",
                 "ppg": 6.53,
@@ -7436,16 +7560,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Chris Godwin",
-                "ppg": 5.7,
-                "recent_ppg": 5.7
+                "ppg": 7.53,
+                "recent_ppg": 7.53
               },
               "status": "OK"
             },
@@ -7461,12 +7585,12 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "TreVeyon Henderson",
                 "ppg": 5.83,
@@ -7478,9 +7602,9 @@
           "weekly_points": {
             "1": 149.3,
             "2": 149.76,
-            "3": 49.06
+            "3": 82.38
           },
-          "season_points": 348.12
+          "season_points": 381.44
         },
         {
           "roster_id": 9,
@@ -7498,12 +7622,12 @@
               "injury_body_part": null,
               "search_rank": 40,
               "weekly_points": {
-                "3": 10.54
+                "3": 16.94
               },
-              "season_points": 10.54,
+              "season_points": 16.94,
               "games_played": 1,
-              "ppg": 10.54,
-              "recent_ppg": 10.54,
+              "ppg": 16.94,
+              "recent_ppg": 16.94,
               "status": "OK"
             },
             {
@@ -7553,8 +7677,8 @@
               "position": "RB",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Thigh",
               "search_rank": 27,
               "weekly_points": {
                 "1": 19.8,
@@ -7565,7 +7689,26 @@
               "games_played": 3,
               "ppg": 14.17,
               "recent_ppg": 14.17,
-              "status": "OK"
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "12534",
+                "name": "Kyle Monangai",
+                "position": "RB",
+                "team": "CHI",
+                "bye_week": 10,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 61,
+                "weekly_points": {
+                  "1": 20.4,
+                  "2": 7.8,
+                  "3": 0.0
+                },
+                "season_points": 28.2,
+                "games_played": 3,
+                "ppg": 9.4,
+                "recent_ppg": 9.4
+              }
             },
             {
               "slot": "WR",
@@ -7587,23 +7730,23 @@
               "recent_ppg": 9.2,
               "status": "OUT",
               "suggested_swap": {
-                "player_id": "11620",
-                "name": "Rome Odunze",
+                "player_id": "10232",
+                "name": "Michael Wilson",
                 "position": "WR",
-                "team": "CHI",
-                "bye_week": 10,
+                "team": "ARI",
+                "bye_week": 14,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 65,
+                "search_rank": 75,
                 "weekly_points": {
-                  "1": 7.2,
-                  "2": 7.3,
-                  "3": 0.0
+                  "1": 10.6,
+                  "2": 3.8,
+                  "3": 21.7
                 },
-                "season_points": 14.5,
+                "season_points": 36.1,
                 "games_played": 3,
-                "ppg": 4.83,
-                "recent_ppg": 4.83
+                "ppg": 12.03,
+                "recent_ppg": 12.03
               }
             },
             {
@@ -7619,12 +7762,12 @@
               "weekly_points": {
                 "1": 15.4,
                 "2": 35.3,
-                "3": 0.0
+                "3": 11.9
               },
-              "season_points": 50.7,
+              "season_points": 62.6,
               "games_played": 3,
-              "ppg": 16.9,
-              "recent_ppg": 16.9,
+              "ppg": 20.87,
+              "recent_ppg": 20.87,
               "status": "OK"
             },
             {
@@ -7640,12 +7783,12 @@
               "weekly_points": {
                 "1": 3.2,
                 "2": 18.0,
-                "3": 0.0
+                "3": 17.2
               },
-              "season_points": 21.2,
+              "season_points": 38.4,
               "games_played": 3,
-              "ppg": 7.07,
-              "recent_ppg": 7.07,
+              "ppg": 12.8,
+              "recent_ppg": 12.8,
               "status": "OK"
             },
             {
@@ -7682,12 +7825,12 @@
               "weekly_points": {
                 "1": 13.0,
                 "2": 7.5,
-                "3": 0.0
+                "3": 19.3
               },
-              "season_points": 20.5,
+              "season_points": 39.8,
               "games_played": 3,
-              "ppg": 6.83,
-              "recent_ppg": 6.83,
+              "ppg": 13.27,
+              "recent_ppg": 13.27,
               "status": "OK"
             },
             {
@@ -7703,12 +7846,12 @@
               "weekly_points": {
                 "1": 2.0,
                 "2": 1.0,
-                "3": 6.0
+                "3": 9.0
               },
-              "season_points": 9.0,
+              "season_points": 12.0,
               "games_played": 3,
-              "ppg": 3.0,
-              "recent_ppg": 3.0,
+              "ppg": 4.0,
+              "recent_ppg": 4.0,
               "status": "OK"
             },
             {
@@ -7724,12 +7867,12 @@
               "weekly_points": {
                 "1": -1.0,
                 "2": 6.0,
-                "3": 9.0
+                "3": 13.0
               },
-              "season_points": 14.0,
+              "season_points": 18.0,
               "games_played": 3,
-              "ppg": 4.67,
-              "recent_ppg": 4.67,
+              "ppg": 6.0,
+              "recent_ppg": 6.0,
               "status": "OK"
             }
           ],
@@ -7746,12 +7889,12 @@
               "weekly_points": {
                 "1": 10.6,
                 "2": 3.8,
-                "3": 0.0
+                "3": 21.7
               },
-              "season_points": 14.4,
+              "season_points": 36.1,
               "games_played": 3,
-              "ppg": 4.8,
-              "recent_ppg": 4.8,
+              "ppg": 12.03,
+              "recent_ppg": 12.03,
               "status": "OK"
             },
             {
@@ -7815,7 +7958,7 @@
               "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 3,
           "alerts": [
             {
               "slot": "RB",
@@ -7825,11 +7968,18 @@
               "suggested_swap": "Kyle Monangai"
             },
             {
+              "slot": "RB",
+              "player_name": "Breece Hall",
+              "status": "OUT",
+              "detail": "Thigh",
+              "suggested_swap": "Kyle Monangai"
+            },
+            {
               "slot": "WR",
               "player_name": "Jalen Coker",
               "status": "OUT",
               "detail": "Quadriceps",
-              "suggested_swap": "Rome Odunze"
+              "suggested_swap": "Michael Wilson"
             }
           ],
           "waiver_suggestions": [
@@ -7844,16 +7994,17 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 25.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 47.58,
-              "games_played": 2,
-              "ppg": 23.79,
-              "recent_ppg": 23.79,
+              "season_points": 74.5,
+              "games_played": 3,
+              "ppg": 24.83,
+              "recent_ppg": 24.83,
               "drop_candidate": {
-                "name": "Patrick Mahomes",
-                "ppg": 10.54,
-                "recent_ppg": 10.54
+                "name": "Jayden Daniels",
+                "ppg": 10.8,
+                "recent_ppg": 10.8
               },
               "status": "OK"
             },
@@ -7868,41 +8019,42 @@
               "search_rank": 199,
               "weekly_points": {
                 "1": 11.0,
-                "2": 16.0
+                "2": 16.0,
+                "3": 12.0
               },
-              "season_points": 27.0,
-              "games_played": 2,
-              "ppg": 13.5,
-              "recent_ppg": 13.5,
+              "season_points": 39.0,
+              "games_played": 3,
+              "ppg": 13.0,
+              "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Cameron Dicker",
-                "ppg": 3.0,
-                "recent_ppg": 3.0
+                "ppg": 4.0,
+                "recent_ppg": 4.0
               },
               "status": "OK"
             },
             {
-              "player_id": "13330",
-              "name": "Kenyon Sadiq",
+              "player_id": "12506",
+              "name": "Harold Fannin",
               "position": "TE",
-              "team": "NYJ",
-              "bye_week": 13,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 109,
+              "search_rank": 63,
               "weekly_points": {
-                "1": 11.4,
-                "2": 3.7,
-                "3": 19.3
+                "1": 4.1,
+                "2": 10.4,
+                "3": 24.1
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "George Kittle",
-                "ppg": 7.07,
-                "recent_ppg": 7.07
+                "ppg": 12.8,
+                "recent_ppg": 12.8
               },
               "status": "OK"
             },
@@ -7918,16 +8070,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
-                "name": "Michael Wilson",
-                "ppg": 4.8,
-                "recent_ppg": 4.8
+                "name": "Rome Odunze",
+                "ppg": 4.83,
+                "recent_ppg": 4.83
               },
               "status": "OK"
             },
@@ -7943,16 +8095,16 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
-                "name": "Jeremiyah Love",
-                "ppg": 6.83,
-                "recent_ppg": 6.83
+                "name": "De'Von Achane",
+                "ppg": 8.2,
+                "recent_ppg": 8.2
               },
               "status": "QUESTIONABLE"
             }
@@ -7960,9 +8112,9 @@
           "weekly_points": {
             "1": 130.1,
             "2": 136.34,
-            "3": 39.54
+            "3": 101.34
           },
-          "season_points": 305.98
+          "season_points": 367.78
         },
         {
           "roster_id": 4,
@@ -7982,12 +8134,12 @@
               "weekly_points": {
                 "1": 15.4,
                 "2": 29.76,
-                "3": 0.0
+                "3": 12.94
               },
-              "season_points": 45.16,
+              "season_points": 58.1,
               "games_played": 3,
-              "ppg": 15.05,
-              "recent_ppg": 15.05,
+              "ppg": 19.37,
+              "recent_ppg": 19.37,
               "status": "OK"
             },
             {
@@ -8024,12 +8176,12 @@
               "weekly_points": {
                 "1": 9.8,
                 "2": 14.2,
-                "3": 8.9
+                "3": 17.0
               },
-              "season_points": 32.9,
+              "season_points": 41.0,
               "games_played": 3,
-              "ppg": 10.97,
-              "recent_ppg": 10.97,
+              "ppg": 13.67,
+              "recent_ppg": 13.67,
               "status": "OK"
             },
             {
@@ -8045,12 +8197,12 @@
               "weekly_points": {
                 "1": 3.2,
                 "2": 26.5,
-                "3": 19.8
+                "3": 24.8
               },
-              "season_points": 49.5,
+              "season_points": 54.5,
               "games_played": 3,
-              "ppg": 16.5,
-              "recent_ppg": 16.5,
+              "ppg": 18.17,
+              "recent_ppg": 18.17,
               "status": "OK"
             },
             {
@@ -8065,12 +8217,12 @@
               "search_rank": 209,
               "weekly_points": {
                 "2": 11.4,
-                "3": 0.0
+                "3": 6.9
               },
-              "season_points": 11.4,
+              "season_points": 18.3,
               "games_played": 2,
-              "ppg": 5.7,
-              "recent_ppg": 5.7,
+              "ppg": 9.15,
+              "recent_ppg": 9.15,
               "status": "OK"
             },
             {
@@ -8086,12 +8238,12 @@
               "weekly_points": {
                 "1": 24.5,
                 "2": 18.1,
-                "3": 0.0
+                "3": 10.3
               },
-              "season_points": 42.6,
+              "season_points": 52.9,
               "games_played": 3,
-              "ppg": 14.2,
-              "recent_ppg": 14.2,
+              "ppg": 17.63,
+              "recent_ppg": 17.63,
               "status": "OK"
             },
             {
@@ -8107,12 +8259,12 @@
               "weekly_points": {
                 "1": 26.0,
                 "2": 0.0,
-                "3": 0.0
+                "3": 6.9
               },
-              "season_points": 26.0,
+              "season_points": 32.9,
               "games_played": 3,
-              "ppg": 8.67,
-              "recent_ppg": 8.67,
+              "ppg": 10.97,
+              "recent_ppg": 10.97,
               "status": "OK"
             },
             {
@@ -8128,12 +8280,12 @@
               "weekly_points": {
                 "1": 10.1,
                 "2": 25.1,
-                "3": 5.8
+                "3": 13.9
               },
-              "season_points": 41.0,
+              "season_points": 49.1,
               "games_played": 3,
-              "ppg": 13.67,
-              "recent_ppg": 13.67,
+              "ppg": 16.37,
+              "recent_ppg": 16.37,
               "status": "OK"
             },
             {
@@ -8168,12 +8320,12 @@
               "injury_body_part": null,
               "search_rank": 999999,
               "weekly_points": {
-                "3": 0.0
+                "3": 13.0
               },
-              "season_points": 0.0,
+              "season_points": 13.0,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 13.0,
+              "recent_ppg": 13.0,
               "status": "OK"
             }
           ],
@@ -8210,12 +8362,12 @@
               "weekly_points": {
                 "1": 15.5,
                 "2": 21.7,
-                "3": 3.9
+                "3": 7.3
               },
-              "season_points": 41.1,
+              "season_points": 44.5,
               "games_played": 3,
-              "ppg": 13.7,
-              "recent_ppg": 13.7,
+              "ppg": 14.83,
+              "recent_ppg": 14.83,
               "status": "OK"
             },
             {
@@ -8244,19 +8396,19 @@
               "position": "RB",
               "team": "NO",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 34,
               "weekly_points": {
                 "1": 14.8,
                 "2": 7.1,
-                "3": 0.0
+                "3": 9.0
               },
-              "season_points": 21.9,
+              "season_points": 30.9,
               "games_played": 3,
-              "ppg": 7.3,
-              "recent_ppg": 7.3,
-              "status": "OK"
+              "ppg": 10.3,
+              "recent_ppg": 10.3,
+              "status": "QUESTIONABLE"
             }
           ],
           "alert_count": 0,
@@ -8273,36 +8425,38 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 25.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 47.58,
-              "games_played": 2,
-              "ppg": 23.79,
-              "recent_ppg": 23.79,
+              "season_points": 74.5,
+              "games_played": 3,
+              "ppg": 24.83,
+              "recent_ppg": 24.83,
               "drop_candidate": {
                 "name": "Dak Prescott",
-                "ppg": 15.05,
-                "recent_ppg": 15.05
+                "ppg": 19.37,
+                "recent_ppg": 19.37
               },
               "status": "OK"
             },
             {
-              "player_id": "1166",
-              "name": "Kirk Cousins",
+              "player_id": "4017",
+              "name": "Deshaun Watson",
               "position": "QB",
-              "team": "LV",
-              "bye_week": 13,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 274,
+              "search_rank": 294,
               "weekly_points": {
-                "1": 15.8,
-                "2": 21.22
+                "1": 15.0,
+                "2": 19.72,
+                "3": 20.26
               },
-              "season_points": 37.02,
-              "games_played": 2,
-              "ppg": 18.51,
-              "recent_ppg": 18.51,
+              "season_points": 54.98,
+              "games_played": 3,
+              "ppg": 18.33,
+              "recent_ppg": 18.33,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -8317,12 +8471,13 @@
               "search_rank": 199,
               "weekly_points": {
                 "1": 11.0,
-                "2": 16.0
+                "2": 16.0,
+                "3": 12.0
               },
-              "season_points": 27.0,
-              "games_played": 2,
-              "ppg": 13.5,
-              "recent_ppg": 13.5,
+              "season_points": 39.0,
+              "games_played": 3,
+              "ppg": 13.0,
+              "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Harrison Butker",
                 "ppg": 9.33,
@@ -8342,16 +8497,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Devaughn Vele",
-                "ppg": 5.7,
-                "recent_ppg": 5.7
+                "ppg": 9.15,
+                "recent_ppg": 9.15
               },
               "status": "OK"
             },
@@ -8367,12 +8522,12 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Rico Dowdle",
                 "ppg": 3.5,
@@ -8384,9 +8539,9 @@
           "weekly_points": {
             "1": 128.8,
             "2": 154.26,
-            "3": 39.5
+            "3": 110.74
           },
-          "season_points": 322.56
+          "season_points": 393.8
         },
         {
           "roster_id": 7,
@@ -8406,12 +8561,12 @@
               "weekly_points": {
                 "1": 24.96,
                 "2": 15.8,
-                "3": 0.0
+                "3": 11.96
               },
-              "season_points": 40.76,
+              "season_points": 52.72,
               "games_played": 3,
-              "ppg": 13.59,
-              "recent_ppg": 13.59,
+              "ppg": 17.57,
+              "recent_ppg": 17.57,
               "status": "OK"
             },
             {
@@ -8427,12 +8582,12 @@
               "weekly_points": {
                 "1": 7.0,
                 "2": 9.8,
-                "3": 7.2
+                "3": 9.9
               },
-              "season_points": 24.0,
+              "season_points": 26.7,
               "games_played": 3,
-              "ppg": 8.0,
-              "recent_ppg": 8.0,
+              "ppg": 8.9,
+              "recent_ppg": 8.9,
               "status": "OK"
             },
             {
@@ -8442,17 +8597,18 @@
               "position": "RB",
               "team": "TEN",
               "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
               "search_rank": 122,
               "weekly_points": {
-                "3": 0.6
+                "3": 0.5
               },
-              "season_points": 0.6,
+              "season_points": 0.5,
               "games_played": 1,
-              "ppg": 0.6,
-              "recent_ppg": 0.6,
-              "status": "OK"
+              "ppg": 0.5,
+              "recent_ppg": 0.5,
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "WR",
@@ -8482,19 +8638,38 @@
               "position": "WR",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Ankle",
               "search_rank": 13,
               "weekly_points": {
                 "1": 31.2,
                 "2": 8.5,
-                "3": 0.0
+                "3": 5.2
               },
-              "season_points": 39.7,
+              "season_points": 44.9,
               "games_played": 3,
-              "ppg": 13.23,
-              "recent_ppg": 13.23,
-              "status": "OK"
+              "ppg": 14.97,
+              "recent_ppg": 14.97,
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "9756",
+                "name": "Jordan Addison",
+                "position": "WR",
+                "team": "MIN",
+                "bye_week": 6,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 99,
+                "weekly_points": {
+                  "1": 0.0,
+                  "2": 4.1,
+                  "3": 16.5
+                },
+                "season_points": 20.6,
+                "games_played": 3,
+                "ppg": 6.87,
+                "recent_ppg": 6.87
+              }
             },
             {
               "slot": "TE",
@@ -8530,12 +8705,12 @@
               "weekly_points": {
                 "1": 9.9,
                 "2": 12.3,
-                "3": 8.9
+                "3": 15.8
               },
-              "season_points": 31.1,
+              "season_points": 38.0,
               "games_played": 3,
-              "ppg": 10.37,
-              "recent_ppg": 10.37,
+              "ppg": 12.67,
+              "recent_ppg": 12.67,
               "status": "OK"
             },
             {
@@ -8572,12 +8747,12 @@
               "weekly_points": {
                 "1": 1.0,
                 "2": 17.0,
-                "3": 0.0
+                "3": 6.0
               },
-              "season_points": 18.0,
+              "season_points": 24.0,
               "games_played": 3,
-              "ppg": 6.0,
-              "recent_ppg": 6.0,
+              "ppg": 8.0,
+              "recent_ppg": 8.0,
               "status": "OK"
             },
             {
@@ -8592,12 +8767,12 @@
               "search_rank": 999999,
               "weekly_points": {
                 "2": 1.0,
-                "3": 7.0
+                "3": 9.0
               },
-              "season_points": 8.0,
+              "season_points": 10.0,
               "games_played": 2,
-              "ppg": 4.0,
-              "recent_ppg": 4.0,
+              "ppg": 5.0,
+              "recent_ppg": 5.0,
               "status": "OK"
             }
           ],
@@ -8628,19 +8803,19 @@
               "position": "WR",
               "team": "SF",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Ribs",
               "search_rank": 60,
               "weekly_points": {
                 "1": 16.9,
                 "2": 8.4,
-                "3": 0.0
+                "3": 12.4
               },
-              "season_points": 25.3,
+              "season_points": 37.7,
               "games_played": 3,
-              "ppg": 8.43,
-              "recent_ppg": 8.43,
-              "status": "OK"
+              "ppg": 12.57,
+              "recent_ppg": 12.57,
+              "status": "OUT"
             },
             {
               "player_id": "8408",
@@ -8674,17 +8849,32 @@
               "weekly_points": {
                 "1": 0.0,
                 "2": 4.1,
-                "3": 0.0
+                "3": 16.5
               },
-              "season_points": 4.1,
+              "season_points": 20.6,
               "games_played": 3,
-              "ppg": 1.37,
-              "recent_ppg": 1.37,
+              "ppg": 6.87,
+              "recent_ppg": 6.87,
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 2,
+          "alerts": [
+            {
+              "slot": "RB",
+              "player_name": "Tyjae Spears",
+              "status": "QUESTIONABLE",
+              "detail": "Ankle",
+              "suggested_swap": null
+            },
+            {
+              "slot": "WR",
+              "player_name": "Justin Jefferson",
+              "status": "OUT",
+              "detail": "Ankle",
+              "suggested_swap": "Jordan Addison"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "12545",
@@ -8697,16 +8887,17 @@
               "search_rank": 89,
               "weekly_points": {
                 "1": 25.2,
-                "2": 22.38
+                "2": 22.38,
+                "3": 26.92
               },
-              "season_points": 47.58,
-              "games_played": 2,
-              "ppg": 23.79,
-              "recent_ppg": 23.79,
+              "season_points": 74.5,
+              "games_played": 3,
+              "ppg": 24.83,
+              "recent_ppg": 24.83,
               "drop_candidate": {
-                "name": "Lamar Jackson",
-                "ppg": 13.59,
-                "recent_ppg": 13.59
+                "name": "Caleb Williams",
+                "ppg": 15.33,
+                "recent_ppg": 15.33
               },
               "status": "OK"
             },
@@ -8721,37 +8912,38 @@
               "search_rank": 199,
               "weekly_points": {
                 "1": 11.0,
-                "2": 16.0
+                "2": 16.0,
+                "3": 12.0
               },
-              "season_points": 27.0,
-              "games_played": 2,
-              "ppg": 13.5,
-              "recent_ppg": 13.5,
+              "season_points": 39.0,
+              "games_played": 3,
+              "ppg": 13.0,
+              "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Brandon Aubrey",
-                "ppg": 6.0,
-                "recent_ppg": 6.0
+                "ppg": 8.0,
+                "recent_ppg": 8.0
               },
               "status": "OK"
             },
             {
-              "player_id": "13330",
-              "name": "Kenyon Sadiq",
+              "player_id": "12506",
+              "name": "Harold Fannin",
               "position": "TE",
-              "team": "NYJ",
-              "bye_week": 13,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 109,
+              "search_rank": 63,
               "weekly_points": {
-                "1": 11.4,
-                "2": 3.7,
-                "3": 19.3
+                "1": 4.1,
+                "2": 10.4,
+                "3": 24.1
               },
-              "season_points": 34.4,
+              "season_points": 38.6,
               "games_played": 3,
-              "ppg": 11.47,
-              "recent_ppg": 11.47,
+              "ppg": 12.87,
+              "recent_ppg": 12.87,
               "drop_candidate": {
                 "name": "Kyle Pitts",
                 "ppg": 1.33,
@@ -8771,16 +8963,16 @@
               "weekly_points": {
                 "1": 12.2,
                 "2": 3.8,
-                "3": 17.1
+                "3": 19.4
               },
-              "season_points": 33.1,
+              "season_points": 35.4,
               "games_played": 3,
-              "ppg": 11.03,
-              "recent_ppg": 11.03,
+              "ppg": 11.8,
+              "recent_ppg": 11.8,
               "drop_candidate": {
                 "name": "Jordan Addison",
-                "ppg": 1.37,
-                "recent_ppg": 1.37
+                "ppg": 6.87,
+                "recent_ppg": 6.87
               },
               "status": "OK"
             },
@@ -8796,16 +8988,16 @@
               "weekly_points": {
                 "1": 4.7,
                 "2": 14.3,
-                "3": 8.5
+                "3": 11.1
               },
-              "season_points": 27.5,
+              "season_points": 30.1,
               "games_played": 3,
-              "ppg": 9.17,
-              "recent_ppg": 9.17,
+              "ppg": 10.03,
+              "recent_ppg": 10.03,
               "drop_candidate": {
                 "name": "Tyjae Spears",
-                "ppg": 0.6,
-                "recent_ppg": 0.6
+                "ppg": 0.5,
+                "recent_ppg": 0.5
               },
               "status": "QUESTIONABLE"
             }
@@ -8813,9 +9005,9 @@
           "weekly_points": {
             "1": 127.56,
             "2": 127.5,
-            "3": 37.1
+            "3": 71.76
           },
-          "season_points": 292.16
+          "season_points": 326.82
         }
       ]
     }
