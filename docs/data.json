@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T22:30:37.223176+00:00",
+  "generated_at": "2026-09-27T04:26:04.427796+00:00",
   "current_week": 3,
   "season": "2026",
   "leagues": [
@@ -6140,6 +6140,24 @@
               "status": "OK"
             },
             {
+              "player_id": "3163",
+              "name": "Jared Goff",
+              "position": "QB",
+              "team": "DET",
+              "bye_week": 6,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 62,
+              "weekly_points": {
+                "3": 0.0
+              },
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "OK"
+            },
+            {
               "player_id": "4983",
               "name": "DJ Moore",
               "position": "WR",
@@ -6178,25 +6196,6 @@
               "ppg": 3.97,
               "recent_ppg": 3.97,
               "status": "OK"
-            },
-            {
-              "player_id": "6804",
-              "name": "Jordan Love",
-              "position": "QB",
-              "team": "GB",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 68,
-              "weekly_points": {
-                "2": 13.8,
-                "3": 19.48
-              },
-              "season_points": 33.28,
-              "games_played": 2,
-              "ppg": 16.64,
-              "recent_ppg": 16.64,
-              "status": "OK"
             }
           ],
           "alert_count": 0,
@@ -6220,9 +6219,9 @@
               "ppg": 23.79,
               "recent_ppg": 23.79,
               "drop_candidate": {
-                "name": "Joe Burrow",
-                "ppg": 10.45,
-                "recent_ppg": 10.45
+                "name": "Jared Goff",
+                "ppg": 0.0,
+                "recent_ppg": 0.0
               },
               "status": "OK"
             },
@@ -8454,22 +8453,22 @@
               "status": "OK"
             },
             {
-              "player_id": "3163",
-              "name": "Jared Goff",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "DET",
-              "bye_week": 6,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 62,
+              "search_rank": 274,
               "weekly_points": {
-                "1": 16.44,
-                "2": 29.78
+                "1": 15.8,
+                "2": 21.22
               },
-              "season_points": 46.22,
+              "season_points": 37.02,
               "games_played": 2,
-              "ppg": 23.11,
-              "recent_ppg": 23.11,
+              "ppg": 18.51,
+              "recent_ppg": 18.51,
               "drop_candidate": null,
               "status": "OK"
             },
