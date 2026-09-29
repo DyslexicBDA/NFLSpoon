@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:29:45.798107+00:00",
+  "generated_at": "2026-09-29T17:51:48.874895+00:00",
   "current_week": 4,
   "season": "2026",
   "leagues": [
@@ -2334,25 +2334,24 @@
             },
             {
               "slot": "RB",
-              "player_id": "9226",
-              "name": "De'Von Achane",
+              "player_id": "8151",
+              "name": "Kenneth Walker",
               "position": "RB",
-              "team": "MIA",
-              "bye_week": 6,
-              "injury_status": "IR",
-              "injury_body_part": "Knee - ACL",
-              "search_rank": 8,
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 18,
               "weekly_points": {
-                "1": 10.6,
-                "2": 12.3,
-                "3": 1.7
+                "1": 37.1,
+                "2": 23.8,
+                "3": 21.3
               },
-              "season_points": 24.6,
+              "season_points": 82.2,
               "games_played": 3,
-              "ppg": 8.2,
-              "recent_ppg": 8.2,
-              "status": "OUT",
-              "suggested_swap": null
+              "ppg": 27.4,
+              "recent_ppg": 27.4,
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -2398,45 +2397,63 @@
             },
             {
               "slot": "TE",
-              "player_id": "8110",
-              "name": "Jake Ferguson",
+              "player_id": "7002",
+              "name": "Juwan Johnson",
               "position": "TE",
-              "team": "DAL",
-              "bye_week": 14,
+              "team": "NO",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 97,
+              "search_rank": 103,
               "weekly_points": {
-                "1": 2.6,
-                "2": 20.3,
-                "3": 9.3
+                "2": 10.6,
+                "3": 23.3
               },
-              "season_points": 32.2,
-              "games_played": 3,
-              "ppg": 10.73,
-              "recent_ppg": 10.73,
+              "season_points": 33.9,
+              "games_played": 2,
+              "ppg": 16.95,
+              "recent_ppg": 16.95,
               "status": "OK"
             },
             {
               "slot": "FLEX",
-              "player_id": "8151",
-              "name": "Kenneth Walker",
-              "position": "RB",
-              "team": "KC",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 18,
+              "player_id": "9493",
+              "name": "Puka Nacua",
+              "position": "WR",
+              "team": "LAR",
+              "bye_week": 11,
+              "injury_status": "Out",
+              "injury_body_part": "Hip",
+              "search_rank": 4,
               "weekly_points": {
-                "1": 37.1,
-                "2": 23.8,
-                "3": 21.3
+                "1": 12.4,
+                "2": 0.0,
+                "3": 0.0
               },
-              "season_points": 82.2,
+              "season_points": 12.4,
               "games_played": 3,
-              "ppg": 27.4,
-              "recent_ppg": 27.4,
-              "status": "OK"
+              "ppg": 4.13,
+              "recent_ppg": 4.13,
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "8110",
+                "name": "Jake Ferguson",
+                "position": "TE",
+                "team": "DAL",
+                "bye_week": 14,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 97,
+                "weekly_points": {
+                  "1": 2.6,
+                  "2": 20.3,
+                  "3": 9.3
+                },
+                "season_points": 32.2,
+                "games_played": 3,
+                "ppg": 10.73,
+                "recent_ppg": 10.73
+              }
             },
             {
               "slot": "FLEX",
@@ -2543,22 +2560,23 @@
               "status": "OK"
             },
             {
-              "player_id": "7002",
-              "name": "Juwan Johnson",
+              "player_id": "8110",
+              "name": "Jake Ferguson",
               "position": "TE",
-              "team": "NO",
-              "bye_week": 8,
+              "team": "DAL",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 103,
+              "search_rank": 97,
               "weekly_points": {
-                "2": 10.6,
-                "3": 23.3
+                "1": 2.6,
+                "2": 20.3,
+                "3": 9.3
               },
-              "season_points": 33.9,
-              "games_played": 2,
-              "ppg": 16.95,
-              "recent_ppg": 16.95,
+              "season_points": 32.2,
+              "games_played": 3,
+              "ppg": 10.73,
+              "recent_ppg": 10.73,
               "status": "OK"
             },
             {
@@ -2582,34 +2600,34 @@
               "status": "OUT"
             },
             {
-              "player_id": "9493",
-              "name": "Puka Nacua",
-              "position": "WR",
-              "team": "LAR",
-              "bye_week": 11,
-              "injury_status": "Out",
-              "injury_body_part": "Hip",
-              "search_rank": 4,
+              "player_id": "9226",
+              "name": "De'Von Achane",
+              "position": "RB",
+              "team": "MIA",
+              "bye_week": 6,
+              "injury_status": "IR",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 8,
               "weekly_points": {
-                "1": 12.4,
-                "2": 0.0,
-                "3": 0.0
+                "1": 10.6,
+                "2": 12.3,
+                "3": 1.7
               },
-              "season_points": 12.4,
+              "season_points": 24.6,
               "games_played": 3,
-              "ppg": 4.13,
-              "recent_ppg": 4.13,
+              "ppg": 8.2,
+              "recent_ppg": 8.2,
               "status": "OUT"
             }
           ],
           "alert_count": 1,
           "alerts": [
             {
-              "slot": "RB",
-              "player_name": "De'Von Achane",
+              "slot": "FLEX",
+              "player_name": "Puka Nacua",
               "status": "OUT",
-              "detail": "Knee - ACL",
-              "suggested_swap": null
+              "detail": "Hip",
+              "suggested_swap": "Jake Ferguson"
             }
           ],
           "waiver_suggestions": [
