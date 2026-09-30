@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:44:25.131451+00:00",
+  "generated_at": "2026-09-30T20:38:54.140432+00:00",
   "current_week": 4,
   "season": "2026",
   "leagues": [
@@ -90,25 +90,22 @@
             },
             {
               "slot": "WR",
-              "player_id": "6794",
-              "name": "Justin Jefferson",
+              "player_id": "10218",
+              "name": "Xavier Hutchinson",
               "position": "WR",
-              "team": "MIN",
-              "bye_week": 6,
-              "injury_status": "Questionable",
-              "injury_body_part": "Ankle",
-              "search_rank": 12,
+              "team": "HOU",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 679,
               "weekly_points": {
-                "1": 31.2,
-                "2": 8.5,
-                "3": 5.2
+                "3": 8.5
               },
-              "season_points": 44.9,
-              "games_played": 3,
-              "ppg": 14.97,
-              "recent_ppg": 14.97,
-              "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "season_points": 8.5,
+              "games_played": 1,
+              "ppg": 8.5,
+              "recent_ppg": 8.5,
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -154,22 +151,43 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "10218",
-              "name": "Xavier Hutchinson",
+              "player_id": "6794",
+              "name": "Justin Jefferson",
               "position": "WR",
-              "team": "HOU",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 679,
+              "team": "MIN",
+              "bye_week": 6,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
+              "search_rank": 12,
               "weekly_points": {
-                "3": 8.5
+                "1": 31.2,
+                "2": 8.5,
+                "3": 5.2
               },
-              "season_points": 8.5,
-              "games_played": 1,
-              "ppg": 8.5,
-              "recent_ppg": 8.5,
-              "status": "OK"
+              "season_points": 44.9,
+              "games_played": 3,
+              "ppg": 14.97,
+              "recent_ppg": 14.97,
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "12512",
+                "name": "Quinshon Judkins",
+                "position": "RB",
+                "team": "CLE",
+                "bye_week": 11,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 45,
+                "weekly_points": {
+                  "1": 7.0,
+                  "2": 9.8,
+                  "3": 9.9
+                },
+                "season_points": 26.7,
+                "games_played": 3,
+                "ppg": 8.9,
+                "recent_ppg": 8.9
+              }
             },
             {
               "slot": "FLEX",
@@ -334,11 +352,11 @@
           "alert_count": 2,
           "alerts": [
             {
-              "slot": "WR",
+              "slot": "FLEX",
               "player_name": "Justin Jefferson",
               "status": "QUESTIONABLE",
               "detail": "Ankle",
-              "suggested_swap": null
+              "suggested_swap": "Quinshon Judkins"
             },
             {
               "slot": "FLEX",
@@ -1670,15 +1688,15 @@
               "position": "TE",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 109,
               "weekly_points": {},
               "season_points": 0.0,
               "games_played": 0,
               "ppg": null,
               "recent_ppg": null,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "7523",
@@ -3015,8 +3033,8 @@
               "position": "RB",
               "team": "TEN",
               "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
               "search_rank": 63,
               "weekly_points": {
                 "1": 4.4,
@@ -3027,7 +3045,7 @@
               "games_played": 3,
               "ppg": 8.5,
               "recent_ppg": 8.5,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "BAL",
@@ -3641,8 +3659,8 @@
               "position": "QB",
               "team": "BAL",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 10,
               "weekly_points": {
                 "1": 32.96,
@@ -3653,7 +3671,8 @@
               "games_played": 3,
               "ppg": 23.4,
               "recent_ppg": 23.4,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "RB",
@@ -3902,7 +3921,7 @@
               "position": "RB",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": "Questionable",
+              "injury_status": "Doubtful",
               "injury_body_part": "Thigh",
               "search_rank": 27,
               "weekly_points": {
@@ -3914,11 +3933,19 @@
               "games_played": 3,
               "ppg": 14.17,
               "recent_ppg": 14.17,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "QB",
+              "player_name": "Lamar Jackson",
+              "status": "QUESTIONABLE",
+              "detail": "Undisclosed",
+              "suggested_swap": null
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "1737",
@@ -4253,7 +4280,7 @@
               "position": "WR",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": "Questionable",
+              "injury_status": "Doubtful",
               "injury_body_part": "Finger",
               "search_rank": 162,
               "weekly_points": {
@@ -4263,7 +4290,7 @@
               "games_played": 1,
               "ppg": 0.0,
               "recent_ppg": 0.0,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "5859",
@@ -4291,7 +4318,7 @@
               "position": "RB",
               "team": "PIT",
               "bye_week": 9,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Toe",
               "search_rank": 65,
               "weekly_points": {
@@ -4303,7 +4330,7 @@
               "games_played": 3,
               "ppg": 3.5,
               "recent_ppg": 3.5,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "7571",
@@ -4909,8 +4936,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Thumb",
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -4926,7 +4953,7 @@
                 "ppg": 1.87,
                 "recent_ppg": 1.87
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6039",
@@ -5348,8 +5375,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Thumb",
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -5365,7 +5392,7 @@
                 "ppg": 0.0,
                 "recent_ppg": 0.0
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -5766,8 +5793,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Thumb",
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -5783,7 +5810,7 @@
                 "ppg": 3.77,
                 "recent_ppg": 3.77
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6039",
@@ -6071,8 +6098,8 @@
               "position": "RB",
               "team": "TEN",
               "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
               "search_rank": 63,
               "weekly_points": {
                 "1": 4.4,
@@ -6083,7 +6110,7 @@
               "games_played": 3,
               "ppg": 8.5,
               "recent_ppg": 8.5,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6770",
@@ -6188,8 +6215,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Thumb",
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -6205,7 +6232,7 @@
                 "ppg": null,
                 "recent_ppg": null
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6039",
@@ -6665,8 +6692,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Thumb",
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -6682,7 +6709,7 @@
                 "ppg": null,
                 "recent_ppg": null
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6039",
@@ -7108,8 +7135,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Thumb",
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -7125,7 +7152,7 @@
                 "ppg": null,
                 "recent_ppg": null
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6039",
@@ -7531,8 +7558,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Thumb",
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -7548,7 +7575,7 @@
                 "ppg": 7.53,
                 "recent_ppg": 7.53
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6039",
@@ -7839,7 +7866,7 @@
               "position": "RB",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": "Questionable",
+              "injury_status": "Doubtful",
               "injury_body_part": "Thigh",
               "search_rank": 27,
               "weekly_points": {
@@ -7851,7 +7878,7 @@
               "games_played": 3,
               "ppg": 14.17,
               "recent_ppg": 14.17,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "9226",
@@ -7952,8 +7979,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Thumb",
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -7969,7 +7996,7 @@
                 "ppg": 7.3,
                 "recent_ppg": 7.3
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6039",
@@ -8369,8 +8396,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Thumb",
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -8386,7 +8413,7 @@
                 "ppg": 9.15,
                 "recent_ppg": 9.15
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6039",
@@ -8431,8 +8458,8 @@
               "position": "QB",
               "team": "BAL",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Undisclosed",
               "search_rank": 10,
               "weekly_points": {
                 "1": 24.96,
@@ -8443,7 +8470,8 @@
               "games_played": 3,
               "ppg": 20.4,
               "recent_ppg": 20.4,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "RB",
@@ -8797,8 +8825,15 @@
               "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 3,
           "alerts": [
+            {
+              "slot": "QB",
+              "player_name": "Lamar Jackson",
+              "status": "QUESTIONABLE",
+              "detail": "Undisclosed",
+              "suggested_swap": null
+            },
             {
               "slot": "WR",
               "player_name": "Justin Jefferson",
@@ -8894,8 +8929,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Thumb",
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -8911,7 +8946,7 @@
                 "ppg": 8.03,
                 "recent_ppg": 8.03
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6039",
