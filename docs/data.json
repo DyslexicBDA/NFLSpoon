@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:33:59.644049+00:00",
+  "generated_at": "2026-10-02T20:28:43.610172+00:00",
   "current_week": 4,
   "season": "2026",
   "leagues": [
@@ -181,7 +181,7 @@
               "position": "WR",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Ankle",
               "search_rank": 12,
               "weekly_points": {
@@ -194,7 +194,7 @@
               "games_played": 4,
               "ppg": 11.22,
               "recent_ppg": 4.57,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": {
                 "player_id": "11586",
                 "name": "Blake Corum",
@@ -223,8 +223,8 @@
               "position": "RB",
               "team": "TB",
               "bye_week": 10,
-              "injury_status": "Questionable",
-              "injury_body_part": "Lower Body",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 32,
               "weekly_points": {
                 "1": 20.3,
@@ -236,27 +236,7 @@
               "games_played": 4,
               "ppg": 10.28,
               "recent_ppg": 6.93,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "11586",
-                "name": "Blake Corum",
-                "position": "RB",
-                "team": "LAR",
-                "bye_week": 11,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 68,
-                "weekly_points": {
-                  "1": 5.4,
-                  "2": 10.2,
-                  "3": 3.5,
-                  "4": 0.0
-                },
-                "season_points": 19.1,
-                "games_played": 4,
-                "ppg": 4.78,
-                "recent_ppg": 4.57
-              }
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -366,7 +346,7 @@
               "position": "TE",
               "team": "PHI",
               "bye_week": 10,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Knee - MCL",
               "search_rank": 94,
               "weekly_points": {
@@ -382,7 +362,7 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 2,
           "alerts": [
             {
               "slot": "WR",
@@ -394,15 +374,8 @@
             {
               "slot": "FLEX",
               "player_name": "Justin Jefferson",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Ankle",
-              "suggested_swap": "Blake Corum"
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "Bucky Irving",
-              "status": "QUESTIONABLE",
-              "detail": "Lower Body",
               "suggested_swap": "Blake Corum"
             }
           ],
@@ -834,7 +807,7 @@
               "position": "WR",
               "team": "MIA",
               "bye_week": 6,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Ankle",
               "search_rank": 199,
               "weekly_points": {
@@ -846,7 +819,7 @@
               "games_played": 3,
               "ppg": 1.3,
               "recent_ppg": 1.3,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "6819",
@@ -1121,8 +1094,8 @@
               "position": "WR",
               "team": "HOU",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hamstring",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 21,
               "weekly_points": {
                 "1": 21.2,
@@ -1134,26 +1107,7 @@
               "games_played": 4,
               "ppg": 5.3,
               "recent_ppg": 0.0,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "8134",
-                "name": "Khalil Shakir",
-                "position": "WR",
-                "team": "BUF",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 120,
-                "weekly_points": {
-                  "2": 6.8,
-                  "3": 1.6,
-                  "4": 0.0
-                },
-                "season_points": 8.4,
-                "games_played": 3,
-                "ppg": 2.8,
-                "recent_ppg": 2.8
-              }
+              "status": "OK"
             },
             {
               "slot": "TE",
@@ -1199,24 +1153,24 @@
               "recent_ppg": 6.93,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "11564",
-                "name": "Drake Maye",
-                "position": "QB",
-                "team": "NE",
-                "bye_week": 11,
+                "player_id": "6790",
+                "name": "D'Andre Swift",
+                "position": "RB",
+                "team": "CHI",
+                "bye_week": 10,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 10,
+                "search_rank": 45,
                 "weekly_points": {
-                  "1": 12.82,
-                  "2": 10.02,
-                  "3": 5.76,
+                  "1": 32.4,
+                  "2": 12.9,
+                  "3": 10.8,
                   "4": 0.0
                 },
-                "season_points": 28.6,
+                "season_points": 56.1,
                 "games_played": 4,
-                "ppg": 7.15,
-                "recent_ppg": 5.26
+                "ppg": 14.03,
+                "recent_ppg": 7.9
               }
             },
             {
@@ -1328,8 +1282,8 @@
               "position": "RB",
               "team": "CHI",
               "bye_week": 10,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 45,
               "weekly_points": {
                 "1": 32.4,
@@ -1341,7 +1295,7 @@
               "games_played": 4,
               "ppg": 14.03,
               "recent_ppg": 7.9,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "8134",
@@ -1364,21 +1318,14 @@
               "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
-            {
-              "slot": "WR",
-              "player_name": "Nico Collins",
-              "status": "QUESTIONABLE",
-              "detail": "Hamstring",
-              "suggested_swap": "Khalil Shakir"
-            },
             {
               "slot": "FLEX",
               "player_name": "Mike Evans",
               "status": "QUESTIONABLE",
               "detail": "Ribs",
-              "suggested_swap": "Drake Maye"
+              "suggested_swap": "D'Andre Swift"
             }
           ],
           "waiver_suggestions": [
@@ -2508,25 +2455,45 @@
             },
             {
               "slot": "WR",
-              "player_id": "5927",
-              "name": "Terry McLaurin",
+              "player_id": "9997",
+              "name": "Zay Flowers",
               "position": "WR",
-              "team": "WAS",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 55,
+              "team": "BAL",
+              "bye_week": 13,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hamstring",
+              "search_rank": 40,
               "weekly_points": {
-                "1": 3.4,
-                "2": 7.0,
-                "3": 19.7,
+                "1": 29.0,
+                "2": 0.0,
+                "3": 15.4,
                 "4": 0.0
               },
-              "season_points": 30.1,
+              "season_points": 44.4,
               "games_played": 4,
-              "ppg": 7.52,
-              "recent_ppg": 8.9,
-              "status": "OK"
+              "ppg": 11.1,
+              "recent_ppg": 5.13,
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "11631",
+                "name": "Brian Thomas",
+                "position": "WR",
+                "team": "JAX",
+                "bye_week": 7,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 74,
+                "weekly_points": {
+                  "1": 7.0,
+                  "2": 7.0,
+                  "3": 1.8,
+                  "4": 0.0
+                },
+                "season_points": 15.8,
+                "games_played": 4,
+                "ppg": 3.95,
+                "recent_ppg": 2.93
+              }
             },
             {
               "slot": "WR",
@@ -2573,24 +2540,24 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "9493",
-              "name": "Puka Nacua",
+              "player_id": "5927",
+              "name": "Terry McLaurin",
               "position": "WR",
-              "team": "LAR",
-              "bye_week": 11,
+              "team": "WAS",
+              "bye_week": 7,
               "injury_status": "Questionable",
-              "injury_body_part": "Hip",
-              "search_rank": 4,
+              "injury_body_part": "Hamstring",
+              "search_rank": 55,
               "weekly_points": {
-                "1": 12.4,
-                "2": 0.0,
-                "3": 0.0,
+                "1": 3.4,
+                "2": 7.0,
+                "3": 19.7,
                 "4": 0.0
               },
-              "season_points": 12.4,
+              "season_points": 30.1,
               "games_played": 4,
-              "ppg": 3.1,
-              "recent_ppg": 0.0,
+              "ppg": 7.52,
+              "recent_ppg": 8.9,
               "status": "QUESTIONABLE",
               "suggested_swap": {
                 "player_id": "8110",
@@ -2615,24 +2582,24 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "9997",
-              "name": "Zay Flowers",
+              "player_id": "9493",
+              "name": "Puka Nacua",
               "position": "WR",
-              "team": "BAL",
-              "bye_week": 13,
+              "team": "LAR",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 40,
+              "search_rank": 4,
               "weekly_points": {
-                "1": 29.0,
+                "1": 12.4,
                 "2": 0.0,
-                "3": 15.4,
+                "3": 0.0,
                 "4": 0.0
               },
-              "season_points": 44.4,
+              "season_points": 12.4,
               "games_played": 4,
-              "ppg": 11.1,
-              "recent_ppg": 5.13,
+              "ppg": 3.1,
+              "recent_ppg": 0.0,
               "status": "OK"
             },
             {
@@ -2686,7 +2653,7 @@
               "position": "QB",
               "team": "CHI",
               "bye_week": 10,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Hamstring",
               "search_rank": 21,
               "weekly_points": {
@@ -2783,13 +2750,20 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
             {
-              "slot": "FLEX",
-              "player_name": "Puka Nacua",
+              "slot": "WR",
+              "player_name": "Zay Flowers",
               "status": "QUESTIONABLE",
-              "detail": "Hip",
+              "detail": "Hamstring",
+              "suggested_swap": "Brian Thomas"
+            },
+            {
+              "slot": "FLEX",
+              "player_name": "Terry McLaurin",
+              "status": "QUESTIONABLE",
+              "detail": "Hamstring",
               "suggested_swap": "Jake Ferguson"
             }
           ],
@@ -3091,8 +3065,8 @@
               "position": "WR",
               "team": "BUF",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Shoulder",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 49,
               "weekly_points": {
                 "1": 22.0,
@@ -3104,27 +3078,7 @@
               "games_played": 4,
               "ppg": 8.65,
               "recent_ppg": 4.2,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "12501",
-                "name": "Matthew Golden",
-                "position": "WR",
-                "team": "GB",
-                "bye_week": 11,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 118,
-                "weekly_points": {
-                  "1": 15.5,
-                  "2": 9.8,
-                  "3": 21.0,
-                  "4": 0.0
-                },
-                "season_points": 46.3,
-                "games_played": 4,
-                "ppg": 11.57,
-                "recent_ppg": 10.27
-              }
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -3256,16 +3210,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "FLEX",
-              "player_name": "DJ Moore",
-              "status": "QUESTIONABLE",
-              "detail": "Shoulder",
-              "suggested_swap": "Matthew Golden"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "1737",
@@ -3688,7 +3634,7 @@
               "position": "WR",
               "team": "PHI",
               "bye_week": 10,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Hamstring",
               "search_rank": 33,
               "weekly_points": {
@@ -3701,7 +3647,7 @@
               "games_played": 4,
               "ppg": 12.12,
               "recent_ppg": 13.4,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "7611",
@@ -4149,8 +4095,8 @@
               "position": "RB",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": "Doubtful",
-              "injury_body_part": "Thigh",
+              "injury_status": "Out",
+              "injury_body_part": "Quadriceps",
               "search_rank": 27,
               "weekly_points": {
                 "1": 19.8,
@@ -4514,7 +4460,7 @@
               "position": "WR",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Finger",
               "search_rank": 162,
               "weekly_points": {
@@ -5188,8 +5134,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Thumb",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -5205,7 +5151,7 @@
                 "ppg": 1.4,
                 "recent_ppg": 0.0
               },
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "6039",
@@ -5622,8 +5568,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Thumb",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -5639,7 +5585,7 @@
                 "ppg": 0.0,
                 "recent_ppg": 0.0
               },
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "6039",
@@ -5751,8 +5697,8 @@
               "position": "WR",
               "team": "LAR",
               "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hip",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 4,
               "weekly_points": {
                 "1": 12.4,
@@ -5764,27 +5710,7 @@
               "games_played": 4,
               "ppg": 3.1,
               "recent_ppg": 0.0,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "5927",
-                "name": "Terry McLaurin",
-                "position": "WR",
-                "team": "WAS",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 55,
-                "weekly_points": {
-                  "1": 3.4,
-                  "2": 7.0,
-                  "3": 19.7,
-                  "4": 0.0
-                },
-                "season_points": 30.1,
-                "games_played": 4,
-                "ppg": 7.52,
-                "recent_ppg": 8.9
-              }
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -5837,8 +5763,8 @@
               "position": "RB",
               "team": "TB",
               "bye_week": 10,
-              "injury_status": "Questionable",
-              "injury_body_part": "Lower Body",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 32,
               "weekly_points": {
                 "1": 20.3,
@@ -5850,27 +5776,7 @@
               "games_played": 4,
               "ppg": 10.28,
               "recent_ppg": 6.93,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "5927",
-                "name": "Terry McLaurin",
-                "position": "WR",
-                "team": "WAS",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 55,
-                "weekly_points": {
-                  "1": 3.4,
-                  "2": 7.0,
-                  "3": 19.7,
-                  "4": 0.0
-                },
-                "season_points": 30.1,
-                "games_played": 4,
-                "ppg": 7.52,
-                "recent_ppg": 8.9
-              }
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -5938,27 +5844,6 @@
           ],
           "bench": [
             {
-              "player_id": "11628",
-              "name": "Marvin Harrison",
-              "position": "WR",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 73,
-              "weekly_points": {
-                "1": 4.3,
-                "2": 0.0,
-                "3": 7.0,
-                "4": 0.0
-              },
-              "season_points": 11.3,
-              "games_played": 4,
-              "ppg": 2.83,
-              "recent_ppg": 2.33,
-              "status": "OK"
-            },
-            {
               "player_id": "11635",
               "name": "Ladd McConkey",
               "position": "WR",
@@ -5978,6 +5863,24 @@
               "ppg": 9.07,
               "recent_ppg": 5.7,
               "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "3321",
+              "name": "Tyreek Hill",
+              "position": "WR",
+              "team": null,
+              "bye_week": null,
+              "injury_status": "",
+              "injury_body_part": "Knee - ACL",
+              "search_rank": 145,
+              "weekly_points": {
+                "4": 0.0
+              },
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "OK"
             },
             {
               "player_id": "4035",
@@ -6003,8 +5906,8 @@
               "position": "WR",
               "team": "WAS",
               "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hamstring",
               "search_rank": 55,
               "weekly_points": {
                 "1": 3.4,
@@ -6016,26 +5919,11 @@
               "games_played": 4,
               "ppg": 7.52,
               "recent_ppg": 8.9,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 2,
-          "alerts": [
-            {
-              "slot": "WR",
-              "player_name": "Puka Nacua",
-              "status": "QUESTIONABLE",
-              "detail": "Hip",
-              "suggested_swap": "Terry McLaurin"
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "Bucky Irving",
-              "status": "QUESTIONABLE",
-              "detail": "Lower Body",
-              "suggested_swap": "Terry McLaurin"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "1737",
@@ -6116,8 +6004,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Thumb",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -6129,11 +6017,11 @@
               "ppg": 11.8,
               "recent_ppg": 11.8,
               "drop_candidate": {
-                "name": "Puka Nacua",
-                "ppg": 3.1,
+                "name": "Tyreek Hill",
+                "ppg": 0.0,
                 "recent_ppg": 0.0
               },
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "6039",
@@ -6310,8 +6198,8 @@
               "position": "WR",
               "team": "BUF",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Shoulder",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 49,
               "weekly_points": {
                 "1": 21.0,
@@ -6323,25 +6211,7 @@
               "games_played": 4,
               "ppg": 8.4,
               "recent_ppg": 4.2,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "3163",
-                "name": "Jared Goff",
-                "position": "QB",
-                "team": "DET",
-                "bye_week": 6,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 61,
-                "weekly_points": {
-                  "3": 19.36,
-                  "4": 0.0
-                },
-                "season_points": 19.36,
-                "games_played": 2,
-                "ppg": 9.68,
-                "recent_ppg": 9.68
-              }
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -6490,16 +6360,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "FLEX",
-              "player_name": "DJ Moore",
-              "status": "QUESTIONABLE",
-              "detail": "Shoulder",
-              "suggested_swap": "Jared Goff"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "1737",
@@ -6580,8 +6442,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Thumb",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -6597,7 +6459,7 @@
                 "ppg": 0.0,
                 "recent_ppg": 0.0
               },
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "6039",
@@ -6687,7 +6549,7 @@
               "position": "RB",
               "team": "WAS",
               "bye_week": 7,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Shoulder",
               "search_rank": 125,
               "weekly_points": {
@@ -6697,7 +6559,7 @@
               "games_played": 1,
               "ppg": 0.0,
               "recent_ppg": 0.0,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": null
             },
             {
@@ -6793,8 +6655,8 @@
               "position": "WR",
               "team": "HOU",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hamstring",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 21,
               "weekly_points": {
                 "1": 21.2,
@@ -6806,27 +6668,7 @@
               "games_played": 4,
               "ppg": 5.3,
               "recent_ppg": 0.0,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "6904",
-                "name": "Jalen Hurts",
-                "position": "QB",
-                "team": "PHI",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 28,
-                "weekly_points": {
-                  "1": 24.72,
-                  "2": 18.16,
-                  "3": 13.62,
-                  "4": 0.0
-                },
-                "season_points": 56.5,
-                "games_played": 4,
-                "ppg": 14.12,
-                "recent_ppg": 10.59
-              }
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -6952,21 +6794,14 @@
               "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
             {
               "slot": "RB",
               "player_name": "Rachaad White",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Shoulder",
               "suggested_swap": null
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "Nico Collins",
-              "status": "QUESTIONABLE",
-              "detail": "Hamstring",
-              "suggested_swap": "Jalen Hurts"
             }
           ],
           "waiver_suggestions": [
@@ -7049,8 +6884,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Thumb",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -7066,7 +6901,7 @@
                 "ppg": 0.0,
                 "recent_ppg": 0.0
               },
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "6039",
@@ -7392,7 +7227,7 @@
               "position": "TE",
               "team": "PHI",
               "bye_week": 10,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Knee - MCL",
               "search_rank": 94,
               "weekly_points": {
@@ -7509,8 +7344,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Thumb",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -7526,7 +7361,7 @@
                 "ppg": 0.0,
                 "recent_ppg": 0.0
               },
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "6039",
@@ -7827,7 +7662,7 @@
               "position": "WR",
               "team": "PHI",
               "bye_week": 10,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Hamstring",
               "search_rank": 33,
               "weekly_points": {
@@ -7840,7 +7675,7 @@
               "games_played": 4,
               "ppg": 12.12,
               "recent_ppg": 13.4,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "9484",
@@ -7946,8 +7781,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Thumb",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -7963,7 +7798,7 @@
                 "ppg": 6.35,
                 "recent_ppg": 6.35
               },
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "6039",
@@ -8051,8 +7886,8 @@
               "position": "RB",
               "team": "CHI",
               "bye_week": 10,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 45,
               "weekly_points": {
                 "1": 32.4,
@@ -8064,27 +7899,7 @@
               "games_played": 4,
               "ppg": 14.03,
               "recent_ppg": 7.9,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "12534",
-                "name": "Kyle Monangai",
-                "position": "RB",
-                "team": "CHI",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 61,
-                "weekly_points": {
-                  "1": 20.4,
-                  "2": 7.8,
-                  "3": 3.1,
-                  "4": 0.0
-                },
-                "season_points": 31.3,
-                "games_played": 4,
-                "ppg": 7.82,
-                "recent_ppg": 3.63
-              }
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -8308,8 +8123,8 @@
               "position": "RB",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": "Doubtful",
-              "injury_body_part": "Thigh",
+              "injury_status": "Out",
+              "injury_body_part": "Quadriceps",
               "search_rank": 27,
               "weekly_points": {
                 "1": 19.8,
@@ -8345,16 +8160,8 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "D'Andre Swift",
-              "status": "QUESTIONABLE",
-              "detail": "Knee",
-              "suggested_swap": "Kyle Monangai"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "1737",
@@ -8431,8 +8238,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Thumb",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -8448,7 +8255,7 @@
                 "ppg": 5.67,
                 "recent_ppg": 4.73
               },
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "6039",
@@ -8582,8 +8389,8 @@
               "position": "WR",
               "team": "BAL",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hamstring",
               "search_rank": 40,
               "weekly_points": {
                 "1": 26.0,
@@ -8595,7 +8402,27 @@
               "games_played": 4,
               "ppg": 10.35,
               "recent_ppg": 5.13,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "2449",
+                "name": "Stefon Diggs",
+                "position": "WR",
+                "team": "WAS",
+                "bye_week": 7,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 104,
+                "weekly_points": {
+                  "1": 15.5,
+                  "2": 21.7,
+                  "3": 7.3,
+                  "4": 0.0
+                },
+                "season_points": 44.5,
+                "games_played": 4,
+                "ppg": 11.12,
+                "recent_ppg": 9.67
+              }
             },
             {
               "slot": "TE",
@@ -8804,8 +8631,16 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Zay Flowers",
+              "status": "QUESTIONABLE",
+              "detail": "Hamstring",
+              "suggested_swap": "Stefon Diggs"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "1737",
@@ -8886,8 +8721,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Thumb",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -8903,7 +8738,7 @@
                 "ppg": 10.35,
                 "recent_ppg": 5.13
               },
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "6039",
@@ -9034,7 +8869,7 @@
               "position": "WR",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Ankle",
               "search_rank": 12,
               "weekly_points": {
@@ -9047,7 +8882,7 @@
               "games_played": 4,
               "ppg": 11.22,
               "recent_ppg": 4.57,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": {
                 "player_id": "7526",
                 "name": "Jaylen Waddle",
@@ -9205,7 +9040,7 @@
               "position": "QB",
               "team": "CHI",
               "bye_week": 10,
-              "injury_status": "Doubtful",
+              "injury_status": "Out",
               "injury_body_part": "Hamstring",
               "search_rank": 21,
               "weekly_points": {
@@ -9308,7 +9143,7 @@
             {
               "slot": "WR",
               "player_name": "Justin Jefferson",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Ankle",
               "suggested_swap": "Jaylen Waddle"
             },
@@ -9400,8 +9235,8 @@
               "position": "WR",
               "team": "JAX",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Thumb",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 77,
               "weekly_points": {
                 "1": 12.2,
@@ -9417,7 +9252,7 @@
                 "ppg": 11.22,
                 "recent_ppg": 4.57
               },
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "6039",
