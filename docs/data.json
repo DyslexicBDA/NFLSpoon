@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:28:43.610172+00:00",
+  "generated_at": "2026-10-03T04:28:07.423398+00:00",
   "current_week": 4,
   "season": "2026",
   "leagues": [
@@ -176,45 +176,22 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "6794",
-              "name": "Justin Jefferson",
-              "position": "WR",
-              "team": "MIN",
-              "bye_week": 6,
-              "injury_status": "Out",
-              "injury_body_part": "Ankle",
-              "search_rank": 12,
+              "player_id": "3271",
+              "name": "Tyler Higbee",
+              "position": "TE",
+              "team": "LAR",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 652,
               "weekly_points": {
-                "1": 31.2,
-                "2": 8.5,
-                "3": 5.2,
                 "4": 0.0
               },
-              "season_points": 44.9,
-              "games_played": 4,
-              "ppg": 11.22,
-              "recent_ppg": 4.57,
-              "status": "OUT",
-              "suggested_swap": {
-                "player_id": "11586",
-                "name": "Blake Corum",
-                "position": "RB",
-                "team": "LAR",
-                "bye_week": 11,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 68,
-                "weekly_points": {
-                  "1": 5.4,
-                  "2": 10.2,
-                  "3": 3.5,
-                  "4": 0.0
-                },
-                "season_points": 19.1,
-                "games_played": 4,
-                "ppg": 4.78,
-                "recent_ppg": 4.57
-              }
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -284,24 +261,21 @@
           ],
           "bench": [
             {
-              "player_id": "11586",
-              "name": "Blake Corum",
+              "player_id": "11435",
+              "name": "Emanuel Wilson",
               "position": "RB",
-              "team": "LAR",
+              "team": "SEA",
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 68,
+              "search_rank": 161,
               "weekly_points": {
-                "1": 5.4,
-                "2": 10.2,
-                "3": 3.5,
                 "4": 0.0
               },
-              "season_points": 19.1,
-              "games_played": 4,
-              "ppg": 4.78,
-              "recent_ppg": 4.57,
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
               "status": "OK"
             },
             {
@@ -313,24 +287,6 @@
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 678,
-              "weekly_points": {
-                "4": 0.0
-              },
-              "season_points": 0.0,
-              "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
-              "status": "OK"
-            },
-            {
-              "player_id": "3271",
-              "name": "Tyler Higbee",
-              "position": "TE",
-              "team": "LAR",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 652,
               "weekly_points": {
                 "4": 0.0
               },
@@ -360,9 +316,30 @@
               "ppg": 6.52,
               "recent_ppg": 0.47,
               "status": "OUT"
+            },
+            {
+              "player_id": "6794",
+              "name": "Justin Jefferson",
+              "position": "WR",
+              "team": "MIN",
+              "bye_week": 6,
+              "injury_status": "Out",
+              "injury_body_part": "Ankle",
+              "search_rank": 12,
+              "weekly_points": {
+                "1": 31.2,
+                "2": 8.5,
+                "3": 5.2,
+                "4": 0.0
+              },
+              "season_points": 44.9,
+              "games_played": 4,
+              "ppg": 11.22,
+              "recent_ppg": 4.57,
+              "status": "OUT"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
             {
               "slot": "WR",
@@ -370,13 +347,6 @@
               "status": "QUESTIONABLE",
               "detail": "Quadriceps",
               "suggested_swap": "Konata Mumpfield"
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "Justin Jefferson",
-              "status": "OUT",
-              "detail": "Ankle",
-              "suggested_swap": "Blake Corum"
             }
           ],
           "waiver_suggestions": [
@@ -473,9 +443,9 @@
               "ppg": 11.43,
               "recent_ppg": 11.43,
               "drop_candidate": {
-                "name": "Blake Corum",
-                "ppg": 4.78,
-                "recent_ppg": 4.57
+                "name": "Emanuel Wilson",
+                "ppg": 0.0,
+                "recent_ppg": 0.0
               },
               "status": "OK"
             },
@@ -3576,7 +3546,7 @@
               "position": "RB",
               "team": "SEA",
               "bye_week": 11,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Chest",
               "search_rank": 52,
               "weekly_points": {
@@ -3589,7 +3559,7 @@
               "games_played": 4,
               "ppg": 3.5,
               "recent_ppg": 2.07,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "13345",
@@ -6544,14 +6514,14 @@
             },
             {
               "slot": "RB",
-              "player_id": "8136",
-              "name": "Rachaad White",
+              "player_id": "11435",
+              "name": "Emanuel Wilson",
               "position": "RB",
-              "team": "WAS",
-              "bye_week": 7,
-              "injury_status": "Out",
-              "injury_body_part": "Shoulder",
-              "search_rank": 125,
+              "team": "SEA",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 161,
               "weekly_points": {
                 "4": 0.0
               },
@@ -6559,8 +6529,7 @@
               "games_played": 1,
               "ppg": 0.0,
               "recent_ppg": 0.0,
-              "status": "OUT",
-              "suggested_swap": null
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -6713,24 +6682,6 @@
           ],
           "bench": [
             {
-              "player_id": "1479",
-              "name": "Keenan Allen",
-              "position": "WR",
-              "team": "IND",
-              "bye_week": 13,
-              "injury_status": "Questionable",
-              "injury_body_part": "Groin",
-              "search_rank": 183,
-              "weekly_points": {
-                "4": 0.0
-              },
-              "season_points": 0.0,
-              "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
-              "status": "QUESTIONABLE"
-            },
-            {
               "player_id": "5012",
               "name": "Mark Andrews",
               "position": "TE",
@@ -6792,18 +6743,28 @@
               "ppg": 14.12,
               "recent_ppg": 10.59,
               "status": "OK"
-            }
-          ],
-          "alert_count": 1,
-          "alerts": [
+            },
             {
-              "slot": "RB",
-              "player_name": "Rachaad White",
-              "status": "OUT",
-              "detail": "Shoulder",
-              "suggested_swap": null
+              "player_id": "8136",
+              "name": "Rachaad White",
+              "position": "RB",
+              "team": "WAS",
+              "bye_week": 7,
+              "injury_status": "Out",
+              "injury_body_part": "Shoulder",
+              "search_rank": 125,
+              "weekly_points": {
+                "4": 0.0
+              },
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "OUT"
             }
           ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "1737",
@@ -6897,8 +6858,8 @@
               "ppg": 11.8,
               "recent_ppg": 11.8,
               "drop_candidate": {
-                "name": "Keenan Allen",
-                "ppg": 0.0,
+                "name": "Nico Collins",
+                "ppg": 5.3,
                 "recent_ppg": 0.0
               },
               "status": "OK"
@@ -6920,7 +6881,7 @@
               "ppg": 9.0,
               "recent_ppg": 9.0,
               "drop_candidate": {
-                "name": "Rachaad White",
+                "name": "Emanuel Wilson",
                 "ppg": 0.0,
                 "recent_ppg": 0.0
               },
@@ -8555,7 +8516,7 @@
               "position": "RB",
               "team": "SEA",
               "bye_week": 11,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Chest",
               "search_rank": 52,
               "weekly_points": {
@@ -8568,7 +8529,7 @@
               "games_played": 4,
               "ppg": 3.5,
               "recent_ppg": 2.07,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "2449",
@@ -8864,45 +8825,25 @@
             },
             {
               "slot": "WR",
-              "player_id": "6794",
-              "name": "Justin Jefferson",
+              "player_id": "9756",
+              "name": "Jordan Addison",
               "position": "WR",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": "Out",
-              "injury_body_part": "Ankle",
-              "search_rank": 12,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 99,
               "weekly_points": {
-                "1": 31.2,
-                "2": 8.5,
-                "3": 5.2,
+                "1": 0.0,
+                "2": 4.1,
+                "3": 20.0,
                 "4": 0.0
               },
-              "season_points": 44.9,
+              "season_points": 24.1,
               "games_played": 4,
-              "ppg": 11.22,
-              "recent_ppg": 4.57,
-              "status": "OUT",
-              "suggested_swap": {
-                "player_id": "7526",
-                "name": "Jaylen Waddle",
-                "position": "WR",
-                "team": "DEN",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 42,
-                "weekly_points": {
-                  "1": 1.2,
-                  "2": 21.8,
-                  "3": 6.4,
-                  "4": 0.0
-                },
-                "season_points": 29.4,
-                "games_played": 4,
-                "ppg": 7.35,
-                "recent_ppg": 9.4
-              }
+              "ppg": 6.03,
+              "recent_ppg": 8.03,
+              "status": "OK"
             },
             {
               "slot": "TE",
@@ -9075,6 +9016,27 @@
               "status": "OK"
             },
             {
+              "player_id": "6794",
+              "name": "Justin Jefferson",
+              "position": "WR",
+              "team": "MIN",
+              "bye_week": 6,
+              "injury_status": "Out",
+              "injury_body_part": "Ankle",
+              "search_rank": 12,
+              "weekly_points": {
+                "1": 31.2,
+                "2": 8.5,
+                "3": 5.2,
+                "4": 0.0
+              },
+              "season_points": 44.9,
+              "games_played": 4,
+              "ppg": 11.22,
+              "recent_ppg": 4.57,
+              "status": "OUT"
+            },
+            {
               "player_id": "7526",
               "name": "Jaylen Waddle",
               "position": "WR",
@@ -9115,38 +9077,10 @@
               "ppg": 2.98,
               "recent_ppg": 0.0,
               "status": "OUT"
-            },
-            {
-              "player_id": "9756",
-              "name": "Jordan Addison",
-              "position": "WR",
-              "team": "MIN",
-              "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 99,
-              "weekly_points": {
-                "1": 0.0,
-                "2": 4.1,
-                "3": 20.0,
-                "4": 0.0
-              },
-              "season_points": 24.1,
-              "games_played": 4,
-              "ppg": 6.03,
-              "recent_ppg": 8.03,
-              "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
-            {
-              "slot": "WR",
-              "player_name": "Justin Jefferson",
-              "status": "OUT",
-              "detail": "Ankle",
-              "suggested_swap": "Jaylen Waddle"
-            },
             {
               "slot": "FLEX",
               "player_name": "Mike Evans",
