@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:09:10.845208+00:00",
+  "generated_at": "2026-10-03T19:05:35.303322+00:00",
   "current_week": 4,
   "season": "2026",
   "leagues": [
@@ -2515,7 +2515,7 @@
               "position": "WR",
               "team": "WAS",
               "bye_week": 7,
-              "injury_status": "Questionable",
+              "injury_status": "Doubtful",
               "injury_body_part": "Hamstring",
               "search_rank": 55,
               "weekly_points": {
@@ -2528,7 +2528,7 @@
               "games_played": 4,
               "ppg": 7.52,
               "recent_ppg": 8.9,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": {
                 "player_id": "8110",
                 "name": "Jake Ferguson",
@@ -2732,7 +2732,7 @@
             {
               "slot": "FLEX",
               "player_name": "Terry McLaurin",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Hamstring",
               "suggested_swap": "Jake Ferguson"
             }
@@ -4449,7 +4449,7 @@
               "position": "WR",
               "team": "IND",
               "bye_week": 13,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Groin",
               "search_rank": 185,
               "weekly_points": {
@@ -4459,7 +4459,7 @@
               "games_played": 1,
               "ppg": 0.0,
               "recent_ppg": 0.0,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "5859",
@@ -5876,7 +5876,7 @@
               "position": "WR",
               "team": "WAS",
               "bye_week": 7,
-              "injury_status": "Questionable",
+              "injury_status": "Doubtful",
               "injury_body_part": "Hamstring",
               "search_rank": 55,
               "weekly_points": {
@@ -5889,7 +5889,7 @@
               "games_played": 4,
               "ppg": 7.52,
               "recent_ppg": 8.9,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             }
           ],
           "alert_count": 0,
