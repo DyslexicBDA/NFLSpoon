@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:05:49.453483+00:00",
+  "generated_at": "2026-10-06T23:39:26.377156+00:00",
   "current_week": 5,
   "season": "2026",
   "leagues": [
@@ -2139,24 +2139,23 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "10236",
-              "name": "Dalton Kincaid",
-              "position": "TE",
-              "team": "BUF",
-              "bye_week": 7,
+              "player_id": "12489",
+              "name": "RJ Harvey",
+              "position": "RB",
+              "team": "DEN",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 81,
+              "search_rank": 56,
               "weekly_points": {
-                "1": 18.0,
-                "2": 22.5,
-                "3": 3.8,
-                "4": 1.7
+                "1": 8.1,
+                "2": 0.0,
+                "4": 19.3
               },
-              "season_points": 46.0,
-              "games_played": 4,
-              "ppg": 11.5,
-              "recent_ppg": 9.33,
+              "season_points": 27.4,
+              "games_played": 3,
+              "ppg": 9.13,
+              "recent_ppg": 9.13,
               "status": "OK"
             },
             {
@@ -2200,6 +2199,27 @@
           ],
           "bench": [
             {
+              "player_id": "10236",
+              "name": "Dalton Kincaid",
+              "position": "TE",
+              "team": "BUF",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 81,
+              "weekly_points": {
+                "1": 18.0,
+                "2": 22.5,
+                "3": 3.8,
+                "4": 1.7
+              },
+              "season_points": 46.0,
+              "games_played": 4,
+              "ppg": 11.5,
+              "recent_ppg": 9.33,
+              "status": "OK"
+            },
+            {
               "player_id": "11620",
               "name": "Rome Odunze",
               "position": "WR",
@@ -2218,26 +2238,6 @@
               "games_played": 4,
               "ppg": 9.32,
               "recent_ppg": 10.03,
-              "status": "OK"
-            },
-            {
-              "player_id": "12489",
-              "name": "RJ Harvey",
-              "position": "RB",
-              "team": "DEN",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 56,
-              "weekly_points": {
-                "1": 8.1,
-                "2": 0.0,
-                "4": 19.3
-              },
-              "season_points": 27.4,
-              "games_played": 3,
-              "ppg": 9.13,
-              "recent_ppg": 9.13,
               "status": "OK"
             },
             {
