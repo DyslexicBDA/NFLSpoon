@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T16:55:53.748571+00:00",
+  "generated_at": "2026-10-06T01:12:14.444442+00:00",
   "current_week": 4,
   "season": "2026",
   "leagues": [
@@ -578,12 +578,12 @@
                 "1": 5.5,
                 "2": 8.9,
                 "3": 28.4,
-                "4": 0.0
+                "4": 2.2
               },
-              "season_points": 42.8,
+              "season_points": 45.0,
               "games_played": 4,
-              "ppg": 10.7,
-              "recent_ppg": 12.43,
+              "ppg": 11.25,
+              "recent_ppg": 13.17,
               "status": "OK"
             },
             {
@@ -600,12 +600,12 @@
                 "1": 28.2,
                 "2": 22.6,
                 "3": 19.7,
-                "4": 0.0
+                "4": 5.4
               },
-              "season_points": 70.5,
+              "season_points": 75.9,
               "games_played": 4,
-              "ppg": 17.62,
-              "recent_ppg": 14.1,
+              "ppg": 18.98,
+              "recent_ppg": 15.9,
               "status": "OK"
             },
             {
@@ -986,9 +986,9 @@
             "1": 111.76,
             "2": 105.38,
             "3": 145.98,
-            "4": 112.42
+            "4": 120.02
           },
-          "season_points": 475.54
+          "season_points": 483.14
         },
         {
           "roster_id": 7,
@@ -1509,8 +1509,8 @@
               "position": "RB",
               "team": "ARI",
               "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
               "search_rank": 15,
               "weekly_points": {
                 "1": 13.0,
@@ -1522,7 +1522,8 @@
               "games_played": 4,
               "ppg": 12.22,
               "recent_ppg": 11.97,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "WR",
@@ -1779,8 +1780,16 @@
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "RB",
+              "player_name": "Jeremiyah Love",
+              "status": "QUESTIONABLE",
+              "detail": "Ankle",
+              "suggested_swap": null
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "3163",
@@ -1962,12 +1971,12 @@
                 "1": 31.3,
                 "2": 11.1,
                 "3": 35.3,
-                "4": 0.0
+                "4": 22.8
               },
-              "season_points": 77.7,
+              "season_points": 100.5,
               "games_played": 4,
-              "ppg": 19.43,
-              "recent_ppg": 15.47,
+              "ppg": 25.12,
+              "recent_ppg": 23.07,
               "status": "OK"
             },
             {
@@ -2213,12 +2222,12 @@
               "injury_body_part": null,
               "search_rank": 90,
               "weekly_points": {
-                "4": 0.0
+                "4": 5.2
               },
-              "season_points": 0.0,
+              "season_points": 5.2,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 5.2,
+              "recent_ppg": 5.2,
               "status": "OK"
             },
             {
@@ -2275,8 +2284,8 @@
               "recent_ppg": 24.21,
               "drop_candidate": {
                 "name": "Tyler Shough",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
+                "ppg": 5.2,
+                "recent_ppg": 5.2
               },
               "status": "OK"
             },
@@ -2385,9 +2394,9 @@
             "1": 132.76,
             "2": 104.08,
             "3": 142.84,
-            "4": 137.86
+            "4": 160.66
           },
-          "season_points": 517.54
+          "season_points": 540.34
         },
         {
           "roster_id": 2,
@@ -2515,12 +2524,12 @@
               "weekly_points": {
                 "2": 10.6,
                 "3": 23.3,
-                "4": 0.0
+                "4": 4.5
               },
-              "season_points": 33.9,
+              "season_points": 38.4,
               "games_played": 3,
-              "ppg": 11.3,
-              "recent_ppg": 11.3,
+              "ppg": 12.8,
+              "recent_ppg": 12.8,
               "status": "OK"
             },
             {
@@ -2849,9 +2858,9 @@
             "1": 194.16,
             "2": 125.02,
             "3": 165.64,
-            "4": 164.16
+            "4": 168.66
           },
-          "season_points": 648.98
+          "season_points": 653.48
         },
         {
           "roster_id": 5,
@@ -4363,12 +4372,12 @@
               "injury_body_part": null,
               "search_rank": 119,
               "weekly_points": {
-                "4": 0.0
+                "4": 4.8
               },
-              "season_points": 0.0,
+              "season_points": 4.8,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 4.8,
+              "recent_ppg": 4.8,
               "status": "OK"
             },
             {
@@ -4465,12 +4474,12 @@
               "weekly_points": {
                 "2": 11.4,
                 "3": 6.9,
-                "4": 0.0
+                "4": 1.2
               },
-              "season_points": 18.3,
+              "season_points": 19.5,
               "games_played": 3,
-              "ppg": 6.1,
-              "recent_ppg": 6.1,
+              "ppg": 6.5,
+              "recent_ppg": 6.5,
               "status": "OK"
             },
             {
@@ -4730,7 +4739,7 @@
               "ppg": 15.57,
               "recent_ppg": 12.97,
               "drop_candidate": {
-                "name": "Alvin Kamara",
+                "name": "Zach Charbonnet",
                 "ppg": 0.0,
                 "recent_ppg": 0.0
               },
@@ -4767,9 +4776,9 @@
             "1": 110.56,
             "2": 132.42,
             "3": 114.36,
-            "4": 92.02
+            "4": 98.02
           },
-          "season_points": 449.36
+          "season_points": 455.36
         }
       ]
     },
@@ -5128,12 +5137,12 @@
                 "1": 14.4,
                 "2": 10.6,
                 "3": 23.3,
-                "4": 0.0
+                "4": 4.5
               },
-              "season_points": 48.3,
+              "season_points": 52.8,
               "games_played": 4,
-              "ppg": 12.07,
-              "recent_ppg": 11.3,
+              "ppg": 13.2,
+              "recent_ppg": 12.8,
               "status": "OK"
             }
           ],
@@ -5141,28 +5150,51 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "12545",
-              "name": "Tyler Shough",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "NO",
-              "bye_week": 8,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 90,
+              "search_rank": 270,
               "weekly_points": {
-                "1": 25.2,
-                "2": 22.38,
-                "3": 24.8
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6
               },
-              "season_points": 72.38,
-              "games_played": 3,
-              "ppg": 24.13,
-              "recent_ppg": 24.13,
+              "season_points": 82.84,
+              "games_played": 4,
+              "ppg": 20.71,
+              "recent_ppg": 22.35,
               "drop_candidate": {
                 "name": "Drake Maye",
                 "ppg": 13.69,
                 "recent_ppg": 13.98
               },
+              "status": "OK"
+            },
+            {
+              "player_id": "4017",
+              "name": "Deshaun Watson",
+              "position": "QB",
+              "team": "CLE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 295,
+              "weekly_points": {
+                "1": 15.0,
+                "2": 19.72,
+                "3": 20.26,
+                "4": 13.92
+              },
+              "season_points": 68.9,
+              "games_played": 4,
+              "ppg": 17.23,
+              "recent_ppg": 17.97,
+              "drop_candidate": null,
               "status": "OK"
             },
             {
@@ -5218,32 +5250,6 @@
               "status": "OUT"
             },
             {
-              "player_id": "2505",
-              "name": "Darren Waller",
-              "position": "TE",
-              "team": "CAR",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 354,
-              "weekly_points": {
-                "1": 4.8,
-                "2": 18.3,
-                "3": 10.1,
-                "4": 6.6
-              },
-              "season_points": 39.8,
-              "games_played": 4,
-              "ppg": 9.95,
-              "recent_ppg": 11.67,
-              "drop_candidate": {
-                "name": "Juwan Johnson",
-                "ppg": 12.07,
-                "recent_ppg": 11.3
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "9511",
               "name": "Keaton Mitchell",
               "position": "RB",
@@ -5274,9 +5280,9 @@
             "1": 113.72,
             "2": 114.22,
             "3": 132.22,
-            "4": 165.06
+            "4": 169.56
           },
-          "season_points": 525.22
+          "season_points": 529.72
         },
         {
           "roster_id": 10,
@@ -5583,31 +5589,6 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "12545",
-              "name": "Tyler Shough",
-              "position": "QB",
-              "team": "NO",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 90,
-              "weekly_points": {
-                "1": 25.2,
-                "2": 22.38,
-                "3": 24.8
-              },
-              "season_points": 72.38,
-              "games_played": 3,
-              "ppg": 24.13,
-              "recent_ppg": 24.13,
-              "drop_candidate": {
-                "name": "Sam Darnold",
-                "ppg": 14.32,
-                "recent_ppg": 14.32
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "1166",
               "name": "Kirk Cousins",
               "position": "QB",
@@ -5626,6 +5607,32 @@
               "games_played": 4,
               "ppg": 20.71,
               "recent_ppg": 22.35,
+              "drop_candidate": {
+                "name": "Sam Darnold",
+                "ppg": 14.32,
+                "recent_ppg": 14.32
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "4017",
+              "name": "Deshaun Watson",
+              "position": "QB",
+              "team": "CLE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 295,
+              "weekly_points": {
+                "1": 15.0,
+                "2": 19.72,
+                "3": 20.26,
+                "4": 13.92
+              },
+              "season_points": 68.9,
+              "games_played": 4,
+              "ppg": 17.23,
+              "recent_ppg": 17.97,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -5989,12 +5996,12 @@
               "injury_body_part": null,
               "search_rank": 119,
               "weekly_points": {
-                "4": 0.0
+                "4": 4.8
               },
-              "season_points": 0.0,
+              "season_points": 4.8,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 4.8,
+              "recent_ppg": 4.8,
               "status": "OK"
             },
             {
@@ -6023,23 +6030,24 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "12545",
-              "name": "Tyler Shough",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "NO",
-              "bye_week": 8,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 90,
+              "search_rank": 270,
               "weekly_points": {
-                "1": 25.2,
-                "2": 22.38,
-                "3": 24.8
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6
               },
-              "season_points": 72.38,
-              "games_played": 3,
-              "ppg": 24.13,
-              "recent_ppg": 24.13,
+              "season_points": 82.84,
+              "games_played": 4,
+              "ppg": 20.71,
+              "recent_ppg": 22.35,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -6142,8 +6150,8 @@
               "recent_ppg": 9.97,
               "drop_candidate": {
                 "name": "Alvin Kamara",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
+                "ppg": 4.8,
+                "recent_ppg": 4.8
               },
               "status": "OK"
             }
@@ -6197,12 +6205,12 @@
                 "1": 31.3,
                 "2": 11.1,
                 "3": 35.3,
-                "4": 0.0
+                "4": 19.8
               },
-              "season_points": 77.7,
+              "season_points": 97.5,
               "games_played": 4,
-              "ppg": 19.43,
-              "recent_ppg": 15.47,
+              "ppg": 24.38,
+              "recent_ppg": 22.07,
               "status": "OK"
             },
             {
@@ -6515,31 +6523,6 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "12545",
-              "name": "Tyler Shough",
-              "position": "QB",
-              "team": "NO",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 90,
-              "weekly_points": {
-                "1": 25.2,
-                "2": 22.38,
-                "3": 24.8
-              },
-              "season_points": 72.38,
-              "games_played": 3,
-              "ppg": 24.13,
-              "recent_ppg": 24.13,
-              "drop_candidate": {
-                "name": "Jared Goff",
-                "ppg": 19.92,
-                "recent_ppg": 19.92
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "1166",
               "name": "Kirk Cousins",
               "position": "QB",
@@ -6558,6 +6541,32 @@
               "games_played": 4,
               "ppg": 20.71,
               "recent_ppg": 22.35,
+              "drop_candidate": {
+                "name": "Jared Goff",
+                "ppg": 19.92,
+                "recent_ppg": 19.92
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "4017",
+              "name": "Deshaun Watson",
+              "position": "QB",
+              "team": "CLE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 295,
+              "weekly_points": {
+                "1": 15.0,
+                "2": 19.72,
+                "3": 20.26,
+                "4": 13.92
+              },
+              "season_points": 68.9,
+              "games_played": 4,
+              "ppg": 17.23,
+              "recent_ppg": 17.97,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -6644,9 +6653,9 @@
             "1": 137.76,
             "2": 94.9,
             "3": 162.56,
-            "4": 119.62
+            "4": 139.42
           },
-          "season_points": 514.84
+          "season_points": 534.64
         },
         {
           "roster_id": 5,
@@ -6952,23 +6961,24 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "12545",
-              "name": "Tyler Shough",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "NO",
-              "bye_week": 8,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 90,
+              "search_rank": 270,
               "weekly_points": {
-                "1": 25.2,
-                "2": 22.38,
-                "3": 24.8
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6
               },
-              "season_points": 72.38,
-              "games_played": 3,
-              "ppg": 24.13,
-              "recent_ppg": 24.13,
+              "season_points": 82.84,
+              "games_played": 4,
+              "ppg": 20.71,
+              "recent_ppg": 22.35,
               "drop_candidate": {
                 "name": "Jalen Hurts",
                 "ppg": 17.5,
@@ -7196,12 +7206,12 @@
                 "1": 5.5,
                 "2": 8.9,
                 "3": 28.4,
-                "4": 0.0
+                "4": 2.2
               },
-              "season_points": 42.8,
+              "season_points": 45.0,
               "games_played": 4,
-              "ppg": 10.7,
-              "recent_ppg": 12.43,
+              "ppg": 11.25,
+              "recent_ppg": 13.17,
               "status": "OK"
             },
             {
@@ -7420,23 +7430,24 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "12545",
-              "name": "Tyler Shough",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "NO",
-              "bye_week": 8,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 90,
+              "search_rank": 270,
               "weekly_points": {
-                "1": 25.2,
-                "2": 22.38,
-                "3": 24.8
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6
               },
-              "season_points": 72.38,
-              "games_played": 3,
-              "ppg": 24.13,
-              "recent_ppg": 24.13,
+              "season_points": 82.84,
+              "games_played": 4,
+              "ppg": 20.71,
+              "recent_ppg": 22.35,
               "drop_candidate": {
                 "name": "Matthew Stafford",
                 "ppg": 16.91,
@@ -7553,9 +7564,9 @@
             "1": 106.0,
             "2": 104.08,
             "3": 127.8,
-            "4": 110.78
+            "4": 112.98
           },
-          "season_points": 448.66
+          "season_points": 450.86
         },
         {
           "roster_id": 2,
@@ -7642,12 +7653,12 @@
                 "1": 28.2,
                 "2": 22.6,
                 "3": 19.7,
-                "4": 0.0
+                "4": 5.4
               },
-              "season_points": 70.5,
+              "season_points": 75.9,
               "games_played": 4,
-              "ppg": 17.62,
-              "recent_ppg": 14.1,
+              "ppg": 18.98,
+              "recent_ppg": 15.9,
               "status": "OK"
             },
             {
@@ -7865,23 +7876,24 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "12545",
-              "name": "Tyler Shough",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "NO",
-              "bye_week": 8,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 90,
+              "search_rank": 270,
               "weekly_points": {
-                "1": 25.2,
-                "2": 22.38,
-                "3": 24.8
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6
               },
-              "season_points": 72.38,
-              "games_played": 3,
-              "ppg": 24.13,
-              "recent_ppg": 24.13,
+              "season_points": 82.84,
+              "games_played": 4,
+              "ppg": 20.71,
+              "recent_ppg": 22.35,
               "drop_candidate": {
                 "name": "Trevor Lawrence",
                 "ppg": 16.78,
@@ -7998,9 +8010,9 @@
             "1": 149.3,
             "2": 149.76,
             "3": 130.38,
-            "4": 93.18
+            "4": 98.58
           },
-          "season_points": 522.62
+          "season_points": 528.02
         },
         {
           "roster_id": 9,
@@ -8034,8 +8046,8 @@
               "position": "RB",
               "team": "ARI",
               "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
               "search_rank": 15,
               "weekly_points": {
                 "1": 13.0,
@@ -8047,7 +8059,8 @@
               "games_played": 4,
               "ppg": 12.22,
               "recent_ppg": 11.97,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "RB",
@@ -8328,34 +8341,17 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
-          "waiver_suggestions": [
+          "alert_count": 1,
+          "alerts": [
             {
-              "player_id": "12545",
-              "name": "Tyler Shough",
-              "position": "QB",
-              "team": "NO",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 90,
-              "weekly_points": {
-                "1": 25.2,
-                "2": 22.38,
-                "3": 24.8
-              },
-              "season_points": 72.38,
-              "games_played": 3,
-              "ppg": 24.13,
-              "recent_ppg": 24.13,
-              "drop_candidate": {
-                "name": "Jayden Daniels",
-                "ppg": 8.1,
-                "recent_ppg": 4.91
-              },
-              "status": "OK"
-            },
+              "slot": "RB",
+              "player_name": "Jeremiyah Love",
+              "status": "QUESTIONABLE",
+              "detail": "Ankle",
+              "suggested_swap": null
+            }
+          ],
+          "waiver_suggestions": [
             {
               "player_id": "1166",
               "name": "Kirk Cousins",
@@ -8375,6 +8371,32 @@
               "games_played": 4,
               "ppg": 20.71,
               "recent_ppg": 22.35,
+              "drop_candidate": {
+                "name": "Jayden Daniels",
+                "ppg": 8.1,
+                "recent_ppg": 4.91
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "4017",
+              "name": "Deshaun Watson",
+              "position": "QB",
+              "team": "CLE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 295,
+              "weekly_points": {
+                "1": 15.0,
+                "2": 19.72,
+                "3": 20.26,
+                "4": 13.92
+              },
+              "season_points": 68.9,
+              "games_played": 4,
+              "ppg": 17.23,
+              "recent_ppg": 17.97,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -8586,12 +8608,12 @@
                 "weekly_points": {
                   "2": 11.4,
                   "3": 6.9,
-                  "4": 0.0
+                  "4": 1.2
                 },
-                "season_points": 18.3,
+                "season_points": 19.5,
                 "games_played": 3,
-                "ppg": 6.1,
-                "recent_ppg": 6.1
+                "ppg": 6.5,
+                "recent_ppg": 6.5
               }
             },
             {
@@ -8736,12 +8758,12 @@
               "weekly_points": {
                 "2": 11.4,
                 "3": 6.9,
-                "4": 0.0
+                "4": 1.2
               },
-              "season_points": 18.3,
+              "season_points": 19.5,
               "games_played": 3,
-              "ppg": 6.1,
-              "recent_ppg": 6.1,
+              "ppg": 6.5,
+              "recent_ppg": 6.5,
               "status": "OK"
             },
             {
@@ -8761,27 +8783,6 @@
               "ppg": 18.0,
               "recent_ppg": 18.0,
               "status": "OK"
-            },
-            {
-              "player_id": "13286",
-              "name": "Jadarian Price",
-              "position": "RB",
-              "team": "SEA",
-              "bye_week": 11,
-              "injury_status": "IR",
-              "injury_body_part": "Chest",
-              "search_rank": 52,
-              "weekly_points": {
-                "1": 7.8,
-                "2": 5.0,
-                "3": 1.2,
-                "4": 0.0
-              },
-              "season_points": 14.0,
-              "games_played": 4,
-              "ppg": 3.5,
-              "recent_ppg": 2.07,
-              "status": "OUT"
             },
             {
               "player_id": "7543",
@@ -8842,31 +8843,6 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "12545",
-              "name": "Tyler Shough",
-              "position": "QB",
-              "team": "NO",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 90,
-              "weekly_points": {
-                "1": 25.2,
-                "2": 22.38,
-                "3": 24.8
-              },
-              "season_points": 72.38,
-              "games_played": 3,
-              "ppg": 24.13,
-              "recent_ppg": 24.13,
-              "drop_candidate": {
-                "name": "Dak Prescott",
-                "ppg": 20.55,
-                "recent_ppg": 22.27
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "1166",
               "name": "Kirk Cousins",
               "position": "QB",
@@ -8885,6 +8861,32 @@
               "games_played": 4,
               "ppg": 20.71,
               "recent_ppg": 22.35,
+              "drop_candidate": {
+                "name": "Dak Prescott",
+                "ppg": 20.55,
+                "recent_ppg": 22.27
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "4017",
+              "name": "Deshaun Watson",
+              "position": "QB",
+              "team": "CLE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 295,
+              "weekly_points": {
+                "1": 15.0,
+                "2": 19.72,
+                "3": 20.26,
+                "4": 13.92
+              },
+              "season_points": 68.9,
+              "games_played": 4,
+              "ppg": 17.23,
+              "recent_ppg": 17.97,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -8935,8 +8937,8 @@
               "recent_ppg": 14.97,
               "drop_candidate": {
                 "name": "Devaughn Vele",
-                "ppg": 6.1,
-                "recent_ppg": 6.1
+                "ppg": 6.5,
+                "recent_ppg": 6.5
               },
               "status": "OUT"
             },
@@ -9341,23 +9343,24 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "12545",
-              "name": "Tyler Shough",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "NO",
-              "bye_week": 8,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 90,
+              "search_rank": 270,
               "weekly_points": {
-                "1": 25.2,
-                "2": 22.38,
-                "3": 24.8
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6
               },
-              "season_points": 72.38,
-              "games_played": 3,
-              "ppg": 24.13,
-              "recent_ppg": 24.13,
+              "season_points": 82.84,
+              "games_played": 4,
+              "ppg": 20.71,
+              "recent_ppg": 22.35,
               "drop_candidate": {
                 "name": "Caleb Williams",
                 "ppg": 11.49,
