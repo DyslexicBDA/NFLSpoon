@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T23:39:26.377156+00:00",
+  "generated_at": "2026-10-07T05:02:31.478839+00:00",
   "current_week": 5,
   "season": "2026",
   "leagues": [
@@ -1552,61 +1552,44 @@
             },
             {
               "slot": "WR",
-              "player_id": "12526",
-              "name": "Tetairoa McMillan",
+              "player_id": "9486",
+              "name": "Dontayvion Wicks",
               "position": "WR",
-              "team": "CAR",
-              "bye_week": 5,
+              "team": "PHI",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 37,
+              "search_rank": 206,
               "weekly_points": {
-                "1": 10.5,
-                "2": 15.1,
-                "3": 3.7,
-                "4": 45.2
+                "3": 5.2,
+                "4": 4.8
               },
-              "season_points": 74.5,
-              "games_played": 4,
-              "ppg": 18.62,
-              "recent_ppg": 21.33,
-              "status": "BYE",
-              "suggested_swap": {
-                "player_id": "9486",
-                "name": "Dontayvion Wicks",
-                "position": "WR",
-                "team": "PHI",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 206,
-                "weekly_points": {
-                  "3": 5.2,
-                  "4": 4.8
-                },
-                "season_points": 10.0,
-                "games_played": 2,
-                "ppg": 5.0,
-                "recent_ppg": 5.0
-              }
+              "season_points": 10.0,
+              "games_played": 2,
+              "ppg": 5.0,
+              "recent_ppg": 5.0,
+              "status": "OK"
             },
             {
               "slot": "TE",
-              "player_id": "13330",
-              "name": "Kenyon Sadiq",
+              "player_id": "12517",
+              "name": "Colston Loveland",
               "position": "TE",
-              "team": "NYJ",
-              "bye_week": 13,
+              "team": "CHI",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 109,
+              "search_rank": 36,
               "weekly_points": {
-                "4": 0.0
+                "1": 0.0,
+                "2": 1.3,
+                "3": 7.1,
+                "4": 11.7
               },
-              "season_points": 0.0,
-              "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "season_points": 20.1,
+              "games_played": 4,
+              "ppg": 5.02,
+              "recent_ppg": 6.7,
               "status": "OK"
             },
             {
@@ -1741,24 +1724,42 @@
               "status": "BYE"
             },
             {
-              "player_id": "12517",
-              "name": "Colston Loveland",
-              "position": "TE",
-              "team": "CHI",
-              "bye_week": 10,
+              "player_id": "12526",
+              "name": "Tetairoa McMillan",
+              "position": "WR",
+              "team": "CAR",
+              "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 36,
+              "search_rank": 37,
               "weekly_points": {
-                "1": 0.0,
-                "2": 1.3,
-                "3": 7.1,
-                "4": 11.7
+                "1": 10.5,
+                "2": 15.1,
+                "3": 3.7,
+                "4": 45.2
               },
-              "season_points": 20.1,
+              "season_points": 74.5,
               "games_played": 4,
-              "ppg": 5.02,
-              "recent_ppg": 6.7,
+              "ppg": 18.62,
+              "recent_ppg": 21.33,
+              "status": "BYE"
+            },
+            {
+              "player_id": "13330",
+              "name": "Kenyon Sadiq",
+              "position": "TE",
+              "team": "NYJ",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 109,
+              "weekly_points": {
+                "4": 0.0
+              },
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
               "status": "OK"
             },
             {
@@ -1780,28 +1781,9 @@
               "ppg": 13.67,
               "recent_ppg": 13.67,
               "status": "OK"
-            },
-            {
-              "player_id": "9486",
-              "name": "Dontayvion Wicks",
-              "position": "WR",
-              "team": "PHI",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 206,
-              "weekly_points": {
-                "3": 5.2,
-                "4": 4.8
-              },
-              "season_points": 10.0,
-              "games_played": 2,
-              "ppg": 5.0,
-              "recent_ppg": 5.0,
-              "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
             {
               "slot": "RB",
@@ -1809,13 +1791,6 @@
               "status": "QUESTIONABLE",
               "detail": "Ankle",
               "suggested_swap": null
-            },
-            {
-              "slot": "WR",
-              "player_name": "Tetairoa McMillan",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": "Dontayvion Wicks"
             }
           ],
           "waiver_suggestions": [
