@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T15:22:11.128860+00:00",
+  "generated_at": "2026-10-08T21:08:43.364537+00:00",
   "current_week": 5,
   "season": "2026",
   "leagues": [
@@ -562,8 +562,8 @@
               "position": "WR",
               "team": "NO",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Foot",
               "search_rank": 30,
               "weekly_points": {
                 "1": 28.2,
@@ -575,7 +575,25 @@
               "games_played": 4,
               "ppg": 22.52,
               "recent_ppg": 20.63,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "10213",
+                "name": "Tre Tucker",
+                "position": "WR",
+                "team": "LV",
+                "bye_week": 13,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 184,
+                "weekly_points": {
+                  "3": 8.3,
+                  "4": 8.4
+                },
+                "season_points": 16.7,
+                "games_played": 2,
+                "ppg": 8.35,
+                "recent_ppg": 8.35
+              }
             },
             {
               "slot": "TE",
@@ -772,7 +790,7 @@
               "position": "WR",
               "team": "PIT",
               "bye_week": 9,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Foot",
               "search_rank": 107,
               "weekly_points": {
@@ -785,7 +803,7 @@
               "games_played": 4,
               "ppg": 3.98,
               "recent_ppg": 2.37,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "8142",
@@ -809,8 +827,16 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Chris Olave",
+              "status": "QUESTIONABLE",
+              "detail": "Foot",
+              "suggested_swap": "Tre Tucker"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "1166",
@@ -2224,8 +2250,8 @@
               "position": "QB",
               "team": "NO",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hand",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 90,
               "weekly_points": {
                 "4": 16.94
@@ -2234,7 +2260,7 @@
               "games_played": 1,
               "ppg": 16.94,
               "recent_ppg": 16.94,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "5850",
@@ -7775,8 +7801,8 @@
               "position": "WR",
               "team": "NO",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Foot",
               "search_rank": 30,
               "weekly_points": {
                 "1": 28.2,
@@ -7788,7 +7814,26 @@
               "games_played": 4,
               "ppg": 22.52,
               "recent_ppg": 20.63,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "11620",
+                "name": "Rome Odunze",
+                "position": "WR",
+                "team": "CHI",
+                "bye_week": 10,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 65,
+                "weekly_points": {
+                  "1": 7.2,
+                  "2": 7.3,
+                  "3": 7.4
+                },
+                "season_points": 21.9,
+                "games_played": 3,
+                "ppg": 7.3,
+                "recent_ppg": 7.3
+              }
             },
             {
               "slot": "WR",
@@ -8017,8 +8062,15 @@
               "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Chris Olave",
+              "status": "QUESTIONABLE",
+              "detail": "Foot",
+              "suggested_swap": "Rome Odunze"
+            },
             {
               "slot": "FLEX",
               "player_name": "Isaiah Likely",
@@ -8434,15 +8486,15 @@
               "position": "QB",
               "team": "NO",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hand",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 90,
               "weekly_points": {},
               "season_points": 0.0,
               "games_played": 0,
               "ppg": null,
               "recent_ppg": null,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "8155",
