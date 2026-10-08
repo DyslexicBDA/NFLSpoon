@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T21:05:37.018267+00:00",
+  "generated_at": "2026-10-08T05:13:10.366825+00:00",
   "current_week": 5,
   "season": "2026",
   "leagues": [
@@ -3005,26 +3005,7 @@
               "ppg": 11.05,
               "recent_ppg": 10.03,
               "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "5967",
-                "name": "Tony Pollard",
-                "position": "RB",
-                "team": "TEN",
-                "bye_week": 9,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 63,
-                "weekly_points": {
-                  "1": 4.4,
-                  "2": 7.5,
-                  "3": 13.6,
-                  "4": 13.0
-                },
-                "season_points": 38.5,
-                "games_played": 4,
-                "ppg": 9.62,
-                "recent_ppg": 11.37
-              }
+              "suggested_swap": null
             },
             {
               "slot": "WR",
@@ -3135,26 +3116,7 @@
               "ppg": 9.32,
               "recent_ppg": 5.1,
               "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "5967",
-                "name": "Tony Pollard",
-                "position": "RB",
-                "team": "TEN",
-                "bye_week": 9,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 63,
-                "weekly_points": {
-                  "1": 4.4,
-                  "2": 7.5,
-                  "3": 13.6,
-                  "4": 13.0
-                },
-                "season_points": 38.5,
-                "games_played": 4,
-                "ppg": 9.62,
-                "recent_ppg": 11.37
-              }
+              "suggested_swap": null
             },
             {
               "slot": "K",
@@ -3245,8 +3207,8 @@
               "position": "RB",
               "team": "TEN",
               "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Foot",
               "search_rank": 63,
               "weekly_points": {
                 "1": 4.4,
@@ -3258,7 +3220,7 @@
               "games_played": 4,
               "ppg": 9.62,
               "recent_ppg": 11.37,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "7594",
@@ -3289,14 +3251,14 @@
               "player_name": "Cam Skattebo",
               "status": "QUESTIONABLE",
               "detail": "Shoulder",
-              "suggested_swap": "Tony Pollard"
+              "suggested_swap": null
             },
             {
               "slot": "FLEX",
               "player_name": "DJ Moore",
               "status": "QUESTIONABLE",
               "detail": "Undisclosed",
-              "suggested_swap": "Tony Pollard"
+              "suggested_swap": null
             }
           ],
           "waiver_suggestions": [
@@ -3558,8 +3520,8 @@
               "position": "TE",
               "team": "LV",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee",
               "search_rank": 23,
               "weekly_points": {
                 "1": 0.0,
@@ -3571,7 +3533,8 @@
               "games_played": 4,
               "ppg": 12.05,
               "recent_ppg": 16.07,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "FLEX",
@@ -3817,8 +3780,15 @@
               "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 3,
           "alerts": [
+            {
+              "slot": "TE",
+              "player_name": "Brock Bowers",
+              "status": "QUESTIONABLE",
+              "detail": "Knee",
+              "suggested_swap": null
+            },
             {
               "slot": "FLEX",
               "player_name": "Isaiah Likely",
@@ -5054,8 +5024,8 @@
               "position": "TE",
               "team": "LV",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee",
               "search_rank": 23,
               "weekly_points": {
                 "1": 0.0,
@@ -5067,7 +5037,8 @@
               "games_played": 4,
               "ppg": 12.05,
               "recent_ppg": 16.07,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "FLEX",
@@ -5283,8 +5254,15 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
+            {
+              "slot": "TE",
+              "player_name": "Brock Bowers",
+              "status": "QUESTIONABLE",
+              "detail": "Knee",
+              "suggested_swap": null
+            },
             {
               "slot": "FLEX",
               "player_name": "Rhamondre Stevenson",
@@ -5560,19 +5538,22 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "0",
-              "name": "0 D/ST",
-              "position": "DEF",
-              "team": "0",
-              "bye_week": null,
+              "player_id": "10213",
+              "name": "Tre Tucker",
+              "position": "WR",
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 999999,
-              "weekly_points": {},
-              "season_points": 0.0,
-              "games_played": 0,
-              "ppg": null,
-              "recent_ppg": null,
+              "search_rank": 184,
+              "weekly_points": {
+                "3": 8.3,
+                "4": 8.4
+              },
+              "season_points": 16.7,
+              "games_played": 2,
+              "ppg": 8.35,
+              "recent_ppg": 8.35,
               "status": "OK"
             },
             {
@@ -5597,22 +5578,22 @@
               "recent_ppg": 10.03,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "10213",
-                "name": "Tre Tucker",
+                "player_id": "6149",
+                "name": "Darius Slayton",
                 "position": "WR",
-                "team": "LV",
+                "team": "IND",
                 "bye_week": 13,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 184,
+                "search_rank": 541,
                 "weekly_points": {
-                  "3": 8.3,
-                  "4": 8.4
+                  "3": 0.0,
+                  "4": 0.0
                 },
-                "season_points": 16.7,
+                "season_points": 0.0,
                 "games_played": 2,
-                "ppg": 8.35,
-                "recent_ppg": 8.35
+                "ppg": 0.0,
+                "recent_ppg": 0.0
               }
             },
             {
@@ -5660,25 +5641,6 @@
             }
           ],
           "bench": [
-            {
-              "player_id": "10213",
-              "name": "Tre Tucker",
-              "position": "WR",
-              "team": "LV",
-              "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 184,
-              "weekly_points": {
-                "3": 8.3,
-                "4": 8.4
-              },
-              "season_points": 16.7,
-              "games_played": 2,
-              "ppg": 8.35,
-              "recent_ppg": 8.35,
-              "status": "OK"
-            },
             {
               "player_id": "12526",
               "name": "Tetairoa McMillan",
@@ -5767,7 +5729,7 @@
               "player_name": "Cam Skattebo",
               "status": "QUESTIONABLE",
               "detail": "Shoulder",
-              "suggested_swap": "Tre Tucker"
+              "suggested_swap": "Darius Slayton"
             }
           ],
           "waiver_suggestions": [
@@ -6659,8 +6621,8 @@
               "position": "RB",
               "team": "TEN",
               "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Foot",
               "search_rank": 63,
               "weekly_points": {
                 "1": 4.4,
@@ -6672,7 +6634,7 @@
               "games_played": 4,
               "ppg": 9.62,
               "recent_ppg": 11.37,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6770",
@@ -8278,40 +8240,25 @@
           "starters": [
             {
               "slot": "QB",
-              "player_id": "12545",
-              "name": "Tyler Shough",
+              "player_id": "11566",
+              "name": "Jayden Daniels",
               "position": "QB",
-              "team": "NO",
-              "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hand",
-              "search_rank": 90,
-              "weekly_points": {},
-              "season_points": 0.0,
-              "games_played": 0,
-              "ppg": null,
-              "recent_ppg": null,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "11566",
-                "name": "Jayden Daniels",
-                "position": "QB",
-                "team": "WAS",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 21,
-                "weekly_points": {
-                  "1": 17.66,
-                  "2": 14.74,
-                  "3": 0.0,
-                  "4": 0.0
-                },
-                "season_points": 32.4,
-                "games_played": 4,
-                "ppg": 8.1,
-                "recent_ppg": 4.91
-              }
+              "team": "WAS",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 21,
+              "weekly_points": {
+                "1": 17.66,
+                "2": 14.74,
+                "3": 0.0,
+                "4": 0.0
+              },
+              "season_points": 32.4,
+              "games_played": 4,
+              "ppg": 8.1,
+              "recent_ppg": 4.91,
+              "status": "OK"
             },
             {
               "slot": "RB",
@@ -8510,48 +8457,25 @@
             },
             {
               "slot": "DEF",
-              "player_id": "BAL",
-              "name": "Baltimore Ravens",
+              "player_id": "DEN",
+              "name": "Denver Broncos",
               "position": "DEF",
-              "team": "BAL",
-              "bye_week": 13,
+              "team": "DEN",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
               "weekly_points": {
-                "1": 7.0,
-                "2": 3.0,
-                "4": 7.0
+                "1": 3.0
               },
-              "season_points": 17.0,
-              "games_played": 3,
-              "ppg": 5.67,
-              "recent_ppg": 5.67,
+              "season_points": 3.0,
+              "games_played": 1,
+              "ppg": 3.0,
+              "recent_ppg": 3.0,
               "status": "OK"
             }
           ],
           "bench": [
-            {
-              "player_id": "11566",
-              "name": "Jayden Daniels",
-              "position": "QB",
-              "team": "WAS",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 21,
-              "weekly_points": {
-                "1": 17.66,
-                "2": 14.74,
-                "3": 0.0,
-                "4": 0.0
-              },
-              "season_points": 32.4,
-              "games_played": 4,
-              "ppg": 8.1,
-              "recent_ppg": 4.91,
-              "status": "OK"
-            },
             {
               "player_id": "11646",
               "name": "Jalen Coker",
@@ -8571,6 +8495,22 @@
               "ppg": 6.13,
               "recent_ppg": 6.13,
               "status": "BYE"
+            },
+            {
+              "player_id": "12545",
+              "name": "Tyler Shough",
+              "position": "QB",
+              "team": "NO",
+              "bye_week": 8,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hand",
+              "search_rank": 90,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "8155",
@@ -8634,15 +8574,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 4,
+          "alert_count": 3,
           "alerts": [
-            {
-              "slot": "QB",
-              "player_name": "Tyler Shough",
-              "status": "QUESTIONABLE",
-              "detail": "Hand",
-              "suggested_swap": "Jayden Daniels"
-            },
             {
               "slot": "RB",
               "player_name": "D'Andre Swift",
