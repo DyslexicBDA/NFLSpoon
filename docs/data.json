@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T14:19:50.792391+00:00",
+  "generated_at": "2026-10-10T19:53:07.531838+00:00",
   "current_week": 5,
   "season": "2026",
   "leagues": [
@@ -4538,24 +4538,22 @@
             },
             {
               "slot": "RB",
-              "player_id": "4035",
-              "name": "Alvin Kamara",
+              "player_id": "8132",
+              "name": "Tyler Allgeier",
               "position": "RB",
-              "team": "NO",
-              "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Back",
-              "search_rank": 119,
+              "team": "ARI",
+              "bye_week": 14,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 89,
               "weekly_points": {
-                "4": 22.8,
                 "5": 0.0
               },
-              "season_points": 22.8,
-              "games_played": 2,
-              "ppg": 11.4,
-              "recent_ppg": 11.4,
-              "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -4620,22 +4618,40 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
+              "player_id": "4035",
+              "name": "Alvin Kamara",
               "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
+              "team": "NO",
+              "bye_week": 8,
+              "injury_status": "Questionable",
+              "injury_body_part": "Back",
+              "search_rank": 119,
               "weekly_points": {
+                "4": 22.8,
                 "5": 0.0
               },
-              "season_points": 0.0,
-              "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
-              "status": "OK"
+              "season_points": 22.8,
+              "games_played": 2,
+              "ppg": 11.4,
+              "recent_ppg": 11.4,
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "9482",
+                "name": "Michael Mayer",
+                "position": "TE",
+                "team": "LV",
+                "bye_week": 13,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 467,
+                "weekly_points": {
+                  "5": 0.0
+                },
+                "season_points": 0.0,
+                "games_played": 1,
+                "ppg": 0.0,
+                "recent_ppg": 0.0
+              }
             },
             {
               "slot": "FLEX",
@@ -4765,27 +4781,6 @@
               "status": "QUESTIONABLE"
             },
             {
-              "player_id": "5001",
-              "name": "Dalton Schultz",
-              "position": "TE",
-              "team": "HOU",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 98,
-              "weekly_points": {
-                "2": 26.0,
-                "3": 6.0,
-                "4": 2.9,
-                "5": 0.0
-              },
-              "season_points": 34.9,
-              "games_played": 4,
-              "ppg": 8.72,
-              "recent_ppg": 2.97,
-              "status": "OK"
-            },
-            {
               "player_id": "5859",
               "name": "A.J. Brown",
               "position": "WR",
@@ -4806,6 +4801,24 @@
               "ppg": 1.12,
               "recent_ppg": 0.0,
               "status": "OUT"
+            },
+            {
+              "player_id": "9482",
+              "name": "Michael Mayer",
+              "position": "TE",
+              "team": "LV",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 467,
+              "weekly_points": {
+                "5": 0.0
+              },
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "OK"
             },
             {
               "player_id": "9753",
@@ -4830,11 +4843,11 @@
           "alert_count": 1,
           "alerts": [
             {
-              "slot": "RB",
+              "slot": "FLEX",
               "player_name": "Alvin Kamara",
               "status": "QUESTIONABLE",
               "detail": "Back",
-              "suggested_swap": null
+              "suggested_swap": "Michael Mayer"
             }
           ],
           "waiver_suggestions": [
@@ -4936,7 +4949,7 @@
               "ppg": 9.95,
               "recent_ppg": 11.67,
               "drop_candidate": {
-                "name": "Mike Gesicki",
+                "name": "Michael Mayer",
                 "ppg": 0.0,
                 "recent_ppg": 0.0
               },
