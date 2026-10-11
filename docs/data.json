@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T23:20:09.067408+00:00",
+  "generated_at": "2026-10-11T04:49:19.133110+00:00",
   "current_week": 5,
   "season": "2026",
   "leagues": [
@@ -6182,24 +6182,7 @@
               "ppg": 11.4,
               "recent_ppg": 11.4,
               "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "3321",
-                "name": "Tyreek Hill",
-                "position": "WR",
-                "team": null,
-                "bye_week": null,
-                "injury_status": "",
-                "injury_body_part": "Knee - ACL",
-                "search_rank": 145,
-                "weekly_points": {
-                  "4": 0.0,
-                  "5": 0.0
-                },
-                "season_points": 0.0,
-                "games_played": 2,
-                "ppg": 0.0,
-                "recent_ppg": 0.0
-              }
+              "suggested_swap": null
             },
             {
               "slot": "K",
@@ -6247,6 +6230,27 @@
           ],
           "bench": [
             {
+              "player_id": "11628",
+              "name": "Marvin Harrison",
+              "position": "WR",
+              "team": "ARI",
+              "bye_week": 14,
+              "injury_status": "Out",
+              "injury_body_part": "Coach's Decision",
+              "search_rank": 73,
+              "weekly_points": {
+                "1": 4.3,
+                "2": 0.0,
+                "3": 7.0,
+                "5": 0.0
+              },
+              "season_points": 11.3,
+              "games_played": 4,
+              "ppg": 2.83,
+              "recent_ppg": 2.33,
+              "status": "OUT"
+            },
+            {
               "player_id": "11635",
               "name": "Ladd McConkey",
               "position": "WR",
@@ -6267,25 +6271,6 @@
               "ppg": 7.26,
               "recent_ppg": 3.53,
               "status": "QUESTIONABLE"
-            },
-            {
-              "player_id": "3321",
-              "name": "Tyreek Hill",
-              "position": "WR",
-              "team": null,
-              "bye_week": null,
-              "injury_status": "",
-              "injury_body_part": "Knee - ACL",
-              "search_rank": 145,
-              "weekly_points": {
-                "4": 0.0,
-                "5": 0.0
-              },
-              "season_points": 0.0,
-              "games_played": 2,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
-              "status": "OK"
             },
             {
               "player_id": "5927",
@@ -6339,7 +6324,7 @@
               "player_name": "Alvin Kamara",
               "status": "QUESTIONABLE",
               "detail": "Back",
-              "suggested_swap": "Tyreek Hill"
+              "suggested_swap": null
             }
           ],
           "waiver_suggestions": [
@@ -6413,9 +6398,9 @@
               "ppg": 11.22,
               "recent_ppg": 14.97,
               "drop_candidate": {
-                "name": "Tyreek Hill",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
+                "name": "Marvin Harrison",
+                "ppg": 2.83,
+                "recent_ppg": 2.33
               },
               "status": "BYE"
             },
