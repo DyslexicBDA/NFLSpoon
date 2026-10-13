@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T17:32:02.518911+00:00",
+  "generated_at": "2026-10-13T01:53:25.528123+00:00",
   "current_week": 5,
   "season": "2026",
   "leagues": [
@@ -304,12 +304,12 @@
               "search_rank": 652,
               "weekly_points": {
                 "4": 11.7,
-                "5": 0.0
+                "5": 3.5
               },
-              "season_points": 11.7,
+              "season_points": 15.2,
               "games_played": 2,
-              "ppg": 5.85,
-              "recent_ppg": 5.85,
+              "ppg": 7.6,
+              "recent_ppg": 7.6,
               "status": "OK"
             },
             {
@@ -558,12 +558,12 @@
                 "2": 20.9,
                 "3": 19.4,
                 "4": 16.3,
-                "5": 0.0
+                "5": 13.2
               },
-              "season_points": 66.5,
+              "season_points": 79.7,
               "games_played": 5,
-              "ppg": 13.3,
-              "recent_ppg": 11.9,
+              "ppg": 15.94,
+              "recent_ppg": 16.3,
               "status": "OK"
             },
             {
@@ -1027,9 +1027,9 @@
             "2": 105.38,
             "3": 145.98,
             "4": 146.62,
-            "5": 107.18
+            "5": 120.38
           },
-          "season_points": 616.92
+          "season_points": 630.12
         },
         {
           "roster_id": 7,
@@ -1380,12 +1380,12 @@
                 "2": 6.8,
                 "3": 1.6,
                 "4": 13.2,
-                "5": 0.0
+                "5": 1.6
               },
-              "season_points": 21.6,
+              "season_points": 23.2,
               "games_played": 4,
-              "ppg": 5.4,
-              "recent_ppg": 4.93,
+              "ppg": 5.8,
+              "recent_ppg": 5.47,
               "status": "OK"
             }
           ],
@@ -1478,8 +1478,8 @@
               "recent_ppg": 14.97,
               "drop_candidate": {
                 "name": "Khalil Shakir",
-                "ppg": 5.4,
-                "recent_ppg": 4.93
+                "ppg": 5.8,
+                "recent_ppg": 5.47
               },
               "status": "BYE"
             },
@@ -1627,8 +1627,8 @@
               "position": "WR",
               "team": "SEA",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
               "search_rank": 5,
               "weekly_points": {
                 "1": 27.2,
@@ -1641,7 +1641,8 @@
               "games_played": 5,
               "ppg": 28.69,
               "recent_ppg": 23.59,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "WR",
@@ -1881,8 +1882,16 @@
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Jaxon Smith-Njigba",
+              "status": "QUESTIONABLE",
+              "detail": "Ankle",
+              "suggested_swap": null
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "96",
@@ -2272,12 +2281,12 @@
                 "2": 22.5,
                 "3": 3.8,
                 "4": 1.7,
-                "5": 0.0
+                "5": 1.7
               },
-              "season_points": 46.0,
+              "season_points": 47.7,
               "games_played": 5,
-              "ppg": 9.2,
-              "recent_ppg": 1.83,
+              "ppg": 9.54,
+              "recent_ppg": 2.4,
               "status": "OK"
             },
             {
@@ -2449,8 +2458,8 @@
               "recent_ppg": 12.43,
               "drop_candidate": {
                 "name": "Dalton Kincaid",
-                "ppg": 9.2,
-                "recent_ppg": 1.83
+                "ppg": 9.54,
+                "recent_ppg": 2.4
               },
               "status": "OK"
             },
@@ -2664,12 +2673,12 @@
                 "2": 0.0,
                 "3": 0.0,
                 "4": 27.7,
-                "5": 0.0
+                "5": 13.0
               },
-              "season_points": 40.1,
+              "season_points": 53.1,
               "games_played": 5,
-              "ppg": 8.02,
-              "recent_ppg": 9.23,
+              "ppg": 10.62,
+              "recent_ppg": 13.57,
               "status": "OK"
             },
             {
@@ -2920,9 +2929,9 @@
               "ppg": 11.22,
               "recent_ppg": 14.97,
               "drop_candidate": {
-                "name": "Puka Nacua",
-                "ppg": 8.02,
-                "recent_ppg": 9.23
+                "name": "Terry McLaurin",
+                "ppg": 8.46,
+                "recent_ppg": 10.63
               },
               "status": "BYE"
             },
@@ -2959,9 +2968,9 @@
             "2": 125.02,
             "3": 165.64,
             "4": 176.06,
-            "5": 152.34
+            "5": 165.34
           },
-          "season_points": 813.22
+          "season_points": 826.22
         },
         {
           "roster_id": 5,
@@ -3071,12 +3080,12 @@
                 "2": 39.5,
                 "3": 20.7,
                 "4": 7.2,
-                "5": 0.0
+                "5": 9.7
               },
-              "season_points": 73.0,
+              "season_points": 82.7,
               "games_played": 5,
-              "ppg": 14.6,
-              "recent_ppg": 9.3,
+              "ppg": 16.54,
+              "recent_ppg": 12.53,
               "status": "OK"
             },
             {
@@ -3132,8 +3141,8 @@
               "position": "WR",
               "team": "BUF",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": "Out",
+              "injury_body_part": "Shoulder - AC Joint",
               "search_rank": 50,
               "weekly_points": {
                 "1": 22.0,
@@ -3146,7 +3155,7 @@
               "games_played": 5,
               "ppg": 7.46,
               "recent_ppg": 5.13,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": {
                 "player_id": "5967",
                 "name": "Tony Pollard",
@@ -3307,8 +3316,8 @@
             {
               "slot": "FLEX",
               "player_name": "DJ Moore",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
+              "status": "OUT",
+              "detail": "Shoulder - AC Joint",
               "suggested_swap": "Tony Pollard"
             }
           ],
@@ -3449,9 +3458,9 @@
             "2": 144.3,
             "3": 111.44,
             "4": 128.7,
-            "5": 91.08
+            "5": 100.78
           },
-          "season_points": 617.52
+          "season_points": 627.22
         },
         {
           "roster_id": 6,
@@ -4514,12 +4523,12 @@
                 "2": 43.82,
                 "3": 19.46,
                 "4": 20.52,
-                "5": 0.0
+                "5": 4.5
               },
-              "season_points": 123.46,
+              "season_points": 127.96,
               "games_played": 5,
-              "ppg": 24.69,
-              "recent_ppg": 13.33,
+              "ppg": 25.59,
+              "recent_ppg": 14.83,
               "status": "OK"
             },
             {
@@ -4537,12 +4546,12 @@
                 "2": 15.7,
                 "3": 21.8,
                 "4": 36.7,
-                "5": 0.0
+                "5": 5.1
               },
-              "season_points": 89.7,
+              "season_points": 94.8,
               "games_played": 5,
-              "ppg": 17.94,
-              "recent_ppg": 19.5,
+              "ppg": 18.96,
+              "recent_ppg": 21.2,
               "status": "OK"
             },
             {
@@ -4857,8 +4866,8 @@
               "recent_ppg": 26.21,
               "drop_candidate": {
                 "name": "Josh Allen",
-                "ppg": 24.69,
-                "recent_ppg": 13.33
+                "ppg": 25.59,
+                "recent_ppg": 14.83
               },
               "status": "OK"
             },
@@ -4971,9 +4980,9 @@
             "2": 132.42,
             "3": 114.36,
             "4": 132.22,
-            "5": 78.1
+            "5": 87.7
           },
-          "season_points": 567.66
+          "season_points": 577.26
         }
       ]
     },
@@ -5075,8 +5084,8 @@
               "position": "WR",
               "team": "SEA",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
               "search_rank": 5,
               "weekly_points": {
                 "1": 26.2,
@@ -5089,7 +5098,27 @@
               "games_played": 5,
               "ppg": 27.89,
               "recent_ppg": 23.59,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "5045",
+                "name": "Courtland Sutton",
+                "position": "WR",
+                "team": "DEN",
+                "bye_week": 10,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 72,
+                "weekly_points": {
+                  "1": 3.1,
+                  "3": 7.6,
+                  "4": 1.4,
+                  "5": 9.8
+                },
+                "season_points": 21.9,
+                "games_played": 4,
+                "ppg": 5.47,
+                "recent_ppg": 6.27
+              }
             },
             {
               "slot": "WR",
@@ -5336,8 +5365,16 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Jaxon Smith-Njigba",
+              "status": "QUESTIONABLE",
+              "detail": "Ankle",
+              "suggested_swap": "Courtland Sutton"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "96",
@@ -5539,12 +5576,12 @@
                 "2": 15.7,
                 "3": 21.8,
                 "4": 36.7,
-                "5": 0.0
+                "5": 5.1
               },
-              "season_points": 89.7,
+              "season_points": 94.8,
               "games_played": 5,
-              "ppg": 17.94,
-              "recent_ppg": 19.5,
+              "ppg": 18.96,
+              "recent_ppg": 21.2,
               "status": "OK"
             },
             {
@@ -5952,9 +5989,9 @@
             "2": 134.38,
             "3": 156.84,
             "4": 181.36,
-            "5": 136.9
+            "5": 142.0
           },
-          "season_points": 754.94
+          "season_points": 760.04
         },
         {
           "roster_id": 8,
@@ -6045,12 +6082,12 @@
                 "2": 0.0,
                 "3": 0.0,
                 "4": 27.7,
-                "5": 0.0
+                "5": 13.0
               },
-              "season_points": 40.1,
+              "season_points": 53.1,
               "games_played": 5,
-              "ppg": 8.02,
-              "recent_ppg": 9.23,
+              "ppg": 10.62,
+              "recent_ppg": 13.57,
               "status": "OK"
             },
             {
@@ -6091,12 +6128,12 @@
                 "2": 22.5,
                 "3": 3.8,
                 "4": 1.7,
-                "5": 0.0
+                "5": 1.7
               },
-              "season_points": 46.0,
+              "season_points": 47.7,
               "games_played": 5,
-              "ppg": 9.2,
-              "recent_ppg": 1.83,
+              "ppg": 9.54,
+              "recent_ppg": 2.4,
               "status": "OK"
             },
             {
@@ -6353,8 +6390,8 @@
               "recent_ppg": 12.43,
               "drop_candidate": {
                 "name": "Dalton Kincaid",
-                "ppg": 9.2,
-                "recent_ppg": 1.83
+                "ppg": 9.54,
+                "recent_ppg": 2.4
               },
               "status": "OK"
             },
@@ -6418,9 +6455,9 @@
             "2": 152.98,
             "3": 98.28,
             "4": 138.02,
-            "5": 115.76
+            "5": 130.46
           },
-          "season_points": 667.74
+          "season_points": 682.44
         },
         {
           "roster_id": 6,
@@ -6681,12 +6718,12 @@
                 "2": 12.0,
                 "3": 4.0,
                 "4": 6.0,
-                "5": 0.0
+                "5": 7.0
               },
-              "season_points": 24.0,
+              "season_points": 31.0,
               "games_played": 5,
-              "ppg": 4.8,
-              "recent_ppg": 3.33,
+              "ppg": 6.2,
+              "recent_ppg": 5.67,
               "status": "OK"
             }
           ],
@@ -6697,8 +6734,8 @@
               "position": "WR",
               "team": "BUF",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": "Out",
+              "injury_body_part": "Shoulder - AC Joint",
               "search_rank": 50,
               "weekly_points": {
                 "1": 21.0,
@@ -6711,7 +6748,7 @@
               "games_played": 5,
               "ppg": 7.26,
               "recent_ppg": 5.13,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "5967",
@@ -6929,9 +6966,9 @@
             "2": 94.9,
             "3": 162.56,
             "4": 147.32,
-            "5": 130.14
+            "5": 137.14
           },
-          "season_points": 672.68
+          "season_points": 679.68
         },
         {
           "roster_id": 5,
@@ -6953,12 +6990,12 @@
                 "2": 40.82,
                 "3": 19.46,
                 "4": 19.52,
-                "5": 0.0
+                "5": 3.5
               },
-              "season_points": 115.46,
+              "season_points": 118.96,
               "games_played": 5,
-              "ppg": 23.09,
-              "recent_ppg": 12.99,
+              "ppg": 23.79,
+              "recent_ppg": 14.16,
               "status": "OK"
             },
             {
@@ -7271,9 +7308,9 @@
               "ppg": 17.43,
               "recent_ppg": 23.21,
               "drop_candidate": {
-                "name": "Josh Allen",
-                "ppg": 23.09,
-                "recent_ppg": 12.99
+                "name": "Jalen Hurts",
+                "ppg": 16.6,
+                "recent_ppg": 13.38
               },
               "status": "OK"
             },
@@ -7390,9 +7427,9 @@
             "2": 137.02,
             "3": 131.16,
             "4": 159.02,
-            "5": 126.2
+            "5": 129.7
           },
-          "season_points": 685.56
+          "season_points": 689.06
         },
         {
           "roster_id": 3,
@@ -7414,12 +7451,12 @@
                 "2": 27.98,
                 "3": 22.9,
                 "4": 11.68,
-                "5": 0.0
+                "5": 8.72
               },
-              "season_points": 67.66,
+              "season_points": 76.38,
               "games_played": 5,
-              "ppg": 13.53,
-              "recent_ppg": 11.53,
+              "ppg": 15.28,
+              "recent_ppg": 14.43,
               "status": "OK"
             },
             {
@@ -7788,8 +7825,8 @@
               "recent_ppg": 23.21,
               "drop_candidate": {
                 "name": "Matthew Stafford",
-                "ppg": 13.53,
-                "recent_ppg": 11.53
+                "ppg": 15.28,
+                "recent_ppg": 14.43
               },
               "status": "OK"
             },
@@ -7906,9 +7943,9 @@
             "2": 104.08,
             "3": 127.8,
             "4": 125.38,
-            "5": 104.1
+            "5": 112.82
           },
-          "season_points": 567.36
+          "season_points": 576.08
         },
         {
           "roster_id": 2,
@@ -7953,12 +7990,12 @@
                 "2": 20.9,
                 "3": 19.4,
                 "4": 16.3,
-                "5": 0.0
+                "5": 13.2
               },
-              "season_points": 66.5,
+              "season_points": 79.7,
               "games_played": 5,
-              "ppg": 13.3,
-              "recent_ppg": 11.9,
+              "ppg": 15.94,
+              "recent_ppg": 16.3,
               "status": "OK"
             },
             {
@@ -8022,12 +8059,12 @@
                 "2": 39.5,
                 "3": 20.7,
                 "4": 7.2,
-                "5": 0.0
+                "5": 9.7
               },
-              "season_points": 73.0,
+              "season_points": 82.7,
               "games_played": 5,
-              "ppg": 14.6,
-              "recent_ppg": 9.3,
+              "ppg": 16.54,
+              "recent_ppg": 12.53,
               "status": "OK"
             },
             {
@@ -8388,9 +8425,9 @@
             "2": 149.76,
             "3": 130.38,
             "4": 112.78,
-            "5": 101.44
+            "5": 124.34
           },
-          "season_points": 643.66
+          "season_points": 666.56
         },
         {
           "roster_id": 9,
@@ -9026,12 +9063,12 @@
               "injury_body_part": null,
               "search_rank": 120,
               "weekly_points": {
-                "5": 0.0
+                "5": 1.6
               },
-              "season_points": 0.0,
+              "season_points": 1.6,
               "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "ppg": 1.6,
+              "recent_ppg": 1.6,
               "status": "OK"
             },
             {
@@ -9287,8 +9324,8 @@
               "recent_ppg": 14.97,
               "drop_candidate": {
                 "name": "Khalil Shakir",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
+                "ppg": 1.6,
+                "recent_ppg": 1.6
               },
               "status": "BYE"
             },
@@ -9352,9 +9389,9 @@
             "2": 154.26,
             "3": 144.44,
             "4": 109.8,
-            "5": 135.54
+            "5": 137.14
           },
-          "season_points": 672.84
+          "season_points": 674.44
         },
         {
           "roster_id": 7,
