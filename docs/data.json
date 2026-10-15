@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T08:59:52.342919+00:00",
+  "generated_at": "2026-10-15T16:34:03.661718+00:00",
   "current_week": 6,
   "season": "2026",
   "leagues": [
@@ -47,47 +47,6 @@
             },
             {
               "slot": "RB",
-              "player_id": "12512",
-              "name": "Quinshon Judkins",
-              "position": "RB",
-              "team": "CLE",
-              "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Lower Leg",
-              "search_rank": 45,
-              "weekly_points": {
-                "1": 7.0,
-                "2": 9.8,
-                "3": 9.9,
-                "4": 21.6,
-                "5": 8.0
-              },
-              "season_points": 56.3,
-              "games_played": 5,
-              "ppg": 11.26,
-              "recent_ppg": 13.17,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "6806",
-                "name": "J.K. Dobbins",
-                "position": "RB",
-                "team": "DEN",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 68,
-                "weekly_points": {
-                  "1": 3.6,
-                  "2": 3.6
-                },
-                "season_points": 7.2,
-                "games_played": 2,
-                "ppg": 3.6,
-                "recent_ppg": 3.6
-              }
-            },
-            {
-              "slot": "RB",
               "player_id": "8228",
               "name": "Jaylen Warren",
               "position": "RB",
@@ -107,6 +66,29 @@
               "games_played": 5,
               "ppg": 19.8,
               "recent_ppg": 26.33,
+              "status": "OK"
+            },
+            {
+              "slot": "RB",
+              "player_id": "11584",
+              "name": "Bucky Irving",
+              "position": "RB",
+              "team": "TB",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 32,
+              "weekly_points": {
+                "1": 20.3,
+                "2": 13.0,
+                "3": 7.8,
+                "4": 6.1,
+                "5": 31.5
+              },
+              "season_points": 78.7,
+              "games_played": 5,
+              "ppg": 15.74,
+              "recent_ppg": 15.13,
               "status": "OK"
             },
             {
@@ -180,6 +162,26 @@
             },
             {
               "slot": "FLEX",
+              "player_id": "3271",
+              "name": "Tyler Higbee",
+              "position": "TE",
+              "team": "LAR",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 652,
+              "weekly_points": {
+                "4": 11.7,
+                "5": 13.3
+              },
+              "season_points": 25.0,
+              "games_played": 2,
+              "ppg": 12.5,
+              "recent_ppg": 12.5,
+              "status": "OK"
+            },
+            {
+              "slot": "FLEX",
               "player_id": "11435",
               "name": "Emanuel Wilson",
               "position": "RB",
@@ -196,29 +198,6 @@
               "games_played": 2,
               "ppg": 20.1,
               "recent_ppg": 20.1,
-              "status": "OK"
-            },
-            {
-              "slot": "FLEX",
-              "player_id": "11584",
-              "name": "Bucky Irving",
-              "position": "RB",
-              "team": "TB",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 32,
-              "weekly_points": {
-                "1": 20.3,
-                "2": 13.0,
-                "3": 7.8,
-                "4": 6.1,
-                "5": 31.5
-              },
-              "season_points": 78.7,
-              "games_played": 5,
-              "ppg": 15.74,
-              "recent_ppg": 15.13,
               "status": "OK"
             },
             {
@@ -291,23 +270,26 @@
               "status": "BYE"
             },
             {
-              "player_id": "3271",
-              "name": "Tyler Higbee",
-              "position": "TE",
-              "team": "LAR",
+              "player_id": "12512",
+              "name": "Quinshon Judkins",
+              "position": "RB",
+              "team": "CLE",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 652,
+              "injury_status": "Questionable",
+              "injury_body_part": "Lower Leg",
+              "search_rank": 45,
               "weekly_points": {
-                "4": 11.7,
-                "5": 13.3
+                "1": 7.0,
+                "2": 9.8,
+                "3": 9.9,
+                "4": 21.6,
+                "5": 8.0
               },
-              "season_points": 25.0,
-              "games_played": 2,
-              "ppg": 12.5,
-              "recent_ppg": 12.5,
-              "status": "OK"
+              "season_points": 56.3,
+              "games_played": 5,
+              "ppg": 11.26,
+              "recent_ppg": 13.17,
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "6794",
@@ -351,16 +333,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "Quinshon Judkins",
-              "status": "QUESTIONABLE",
-              "detail": "Lower Leg",
-              "suggested_swap": "J.K. Dobbins"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "3163",
@@ -4662,21 +4636,22 @@
               "recent_ppg": 5.27,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "SF",
-                "name": "San Francisco 49ers",
-                "position": "DEF",
-                "team": "SF",
-                "bye_week": 8,
+                "player_id": "1479",
+                "name": "Keenan Allen",
+                "position": "WR",
+                "team": "IND",
+                "bye_week": 13,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 999999,
+                "search_rank": 180,
                 "weekly_points": {
-                  "2": 10.0
+                  "4": 0.0,
+                  "5": 9.5
                 },
-                "season_points": 10.0,
-                "games_played": 1,
-                "ppg": 10.0,
-                "recent_ppg": 10.0
+                "season_points": 9.5,
+                "games_played": 2,
+                "ppg": 4.75,
+                "recent_ppg": 4.75
               }
             },
             {
@@ -4701,19 +4676,21 @@
             },
             {
               "slot": "DEF",
-              "player_id": "0",
-              "name": "0 D/ST",
+              "player_id": "SF",
+              "name": "San Francisco 49ers",
               "position": "DEF",
-              "team": "0",
-              "bye_week": null,
+              "team": "SF",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
-              "weekly_points": {},
-              "season_points": 0.0,
-              "games_played": 0,
-              "ppg": null,
-              "recent_ppg": null,
+              "weekly_points": {
+                "2": 10.0
+              },
+              "season_points": 10.0,
+              "games_played": 1,
+              "ppg": 10.0,
+              "recent_ppg": 10.0,
               "status": "OK"
             }
           ],
@@ -4833,24 +4810,6 @@
               "ppg": 0.0,
               "recent_ppg": 0.0,
               "status": "OUT"
-            },
-            {
-              "player_id": "SF",
-              "name": "San Francisco 49ers",
-              "position": "DEF",
-              "team": "SF",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 999999,
-              "weekly_points": {
-                "2": 10.0
-              },
-              "season_points": 10.0,
-              "games_played": 1,
-              "ppg": 10.0,
-              "recent_ppg": 10.0,
-              "status": "OK"
             }
           ],
           "alert_count": 3,
@@ -4874,7 +4833,7 @@
               "player_name": "Rashee Rice",
               "status": "QUESTIONABLE",
               "detail": "Hamstring",
-              "suggested_swap": "San Francisco 49ers"
+              "suggested_swap": "Keenan Allen"
             }
           ],
           "waiver_suggestions": [
@@ -8864,44 +8823,23 @@
             },
             {
               "slot": "RB",
-              "player_id": "4866",
-              "name": "Saquon Barkley",
+              "player_id": "6806",
+              "name": "J.K. Dobbins",
               "position": "RB",
-              "team": "PHI",
+              "team": "DEN",
               "bye_week": 10,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hamstring",
-              "search_rank": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 68,
               "weekly_points": {
-                "1": 9.0,
-                "2": 3.0,
-                "3": 9.0,
-                "4": 2.0,
-                "5": 0.0
+                "1": 3.6,
+                "2": 3.6
               },
-              "season_points": 23.0,
-              "games_played": 5,
-              "ppg": 4.6,
-              "recent_ppg": 3.67,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "6806",
-                "name": "J.K. Dobbins",
-                "position": "RB",
-                "team": "DEN",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 68,
-                "weekly_points": {
-                  "1": 3.6,
-                  "2": 3.6
-                },
-                "season_points": 7.2,
-                "games_played": 2,
-                "ppg": 3.6,
-                "recent_ppg": 3.6
-              }
+              "season_points": 7.2,
+              "games_played": 2,
+              "ppg": 3.6,
+              "recent_ppg": 3.6,
+              "status": "OK"
             },
             {
               "slot": "RB",
@@ -8996,44 +8934,27 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "2449",
-              "name": "Stefon Diggs",
-              "position": "WR",
-              "team": "WAS",
-              "bye_week": 7,
+              "player_id": "4866",
+              "name": "Saquon Barkley",
+              "position": "RB",
+              "team": "PHI",
+              "bye_week": 10,
               "injury_status": "Questionable",
               "injury_body_part": "Hamstring",
-              "search_rank": 105,
+              "search_rank": 11,
               "weekly_points": {
-                "1": 15.5,
-                "2": 21.7,
-                "3": 7.3,
-                "4": 8.5,
+                "1": 9.0,
+                "2": 3.0,
+                "3": 9.0,
+                "4": 2.0,
                 "5": 0.0
               },
-              "season_points": 53.0,
+              "season_points": 23.0,
               "games_played": 5,
-              "ppg": 10.6,
-              "recent_ppg": 5.27,
+              "ppg": 4.6,
+              "recent_ppg": 3.67,
               "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "6806",
-                "name": "J.K. Dobbins",
-                "position": "RB",
-                "team": "DEN",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 68,
-                "weekly_points": {
-                  "1": 3.6,
-                  "2": 3.6
-                },
-                "season_points": 7.2,
-                "games_played": 2,
-                "ppg": 3.6,
-                "recent_ppg": 3.6
-              }
+              "suggested_swap": null
             },
             {
               "slot": "FLEX",
@@ -9123,23 +9044,26 @@
               "status": "BYE"
             },
             {
-              "player_id": "6806",
-              "name": "J.K. Dobbins",
-              "position": "RB",
-              "team": "DEN",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 68,
+              "player_id": "2449",
+              "name": "Stefon Diggs",
+              "position": "WR",
+              "team": "WAS",
+              "bye_week": 7,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hamstring",
+              "search_rank": 105,
               "weekly_points": {
-                "1": 3.6,
-                "2": 3.6
+                "1": 15.5,
+                "2": 21.7,
+                "3": 7.3,
+                "4": 8.5,
+                "5": 0.0
               },
-              "season_points": 7.2,
-              "games_played": 2,
-              "ppg": 3.6,
-              "recent_ppg": 3.6,
-              "status": "OK"
+              "season_points": 53.0,
+              "games_played": 5,
+              "ppg": 10.6,
+              "recent_ppg": 5.27,
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "7543",
@@ -9205,21 +9129,14 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
             {
-              "slot": "RB",
+              "slot": "FLEX",
               "player_name": "Saquon Barkley",
               "status": "QUESTIONABLE",
               "detail": "Hamstring",
-              "suggested_swap": "J.K. Dobbins"
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "Stefon Diggs",
-              "status": "QUESTIONABLE",
-              "detail": "Hamstring",
-              "suggested_swap": "J.K. Dobbins"
+              "suggested_swap": null
             }
           ],
           "waiver_suggestions": [
