@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T03:45:42.435171+00:00",
+  "generated_at": "2026-10-16T08:50:53.889827+00:00",
   "current_week": 6,
   "season": "2026",
   "leagues": [
@@ -175,7 +175,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 652,
+              "search_rank": 645,
               "weekly_points": {
                 "4": 11.7,
                 "5": 13.3,
@@ -311,7 +311,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 12,
+              "search_rank": 11,
               "weekly_points": {
                 "1": 31.2,
                 "2": 8.5,
@@ -431,33 +431,6 @@
               "status": "OK"
             },
             {
-              "player_id": "9480",
-              "name": "Brenton Strange",
-              "position": "TE",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 104,
-              "weekly_points": {
-                "1": 10.3,
-                "2": 3.7,
-                "3": 6.2,
-                "4": 16.5,
-                "5": 13.8
-              },
-              "season_points": 50.5,
-              "games_played": 5,
-              "ppg": 10.1,
-              "recent_ppg": 12.17,
-              "drop_candidate": {
-                "name": "Dallas Goedert",
-                "ppg": 5.98,
-                "recent_ppg": 3.27
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "13833",
               "name": "Dominic Zvada",
               "position": "K",
@@ -483,6 +456,32 @@
                 "recent_ppg": 7.33
               },
               "status": "OK"
+            },
+            {
+              "player_id": "2505",
+              "name": "Darren Waller",
+              "position": "TE",
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Toe",
+              "search_rank": 358,
+              "weekly_points": {
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6
+              },
+              "season_points": 39.8,
+              "games_played": 4,
+              "ppg": 9.95,
+              "recent_ppg": 11.67,
+              "drop_candidate": {
+                "name": "Dallas Goedert",
+                "ppg": 5.98,
+                "recent_ppg": 3.27
+              },
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -509,7 +508,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 101,
+              "search_rank": 102,
               "weekly_points": {
                 "6": 0.0
               },
@@ -990,33 +989,6 @@
               "status": "OK"
             },
             {
-              "player_id": "9480",
-              "name": "Brenton Strange",
-              "position": "TE",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 104,
-              "weekly_points": {
-                "1": 10.3,
-                "2": 3.7,
-                "3": 6.2,
-                "4": 16.5,
-                "5": 13.8
-              },
-              "season_points": 50.5,
-              "games_played": 5,
-              "ppg": 10.1,
-              "recent_ppg": 12.17,
-              "drop_candidate": {
-                "name": "Harold Fannin",
-                "ppg": 8.62,
-                "recent_ppg": 4.37
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "13833",
               "name": "Dominic Zvada",
               "position": "K",
@@ -1042,6 +1014,32 @@
                 "recent_ppg": 11.0
               },
               "status": "OK"
+            },
+            {
+              "player_id": "2505",
+              "name": "Darren Waller",
+              "position": "TE",
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Toe",
+              "search_rank": 358,
+              "weekly_points": {
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6
+              },
+              "season_points": 39.8,
+              "games_played": 4,
+              "ppg": 9.95,
+              "recent_ppg": 11.67,
+              "drop_candidate": {
+                "name": "Harold Fannin",
+                "ppg": 8.62,
+                "recent_ppg": 4.37
+              },
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -1092,7 +1090,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 44,
+              "search_rank": 46,
               "weekly_points": {
                 "1": 32.4,
                 "2": 12.9,
@@ -1116,7 +1114,7 @@
               "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 31,
+              "search_rank": 30,
               "weekly_points": {
                 "1": 24.2,
                 "2": 8.0,
@@ -1322,7 +1320,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 86,
+              "search_rank": 87,
               "weekly_points": {
                 "1": 0.62,
                 "3": 14.42,
@@ -1344,7 +1342,7 @@
               "bye_week": 8,
               "injury_status": "Out",
               "injury_body_part": "Hamstring",
-              "search_rank": 130,
+              "search_rank": 131,
               "weekly_points": {
                 "1": 18.0,
                 "2": 6.5,
@@ -1475,33 +1473,6 @@
               "status": "OK"
             },
             {
-              "player_id": "9480",
-              "name": "Brenton Strange",
-              "position": "TE",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 104,
-              "weekly_points": {
-                "1": 10.3,
-                "2": 3.7,
-                "3": 6.2,
-                "4": 16.5,
-                "5": 13.8
-              },
-              "season_points": 50.5,
-              "games_played": 5,
-              "ppg": 10.1,
-              "recent_ppg": 12.17,
-              "drop_candidate": {
-                "name": "Trey McBride",
-                "ppg": 15.13,
-                "recent_ppg": 10.57
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "13833",
               "name": "Dominic Zvada",
               "position": "K",
@@ -1527,6 +1498,32 @@
                 "recent_ppg": 6.0
               },
               "status": "OK"
+            },
+            {
+              "player_id": "2505",
+              "name": "Darren Waller",
+              "position": "TE",
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Toe",
+              "search_rank": 358,
+              "weekly_points": {
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6
+              },
+              "season_points": 39.8,
+              "games_played": 4,
+              "ppg": 9.95,
+              "recent_ppg": 11.67,
+              "drop_candidate": {
+                "name": "Trey McBride",
+                "ppg": 15.13,
+                "recent_ppg": 10.57
+              },
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -1619,7 +1616,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 6,
+              "search_rank": 5,
               "weekly_points": {
                 "1": 27.2,
                 "2": 45.5,
@@ -1643,7 +1640,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 38,
+              "search_rank": 37,
               "weekly_points": {
                 "1": 10.5,
                 "2": 15.1,
@@ -1971,33 +1968,6 @@
               "status": "OK"
             },
             {
-              "player_id": "9480",
-              "name": "Brenton Strange",
-              "position": "TE",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 104,
-              "weekly_points": {
-                "1": 10.3,
-                "2": 3.7,
-                "3": 6.2,
-                "4": 16.5,
-                "5": 13.8
-              },
-              "season_points": 50.5,
-              "games_played": 5,
-              "ppg": 10.1,
-              "recent_ppg": 12.17,
-              "drop_candidate": {
-                "name": "Pat Freiermuth",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "13833",
               "name": "Dominic Zvada",
               "position": "K",
@@ -2023,6 +1993,32 @@
                 "recent_ppg": 11.67
               },
               "status": "OK"
+            },
+            {
+              "player_id": "2505",
+              "name": "Darren Waller",
+              "position": "TE",
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Toe",
+              "search_rank": 358,
+              "weekly_points": {
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6
+              },
+              "season_points": 39.8,
+              "games_played": 4,
+              "ppg": 9.95,
+              "recent_ppg": 11.67,
+              "drop_candidate": {
+                "name": "Pat Freiermuth",
+                "ppg": 0.0,
+                "recent_ppg": 0.0
+              },
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -2049,7 +2045,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 65,
+              "search_rank": 64,
               "weekly_points": {
                 "1": 6.1,
                 "2": 28.98,
@@ -2118,7 +2114,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 26,
+              "search_rank": 28,
               "weekly_points": {
                 "1": 12.9,
                 "2": 1.1,
@@ -2299,7 +2295,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 89,
+              "search_rank": 88,
               "weekly_points": {
                 "4": 16.94,
                 "5": 1.84,
@@ -2442,33 +2438,6 @@
               "status": "OK"
             },
             {
-              "player_id": "9480",
-              "name": "Brenton Strange",
-              "position": "TE",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 104,
-              "weekly_points": {
-                "1": 10.3,
-                "2": 3.7,
-                "3": 6.2,
-                "4": 16.5,
-                "5": 13.8
-              },
-              "season_points": 50.5,
-              "games_played": 5,
-              "ppg": 10.1,
-              "recent_ppg": 12.17,
-              "drop_candidate": {
-                "name": "Dalton Kincaid",
-                "ppg": 8.28,
-                "recent_ppg": 1.8
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "13833",
               "name": "Dominic Zvada",
               "position": "K",
@@ -2494,6 +2463,32 @@
                 "recent_ppg": 7.0
               },
               "status": "OK"
+            },
+            {
+              "player_id": "2505",
+              "name": "Darren Waller",
+              "position": "TE",
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Toe",
+              "search_rank": 358,
+              "weekly_points": {
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6
+              },
+              "season_points": 39.8,
+              "games_played": 4,
+              "ppg": 9.95,
+              "recent_ppg": 11.67,
+              "drop_candidate": {
+                "name": "Dalton Kincaid",
+                "ppg": 8.28,
+                "recent_ppg": 1.8
+              },
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -2520,7 +2515,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 133,
+              "search_rank": 134,
               "weekly_points": {
                 "3": 14.64,
                 "4": 21.46,
@@ -2707,7 +2702,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 133,
+              "search_rank": 131,
               "weekly_points": {
                 "1": 12.0,
                 "6": 0.0
@@ -2956,33 +2951,6 @@
               "status": "OK"
             },
             {
-              "player_id": "9480",
-              "name": "Brenton Strange",
-              "position": "TE",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 104,
-              "weekly_points": {
-                "1": 10.3,
-                "2": 3.7,
-                "3": 6.2,
-                "4": 16.5,
-                "5": 13.8
-              },
-              "season_points": 50.5,
-              "games_played": 5,
-              "ppg": 10.1,
-              "recent_ppg": 12.17,
-              "drop_candidate": {
-                "name": "Juwan Johnson",
-                "ppg": 10.28,
-                "recent_ppg": 5.83
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "13833",
               "name": "Dominic Zvada",
               "position": "K",
@@ -3008,6 +2976,32 @@
                 "recent_ppg": 6.0
               },
               "status": "OK"
+            },
+            {
+              "player_id": "2505",
+              "name": "Darren Waller",
+              "position": "TE",
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Toe",
+              "search_rank": 358,
+              "weekly_points": {
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6
+              },
+              "season_points": 39.8,
+              "games_played": 4,
+              "ppg": 9.95,
+              "recent_ppg": 11.67,
+              "drop_candidate": {
+                "name": "Juwan Johnson",
+                "ppg": 10.28,
+                "recent_ppg": 5.83
+              },
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -3034,7 +3028,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 69,
+              "search_rank": 68,
               "weekly_points": {
                 "6": 0.0
               },
@@ -3462,33 +3456,6 @@
               "status": "OK"
             },
             {
-              "player_id": "9480",
-              "name": "Brenton Strange",
-              "position": "TE",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 104,
-              "weekly_points": {
-                "1": 10.3,
-                "2": 3.7,
-                "3": 6.2,
-                "4": 16.5,
-                "5": 13.8
-              },
-              "season_points": 50.5,
-              "games_played": 5,
-              "ppg": 10.1,
-              "recent_ppg": 12.17,
-              "drop_candidate": {
-                "name": "Tucker Kraft",
-                "ppg": 7.95,
-                "recent_ppg": 9.37
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "13833",
               "name": "Dominic Zvada",
               "position": "K",
@@ -3514,6 +3481,32 @@
                 "recent_ppg": 6.0
               },
               "status": "OK"
+            },
+            {
+              "player_id": "2505",
+              "name": "Darren Waller",
+              "position": "TE",
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Toe",
+              "search_rank": 358,
+              "weekly_points": {
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6
+              },
+              "season_points": 39.8,
+              "games_played": 4,
+              "ppg": 9.95,
+              "recent_ppg": 11.67,
+              "drop_candidate": {
+                "name": "Tucker Kraft",
+                "ppg": 7.95,
+                "recent_ppg": 9.37
+              },
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -3540,7 +3533,7 @@
               "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 38,
+              "search_rank": 39,
               "weekly_points": {
                 "1": 15.4,
                 "2": 29.76,
@@ -3588,7 +3581,7 @@
               "bye_week": 8,
               "injury_status": "Out",
               "injury_body_part": "Groin",
-              "search_rank": 43,
+              "search_rank": 41,
               "weekly_points": {
                 "1": 28.9,
                 "2": 4.4,
@@ -3662,7 +3655,7 @@
               "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 20,
+              "search_rank": 21,
               "weekly_points": {
                 "1": 0.0,
                 "2": 0.0,
@@ -3800,7 +3793,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 177,
+              "search_rank": 176,
               "weekly_points": {
                 "4": 12.0,
                 "5": 12.1,
@@ -4081,7 +4074,7 @@
               "bye_week": 13,
               "injury_status": "Questionable",
               "injury_body_part": "Ankle",
-              "search_rank": 8,
+              "search_rank": 10,
               "weekly_points": {
                 "1": 32.96,
                 "2": 16.8,
@@ -4218,7 +4211,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 89,
+              "search_rank": 90,
               "weekly_points": {
                 "1": 10.1,
                 "2": 25.1,
@@ -4351,7 +4344,7 @@
               "bye_week": 6,
               "injury_status": "Questionable",
               "injury_body_part": "Undisclosed",
-              "search_rank": 463,
+              "search_rank": 461,
               "weekly_points": {
                 "4": 18.0,
                 "5": 14.8,
@@ -4570,33 +4563,6 @@
               "status": "OK"
             },
             {
-              "player_id": "9480",
-              "name": "Brenton Strange",
-              "position": "TE",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 104,
-              "weekly_points": {
-                "1": 10.3,
-                "2": 3.7,
-                "3": 6.2,
-                "4": 16.5,
-                "5": 13.8
-              },
-              "season_points": 50.5,
-              "games_played": 5,
-              "ppg": 10.1,
-              "recent_ppg": 12.17,
-              "drop_candidate": {
-                "name": "Travis Kelce",
-                "ppg": 8.77,
-                "recent_ppg": 1.17
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "13833",
               "name": "Dominic Zvada",
               "position": "K",
@@ -4622,6 +4588,32 @@
                 "recent_ppg": 5.0
               },
               "status": "OK"
+            },
+            {
+              "player_id": "2505",
+              "name": "Darren Waller",
+              "position": "TE",
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Toe",
+              "search_rank": 358,
+              "weekly_points": {
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6
+              },
+              "season_points": 39.8,
+              "games_played": 4,
+              "ppg": 9.95,
+              "recent_ppg": 11.67,
+              "drop_candidate": {
+                "name": "Travis Kelce",
+                "ppg": 8.77,
+                "recent_ppg": 1.17
+              },
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -4756,22 +4748,22 @@
             },
             {
               "slot": "TE",
-              "player_id": "9482",
-              "name": "Michael Mayer",
+              "player_id": "9480",
+              "name": "Brenton Strange",
               "position": "TE",
-              "team": "LV",
-              "bye_week": 13,
+              "team": "JAX",
+              "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 465,
+              "search_rank": 104,
               "weekly_points": {
-                "5": 1.2,
+                "5": 13.8,
                 "6": 0.0
               },
-              "season_points": 1.2,
+              "season_points": 13.8,
               "games_played": 2,
-              "ppg": 0.6,
-              "recent_ppg": 0.6,
+              "ppg": 6.9,
+              "recent_ppg": 6.9,
               "status": "OK"
             },
             {
@@ -4783,7 +4775,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 666,
+              "search_rank": 488,
               "weekly_points": {
                 "6": 0.0
               },
@@ -4922,25 +4914,6 @@
               "status": "OK"
             },
             {
-              "player_id": "4993",
-              "name": "Mike Gesicki",
-              "position": "TE",
-              "team": "CIN",
-              "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 448,
-              "weekly_points": {
-                "5": 7.4,
-                "6": 0.0
-              },
-              "season_points": 7.4,
-              "games_played": 2,
-              "ppg": 3.7,
-              "recent_ppg": 3.7,
-              "status": "BYE"
-            },
-            {
               "player_id": "5846",
               "name": "DK Metcalf",
               "position": "WR",
@@ -4983,6 +4956,25 @@
               "ppg": 0.93,
               "recent_ppg": 0.0,
               "status": "OUT"
+            },
+            {
+              "player_id": "9482",
+              "name": "Michael Mayer",
+              "position": "TE",
+              "team": "LV",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 464,
+              "weekly_points": {
+                "5": 1.2,
+                "6": 0.0
+              },
+              "season_points": 1.2,
+              "games_played": 2,
+              "ppg": 0.6,
+              "recent_ppg": 0.6,
+              "status": "OK"
             },
             {
               "player_id": "9753",
@@ -5125,31 +5117,30 @@
               "status": "OK"
             },
             {
-              "player_id": "9480",
-              "name": "Brenton Strange",
+              "player_id": "2505",
+              "name": "Darren Waller",
               "position": "TE",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 104,
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Toe",
+              "search_rank": 358,
               "weekly_points": {
-                "1": 10.3,
-                "2": 3.7,
-                "3": 6.2,
-                "4": 16.5,
-                "5": 13.8
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6
               },
-              "season_points": 50.5,
-              "games_played": 5,
-              "ppg": 10.1,
-              "recent_ppg": 12.17,
+              "season_points": 39.8,
+              "games_played": 4,
+              "ppg": 9.95,
+              "recent_ppg": 11.67,
               "drop_candidate": {
                 "name": "Michael Mayer",
                 "ppg": 0.6,
                 "recent_ppg": 0.6
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -5219,7 +5210,7 @@
               "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 31,
+              "search_rank": 30,
               "weekly_points": {
                 "1": 24.2,
                 "2": 8.0,
@@ -5267,7 +5258,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 6,
+              "search_rank": 5,
               "weekly_points": {
                 "1": 26.2,
                 "2": 42.5,
@@ -5315,7 +5306,7 @@
               "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 20,
+              "search_rank": 21,
               "weekly_points": {
                 "1": 0.0,
                 "2": 0.0,
@@ -5674,7 +5665,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 133,
+              "search_rank": 134,
               "weekly_points": {
                 "3": 14.64,
                 "4": 21.46,
@@ -5744,7 +5735,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 38,
+              "search_rank": 37,
               "weekly_points": {
                 "1": 10.5,
                 "2": 15.1,
@@ -6326,7 +6317,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 133,
+              "search_rank": 131,
               "weekly_points": {
                 "1": 12.0,
                 "2": 7.0,
@@ -6615,7 +6606,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 69,
+              "search_rank": 68,
               "weekly_points": {
                 "2": 13.8,
                 "3": 19.48,
@@ -6800,7 +6791,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 666,
+              "search_rank": 488,
               "weekly_points": {
                 "6": 0.0
               },
@@ -7402,7 +7393,7 @@
               "bye_week": 10,
               "injury_status": "Out",
               "injury_body_part": "Calf",
-              "search_rank": 26,
+              "search_rank": 28,
               "weekly_points": {
                 "1": 24.72,
                 "2": 18.16,
@@ -7604,7 +7595,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 65,
+              "search_rank": 64,
               "weekly_points": {
                 "1": 5.1,
                 "2": 27.98,
@@ -7677,7 +7668,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 26,
+              "search_rank": 28,
               "weekly_points": {
                 "1": 12.9,
                 "2": 1.1,
@@ -7841,7 +7832,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 177,
+              "search_rank": 176,
               "weekly_points": {
                 "4": 12.0,
                 "5": 12.1,
@@ -8357,7 +8348,7 @@
               "bye_week": 8,
               "injury_status": "Out",
               "injury_body_part": "Groin",
-              "search_rank": 43,
+              "search_rank": 41,
               "weekly_points": {
                 "1": 28.9,
                 "2": 4.4,
@@ -8609,7 +8600,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 44,
+              "search_rank": 46,
               "weekly_points": {
                 "1": 32.4,
                 "2": 12.9,
@@ -9100,7 +9091,7 @@
               "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 38,
+              "search_rank": 39,
               "weekly_points": {
                 "1": 15.4,
                 "2": 29.76,
@@ -9266,7 +9257,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 89,
+              "search_rank": 90,
               "weekly_points": {
                 "1": 10.1,
                 "2": 25.1,
@@ -9336,7 +9327,7 @@
               "bye_week": 6,
               "injury_status": "Questionable",
               "injury_body_part": "Undisclosed",
-              "search_rank": 463,
+              "search_rank": 461,
               "weekly_points": {
                 "4": 18.0,
                 "5": 14.8,
@@ -9488,7 +9479,7 @@
               "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 267,
+              "search_rank": 266,
               "weekly_points": {
                 "1": 15.8,
                 "2": 21.22,
@@ -9607,7 +9598,7 @@
               "bye_week": 13,
               "injury_status": "Questionable",
               "injury_body_part": "Ankle",
-              "search_rank": 8,
+              "search_rank": 10,
               "weekly_points": {
                 "1": 24.96,
                 "2": 15.8,
@@ -9899,7 +9890,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 12,
+              "search_rank": 11,
               "weekly_points": {
                 "1": 31.2,
                 "2": 8.5,
