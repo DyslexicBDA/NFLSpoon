@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:13:48.892187+00:00",
+  "generated_at": "2026-10-17T18:16:46.680909+00:00",
   "current_week": 6,
   "season": "2026",
   "leagues": [
@@ -1850,8 +1850,8 @@
               "position": "TE",
               "team": "PIT",
               "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Calf",
               "search_rank": 230,
               "weekly_points": {
                 "6": 0.0
@@ -1860,7 +1860,7 @@
               "games_played": 1,
               "ppg": 0.0,
               "recent_ppg": 0.0,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "8121",
@@ -3734,7 +3734,24 @@
               "ppg": 6.86,
               "recent_ppg": 1.03,
               "status": "OUT",
-              "suggested_swap": null
+              "suggested_swap": {
+                "player_id": "8132",
+                "name": "Tyler Allgeier",
+                "position": "RB",
+                "team": "ARI",
+                "bye_week": 14,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 89,
+                "weekly_points": {
+                  "5": 3.6,
+                  "6": 0.0
+                },
+                "season_points": 3.6,
+                "games_played": 2,
+                "ppg": 1.8,
+                "recent_ppg": 1.8
+              }
             },
             {
               "slot": "K",
@@ -3869,6 +3886,25 @@
               "status": "OUT"
             },
             {
+              "player_id": "8132",
+              "name": "Tyler Allgeier",
+              "position": "RB",
+              "team": "ARI",
+              "bye_week": 14,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 89,
+              "weekly_points": {
+                "5": 3.6,
+                "6": 0.0
+              },
+              "season_points": 3.6,
+              "games_played": 2,
+              "ppg": 1.8,
+              "recent_ppg": 1.8,
+              "status": "OK"
+            },
+            {
               "player_id": "9221",
               "name": "Jahmyr Gibbs",
               "position": "RB",
@@ -3890,29 +3926,6 @@
               "ppg": 25.62,
               "recent_ppg": 18.47,
               "status": "BYE"
-            },
-            {
-              "player_id": "9756",
-              "name": "Jordan Addison",
-              "position": "WR",
-              "team": "MIN",
-              "bye_week": 6,
-              "injury_status": "Out",
-              "injury_body_part": "Hamstring",
-              "search_rank": 99,
-              "weekly_points": {
-                "1": 0.0,
-                "2": 4.1,
-                "3": 21.0,
-                "4": 9.1,
-                "5": 0.0,
-                "6": 0.0
-              },
-              "season_points": 34.2,
-              "games_played": 6,
-              "ppg": 5.7,
-              "recent_ppg": 3.03,
-              "status": "BYE"
             }
           ],
           "alert_count": 1,
@@ -3922,7 +3935,7 @@
               "player_name": "Kyle Monangai",
               "status": "OUT",
               "detail": "Toe",
-              "suggested_swap": null
+              "suggested_swap": "Tyler Allgeier"
             }
           ],
           "waiver_suggestions": [
@@ -4864,8 +4877,8 @@
               "position": "WR",
               "team": "PIT",
               "bye_week": 9,
-              "injury_status": "Questionable",
-              "injury_body_part": "Illness",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 73,
               "weekly_points": {
                 "1": 8.0,
@@ -4877,7 +4890,7 @@
               "games_played": 4,
               "ppg": 5.0,
               "recent_ppg": 4.0,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "5859",
@@ -7164,8 +7177,8 @@
               "position": "TE",
               "team": "PIT",
               "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Calf",
               "search_rank": 230,
               "weekly_points": {
                 "6": 0.0
@@ -7174,7 +7187,8 @@
               "games_played": 1,
               "ppg": 0.0,
               "recent_ppg": 0.0,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "FLEX",
@@ -7358,8 +7372,16 @@
               "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "TE",
+              "player_name": "Pat Freiermuth",
+              "status": "QUESTIONABLE",
+              "detail": "Calf",
+              "suggested_swap": null
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "11560",
@@ -7562,7 +7584,7 @@
               "position": "RB",
               "team": "WAS",
               "bye_week": 7,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Groin",
               "search_rank": 95,
               "weekly_points": {
@@ -7577,7 +7599,7 @@
               "games_played": 6,
               "ppg": 7.48,
               "recent_ppg": 7.07,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": null
             },
             {
@@ -7840,8 +7862,8 @@
               "position": "WR",
               "team": "PIT",
               "bye_week": 9,
-              "injury_status": "Questionable",
-              "injury_body_part": "Illness",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 73,
               "weekly_points": {
                 "1": 8.0,
@@ -7855,7 +7877,7 @@
               "games_played": 6,
               "ppg": 8.1,
               "recent_ppg": 7.27,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             }
           ],
           "alert_count": 1,
@@ -7863,7 +7885,7 @@
             {
               "slot": "RB",
               "player_name": "Jacory Croskey-Merritt",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Groin",
               "suggested_swap": null
             }
