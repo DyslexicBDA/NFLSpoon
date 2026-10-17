@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T22:40:14.239792+00:00",
+  "generated_at": "2026-10-17T03:35:49.161371+00:00",
   "current_week": 6,
   "season": "2026",
   "leagues": [
@@ -7630,26 +7630,26 @@
             },
             {
               "slot": "TE",
-              "player_id": "12517",
-              "name": "Colston Loveland",
+              "player_id": "5022",
+              "name": "Dallas Goedert",
               "position": "TE",
-              "team": "CHI",
+              "team": "PHI",
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 36,
+              "search_rank": 94,
               "weekly_points": {
-                "1": 0.0,
-                "2": 1.3,
-                "3": 7.1,
-                "4": 11.7,
-                "5": 3.9,
+                "1": 23.7,
+                "2": 1.4,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 9.8,
                 "6": 0.0
               },
-              "season_points": 24.0,
+              "season_points": 34.9,
               "games_played": 6,
-              "ppg": 4.0,
-              "recent_ppg": 5.2,
+              "ppg": 5.82,
+              "recent_ppg": 3.27,
               "status": "OK"
             },
             {
@@ -7676,49 +7676,27 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "5846",
-              "name": "DK Metcalf",
+              "player_id": "12514",
+              "name": "Emeka Egbuka",
               "position": "WR",
-              "team": "PIT",
-              "bye_week": 9,
-              "injury_status": "Questionable",
-              "injury_body_part": "Illness",
-              "search_rank": 73,
+              "team": "TB",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 39,
               "weekly_points": {
-                "1": 8.0,
-                "2": 6.7,
-                "3": 12.1,
-                "4": 16.5,
-                "5": 5.3,
+                "1": 11.3,
+                "2": 10.3,
+                "3": 11.2,
+                "4": 3.3,
+                "5": 17.2,
                 "6": 0.0
               },
-              "season_points": 48.6,
+              "season_points": 53.3,
               "games_played": 6,
-              "ppg": 8.1,
-              "recent_ppg": 7.27,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "12514",
-                "name": "Emeka Egbuka",
-                "position": "WR",
-                "team": "TB",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 39,
-                "weekly_points": {
-                  "1": 11.3,
-                  "2": 10.3,
-                  "3": 11.2,
-                  "4": 3.3,
-                  "5": 17.2,
-                  "6": 0.0
-                },
-                "season_points": 53.3,
-                "games_played": 6,
-                "ppg": 8.88,
-                "recent_ppg": 6.83
-              }
+              "ppg": 8.88,
+              "recent_ppg": 6.83,
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -7788,26 +7766,26 @@
               "status": "BYE"
             },
             {
-              "player_id": "12514",
-              "name": "Emeka Egbuka",
-              "position": "WR",
-              "team": "TB",
+              "player_id": "12517",
+              "name": "Colston Loveland",
+              "position": "TE",
+              "team": "CHI",
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 39,
+              "search_rank": 36,
               "weekly_points": {
-                "1": 11.3,
-                "2": 10.3,
-                "3": 11.2,
-                "4": 3.3,
-                "5": 17.2,
+                "1": 0.0,
+                "2": 1.3,
+                "3": 7.1,
+                "4": 11.7,
+                "5": 3.9,
                 "6": 0.0
               },
-              "season_points": 53.3,
+              "season_points": 24.0,
               "games_played": 6,
-              "ppg": 8.88,
-              "recent_ppg": 6.83,
+              "ppg": 4.0,
+              "recent_ppg": 5.2,
               "status": "OK"
             },
             {
@@ -7857,30 +7835,30 @@
               "status": "BYE"
             },
             {
-              "player_id": "5022",
-              "name": "Dallas Goedert",
-              "position": "TE",
-              "team": "PHI",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 94,
+              "player_id": "5846",
+              "name": "DK Metcalf",
+              "position": "WR",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": "Questionable",
+              "injury_body_part": "Illness",
+              "search_rank": 73,
               "weekly_points": {
-                "1": 23.7,
-                "2": 1.4,
-                "3": 0.0,
-                "4": 0.0,
-                "5": 9.8,
+                "1": 8.0,
+                "2": 6.7,
+                "3": 12.1,
+                "4": 16.5,
+                "5": 5.3,
                 "6": 0.0
               },
-              "season_points": 34.9,
+              "season_points": 48.6,
               "games_played": 6,
-              "ppg": 5.82,
-              "recent_ppg": 3.27,
-              "status": "OK"
+              "ppg": 8.1,
+              "recent_ppg": 7.27,
+              "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
             {
               "slot": "RB",
@@ -7888,13 +7866,6 @@
               "status": "QUESTIONABLE",
               "detail": "Groin",
               "suggested_swap": null
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "DK Metcalf",
-              "status": "QUESTIONABLE",
-              "detail": "Illness",
-              "suggested_swap": "Emeka Egbuka"
             }
           ],
           "waiver_suggestions": [
