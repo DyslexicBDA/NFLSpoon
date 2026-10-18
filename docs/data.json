@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T22:01:39.278316+00:00",
+  "generated_at": "2026-10-18T03:42:17.276039+00:00",
   "current_week": 6,
   "season": "2026",
   "leagues": [
@@ -4825,27 +4825,6 @@
               "status": "OUT"
             },
             {
-              "player_id": "11625",
-              "name": "Adonai Mitchell",
-              "position": "WR",
-              "team": "NYJ",
-              "bye_week": 13,
-              "injury_status": "Out",
-              "injury_body_part": "Finger",
-              "search_rank": 162,
-              "weekly_points": {
-                "3": 0.0,
-                "4": 0.0,
-                "5": 0.0,
-                "6": 0.0
-              },
-              "season_points": 0.0,
-              "games_played": 4,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
-              "status": "OUT"
-            },
-            {
               "player_id": "5846",
               "name": "DK Metcalf",
               "position": "WR",
@@ -5008,8 +4987,8 @@
               "ppg": 11.22,
               "recent_ppg": 14.97,
               "drop_candidate": {
-                "name": "Adonai Mitchell",
-                "ppg": 0.0,
+                "name": "A.J. Brown",
+                "ppg": 0.93,
                 "recent_ppg": 0.0
               },
               "status": "OUT"
@@ -5839,6 +5818,24 @@
               "status": "OK"
             },
             {
+              "player_id": "11624",
+              "name": "Xavier Worthy",
+              "position": "WR",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 122,
+              "weekly_points": {
+                "6": 0.0
+              },
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "OK"
+            },
+            {
               "player_id": "11630",
               "name": "Roman Wilson",
               "position": "WR",
@@ -6237,26 +6234,21 @@
             },
             {
               "slot": "K",
-              "player_id": "11786",
-              "name": "Cam Little",
+              "player_id": "11058",
+              "name": "Blake Grupe",
               "position": "K",
-              "team": "JAX",
-              "bye_week": 7,
+              "team": "LAR",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 133,
+              "search_rank": 689,
               "weekly_points": {
-                "1": 12.0,
-                "2": 7.0,
-                "3": 4.0,
-                "4": 14.0,
-                "5": 8.0,
                 "6": 0.0
               },
-              "season_points": 45.0,
-              "games_played": 6,
-              "ppg": 7.5,
-              "recent_ppg": 7.33,
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
               "status": "OK"
             },
             {
@@ -6476,9 +6468,9 @@
               "ppg": 9.6,
               "recent_ppg": 12.0,
               "drop_candidate": {
-                "name": "Cam Little",
-                "ppg": 7.5,
-                "recent_ppg": 7.33
+                "name": "Blake Grupe",
+                "ppg": 0.0,
+                "recent_ppg": 0.0
               },
               "status": "OK"
             },
