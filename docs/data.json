@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:42:58.351922+00:00",
+  "generated_at": "2026-10-19T18:30:54.925471+00:00",
   "current_week": 6,
   "season": "2026",
   "leagues": [
@@ -5435,31 +5435,32 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "6770",
-              "name": "Joe Burrow",
+              "player_id": "9758",
+              "name": "C.J. Stroud",
               "position": "QB",
-              "team": "CIN",
-              "bye_week": 6,
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 15,
+              "search_rank": 101,
               "weekly_points": {
-                "1": 15.16,
-                "2": 16.18,
-                "3": 22.58,
-                "4": 25.72,
-                "5": 24.6
+                "1": 16.46,
+                "2": 17.02,
+                "3": 11.68,
+                "4": 23.08,
+                "5": 20.94,
+                "6": 23.98
               },
-              "season_points": 104.24,
-              "games_played": 5,
-              "ppg": 20.85,
-              "recent_ppg": 24.3,
+              "season_points": 113.16,
+              "games_played": 6,
+              "ppg": 18.86,
+              "recent_ppg": 22.67,
               "drop_candidate": {
                 "name": "Patrick Mahomes",
                 "ppg": 11.36,
                 "recent_ppg": 9.49
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "12536",
@@ -5926,31 +5927,32 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "6770",
-              "name": "Joe Burrow",
+              "player_id": "9758",
+              "name": "C.J. Stroud",
               "position": "QB",
-              "team": "CIN",
-              "bye_week": 6,
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 15,
+              "search_rank": 101,
               "weekly_points": {
-                "1": 15.16,
-                "2": 16.18,
-                "3": 22.58,
-                "4": 25.72,
-                "5": 24.6
+                "1": 16.46,
+                "2": 17.02,
+                "3": 11.68,
+                "4": 23.08,
+                "5": 20.94,
+                "6": 23.98
               },
-              "season_points": 104.24,
-              "games_played": 5,
-              "ppg": 20.85,
-              "recent_ppg": 24.3,
+              "season_points": 113.16,
+              "games_played": 6,
+              "ppg": 18.86,
+              "recent_ppg": 22.67,
               "drop_candidate": {
                 "name": "Bryce Young",
                 "ppg": 13.98,
                 "recent_ppg": 13.77
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "12536",
@@ -6422,31 +6424,32 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "6770",
-              "name": "Joe Burrow",
+              "player_id": "9758",
+              "name": "C.J. Stroud",
               "position": "QB",
-              "team": "CIN",
-              "bye_week": 6,
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 15,
+              "search_rank": 101,
               "weekly_points": {
-                "1": 15.16,
-                "2": 16.18,
-                "3": 22.58,
-                "4": 25.72,
-                "5": 24.6
+                "1": 16.46,
+                "2": 17.02,
+                "3": 11.68,
+                "4": 23.08,
+                "5": 20.94,
+                "6": 23.98
               },
-              "season_points": 104.24,
-              "games_played": 5,
-              "ppg": 20.85,
-              "recent_ppg": 24.3,
+              "season_points": 113.16,
+              "games_played": 6,
+              "ppg": 18.86,
+              "recent_ppg": 22.67,
               "drop_candidate": {
                 "name": "Brock Purdy",
                 "ppg": 19.77,
                 "recent_ppg": 12.26
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "12536",
@@ -6577,23 +6580,19 @@
           "starters": [
             {
               "slot": "QB",
-              "player_id": "6804",
-              "name": "Jordan Love",
-              "position": "QB",
-              "team": "GB",
-              "bye_week": 11,
+              "player_id": "0",
+              "name": "0 D/ST",
+              "position": "DEF",
+              "team": "0",
+              "bye_week": null,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 69,
-              "weekly_points": {
-                "2": 13.8,
-                "3": 19.48,
-                "6": 21.24
-              },
-              "season_points": 54.52,
-              "games_played": 3,
-              "ppg": 18.17,
-              "recent_ppg": 18.17,
+              "search_rank": 999999,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
               "status": "OK"
             },
             {
@@ -6881,6 +6880,29 @@
               "status": "OK"
             },
             {
+              "player_id": "6770",
+              "name": "Joe Burrow",
+              "position": "QB",
+              "team": "CIN",
+              "bye_week": 6,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 15,
+              "weekly_points": {
+                "1": 15.16,
+                "2": 16.18,
+                "3": 22.58,
+                "4": 25.72,
+                "5": 24.6,
+                "6": 0.0
+              },
+              "season_points": 104.24,
+              "games_played": 6,
+              "ppg": 17.37,
+              "recent_ppg": 16.77,
+              "status": "BYE"
+            },
+            {
               "player_id": "6801",
               "name": "Tee Higgins",
               "position": "WR",
@@ -6944,33 +6966,6 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "6770",
-              "name": "Joe Burrow",
-              "position": "QB",
-              "team": "CIN",
-              "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 15,
-              "weekly_points": {
-                "1": 15.16,
-                "2": 16.18,
-                "3": 22.58,
-                "4": 25.72,
-                "5": 24.6
-              },
-              "season_points": 104.24,
-              "games_played": 5,
-              "ppg": 20.85,
-              "recent_ppg": 24.3,
-              "drop_candidate": {
-                "name": "Jared Goff",
-                "ppg": 17.2,
-                "recent_ppg": 16.47
-              },
-              "status": "BYE"
-            },
-            {
               "player_id": "9758",
               "name": "C.J. Stroud",
               "position": "QB",
@@ -6991,6 +6986,31 @@
               "games_played": 6,
               "ppg": 18.86,
               "recent_ppg": 22.67,
+              "drop_candidate": {
+                "name": "Jared Goff",
+                "ppg": 17.2,
+                "recent_ppg": 16.47
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "11560",
+              "name": "Caleb Williams",
+              "position": "QB",
+              "team": "CHI",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 21,
+              "weekly_points": {
+                "1": 37.26,
+                "2": 8.72,
+                "6": 16.5
+              },
+              "season_points": 62.48,
+              "games_played": 3,
+              "ppg": 20.83,
+              "recent_ppg": 20.83,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -7369,29 +7389,6 @@
               "status": "OUT"
             },
             {
-              "player_id": "6904",
-              "name": "Jalen Hurts",
-              "position": "QB",
-              "team": "PHI",
-              "bye_week": 10,
-              "injury_status": "IR",
-              "injury_body_part": "Calf",
-              "search_rank": 26,
-              "weekly_points": {
-                "1": 24.72,
-                "2": 18.16,
-                "3": 13.62,
-                "4": 13.52,
-                "5": 13.0,
-                "6": 0.0
-              },
-              "season_points": 83.02,
-              "games_played": 6,
-              "ppg": 13.84,
-              "recent_ppg": 8.84,
-              "status": "OUT"
-            },
-            {
               "player_id": "8136",
               "name": "Rachaad White",
               "position": "RB",
@@ -7416,31 +7413,28 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "6770",
-              "name": "Joe Burrow",
+              "player_id": "9758",
+              "name": "C.J. Stroud",
               "position": "QB",
-              "team": "CIN",
-              "bye_week": 6,
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 15,
+              "search_rank": 101,
               "weekly_points": {
-                "1": 15.16,
-                "2": 16.18,
-                "3": 22.58,
-                "4": 25.72,
-                "5": 24.6
+                "1": 16.46,
+                "2": 17.02,
+                "3": 11.68,
+                "4": 23.08,
+                "5": 20.94,
+                "6": 23.98
               },
-              "season_points": 104.24,
-              "games_played": 5,
-              "ppg": 20.85,
-              "recent_ppg": 24.3,
-              "drop_candidate": {
-                "name": "Jalen Hurts",
-                "ppg": 13.84,
-                "recent_ppg": 8.84
-              },
-              "status": "BYE"
+              "season_points": 113.16,
+              "games_played": 6,
+              "ppg": 18.86,
+              "recent_ppg": 22.67,
+              "drop_candidate": null,
+              "status": "OK"
             },
             {
               "player_id": "12536",
@@ -7961,31 +7955,32 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "6770",
-              "name": "Joe Burrow",
+              "player_id": "9758",
+              "name": "C.J. Stroud",
               "position": "QB",
-              "team": "CIN",
-              "bye_week": 6,
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 15,
+              "search_rank": 101,
               "weekly_points": {
-                "1": 15.16,
-                "2": 16.18,
-                "3": 22.58,
-                "4": 25.72,
-                "5": 24.6
+                "1": 16.46,
+                "2": 17.02,
+                "3": 11.68,
+                "4": 23.08,
+                "5": 20.94,
+                "6": 23.98
               },
-              "season_points": 104.24,
-              "games_played": 5,
-              "ppg": 20.85,
-              "recent_ppg": 24.3,
+              "season_points": 113.16,
+              "games_played": 6,
+              "ppg": 18.86,
+              "recent_ppg": 22.67,
               "drop_candidate": {
                 "name": "Matthew Stafford",
                 "ppg": 18.64,
                 "recent_ppg": 18.63
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "12536",
@@ -8433,31 +8428,32 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "6770",
-              "name": "Joe Burrow",
+              "player_id": "9758",
+              "name": "C.J. Stroud",
               "position": "QB",
-              "team": "CIN",
-              "bye_week": 6,
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 15,
+              "search_rank": 101,
               "weekly_points": {
-                "1": 15.16,
-                "2": 16.18,
-                "3": 22.58,
-                "4": 25.72,
-                "5": 24.6
+                "1": 16.46,
+                "2": 17.02,
+                "3": 11.68,
+                "4": 23.08,
+                "5": 20.94,
+                "6": 23.98
               },
-              "season_points": 104.24,
-              "games_played": 5,
-              "ppg": 20.85,
-              "recent_ppg": 24.3,
+              "season_points": 113.16,
+              "games_played": 6,
+              "ppg": 18.86,
+              "recent_ppg": 22.67,
               "drop_candidate": {
                 "name": "Trevor Lawrence",
                 "ppg": 19.7,
                 "recent_ppg": 21.39
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "12536",
@@ -8956,33 +8952,6 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "6770",
-              "name": "Joe Burrow",
-              "position": "QB",
-              "team": "CIN",
-              "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 15,
-              "weekly_points": {
-                "1": 15.16,
-                "2": 16.18,
-                "3": 22.58,
-                "4": 25.72,
-                "5": 24.6
-              },
-              "season_points": 104.24,
-              "games_played": 5,
-              "ppg": 20.85,
-              "recent_ppg": 24.3,
-              "drop_candidate": {
-                "name": "Jayden Daniels",
-                "ppg": 10.78,
-                "recent_ppg": 10.75
-              },
-              "status": "BYE"
-            },
-            {
               "player_id": "9758",
               "name": "C.J. Stroud",
               "position": "QB",
@@ -9003,6 +8972,31 @@
               "games_played": 6,
               "ppg": 18.86,
               "recent_ppg": 22.67,
+              "drop_candidate": {
+                "name": "Jayden Daniels",
+                "ppg": 10.78,
+                "recent_ppg": 10.75
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "11560",
+              "name": "Caleb Williams",
+              "position": "QB",
+              "team": "CHI",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 21,
+              "weekly_points": {
+                "1": 37.26,
+                "2": 8.72,
+                "6": 16.5
+              },
+              "season_points": 62.48,
+              "games_played": 3,
+              "ppg": 20.83,
+              "recent_ppg": 20.83,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -9464,33 +9458,6 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "6770",
-              "name": "Joe Burrow",
-              "position": "QB",
-              "team": "CIN",
-              "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 15,
-              "weekly_points": {
-                "1": 15.16,
-                "2": 16.18,
-                "3": 22.58,
-                "4": 25.72,
-                "5": 24.6
-              },
-              "season_points": 104.24,
-              "games_played": 5,
-              "ppg": 20.85,
-              "recent_ppg": 24.3,
-              "drop_candidate": {
-                "name": "Dak Prescott",
-                "ppg": 18.31,
-                "recent_ppg": 15.25
-              },
-              "status": "BYE"
-            },
-            {
               "player_id": "9758",
               "name": "C.J. Stroud",
               "position": "QB",
@@ -9511,6 +9478,31 @@
               "games_played": 6,
               "ppg": 18.86,
               "recent_ppg": 22.67,
+              "drop_candidate": {
+                "name": "Dak Prescott",
+                "ppg": 18.31,
+                "recent_ppg": 15.25
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "11560",
+              "name": "Caleb Williams",
+              "position": "QB",
+              "team": "CHI",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 21,
+              "weekly_points": {
+                "1": 37.26,
+                "2": 8.72,
+                "6": 16.5
+              },
+              "season_points": 62.48,
+              "games_played": 3,
+              "ppg": 20.83,
+              "recent_ppg": 20.83,
               "drop_candidate": null,
               "status": "OK"
             },
@@ -9985,31 +9977,32 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "6770",
-              "name": "Joe Burrow",
+              "player_id": "9758",
+              "name": "C.J. Stroud",
               "position": "QB",
-              "team": "CIN",
-              "bye_week": 6,
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 15,
+              "search_rank": 101,
               "weekly_points": {
-                "1": 15.16,
-                "2": 16.18,
-                "3": 22.58,
-                "4": 25.72,
-                "5": 24.6
+                "1": 16.46,
+                "2": 17.02,
+                "3": 11.68,
+                "4": 23.08,
+                "5": 20.94,
+                "6": 23.98
               },
-              "season_points": 104.24,
-              "games_played": 5,
-              "ppg": 20.85,
-              "recent_ppg": 24.3,
+              "season_points": 113.16,
+              "games_played": 6,
+              "ppg": 18.86,
+              "recent_ppg": 22.67,
               "drop_candidate": {
                 "name": "Lamar Jackson",
                 "ppg": 13.35,
                 "recent_ppg": 6.29
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "12536",
