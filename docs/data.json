@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:30:54.925471+00:00",
+  "generated_at": "2026-10-19T23:26:38.473482+00:00",
   "current_week": 6,
   "season": "2026",
   "leagues": [
@@ -1202,8 +1202,8 @@
               "position": "WR",
               "team": "SF",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Ribs",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 60,
               "weekly_points": {
                 "1": 16.9,
@@ -1217,8 +1217,7 @@
               "games_played": 6,
               "ppg": 12.77,
               "recent_ppg": 12.97,
-              "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -1378,16 +1377,8 @@
               "status": "BYE"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "FLEX",
-              "player_name": "Mike Evans",
-              "status": "QUESTIONABLE",
-              "detail": "Ribs",
-              "suggested_swap": null
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "3163",
@@ -1860,7 +1851,7 @@
               "position": "WR",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": "Out",
+              "injury_status": "IR",
               "injury_body_part": "Shoulder",
               "search_rank": 117,
               "weekly_points": {
@@ -3120,8 +3111,8 @@
               "position": "WR",
               "team": "LAR",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Knee",
               "search_rank": 46,
               "weekly_points": {
                 "1": 5.6,
@@ -3135,7 +3126,8 @@
               "games_played": 6,
               "ppg": 17.0,
               "recent_ppg": 12.07,
-              "status": "OK"
+              "status": "OUT",
+              "suggested_swap": null
             },
             {
               "slot": "TE",
@@ -3372,8 +3364,15 @@
               "status": "BYE"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Davante Adams",
+              "status": "OUT",
+              "detail": "Knee",
+              "suggested_swap": null
+            },
             {
               "slot": "FLEX",
               "player_name": "DJ Moore",
@@ -6276,7 +6275,7 @@
               "position": "K",
               "team": "LAR",
               "bye_week": 11,
-              "injury_status": "Questionable",
+              "injury_status": "IR",
               "injury_body_part": "Knee",
               "search_rank": 689,
               "weekly_points": {
@@ -6286,7 +6285,7 @@
               "games_played": 1,
               "ppg": 4.0,
               "recent_ppg": 4.0,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": null
             },
             {
@@ -6417,7 +6416,7 @@
             {
               "slot": "K",
               "player_name": "Blake Grupe",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Knee",
               "suggested_swap": null
             }
@@ -7618,7 +7617,7 @@
               "position": "RB",
               "team": "WAS",
               "bye_week": 7,
-              "injury_status": "Out",
+              "injury_status": "IR",
               "injury_body_part": "Groin",
               "search_rank": 95,
               "weekly_points": {
@@ -7715,7 +7714,7 @@
               "position": "WR",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": "Out",
+              "injury_status": "IR",
               "injury_body_part": "Shoulder",
               "search_rank": 117,
               "weekly_points": {
@@ -8207,8 +8206,8 @@
               "position": "WR",
               "team": "LAR",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Out",
+              "injury_body_part": "Knee",
               "search_rank": 46,
               "weekly_points": {
                 "1": 5.6,
@@ -8222,7 +8221,28 @@
               "games_played": 6,
               "ppg": 17.0,
               "recent_ppg": 12.07,
-              "status": "OK"
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "11620",
+                "name": "Rome Odunze",
+                "position": "WR",
+                "team": "CHI",
+                "bye_week": 10,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 64,
+                "weekly_points": {
+                  "1": 7.2,
+                  "2": 7.3,
+                  "3": 7.4,
+                  "5": 5.0,
+                  "6": 6.9
+                },
+                "season_points": 33.8,
+                "games_played": 5,
+                "ppg": 6.76,
+                "recent_ppg": 6.43
+              }
             },
             {
               "slot": "TE",
@@ -8424,8 +8444,16 @@
               "status": "BYE"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Davante Adams",
+              "status": "OUT",
+              "detail": "Knee",
+              "suggested_swap": "Rome Odunze"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "9758",
@@ -9271,8 +9299,8 @@
               "position": "WR",
               "team": "WAS",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hamstring",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 104,
               "weekly_points": {
                 "1": 15.5,
@@ -9286,8 +9314,7 @@
               "games_played": 6,
               "ppg": 8.83,
               "recent_ppg": 2.83,
-              "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -9446,16 +9473,8 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "FLEX",
-              "player_name": "Stefon Diggs",
-              "status": "QUESTIONABLE",
-              "detail": "Hamstring",
-              "suggested_swap": null
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "9758",
@@ -9768,8 +9787,8 @@
               "position": "WR",
               "team": "SF",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Ribs",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 60,
               "weekly_points": {
                 "1": 16.9,
@@ -9783,8 +9802,7 @@
               "games_played": 6,
               "ppg": 12.77,
               "recent_ppg": 12.97,
-              "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -9951,7 +9969,7 @@
               "status": "BYE"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 2,
           "alerts": [
             {
               "slot": "RB",
@@ -9965,13 +9983,6 @@
               "player_name": "Jaylen Waddle",
               "status": "QUESTIONABLE",
               "detail": "Shoulder",
-              "suggested_swap": null
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "Mike Evans",
-              "status": "QUESTIONABLE",
-              "detail": "Ribs",
               "suggested_swap": null
             }
           ],
