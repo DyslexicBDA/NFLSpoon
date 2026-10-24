@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T22:57:26.715571+00:00",
+  "generated_at": "2026-10-24T03:51:13.117031+00:00",
   "current_week": 7,
   "season": "2026",
   "leagues": [
@@ -7023,48 +7023,25 @@
             },
             {
               "slot": "TE",
-              "player_id": "12518",
-              "name": "Tyler Warren",
+              "player_id": "7553",
+              "name": "Kyle Pitts Sr.",
               "position": "TE",
-              "team": "IND",
-              "bye_week": 13,
-              "injury_status": "Out",
-              "injury_body_part": "Groin",
-              "search_rank": 48,
+              "team": "ATL",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 68,
               "weekly_points": {
-                "1": 10.3,
-                "2": 14.4,
-                "3": 14.7,
-                "4": 9.1,
-                "5": 21.4,
-                "6": 0.0,
+                "1": 0.0,
+                "2": 2.5,
+                "3": 1.5,
                 "7": 0.0
               },
-              "season_points": 69.9,
-              "games_played": 7,
-              "ppg": 9.99,
-              "recent_ppg": 7.13,
-              "status": "OUT",
-              "suggested_swap": {
-                "player_id": "7553",
-                "name": "Kyle Pitts Sr.",
-                "position": "TE",
-                "team": "ATL",
-                "bye_week": 11,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 68,
-                "weekly_points": {
-                  "1": 0.0,
-                  "2": 2.5,
-                  "3": 1.5,
-                  "7": 0.0
-                },
-                "season_points": 4.0,
-                "games_played": 4,
-                "ppg": 1.0,
-                "recent_ppg": 1.33
-              }
+              "season_points": 4.0,
+              "games_played": 4,
+              "ppg": 1.0,
+              "recent_ppg": 1.33,
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -7093,27 +7070,22 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "5967",
-              "name": "Tony Pollard",
+              "player_id": "8129",
+              "name": "Dameon Pierce",
               "position": "RB",
-              "team": "TEN",
-              "bye_week": 9,
+              "team": "PHI",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 63,
+              "search_rank": 627,
               "weekly_points": {
-                "1": 4.4,
-                "2": 7.5,
-                "3": 13.6,
-                "4": 13.0,
-                "5": 5.2,
-                "6": 7.6,
+                "6": 15.0,
                 "7": 0.0
               },
-              "season_points": 51.3,
-              "games_played": 7,
-              "ppg": 7.33,
-              "recent_ppg": 4.27,
+              "season_points": 15.0,
+              "games_played": 2,
+              "ppg": 7.5,
+              "recent_ppg": 7.5,
               "status": "OK"
             },
             {
@@ -7167,6 +7139,30 @@
           ],
           "bench": [
             {
+              "player_id": "12518",
+              "name": "Tyler Warren",
+              "position": "TE",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": "Out",
+              "injury_body_part": "Groin",
+              "search_rank": 48,
+              "weekly_points": {
+                "1": 10.3,
+                "2": 14.4,
+                "3": 14.7,
+                "4": 9.1,
+                "5": 21.4,
+                "6": 0.0,
+                "7": 0.0
+              },
+              "season_points": 69.9,
+              "games_played": 7,
+              "ppg": 9.99,
+              "recent_ppg": 7.13,
+              "status": "OUT"
+            },
+            {
               "player_id": "4983",
               "name": "DJ Moore",
               "position": "WR",
@@ -7191,6 +7187,30 @@
               "status": "BYE"
             },
             {
+              "player_id": "5967",
+              "name": "Tony Pollard",
+              "position": "RB",
+              "team": "TEN",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 63,
+              "weekly_points": {
+                "1": 4.4,
+                "2": 7.5,
+                "3": 13.6,
+                "4": 13.0,
+                "5": 5.2,
+                "6": 7.6,
+                "7": 0.0
+              },
+              "season_points": 51.3,
+              "games_played": 7,
+              "ppg": 7.33,
+              "recent_ppg": 4.27,
+              "status": "OK"
+            },
+            {
               "player_id": "6770",
               "name": "Joe Burrow",
               "position": "QB",
@@ -7213,58 +7233,10 @@
               "ppg": 14.89,
               "recent_ppg": 8.2,
               "status": "OK"
-            },
-            {
-              "player_id": "7553",
-              "name": "Kyle Pitts Sr.",
-              "position": "TE",
-              "team": "ATL",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 68,
-              "weekly_points": {
-                "1": 0.0,
-                "2": 2.5,
-                "3": 1.5,
-                "7": 0.0
-              },
-              "season_points": 4.0,
-              "games_played": 4,
-              "ppg": 1.0,
-              "recent_ppg": 1.33,
-              "status": "OK"
-            },
-            {
-              "player_id": "8129",
-              "name": "Dameon Pierce",
-              "position": "RB",
-              "team": "PHI",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 627,
-              "weekly_points": {
-                "6": 15.0,
-                "7": 0.0
-              },
-              "season_points": 15.0,
-              "games_played": 2,
-              "ppg": 7.5,
-              "recent_ppg": 7.5,
-              "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "TE",
-              "player_name": "Tyler Warren",
-              "status": "OUT",
-              "detail": "Groin",
-              "suggested_swap": "Kyle Pitts Sr."
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "1166",
@@ -7571,25 +7543,24 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "13346",
-              "name": "Denzel Boston",
-              "position": "WR",
-              "team": "CLE",
+              "player_id": "11435",
+              "name": "Emanuel Wilson",
+              "position": "RB",
+              "team": "SEA",
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 153,
+              "search_rank": 161,
               "weekly_points": {
-                "3": 8.1,
-                "4": 12.9,
-                "5": 13.6,
-                "6": 2.5,
+                "4": 27.0,
+                "5": 13.2,
+                "6": 5.2,
                 "7": 0.0
               },
-              "season_points": 37.1,
-              "games_played": 5,
-              "ppg": 7.42,
-              "recent_ppg": 5.37,
+              "season_points": 45.4,
+              "games_played": 4,
+              "ppg": 11.35,
+              "recent_ppg": 6.13,
               "status": "OK"
             },
             {
@@ -7666,24 +7637,25 @@
           ],
           "bench": [
             {
-              "player_id": "11435",
-              "name": "Emanuel Wilson",
-              "position": "RB",
-              "team": "SEA",
+              "player_id": "13346",
+              "name": "Denzel Boston",
+              "position": "WR",
+              "team": "CLE",
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 161,
+              "search_rank": 153,
               "weekly_points": {
-                "4": 27.0,
-                "5": 13.2,
-                "6": 5.2,
+                "3": 8.1,
+                "4": 12.9,
+                "5": 13.6,
+                "6": 2.5,
                 "7": 0.0
               },
-              "season_points": 45.4,
-              "games_played": 4,
-              "ppg": 11.35,
-              "recent_ppg": 6.13,
+              "season_points": 37.1,
+              "games_played": 5,
+              "ppg": 7.42,
+              "recent_ppg": 5.37,
               "status": "OK"
             },
             {
