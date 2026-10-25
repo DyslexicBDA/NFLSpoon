@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T22:17:52.045083+00:00",
+  "generated_at": "2026-10-25T03:50:39.927251+00:00",
   "current_week": 7,
   "season": "2026",
   "leagues": [
@@ -8443,28 +8443,22 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "7525",
-              "name": "DeVonta Smith",
-              "position": "WR",
-              "team": "PHI",
+              "player_id": "13345",
+              "name": "Jonah Coleman",
+              "position": "RB",
+              "team": "DEN",
               "bye_week": 10,
-              "injury_status": "Out",
-              "injury_body_part": "Hamstring",
-              "search_rank": 34,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
+              "search_rank": 118,
               "weekly_points": {
-                "1": 8.3,
-                "2": 27.7,
-                "3": 12.5,
-                "4": 0.0,
-                "5": 0.0,
-                "6": 20.5,
                 "7": 0.0
               },
-              "season_points": 69.0,
-              "games_played": 7,
-              "ppg": 9.86,
-              "recent_ppg": 6.83,
-              "status": "OUT",
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
+              "status": "QUESTIONABLE",
               "suggested_swap": null
             },
             {
@@ -8509,24 +8503,6 @@
             }
           ],
           "bench": [
-            {
-              "player_id": "13345",
-              "name": "Jonah Coleman",
-              "position": "RB",
-              "team": "DEN",
-              "bye_week": 10,
-              "injury_status": "Questionable",
-              "injury_body_part": "Ankle",
-              "search_rank": 118,
-              "weekly_points": {
-                "7": 0.0
-              },
-              "season_points": 0.0,
-              "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
-              "status": "QUESTIONABLE"
-            },
             {
               "player_id": "2133",
               "name": "Davante Adams",
@@ -8600,6 +8576,30 @@
               "status": "BYE"
             },
             {
+              "player_id": "7525",
+              "name": "DeVonta Smith",
+              "position": "WR",
+              "team": "PHI",
+              "bye_week": 10,
+              "injury_status": "Out",
+              "injury_body_part": "Hamstring",
+              "search_rank": 34,
+              "weekly_points": {
+                "1": 8.3,
+                "2": 27.7,
+                "3": 12.5,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 20.5,
+                "7": 0.0
+              },
+              "season_points": 69.0,
+              "games_played": 7,
+              "ppg": 9.86,
+              "recent_ppg": 6.83,
+              "status": "OUT"
+            },
+            {
               "player_id": "8138",
               "name": "James Cook III",
               "position": "RB",
@@ -8628,9 +8628,9 @@
           "alerts": [
             {
               "slot": "FLEX",
-              "player_name": "DeVonta Smith",
-              "status": "OUT",
-              "detail": "Hamstring",
+              "player_name": "Jonah Coleman",
+              "status": "QUESTIONABLE",
+              "detail": "Ankle",
               "suggested_swap": null
             }
           ],
