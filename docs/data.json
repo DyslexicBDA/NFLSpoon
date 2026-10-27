@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T04:15:57.004167+00:00",
+  "generated_at": "2026-10-27T14:09:49.233480+00:00",
   "current_week": 8,
   "season": "2026",
   "leagues": [
@@ -322,7 +322,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 104,
+              "search_rank": 105,
               "weekly_points": {
                 "1": 15.5,
                 "2": 21.7,
@@ -345,7 +345,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 644,
+              "search_rank": 634,
               "weekly_points": {
                 "4": 11.7,
                 "5": 13.3,
@@ -399,7 +399,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 61,
+              "search_rank": 62,
               "weekly_points": {
                 "1": 16.44,
                 "2": 29.78,
@@ -1043,7 +1043,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 61,
+              "search_rank": 62,
               "weekly_points": {
                 "1": 16.44,
                 "2": 29.78,
@@ -1191,26 +1191,27 @@
           "starters": [
             {
               "slot": "QB",
-              "player_id": "5849",
-              "name": "Kyler Murray",
+              "player_id": "11564",
+              "name": "Drake Maye",
               "position": "QB",
-              "team": "MIN",
-              "bye_week": 6,
+              "team": "NE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 87,
+              "search_rank": 11,
               "weekly_points": {
-                "1": 0.62,
-                "3": 14.42,
-                "4": 11.48,
-                "5": 18.26,
-                "6": 0.0,
-                "7": 13.9
+                "1": 12.82,
+                "2": 10.02,
+                "3": 5.76,
+                "4": 27.16,
+                "5": 40.46,
+                "6": 26.8,
+                "7": 31.44
               },
-              "season_points": 58.68,
-              "games_played": 6,
-              "ppg": 9.78,
-              "recent_ppg": 10.72,
+              "season_points": 154.46,
+              "games_played": 7,
+              "ppg": 22.07,
+              "recent_ppg": 32.9,
               "status": "OK"
             },
             {
@@ -1290,50 +1291,27 @@
             },
             {
               "slot": "WR",
-              "player_id": "7569",
-              "name": "Nico Collins",
+              "player_id": "8134",
+              "name": "Khalil Shakir",
               "position": "WR",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "BUF",
+              "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 23,
+              "search_rank": 120,
               "weekly_points": {
-                "1": 21.2,
-                "2": 0.0,
-                "3": 0.0,
-                "4": 30.8,
-                "5": 10.6,
-                "6": 10.9,
-                "7": 2.6
+                "2": 6.8,
+                "3": 1.6,
+                "4": 13.2,
+                "5": 11.0,
+                "6": 13.4,
+                "7": 0.0
               },
-              "season_points": 76.1,
-              "games_played": 7,
-              "ppg": 10.87,
-              "recent_ppg": 8.03,
-              "status": "BYE",
-              "suggested_swap": {
-                "player_id": "8134",
-                "name": "Khalil Shakir",
-                "position": "WR",
-                "team": "BUF",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 120,
-                "weekly_points": {
-                  "2": 6.8,
-                  "3": 1.6,
-                  "4": 13.2,
-                  "5": 11.0,
-                  "6": 13.4,
-                  "7": 0.0
-                },
-                "season_points": 46.0,
-                "games_played": 6,
-                "ppg": 7.67,
-                "recent_ppg": 8.13
-              }
+              "season_points": 46.0,
+              "games_played": 6,
+              "ppg": 7.67,
+              "recent_ppg": 8.13,
+              "status": "OK"
             },
             {
               "slot": "TE",
@@ -1391,7 +1369,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 46,
+              "search_rank": 44,
               "weekly_points": {
                 "1": 32.4,
                 "2": 12.9,
@@ -1456,30 +1434,6 @@
           ],
           "bench": [
             {
-              "player_id": "11564",
-              "name": "Drake Maye",
-              "position": "QB",
-              "team": "NE",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 11,
-              "weekly_points": {
-                "1": 12.82,
-                "2": 10.02,
-                "3": 5.76,
-                "4": 27.16,
-                "5": 40.46,
-                "6": 26.8,
-                "7": 31.44
-              },
-              "season_points": 154.46,
-              "games_played": 7,
-              "ppg": 22.07,
-              "recent_ppg": 32.9,
-              "status": "OK"
-            },
-            {
               "player_id": "2216",
               "name": "Mike Evans",
               "position": "WR",
@@ -1502,6 +1456,29 @@
               "ppg": 12.71,
               "recent_ppg": 12.9,
               "status": "BYE"
+            },
+            {
+              "player_id": "5849",
+              "name": "Kyler Murray",
+              "position": "QB",
+              "team": "MIN",
+              "bye_week": 6,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 88,
+              "weekly_points": {
+                "1": 0.62,
+                "3": 14.42,
+                "4": 11.48,
+                "5": 18.26,
+                "6": 0.0,
+                "7": 13.9
+              },
+              "season_points": 58.68,
+              "games_played": 6,
+              "ppg": 9.78,
+              "recent_ppg": 10.72,
+              "status": "OK"
             },
             {
               "player_id": "5872",
@@ -1528,30 +1505,31 @@
               "status": "BYE"
             },
             {
-              "player_id": "8134",
-              "name": "Khalil Shakir",
+              "player_id": "7569",
+              "name": "Nico Collins",
               "position": "WR",
-              "team": "BUF",
-              "bye_week": 7,
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 120,
+              "search_rank": 23,
               "weekly_points": {
-                "2": 6.8,
-                "3": 1.6,
-                "4": 13.2,
-                "5": 11.0,
-                "6": 13.4,
-                "7": 0.0
+                "1": 21.2,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 30.8,
+                "5": 10.6,
+                "6": 10.9,
+                "7": 2.6
               },
-              "season_points": 46.0,
-              "games_played": 6,
-              "ppg": 7.67,
-              "recent_ppg": 8.13,
-              "status": "OK"
+              "season_points": 76.1,
+              "games_played": 7,
+              "ppg": 10.87,
+              "recent_ppg": 8.03,
+              "status": "BYE"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
             {
               "slot": "RB",
@@ -1559,13 +1537,6 @@
               "status": "QUESTIONABLE",
               "detail": "Undisclosed",
               "suggested_swap": null
-            },
-            {
-              "slot": "WR",
-              "player_name": "Nico Collins",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": "Khalil Shakir"
             }
           ],
           "waiver_suggestions": [
@@ -1577,7 +1548,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 61,
+              "search_rank": 62,
               "weekly_points": {
                 "1": 16.44,
                 "2": 29.78,
@@ -1874,7 +1845,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 37,
+              "search_rank": 35,
               "weekly_points": {
                 "1": 0.0,
                 "2": 1.3,
@@ -2137,7 +2108,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 61,
+              "search_rank": 62,
               "weekly_points": {
                 "1": 16.44,
                 "2": 29.78,
@@ -2292,7 +2263,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 63,
+              "search_rank": 65,
               "weekly_points": {
                 "1": 6.1,
                 "2": 28.98,
@@ -2364,7 +2335,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 28,
+              "search_rank": 26,
               "weekly_points": {
                 "1": 12.9,
                 "2": 1.1,
@@ -2390,7 +2361,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 64,
+              "search_rank": 65,
               "weekly_points": {
                 "1": 7.2,
                 "2": 7.3,
@@ -2642,7 +2613,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 61,
+              "search_rank": 62,
               "weekly_points": {
                 "1": 16.44,
                 "2": 29.78,
@@ -2851,7 +2822,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 19,
+              "search_rank": 17,
               "weekly_points": {
                 "1": 37.1,
                 "2": 23.8,
@@ -3147,7 +3118,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 61,
+              "search_rank": 62,
               "weekly_points": {
                 "1": 16.44,
                 "2": 29.78,
@@ -3761,7 +3732,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 61,
+              "search_rank": 62,
               "weekly_points": {
                 "1": 16.44,
                 "2": 29.78,
@@ -4345,7 +4316,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 61,
+              "search_rank": 62,
               "weekly_points": {
                 "1": 16.44,
                 "2": 29.78,
@@ -4488,9 +4459,9 @@
             "4": 115.9,
             "5": 195.44,
             "6": 119.12,
-            "7": 111.18
+            "7": 117.68
           },
-          "season_points": 973.34
+          "season_points": 979.84
         },
         {
           "roster_id": 1,
@@ -4499,23 +4470,46 @@
           "starters": [
             {
               "slot": "QB",
-              "player_id": "96",
-              "name": "Aaron Rodgers",
+              "player_id": "4881",
+              "name": "Lamar Jackson",
               "position": "QB",
-              "team": "PIT",
-              "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 186,
+              "team": "BAL",
+              "bye_week": 13,
+              "injury_status": "Out",
+              "injury_body_part": "Ankle",
+              "search_rank": 9,
               "weekly_points": {
-                "6": 17.02,
-                "7": 14.08
+                "1": 32.96,
+                "2": 16.8,
+                "3": 20.44,
+                "4": 19.88,
+                "5": 0.0,
+                "6": 0.0,
+                "7": 0.0
               },
-              "season_points": 31.1,
-              "games_played": 2,
-              "ppg": 15.55,
-              "recent_ppg": 15.55,
-              "status": "OK"
+              "season_points": 90.08,
+              "games_played": 7,
+              "ppg": 12.87,
+              "recent_ppg": 0.0,
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "96",
+                "name": "Aaron Rodgers",
+                "position": "QB",
+                "team": "PIT",
+                "bye_week": 9,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 186,
+                "weekly_points": {
+                  "6": 17.02,
+                  "7": 14.08
+                },
+                "season_points": 31.1,
+                "games_played": 2,
+                "ppg": 15.55,
+                "recent_ppg": 15.55
+              }
             },
             {
               "slot": "RB",
@@ -4645,24 +4639,27 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "12495",
-              "name": "Ollie Gordon II",
+              "player_id": "12490",
+              "name": "Bhayshul Tuten",
               "position": "RB",
-              "team": "MIA",
-              "bye_week": 6,
+              "team": "JAX",
+              "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 451,
+              "search_rank": 44,
               "weekly_points": {
-                "4": 18.0,
-                "5": 14.8,
-                "6": 0.0,
-                "7": 17.3
+                "1": 9.8,
+                "2": 14.2,
+                "3": 17.0,
+                "4": 11.1,
+                "5": 11.6,
+                "6": 24.7,
+                "7": 0.0
               },
-              "season_points": 50.1,
-              "games_played": 4,
-              "ppg": 12.53,
-              "recent_ppg": 10.7,
+              "season_points": 88.4,
+              "games_played": 7,
+              "ppg": 12.63,
+              "recent_ppg": 12.1,
               "status": "OK"
             },
             {
@@ -4690,27 +4687,22 @@
               "recent_ppg": 0.0,
               "status": "OUT",
               "suggested_swap": {
-                "player_id": "12490",
-                "name": "Bhayshul Tuten",
-                "position": "RB",
-                "team": "JAX",
-                "bye_week": 7,
+                "player_id": "96",
+                "name": "Aaron Rodgers",
+                "position": "QB",
+                "team": "PIT",
+                "bye_week": 9,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 44,
+                "search_rank": 186,
                 "weekly_points": {
-                  "1": 9.8,
-                  "2": 14.2,
-                  "3": 17.0,
-                  "4": 11.1,
-                  "5": 11.6,
-                  "6": 24.7,
-                  "7": 0.0
+                  "6": 17.02,
+                  "7": 14.08
                 },
-                "season_points": 88.4,
-                "games_played": 7,
-                "ppg": 12.63,
-                "recent_ppg": 12.1
+                "season_points": 31.1,
+                "games_played": 2,
+                "ppg": 15.55,
+                "recent_ppg": 15.55
               }
             },
             {
@@ -4722,7 +4714,7 @@
               "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 91,
+              "search_rank": 89,
               "weekly_points": {
                 "1": 1.0,
                 "2": 17.0,
@@ -4763,45 +4755,24 @@
           ],
           "bench": [
             {
-              "player_id": "10235",
-              "name": "Roschon Johnson",
+              "player_id": "12495",
+              "name": "Ollie Gordon II",
               "position": "RB",
-              "team": "CHI",
-              "bye_week": 10,
+              "team": "MIA",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 681,
+              "search_rank": 452,
               "weekly_points": {
-                "7": 1.3
+                "4": 18.0,
+                "5": 14.8,
+                "6": 0.0,
+                "7": 17.3
               },
-              "season_points": 1.3,
-              "games_played": 1,
-              "ppg": 1.3,
-              "recent_ppg": 1.3,
-              "status": "OK"
-            },
-            {
-              "player_id": "12490",
-              "name": "Bhayshul Tuten",
-              "position": "RB",
-              "team": "JAX",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 44,
-              "weekly_points": {
-                "1": 9.8,
-                "2": 14.2,
-                "3": 17.0,
-                "4": 11.1,
-                "5": 11.6,
-                "6": 24.7,
-                "7": 0.0
-              },
-              "season_points": 88.4,
-              "games_played": 7,
-              "ppg": 12.63,
-              "recent_ppg": 12.1,
+              "season_points": 50.1,
+              "games_played": 4,
+              "ppg": 12.53,
+              "recent_ppg": 10.7,
               "status": "OK"
             },
             {
@@ -4826,30 +4797,6 @@
               "games_played": 7,
               "ppg": 10.16,
               "recent_ppg": 11.67,
-              "status": "OUT"
-            },
-            {
-              "player_id": "4881",
-              "name": "Lamar Jackson",
-              "position": "QB",
-              "team": "BAL",
-              "bye_week": 13,
-              "injury_status": "Out",
-              "injury_body_part": "Ankle",
-              "search_rank": 9,
-              "weekly_points": {
-                "1": 32.96,
-                "2": 16.8,
-                "3": 20.44,
-                "4": 19.88,
-                "5": 0.0,
-                "6": 0.0,
-                "7": 0.0
-              },
-              "season_points": 90.08,
-              "games_played": 7,
-              "ppg": 12.87,
-              "recent_ppg": 0.0,
               "status": "OUT"
             },
             {
@@ -4896,10 +4843,36 @@
               "ppg": 4.41,
               "recent_ppg": 0.0,
               "status": "BYE"
+            },
+            {
+              "player_id": "96",
+              "name": "Aaron Rodgers",
+              "position": "QB",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 186,
+              "weekly_points": {
+                "6": 17.02,
+                "7": 14.08
+              },
+              "season_points": 31.1,
+              "games_played": 2,
+              "ppg": 15.55,
+              "recent_ppg": 15.55,
+              "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 3,
           "alerts": [
+            {
+              "slot": "QB",
+              "player_name": "Lamar Jackson",
+              "status": "OUT",
+              "detail": "Ankle",
+              "suggested_swap": "Aaron Rodgers"
+            },
             {
               "slot": "WR",
               "player_name": "Jaylen Waddle",
@@ -4912,7 +4885,7 @@
               "player_name": "Breece Hall",
               "status": "OUT",
               "detail": "Quadriceps",
-              "suggested_swap": "Bhayshul Tuten"
+              "suggested_swap": "Aaron Rodgers"
             }
           ],
           "waiver_suggestions": [
@@ -4924,7 +4897,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 61,
+              "search_rank": 62,
               "weekly_points": {
                 "1": 16.44,
                 "2": 29.78,
@@ -5067,9 +5040,9 @@
             "4": 111.28,
             "5": 118.7,
             "6": 122.72,
-            "7": 107.08
+            "7": 108.38
           },
-          "season_points": 904.58
+          "season_points": 905.88
         },
         {
           "roster_id": 3,
@@ -5435,7 +5408,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 61,
+              "search_rank": 62,
               "weekly_points": {
                 "1": 16.44,
                 "2": 29.78,
@@ -6165,7 +6138,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 19,
+              "search_rank": 17,
               "weekly_points": {
                 "1": 34.1,
                 "2": 23.8,
@@ -6660,7 +6633,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 61,
+              "search_rank": 62,
               "weekly_points": {
                 "3": 19.36,
                 "4": 20.48,
@@ -7723,7 +7696,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 63,
+              "search_rank": 65,
               "weekly_points": {
                 "1": 5.1,
                 "2": 27.98,
@@ -7799,7 +7772,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 28,
+              "search_rank": 26,
               "weekly_points": {
                 "1": 12.9,
                 "2": 1.1,
@@ -8051,7 +8024,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 37,
+              "search_rank": 35,
               "weekly_points": {
                 "1": 0.0,
                 "2": 1.3,
@@ -8435,7 +8408,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 64,
+              "search_rank": 65,
               "weekly_points": {
                 "1": 7.2,
                 "2": 7.3,
@@ -9424,7 +9397,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 46,
+              "search_rank": 44,
               "weekly_points": {
                 "1": 32.4,
                 "2": 12.9,
@@ -9979,7 +9952,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 451,
+              "search_rank": 452,
               "weekly_points": {
                 "4": 18.0,
                 "5": 14.8,
@@ -10265,7 +10238,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 104,
+              "search_rank": 105,
               "weekly_points": {
                 "1": 15.5,
                 "2": 21.7,
@@ -10721,7 +10694,7 @@
               "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 91,
+              "search_rank": 89,
               "weekly_points": {
                 "1": 1.0,
                 "2": 17.0,
