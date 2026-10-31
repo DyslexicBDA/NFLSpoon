@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T04:43:02.478738+00:00",
+  "generated_at": "2026-10-31T14:23:37.817189+00:00",
   "current_week": 8,
   "season": "2026",
   "leagues": [
@@ -315,7 +315,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 104,
+              "search_rank": 105,
               "weekly_points": {
                 "1": 15.5,
                 "2": 21.7,
@@ -1258,7 +1258,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 46,
+              "search_rank": 44,
               "weekly_points": {
                 "1": 32.4,
                 "2": 12.9,
@@ -2231,7 +2231,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 64,
+              "search_rank": 65,
               "weekly_points": {
                 "1": 7.2,
                 "2": 7.3,
@@ -2417,7 +2417,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 28,
+              "search_rank": 26,
               "weekly_points": {
                 "1": 12.9,
                 "2": 1.1,
@@ -2764,7 +2764,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 19,
+              "search_rank": 17,
               "weekly_points": {
                 "1": 37.1,
                 "2": 23.8,
@@ -4528,7 +4528,7 @@
               "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 91,
+              "search_rank": 89,
               "weekly_points": {
                 "1": 1.0,
                 "2": 17.0,
@@ -4576,7 +4576,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 451,
+              "search_rank": 449,
               "weekly_points": {
                 "4": 18.0,
                 "5": 14.8,
@@ -5576,51 +5576,26 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "7002",
-              "name": "Juwan Johnson",
-              "position": "TE",
-              "team": "NO",
-              "bye_week": 8,
+              "player_id": "4037",
+              "name": "Chris Godwin Jr.",
+              "position": "WR",
+              "team": "TB",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 103,
+              "search_rank": 88,
               "weekly_points": {
-                "1": 14.4,
-                "2": 10.6,
-                "3": 23.3,
-                "4": 11.9,
-                "5": 5.6,
-                "6": 0.0,
-                "7": 1.7,
+                "1": 8.3,
+                "2": 8.8,
+                "3": 5.5,
+                "7": 6.7,
                 "8": 0.0
               },
-              "season_points": 67.5,
-              "games_played": 8,
-              "ppg": 8.44,
-              "recent_ppg": 0.57,
-              "status": "BYE",
-              "suggested_swap": {
-                "player_id": "4046",
-                "name": "Patrick Mahomes",
-                "position": "QB",
-                "team": "KC",
-                "bye_week": 5,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 39,
-                "weekly_points": {
-                  "3": 16.94,
-                  "4": 17.0,
-                  "5": 0.0,
-                  "6": 11.48,
-                  "7": 7.0,
-                  "8": 0.0
-                },
-                "season_points": 52.42,
-                "games_played": 6,
-                "ppg": 8.74,
-                "recent_ppg": 6.16
-              }
+              "season_points": 29.3,
+              "games_played": 5,
+              "ppg": 5.86,
+              "recent_ppg": 4.07,
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -5696,28 +5671,6 @@
               "status": "OK"
             },
             {
-              "player_id": "4037",
-              "name": "Chris Godwin Jr.",
-              "position": "WR",
-              "team": "TB",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 88,
-              "weekly_points": {
-                "1": 8.3,
-                "2": 8.8,
-                "3": 5.5,
-                "7": 6.7,
-                "8": 0.0
-              },
-              "season_points": 29.3,
-              "games_played": 5,
-              "ppg": 5.86,
-              "recent_ppg": 4.07,
-              "status": "OK"
-            },
-            {
               "player_id": "4046",
               "name": "Patrick Mahomes",
               "position": "QB",
@@ -5764,18 +5717,35 @@
               "ppg": 2.39,
               "recent_ppg": 4.5,
               "status": "QUESTIONABLE"
-            }
-          ],
-          "alert_count": 1,
-          "alerts": [
+            },
             {
-              "slot": "FLEX",
-              "player_name": "Juwan Johnson",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": "Patrick Mahomes"
+              "player_id": "7002",
+              "name": "Juwan Johnson",
+              "position": "TE",
+              "team": "NO",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 103,
+              "weekly_points": {
+                "1": 14.4,
+                "2": 10.6,
+                "3": 23.3,
+                "4": 11.9,
+                "5": 5.6,
+                "6": 0.0,
+                "7": 1.7,
+                "8": 0.0
+              },
+              "season_points": 67.5,
+              "games_played": 8,
+              "ppg": 8.44,
+              "recent_ppg": 0.57,
+              "status": "BYE"
             }
           ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "9758",
@@ -5971,7 +5941,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 19,
+              "search_rank": 17,
               "weekly_points": {
                 "1": 34.1,
                 "2": 23.8,
@@ -7851,7 +7821,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 28,
+              "search_rank": 26,
               "weekly_points": {
                 "1": 12.9,
                 "2": 1.1,
@@ -8228,7 +8198,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 91,
+              "search_rank": 89,
               "weekly_points": {
                 "1": 2.5,
                 "8": 0.0
@@ -8248,7 +8218,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 64,
+              "search_rank": 65,
               "weekly_points": {
                 "1": 7.2,
                 "2": 7.3,
@@ -9203,7 +9173,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 46,
+              "search_rank": 44,
               "weekly_points": {
                 "1": 32.4,
                 "2": 12.9,
@@ -9765,7 +9735,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 451,
+              "search_rank": 449,
               "weekly_points": {
                 "4": 18.0,
                 "5": 14.8,
@@ -9892,7 +9862,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 104,
+              "search_rank": 105,
               "weekly_points": {
                 "1": 15.5,
                 "2": 21.7,
@@ -10469,7 +10439,7 @@
               "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 91,
+              "search_rank": 89,
               "weekly_points": {
                 "1": 1.0,
                 "2": 17.0,
