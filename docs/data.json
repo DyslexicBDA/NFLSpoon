@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T23:10:12.588951+00:00",
+  "generated_at": "2026-11-01T05:04:15.457040+00:00",
   "current_week": 8,
   "season": "2026",
   "leagues": [
@@ -4956,30 +4956,29 @@
             },
             {
               "slot": "WR",
-              "player_id": "5859",
-              "name": "A.J. Brown",
+              "player_id": "10229",
+              "name": "Rashee Rice",
               "position": "WR",
-              "team": "NE",
-              "bye_week": 11,
-              "injury_status": "Out",
-              "injury_body_part": "Ankle",
-              "search_rank": 17,
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 29,
               "weekly_points": {
-                "1": 5.6,
-                "2": 0.0,
-                "3": 0.0,
+                "1": 9.9,
+                "2": 12.3,
+                "3": 15.8,
                 "4": 0.0,
                 "5": 0.0,
-                "6": 5.7,
-                "7": 7.8,
+                "6": 0.0,
+                "7": 0.0,
                 "8": 0.0
               },
-              "season_points": 19.1,
+              "season_points": 38.0,
               "games_played": 8,
-              "ppg": 2.39,
-              "recent_ppg": 4.5,
-              "status": "OUT",
-              "suggested_swap": null
+              "ppg": 4.75,
+              "recent_ppg": 0.0,
+              "status": "OK"
             },
             {
               "slot": "TE",
@@ -5027,28 +5026,22 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "10229",
-              "name": "Rashee Rice",
+              "player_id": "13294",
+              "name": "Makai Lemon",
               "position": "WR",
-              "team": "KC",
-              "bye_week": 5,
+              "team": "PHI",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 29,
+              "search_rank": 89,
               "weekly_points": {
-                "1": 9.9,
-                "2": 12.3,
-                "3": 15.8,
-                "4": 0.0,
-                "5": 0.0,
-                "6": 0.0,
-                "7": 0.0,
+                "1": 2.5,
                 "8": 0.0
               },
-              "season_points": 38.0,
-              "games_played": 8,
-              "ppg": 4.75,
-              "recent_ppg": 0.0,
+              "season_points": 2.5,
+              "games_played": 2,
+              "ppg": 1.25,
+              "recent_ppg": 1.25,
               "status": "OK"
             },
             {
@@ -5134,6 +5127,31 @@
               "status": "BYE"
             },
             {
+              "player_id": "5859",
+              "name": "A.J. Brown",
+              "position": "WR",
+              "team": "NE",
+              "bye_week": 11,
+              "injury_status": "Out",
+              "injury_body_part": "Ankle",
+              "search_rank": 17,
+              "weekly_points": {
+                "1": 5.6,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 5.7,
+                "7": 7.8,
+                "8": 0.0
+              },
+              "season_points": 19.1,
+              "games_played": 8,
+              "ppg": 2.39,
+              "recent_ppg": 4.5,
+              "status": "OUT"
+            },
+            {
               "player_id": "8129",
               "name": "Dameon Pierce",
               "position": "RB",
@@ -5197,16 +5215,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "WR",
-              "player_name": "A.J. Brown",
-              "status": "OUT",
-              "detail": "Ankle",
-              "suggested_swap": null
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "11566",
@@ -8282,25 +8292,26 @@
             },
             {
               "slot": "DEF",
-              "player_id": "DEN",
-              "name": "Denver Broncos",
+              "player_id": "MIN",
+              "name": "Minnesota Vikings",
               "position": "DEF",
-              "team": "DEN",
-              "bye_week": 10,
+              "team": "MIN",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
               "weekly_points": {
-                "1": 3.0,
-                "5": 15.0,
-                "6": 14.0,
-                "7": 4.0,
+                "3": 17.0,
+                "4": 9.0,
+                "5": 11.0,
+                "6": 0.0,
+                "7": 10.0,
                 "8": 0.0
               },
-              "season_points": 36.0,
-              "games_played": 5,
-              "ppg": 7.2,
-              "recent_ppg": 6.0,
+              "season_points": 47.0,
+              "games_played": 6,
+              "ppg": 7.83,
+              "recent_ppg": 3.33,
               "status": "OK"
             }
           ],
