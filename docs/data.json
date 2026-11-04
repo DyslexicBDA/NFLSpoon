@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T11:56:02.152251+00:00",
+  "generated_at": "2026-11-04T19:36:11.115602+00:00",
   "current_week": 9,
   "season": "2026",
   "leagues": [
@@ -622,24 +622,28 @@
             },
             {
               "slot": "WR",
-              "player_id": "11637",
-              "name": "Keon Coleman",
+              "player_id": "8144",
+              "name": "Chris Olave",
               "position": "WR",
-              "team": "BUF",
-              "bye_week": 7,
+              "team": "NO",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 206,
+              "search_rank": 29,
               "weekly_points": {
-                "5": 7.7,
-                "6": 15.9,
-                "7": 0.0,
-                "8": 1.4
+                "1": 28.2,
+                "2": 22.6,
+                "3": 19.7,
+                "4": 19.6,
+                "5": 8.6,
+                "6": 14.3,
+                "7": 11.6,
+                "8": 0.0
               },
-              "season_points": 25.0,
-              "games_played": 4,
-              "ppg": 6.25,
-              "recent_ppg": 5.77,
+              "season_points": 124.6,
+              "games_played": 8,
+              "ppg": 15.57,
+              "recent_ppg": 8.63,
               "status": "OK"
             },
             {
@@ -763,30 +767,28 @@
             },
             {
               "slot": "DEF",
-              "player_id": "PIT",
-              "name": "Pittsburgh Steelers",
+              "player_id": "HOU",
+              "name": "Houston Texans",
               "position": "DEF",
-              "team": "PIT",
-              "bye_week": 9,
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
               "weekly_points": {
-                "1": 20.0,
-                "2": 10.0,
-                "3": 5.0,
-                "4": 8.0,
-                "5": 3.0,
-                "6": 11.0,
-                "7": 9.0,
-                "8": 23.0
+                "1": 0.0,
+                "2": 6.0,
+                "3": 13.0,
+                "4": 4.0,
+                "5": 18.0,
+                "6": 2.0,
+                "7": 3.0
               },
-              "season_points": 89.0,
-              "games_played": 8,
-              "ppg": 11.12,
-              "recent_ppg": 14.33,
-              "status": "BYE",
-              "suggested_swap": null
+              "season_points": 46.0,
+              "games_played": 7,
+              "ppg": 6.57,
+              "recent_ppg": 7.67,
+              "status": "OK"
             }
           ],
           "bench": [
@@ -811,6 +813,27 @@
               "games_played": 6,
               "ppg": 12.2,
               "recent_ppg": 16.33,
+              "status": "OK"
+            },
+            {
+              "player_id": "11637",
+              "name": "Keon Coleman",
+              "position": "WR",
+              "team": "BUF",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 206,
+              "weekly_points": {
+                "5": 7.7,
+                "6": 15.9,
+                "7": 0.0,
+                "8": 1.4
+              },
+              "season_points": 25.0,
+              "games_played": 4,
+              "ppg": 6.25,
+              "recent_ppg": 5.77,
               "status": "OK"
             },
             {
@@ -889,31 +912,6 @@
               "status": "OUT"
             },
             {
-              "player_id": "8144",
-              "name": "Chris Olave",
-              "position": "WR",
-              "team": "NO",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 29,
-              "weekly_points": {
-                "1": 28.2,
-                "2": 22.6,
-                "3": 19.7,
-                "4": 19.6,
-                "5": 8.6,
-                "6": 14.3,
-                "7": 11.6,
-                "8": 0.0
-              },
-              "season_points": 124.6,
-              "games_played": 8,
-              "ppg": 15.57,
-              "recent_ppg": 8.63,
-              "status": "OK"
-            },
-            {
               "player_id": "9758",
               "name": "C.J. Stroud",
               "position": "QB",
@@ -934,7 +932,7 @@
               "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
             {
               "slot": "FLEX",
@@ -942,13 +940,6 @@
               "status": "QUESTIONABLE",
               "detail": "Ribs",
               "suggested_swap": "Tre Tucker"
-            },
-            {
-              "slot": "DEF",
-              "player_name": "Pittsburgh Steelers",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": null
             }
           ],
           "waiver_suggestions": [
@@ -2883,8 +2874,8 @@
               "position": "WR",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Concussion",
               "search_rank": 38,
               "weekly_points": {
                 "1": 13.9,
@@ -2900,7 +2891,31 @@
               "games_played": 8,
               "ppg": 14.21,
               "recent_ppg": 9.1,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "9997",
+                "name": "Zay Flowers",
+                "position": "WR",
+                "team": "BAL",
+                "bye_week": 13,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 40,
+                "weekly_points": {
+                  "1": 29.0,
+                  "2": 0.0,
+                  "3": 15.4,
+                  "4": 25.8,
+                  "5": 14.6,
+                  "6": 12.7,
+                  "7": 28.7,
+                  "8": 0.0
+                },
+                "season_points": 126.2,
+                "games_played": 8,
+                "ppg": 15.78,
+                "recent_ppg": 13.8
+              }
             },
             {
               "slot": "TE",
@@ -3158,8 +3173,15 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
+            {
+              "slot": "WR",
+              "player_name": "Garrett Wilson",
+              "status": "QUESTIONABLE",
+              "detail": "Concussion",
+              "suggested_swap": "Zay Flowers"
+            },
             {
               "slot": "FLEX",
               "player_name": "Germie Bernard",
@@ -7348,27 +7370,7 @@
               "ppg": 18.0,
               "recent_ppg": 17.57,
               "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "11435",
-                "name": "Emanuel Wilson",
-                "position": "RB",
-                "team": "SEA",
-                "bye_week": 11,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 161,
-                "weekly_points": {
-                  "4": 27.0,
-                  "5": 13.2,
-                  "6": 5.2,
-                  "7": 18.5,
-                  "8": 0.0
-                },
-                "season_points": 63.9,
-                "games_played": 5,
-                "ppg": 12.78,
-                "recent_ppg": 7.9
-              }
+              "suggested_swap": null
             },
             {
               "slot": "RB",
@@ -7429,8 +7431,8 @@
               "position": "WR",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Concussion",
               "search_rank": 38,
               "weekly_points": {
                 "1": 13.9,
@@ -7446,7 +7448,29 @@
               "games_played": 8,
               "ppg": 14.21,
               "recent_ppg": 9.1,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "13346",
+                "name": "Denzel Boston",
+                "position": "WR",
+                "team": "CLE",
+                "bye_week": 11,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 153,
+                "weekly_points": {
+                  "3": 8.1,
+                  "4": 12.9,
+                  "5": 13.6,
+                  "6": 2.5,
+                  "7": 5.7,
+                  "8": 9.7
+                },
+                "season_points": 52.5,
+                "games_played": 6,
+                "ppg": 8.75,
+                "recent_ppg": 5.97
+              }
             },
             {
               "slot": "TE",
@@ -7544,53 +7568,23 @@
             },
             {
               "slot": "DEF",
-              "player_id": "PIT",
-              "name": "Pittsburgh Steelers",
+              "player_id": "NO",
+              "name": "New Orleans Saints",
               "position": "DEF",
-              "team": "PIT",
-              "bye_week": 9,
+              "team": "NO",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
-              "weekly_points": {
-                "1": 20.0,
-                "4": 8.0,
-                "5": 1.0,
-                "6": 10.0,
-                "7": 9.0,
-                "8": 21.0
-              },
-              "season_points": 69.0,
-              "games_played": 6,
-              "ppg": 11.5,
-              "recent_ppg": 13.33,
-              "status": "BYE",
-              "suggested_swap": null
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
+              "status": "OK"
             }
           ],
           "bench": [
-            {
-              "player_id": "11435",
-              "name": "Emanuel Wilson",
-              "position": "RB",
-              "team": "SEA",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 161,
-              "weekly_points": {
-                "4": 27.0,
-                "5": 13.2,
-                "6": 5.2,
-                "7": 18.5,
-                "8": 0.0
-              },
-              "season_points": 63.9,
-              "games_played": 5,
-              "ppg": 12.78,
-              "recent_ppg": 7.9,
-              "status": "OK"
-            },
             {
               "player_id": "13346",
               "name": "Denzel Boston",
@@ -7655,6 +7649,29 @@
               "ppg": 6.23,
               "recent_ppg": 6.23,
               "status": "BYE"
+            },
+            {
+              "player_id": "PIT",
+              "name": "Pittsburgh Steelers",
+              "position": "DEF",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 999999,
+              "weekly_points": {
+                "1": 20.0,
+                "4": 8.0,
+                "5": 1.0,
+                "6": 10.0,
+                "7": 9.0,
+                "8": 21.0
+              },
+              "season_points": 69.0,
+              "games_played": 6,
+              "ppg": 11.5,
+              "recent_ppg": 13.33,
+              "status": "BYE"
             }
           ],
           "alert_count": 2,
@@ -7664,14 +7681,14 @@
               "player_name": "Christian McCaffrey",
               "status": "QUESTIONABLE",
               "detail": "Calf",
-              "suggested_swap": "Emanuel Wilson"
+              "suggested_swap": null
             },
             {
-              "slot": "DEF",
-              "player_name": "Pittsburgh Steelers",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": null
+              "slot": "WR",
+              "player_name": "Garrett Wilson",
+              "status": "QUESTIONABLE",
+              "detail": "Concussion",
+              "suggested_swap": "Denzel Boston"
             }
           ],
           "waiver_suggestions": [
@@ -7812,9 +7829,9 @@
               "ppg": 7.34,
               "recent_ppg": 11.13,
               "drop_candidate": {
-                "name": "Emanuel Wilson",
-                "ppg": 12.78,
-                "recent_ppg": 7.9
+                "name": "Rachaad White",
+                "ppg": 6.54,
+                "recent_ppg": 9.9
               },
               "status": "OK"
             }
