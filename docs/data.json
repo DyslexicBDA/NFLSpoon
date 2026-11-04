@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T00:28:16.734107+00:00",
+  "generated_at": "2026-11-04T11:56:02.152251+00:00",
   "current_week": 9,
   "season": "2026",
   "leagues": [
@@ -47,30 +47,29 @@
             },
             {
               "slot": "RB",
-              "player_id": "8228",
-              "name": "Jaylen Warren",
+              "player_id": "12512",
+              "name": "Quinshon Judkins",
               "position": "RB",
-              "team": "PIT",
-              "bye_week": 9,
+              "team": "CLE",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 52,
+              "search_rank": 45,
               "weekly_points": {
-                "1": 10.3,
-                "2": 9.7,
-                "3": 20.6,
-                "4": 15.6,
-                "5": 42.8,
-                "6": 9.8,
-                "7": 16.7,
-                "8": 21.3
+                "1": 7.0,
+                "2": 9.8,
+                "3": 9.9,
+                "4": 21.6,
+                "5": 8.0,
+                "6": 0.0,
+                "7": 23.4,
+                "8": 6.9
               },
-              "season_points": 146.8,
+              "season_points": 86.6,
               "games_played": 8,
-              "ppg": 18.35,
-              "recent_ppg": 15.93,
-              "status": "BYE",
-              "suggested_swap": null
+              "ppg": 10.82,
+              "recent_ppg": 10.1,
+              "status": "OK"
             },
             {
               "slot": "RB",
@@ -107,7 +106,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 12,
+              "search_rank": 11,
               "weekly_points": {
                 "1": 31.2,
                 "2": 8.5,
@@ -172,28 +171,28 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "12512",
-              "name": "Quinshon Judkins",
-              "position": "RB",
-              "team": "CLE",
-              "bye_week": 11,
+              "player_id": "10859",
+              "name": "Sam LaPorta",
+              "position": "TE",
+              "team": "DET",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 45,
+              "search_rank": 58,
               "weekly_points": {
-                "1": 7.0,
-                "2": 9.8,
-                "3": 9.9,
-                "4": 21.6,
-                "5": 8.0,
+                "1": 9.8,
+                "2": 17.2,
+                "3": 7.4,
+                "4": 22.4,
+                "5": 19.8,
                 "6": 0.0,
-                "7": 23.4,
-                "8": 6.9
+                "7": 2.8,
+                "8": 6.5
               },
-              "season_points": 86.6,
+              "season_points": 85.9,
               "games_played": 8,
-              "ppg": 10.82,
-              "recent_ppg": 10.1,
+              "ppg": 10.74,
+              "recent_ppg": 3.1,
               "status": "OK"
             },
             {
@@ -231,7 +230,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 133,
+              "search_rank": 131,
               "weekly_points": {
                 "1": 12.0,
                 "6": 10.0,
@@ -265,31 +264,6 @@
             }
           ],
           "bench": [
-            {
-              "player_id": "10859",
-              "name": "Sam LaPorta",
-              "position": "TE",
-              "team": "DET",
-              "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 58,
-              "weekly_points": {
-                "1": 9.8,
-                "2": 17.2,
-                "3": 7.4,
-                "4": 22.4,
-                "5": 19.8,
-                "6": 0.0,
-                "7": 2.8,
-                "8": 6.5
-              },
-              "season_points": 85.9,
-              "games_played": 8,
-              "ppg": 10.74,
-              "recent_ppg": 3.1,
-              "status": "OK"
-            },
             {
               "player_id": "13298",
               "name": "KC Concepcion Jr.",
@@ -356,18 +330,35 @@
               "ppg": 8.12,
               "recent_ppg": 9.7,
               "status": "OK"
-            }
-          ],
-          "alert_count": 1,
-          "alerts": [
+            },
             {
-              "slot": "RB",
-              "player_name": "Jaylen Warren",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": null
+              "player_id": "8228",
+              "name": "Jaylen Warren",
+              "position": "RB",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 52,
+              "weekly_points": {
+                "1": 10.3,
+                "2": 9.7,
+                "3": 20.6,
+                "4": 15.6,
+                "5": 42.8,
+                "6": 9.8,
+                "7": 16.7,
+                "8": 21.3
+              },
+              "season_points": 146.8,
+              "games_played": 8,
+              "ppg": 18.35,
+              "recent_ppg": 15.93,
+              "status": "BYE"
             }
           ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "11566",
@@ -393,36 +384,6 @@
                 "name": "Jared Goff",
                 "ppg": 19.99,
                 "recent_ppg": 19.99
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 39.1
-              },
-              "season_points": 87.1,
-              "games_played": 8,
-              "ppg": 10.89,
-              "recent_ppg": 17.6,
-              "drop_candidate": {
-                "name": "Quinshon Judkins",
-                "ppg": 10.82,
-                "recent_ppg": 10.1
               },
               "status": "OK"
             },
@@ -453,26 +414,27 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Cam Little",
@@ -508,6 +470,33 @@
                 "recent_ppg": 3.1
               },
               "status": "OK"
+            },
+            {
+              "player_id": "7021",
+              "name": "Rico Dowdle",
+              "position": "RB",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 65,
+              "weekly_points": {
+                "1": 4.1,
+                "2": 6.4,
+                "6": 7.9,
+                "7": 14.6,
+                "8": 11.6
+              },
+              "season_points": 44.6,
+              "games_played": 5,
+              "ppg": 8.92,
+              "recent_ppg": 11.37,
+              "drop_candidate": {
+                "name": "Quinshon Judkins",
+                "ppg": 10.82,
+                "recent_ppg": 10.1
+              },
+              "status": "BYE"
             }
           ],
           "weekly_points": {
@@ -560,8 +549,8 @@
               "position": "RB",
               "team": "BUF",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 5,
               "weekly_points": {
                 "1": 9.9,
@@ -577,8 +566,7 @@
               "games_played": 8,
               "ppg": 16.46,
               "recent_ppg": 14.13,
-              "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "status": "OK"
             },
             {
               "slot": "RB",
@@ -613,8 +601,8 @@
               "position": "WR",
               "team": "ATL",
               "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Head",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 19,
               "weekly_points": {
                 "1": 5.5,
@@ -630,29 +618,7 @@
               "games_played": 8,
               "ppg": 13.72,
               "recent_ppg": 11.2,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "10213",
-                "name": "Tre Tucker",
-                "position": "WR",
-                "team": "LV",
-                "bye_week": 13,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 184,
-                "weekly_points": {
-                  "3": 8.3,
-                  "4": 8.4,
-                  "5": 7.5,
-                  "6": 27.7,
-                  "7": 21.3,
-                  "8": 0.0
-                },
-                "season_points": 73.2,
-                "games_played": 6,
-                "ppg": 12.2,
-                "recent_ppg": 16.33
-              }
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -853,7 +819,7 @@
               "position": "RB",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Illness",
               "search_rank": 39,
               "weekly_points": {
@@ -870,7 +836,7 @@
               "games_played": 8,
               "ppg": 4.22,
               "recent_ppg": 2.43,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "13281",
@@ -968,22 +934,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 4,
+          "alert_count": 2,
           "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "James Cook III",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": null
-            },
-            {
-              "slot": "WR",
-              "player_name": "Drake London",
-              "status": "QUESTIONABLE",
-              "detail": "Head",
-              "suggested_swap": "Tre Tucker"
-            },
             {
               "slot": "FLEX",
               "player_name": "Michael Wilson",
@@ -1035,7 +987,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 121,
               "weekly_points": {
                 "1": 17.7,
                 "2": 18.48,
@@ -1060,7 +1012,7 @@
               "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 211,
+              "search_rank": 212,
               "weekly_points": {
                 "1": 10.3,
                 "2": 16.58,
@@ -1076,36 +1028,6 @@
               "ppg": 17.77,
               "recent_ppg": 21.15,
               "drop_candidate": null,
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 39.1
-              },
-              "season_points": 87.1,
-              "games_played": 8,
-              "ppg": 10.89,
-              "recent_ppg": 17.6,
-              "drop_candidate": {
-                "name": "TreVeyon Henderson",
-                "ppg": 4.22,
-                "recent_ppg": 2.43
-              },
               "status": "OK"
             },
             {
@@ -1133,6 +1055,33 @@
                 "recent_ppg": 0.0
               },
               "status": "OUT"
+            },
+            {
+              "player_id": "7021",
+              "name": "Rico Dowdle",
+              "position": "RB",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 65,
+              "weekly_points": {
+                "1": 4.1,
+                "2": 6.4,
+                "6": 7.9,
+                "7": 14.6,
+                "8": 11.6
+              },
+              "season_points": 44.6,
+              "games_played": 5,
+              "ppg": 8.92,
+              "recent_ppg": 11.37,
+              "drop_candidate": {
+                "name": "TreVeyon Henderson",
+                "ppg": 4.22,
+                "recent_ppg": 2.43
+              },
+              "status": "BYE"
             }
           ],
           "weekly_points": {
@@ -1180,27 +1129,28 @@
             },
             {
               "slot": "RB",
-              "player_id": "4199",
-              "name": "Aaron Jones Sr.",
+              "player_id": "6790",
+              "name": "D'Andre Swift",
               "position": "RB",
-              "team": "MIN",
-              "bye_week": 6,
+              "team": "CHI",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 85,
+              "search_rank": 46,
               "weekly_points": {
-                "2": 10.5,
-                "3": 14.2,
-                "4": 16.8,
-                "5": 18.7,
-                "6": 0.0,
-                "7": 3.6,
-                "8": 6.0
+                "1": 32.4,
+                "2": 12.9,
+                "3": 10.8,
+                "4": 7.4,
+                "5": 17.3,
+                "6": 23.0,
+                "7": 19.0,
+                "8": 27.9
               },
-              "season_points": 69.8,
-              "games_played": 7,
-              "ppg": 9.97,
-              "recent_ppg": 3.2,
+              "season_points": 150.7,
+              "games_played": 8,
+              "ppg": 18.84,
+              "recent_ppg": 23.3,
               "status": "OK"
             },
             {
@@ -1212,7 +1162,7 @@
               "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 31,
+              "search_rank": 30,
               "weekly_points": {
                 "1": 24.2,
                 "2": 8.0,
@@ -1257,27 +1207,28 @@
             },
             {
               "slot": "WR",
-              "player_id": "8134",
-              "name": "Khalil Shakir",
+              "player_id": "7569",
+              "name": "Nico Collins",
               "position": "WR",
-              "team": "BUF",
-              "bye_week": 7,
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 120,
+              "search_rank": 23,
               "weekly_points": {
-                "2": 6.8,
-                "3": 1.6,
-                "4": 13.2,
-                "5": 11.0,
-                "6": 13.4,
-                "7": 0.0,
-                "8": 11.4
+                "1": 21.2,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 30.8,
+                "5": 10.6,
+                "6": 10.9,
+                "7": 2.6,
+                "8": 0.0
               },
-              "season_points": 57.4,
-              "games_played": 7,
-              "ppg": 8.2,
-              "recent_ppg": 8.27,
+              "season_points": 76.1,
+              "games_played": 8,
+              "ppg": 9.51,
+              "recent_ppg": 4.5,
               "status": "OK"
             },
             {
@@ -1308,52 +1259,101 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "11624",
-              "name": "Xavier Worthy",
+              "player_id": "2216",
+              "name": "Mike Evans",
               "position": "WR",
-              "team": "KC",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 122,
+              "team": "SF",
+              "bye_week": 8,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 60,
               "weekly_points": {
-                "4": 11.0,
-                "5": 0.0,
-                "6": 14.3,
-                "7": 4.1,
-                "8": 4.3
+                "1": 16.9,
+                "2": 8.4,
+                "3": 12.4,
+                "4": 12.6,
+                "5": 26.3,
+                "6": 12.4,
+                "7": 0.0,
+                "8": 0.0
               },
-              "season_points": 33.7,
-              "games_played": 5,
-              "ppg": 6.74,
-              "recent_ppg": 7.57,
-              "status": "OK"
+              "season_points": 89.0,
+              "games_played": 8,
+              "ppg": 11.12,
+              "recent_ppg": 4.13,
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "8134",
+                "name": "Khalil Shakir",
+                "position": "WR",
+                "team": "BUF",
+                "bye_week": 7,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 120,
+                "weekly_points": {
+                  "2": 6.8,
+                  "3": 1.6,
+                  "4": 13.2,
+                  "5": 11.0,
+                  "6": 13.4,
+                  "7": 0.0,
+                  "8": 11.4
+                },
+                "season_points": 57.4,
+                "games_played": 7,
+                "ppg": 8.2,
+                "recent_ppg": 8.27
+              }
             },
             {
               "slot": "FLEX",
-              "player_id": "6790",
-              "name": "D'Andre Swift",
-              "position": "RB",
-              "team": "CHI",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 44,
+              "player_id": "5872",
+              "name": "Deebo Samuel Sr.",
+              "position": "WR",
+              "team": "SF",
+              "bye_week": 8,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hamstring",
+              "search_rank": 130,
               "weekly_points": {
-                "1": 32.4,
-                "2": 12.9,
-                "3": 10.8,
-                "4": 7.4,
-                "5": 17.3,
-                "6": 23.0,
-                "7": 19.0,
-                "8": 27.9
+                "1": 18.0,
+                "2": 6.5,
+                "3": 18.4,
+                "4": 18.0,
+                "5": 2.5,
+                "6": 0.0,
+                "7": 0.0,
+                "8": 0.0
               },
-              "season_points": 150.7,
+              "season_points": 63.4,
               "games_played": 8,
-              "ppg": 18.84,
-              "recent_ppg": 23.3,
-              "status": "OK"
+              "ppg": 7.92,
+              "recent_ppg": 0.0,
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "8134",
+                "name": "Khalil Shakir",
+                "position": "WR",
+                "team": "BUF",
+                "bye_week": 7,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 120,
+                "weekly_points": {
+                  "2": 6.8,
+                  "3": 1.6,
+                  "4": 13.2,
+                  "5": 11.0,
+                  "6": 13.4,
+                  "7": 0.0,
+                  "8": 11.4
+                },
+                "season_points": 57.4,
+                "games_played": 7,
+                "ppg": 8.2,
+                "recent_ppg": 8.27
+              }
             },
             {
               "slot": "K",
@@ -1381,56 +1381,74 @@
             },
             {
               "slot": "DEF",
-              "player_id": "JAX",
-              "name": "Jacksonville Jaguars",
+              "player_id": "DEN",
+              "name": "Denver Broncos",
               "position": "DEF",
-              "team": "JAX",
-              "bye_week": 7,
+              "team": "DEN",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
               "weekly_points": {
-                "1": 16.0,
-                "2": 3.0,
-                "3": 18.0,
-                "4": 9.0,
-                "5": 4.0,
-                "6": 1.0,
-                "7": 0.0,
-                "8": 22.0
+                "1": 4.0,
+                "2": 8.0,
+                "3": 14.0,
+                "5": 17.0,
+                "7": 6.0
               },
-              "season_points": 73.0,
-              "games_played": 8,
-              "ppg": 9.12,
-              "recent_ppg": 7.67,
+              "season_points": 49.0,
+              "games_played": 5,
+              "ppg": 9.8,
+              "recent_ppg": 12.33,
               "status": "OK"
             }
           ],
           "bench": [
             {
-              "player_id": "2216",
-              "name": "Mike Evans",
+              "player_id": "11624",
+              "name": "Xavier Worthy",
               "position": "WR",
-              "team": "SF",
-              "bye_week": 8,
-              "injury_status": "Out",
-              "injury_body_part": "Achilles",
-              "search_rank": 60,
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 122,
               "weekly_points": {
-                "1": 16.9,
-                "2": 8.4,
-                "3": 12.4,
-                "4": 12.6,
-                "5": 26.3,
-                "6": 12.4,
-                "7": 0.0,
-                "8": 0.0
+                "4": 11.0,
+                "5": 0.0,
+                "6": 14.3,
+                "7": 4.1,
+                "8": 4.3
               },
-              "season_points": 89.0,
-              "games_played": 8,
-              "ppg": 11.12,
-              "recent_ppg": 4.13,
-              "status": "OUT"
+              "season_points": 33.7,
+              "games_played": 5,
+              "ppg": 6.74,
+              "recent_ppg": 7.57,
+              "status": "OK"
+            },
+            {
+              "player_id": "4199",
+              "name": "Aaron Jones Sr.",
+              "position": "RB",
+              "team": "MIN",
+              "bye_week": 6,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 85,
+              "weekly_points": {
+                "2": 10.5,
+                "3": 14.2,
+                "4": 16.8,
+                "5": 18.7,
+                "6": 0.0,
+                "7": 3.6,
+                "8": 6.0
+              },
+              "season_points": 69.8,
+              "games_played": 7,
+              "ppg": 9.97,
+              "recent_ppg": 3.2,
+              "status": "OK"
             },
             {
               "player_id": "5849",
@@ -1457,58 +1475,47 @@
               "status": "QUESTIONABLE"
             },
             {
-              "player_id": "5872",
-              "name": "Deebo Samuel Sr.",
+              "player_id": "8134",
+              "name": "Khalil Shakir",
               "position": "WR",
-              "team": "SF",
-              "bye_week": 8,
-              "injury_status": "Out",
-              "injury_body_part": "Hamstring",
-              "search_rank": 130,
-              "weekly_points": {
-                "1": 18.0,
-                "2": 6.5,
-                "3": 18.4,
-                "4": 18.0,
-                "5": 2.5,
-                "6": 0.0,
-                "7": 0.0,
-                "8": 0.0
-              },
-              "season_points": 63.4,
-              "games_played": 8,
-              "ppg": 7.92,
-              "recent_ppg": 0.0,
-              "status": "OUT"
-            },
-            {
-              "player_id": "7569",
-              "name": "Nico Collins",
-              "position": "WR",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "BUF",
+              "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 23,
+              "search_rank": 120,
               "weekly_points": {
-                "1": 21.2,
-                "2": 0.0,
-                "3": 0.0,
-                "4": 30.8,
-                "5": 10.6,
-                "6": 10.9,
-                "7": 2.6,
-                "8": 0.0
+                "2": 6.8,
+                "3": 1.6,
+                "4": 13.2,
+                "5": 11.0,
+                "6": 13.4,
+                "7": 0.0,
+                "8": 11.4
               },
-              "season_points": 76.1,
-              "games_played": 8,
-              "ppg": 9.51,
-              "recent_ppg": 4.5,
+              "season_points": 57.4,
+              "games_played": 7,
+              "ppg": 8.2,
+              "recent_ppg": 8.27,
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 2,
+          "alerts": [
+            {
+              "slot": "FLEX",
+              "player_name": "Mike Evans",
+              "status": "QUESTIONABLE",
+              "detail": "Achilles",
+              "suggested_swap": "Khalil Shakir"
+            },
+            {
+              "slot": "FLEX",
+              "player_name": "Deebo Samuel Sr.",
+              "status": "QUESTIONABLE",
+              "detail": "Hamstring",
+              "suggested_swap": "Khalil Shakir"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "11566",
@@ -1545,7 +1552,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 121,
               "weekly_points": {
                 "1": 17.7,
                 "2": 18.48,
@@ -1560,36 +1567,6 @@
               "ppg": 17.17,
               "recent_ppg": 22.85,
               "drop_candidate": null,
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 39.1
-              },
-              "season_points": 87.1,
-              "games_played": 8,
-              "ppg": 10.89,
-              "recent_ppg": 17.6,
-              "drop_candidate": {
-                "name": "Aaron Jones Sr.",
-                "ppg": 9.97,
-                "recent_ppg": 3.2
-              },
               "status": "OK"
             },
             {
@@ -1619,26 +1596,27 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Evan McPherson",
@@ -1646,6 +1624,33 @@
                 "recent_ppg": 3.33
               },
               "status": "OK"
+            },
+            {
+              "player_id": "7021",
+              "name": "Rico Dowdle",
+              "position": "RB",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 65,
+              "weekly_points": {
+                "1": 4.1,
+                "2": 6.4,
+                "6": 7.9,
+                "7": 14.6,
+                "8": 11.6
+              },
+              "season_points": 44.6,
+              "games_played": 5,
+              "ppg": 8.92,
+              "recent_ppg": 11.37,
+              "drop_candidate": {
+                "name": "Aaron Jones Sr.",
+                "ppg": 9.97,
+                "recent_ppg": 3.2
+              },
+              "status": "BYE"
             }
           ],
           "weekly_points": {
@@ -1691,25 +1696,24 @@
             },
             {
               "slot": "RB",
-              "player_id": "6806",
-              "name": "J.K. Dobbins",
+              "player_id": "12474",
+              "name": "Woody Marks",
               "position": "RB",
-              "team": "DEN",
-              "bye_week": 10,
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 68,
+              "search_rank": 105,
               "weekly_points": {
-                "1": 3.6,
-                "2": 3.6,
-                "6": 13.6,
-                "7": 8.3,
-                "8": 1.3
+                "5": 12.5,
+                "6": 10.1,
+                "7": 9.1,
+                "8": 0.0
               },
-              "season_points": 30.4,
-              "games_played": 5,
-              "ppg": 6.08,
-              "recent_ppg": 7.73,
+              "season_points": 31.7,
+              "games_played": 4,
+              "ppg": 7.92,
+              "recent_ppg": 6.4,
               "status": "OK"
             },
             {
@@ -1738,24 +1742,25 @@
               "recent_ppg": 17.57,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "11435",
-                "name": "Emanuel Wilson",
+                "player_id": "6806",
+                "name": "J.K. Dobbins",
                 "position": "RB",
-                "team": "SEA",
-                "bye_week": 11,
+                "team": "DEN",
+                "bye_week": 10,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 161,
+                "search_rank": 68,
                 "weekly_points": {
-                  "4": 27.0,
-                  "5": 13.2,
-                  "6": 5.2,
-                  "8": 0.0
+                  "1": 3.6,
+                  "2": 3.6,
+                  "6": 13.6,
+                  "7": 8.3,
+                  "8": 1.3
                 },
-                "season_points": 45.4,
-                "games_played": 4,
-                "ppg": 11.35,
-                "recent_ppg": 6.13
+                "season_points": 30.4,
+                "games_played": 5,
+                "ppg": 6.08,
+                "recent_ppg": 7.73
               }
             },
             {
@@ -1767,7 +1772,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 7,
+              "search_rank": 5,
               "weekly_points": {
                 "1": 27.2,
                 "2": 45.5,
@@ -1819,7 +1824,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 36,
+              "search_rank": 35,
               "weekly_points": {
                 "1": 0.0,
                 "2": 1.3,
@@ -1942,27 +1947,6 @@
           ],
           "bench": [
             {
-              "player_id": "11435",
-              "name": "Emanuel Wilson",
-              "position": "RB",
-              "team": "SEA",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 161,
-              "weekly_points": {
-                "4": 27.0,
-                "5": 13.2,
-                "6": 5.2,
-                "8": 0.0
-              },
-              "season_points": 45.4,
-              "games_played": 4,
-              "ppg": 11.35,
-              "recent_ppg": 6.13,
-              "status": "OK"
-            },
-            {
               "player_id": "11583",
               "name": "Jonathon Brooks",
               "position": "RB",
@@ -1988,27 +1972,6 @@
               "status": "OUT"
             },
             {
-              "player_id": "12474",
-              "name": "Woody Marks",
-              "position": "RB",
-              "team": "HOU",
-              "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Leg",
-              "search_rank": 105,
-              "weekly_points": {
-                "5": 12.5,
-                "6": 10.1,
-                "7": 9.1,
-                "8": 0.0
-              },
-              "season_points": 31.7,
-              "games_played": 4,
-              "ppg": 7.92,
-              "recent_ppg": 6.4,
-              "status": "QUESTIONABLE"
-            },
-            {
               "player_id": "13287",
               "name": "Jeremiyah Love",
               "position": "RB",
@@ -2032,6 +1995,64 @@
               "ppg": 6.67,
               "recent_ppg": 0.77,
               "status": "OUT"
+            },
+            {
+              "player_id": "13305",
+              "name": "Mike Washington Jr.",
+              "position": "RB",
+              "team": "LV",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 123,
+              "weekly_points": {
+                "1": 4.1
+              },
+              "season_points": 4.1,
+              "games_played": 1,
+              "ppg": 4.1,
+              "recent_ppg": 4.1,
+              "status": "OK"
+            },
+            {
+              "player_id": "13337",
+              "name": "Emmett Johnson",
+              "position": "RB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 113,
+              "weekly_points": {
+                "3": 1.7
+              },
+              "season_points": 1.7,
+              "games_played": 1,
+              "ppg": 1.7,
+              "recent_ppg": 1.7,
+              "status": "OK"
+            },
+            {
+              "player_id": "6806",
+              "name": "J.K. Dobbins",
+              "position": "RB",
+              "team": "DEN",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 68,
+              "weekly_points": {
+                "1": 3.6,
+                "2": 3.6,
+                "6": 13.6,
+                "7": 8.3,
+                "8": 1.3
+              },
+              "season_points": 30.4,
+              "games_played": 5,
+              "ppg": 6.08,
+              "recent_ppg": 7.73,
+              "status": "OK"
             },
             {
               "player_id": "7523",
@@ -2065,7 +2086,7 @@
               "player_name": "Christian McCaffrey",
               "status": "QUESTIONABLE",
               "detail": "Calf",
-              "suggested_swap": "Emanuel Wilson"
+              "suggested_swap": "J.K. Dobbins"
             }
           ],
           "waiver_suggestions": [
@@ -2104,7 +2125,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 121,
               "weekly_points": {
                 "1": 17.7,
                 "2": 18.48,
@@ -2119,36 +2140,6 @@
               "ppg": 17.17,
               "recent_ppg": 22.85,
               "drop_candidate": null,
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 39.1
-              },
-              "season_points": 87.1,
-              "games_played": 8,
-              "ppg": 10.89,
-              "recent_ppg": 17.6,
-              "drop_candidate": {
-                "name": "Jonathon Brooks",
-                "ppg": 1.16,
-                "recent_ppg": 0.0
-              },
               "status": "OK"
             },
             {
@@ -2178,26 +2169,27 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Jason Myers",
@@ -2205,6 +2197,33 @@
                 "recent_ppg": 5.33
               },
               "status": "OK"
+            },
+            {
+              "player_id": "7021",
+              "name": "Rico Dowdle",
+              "position": "RB",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 65,
+              "weekly_points": {
+                "1": 4.1,
+                "2": 6.4,
+                "6": 7.9,
+                "7": 14.6,
+                "8": 11.6
+              },
+              "season_points": 44.6,
+              "games_played": 5,
+              "ppg": 8.92,
+              "recent_ppg": 11.37,
+              "drop_candidate": {
+                "name": "Jonathon Brooks",
+                "ppg": 1.16,
+                "recent_ppg": 0.0
+              },
+              "status": "BYE"
             }
           ],
           "weekly_points": {
@@ -2374,28 +2393,28 @@
             },
             {
               "slot": "TE",
-              "player_id": "10236",
-              "name": "Dalton Kincaid",
+              "player_id": "4217",
+              "name": "George Kittle",
               "position": "TE",
-              "team": "BUF",
-              "bye_week": 7,
+              "team": "SF",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 81,
+              "search_rank": 80,
               "weekly_points": {
-                "1": 18.0,
-                "2": 22.5,
-                "3": 3.8,
-                "4": 1.7,
-                "5": 3.7,
-                "6": 10.8,
-                "7": 0.0,
-                "8": 18.6
+                "1": 3.2,
+                "2": 18.0,
+                "3": 26.2,
+                "4": 20.0,
+                "5": 7.4,
+                "6": 17.9,
+                "7": 14.8,
+                "8": 0.0
               },
-              "season_points": 79.1,
+              "season_points": 107.5,
               "games_played": 8,
-              "ppg": 9.89,
-              "recent_ppg": 9.8,
+              "ppg": 13.44,
+              "recent_ppg": 10.9,
               "status": "OK"
             },
             {
@@ -2426,50 +2445,29 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "13279",
-              "name": "Carnell Tate",
+              "player_id": "11632",
+              "name": "Malik Nabers",
               "position": "WR",
-              "team": "TEN",
-              "bye_week": 9,
-              "injury_status": "Out",
-              "injury_body_part": "Shoulder",
-              "search_rank": 61,
+              "team": "NYG",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 28,
               "weekly_points": {
-                "1": 7.8,
-                "2": 5.7,
-                "6": 19.0,
-                "7": 9.9,
+                "1": 12.9,
+                "2": 1.1,
+                "3": 7.6,
+                "4": 23.2,
+                "5": 29.1,
+                "6": 28.5,
+                "7": 18.1,
                 "8": 0.0
               },
-              "season_points": 42.4,
-              "games_played": 5,
-              "ppg": 8.48,
-              "recent_ppg": 9.63,
-              "status": "BYE",
-              "suggested_swap": {
-                "player_id": "11632",
-                "name": "Malik Nabers",
-                "position": "WR",
-                "team": "NYG",
-                "bye_week": 8,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 26,
-                "weekly_points": {
-                  "1": 12.9,
-                  "2": 1.1,
-                  "3": 7.6,
-                  "4": 23.2,
-                  "5": 29.1,
-                  "6": 28.5,
-                  "7": 18.1,
-                  "8": 0.0
-                },
-                "season_points": 120.5,
-                "games_played": 8,
-                "ppg": 15.06,
-                "recent_ppg": 15.53
-              }
+              "season_points": 120.5,
+              "games_played": 8,
+              "ppg": 15.06,
+              "recent_ppg": 15.53,
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -2496,46 +2494,48 @@
             },
             {
               "slot": "DEF",
-              "player_id": "0",
-              "name": "0 D/ST",
+              "player_id": "KC",
+              "name": "Kansas City Chiefs",
               "position": "DEF",
-              "team": "0",
-              "bye_week": null,
+              "team": "KC",
+              "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
-              "weekly_points": {},
-              "season_points": 0.0,
-              "games_played": 0,
-              "ppg": null,
-              "recent_ppg": null,
+              "weekly_points": {
+                "6": 18.0
+              },
+              "season_points": 18.0,
+              "games_played": 1,
+              "ppg": 18.0,
+              "recent_ppg": 18.0,
               "status": "OK"
             }
           ],
           "bench": [
             {
-              "player_id": "11632",
-              "name": "Malik Nabers",
-              "position": "WR",
-              "team": "NYG",
-              "bye_week": 8,
+              "player_id": "10236",
+              "name": "Dalton Kincaid",
+              "position": "TE",
+              "team": "BUF",
+              "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 26,
+              "search_rank": 81,
               "weekly_points": {
-                "1": 12.9,
-                "2": 1.1,
-                "3": 7.6,
-                "4": 23.2,
-                "5": 29.1,
-                "6": 28.5,
-                "7": 18.1,
-                "8": 0.0
+                "1": 18.0,
+                "2": 22.5,
+                "3": 3.8,
+                "4": 1.7,
+                "5": 3.7,
+                "6": 10.8,
+                "7": 0.0,
+                "8": 18.6
               },
-              "season_points": 120.5,
+              "season_points": 79.1,
               "games_played": 8,
-              "ppg": 15.06,
-              "recent_ppg": 15.53,
+              "ppg": 9.89,
+              "recent_ppg": 9.8,
               "status": "OK"
             },
             {
@@ -2586,53 +2586,29 @@
               "status": "OK"
             },
             {
-              "player_id": "4217",
-              "name": "George Kittle",
-              "position": "TE",
-              "team": "SF",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 80,
+              "player_id": "13279",
+              "name": "Carnell Tate",
+              "position": "WR",
+              "team": "TEN",
+              "bye_week": 9,
+              "injury_status": "Out",
+              "injury_body_part": "Shoulder",
+              "search_rank": 61,
               "weekly_points": {
-                "1": 3.2,
-                "2": 18.0,
-                "3": 26.2,
-                "4": 20.0,
-                "5": 7.4,
-                "6": 17.9,
-                "7": 14.8,
+                "1": 7.8,
+                "2": 5.7,
+                "6": 19.0,
+                "7": 9.9,
                 "8": 0.0
               },
-              "season_points": 107.5,
-              "games_played": 8,
-              "ppg": 13.44,
-              "recent_ppg": 10.9,
-              "status": "OK"
-            },
-            {
-              "player_id": "CIN",
-              "name": "Cincinnati Bengals",
-              "position": "DEF",
-              "team": "CIN",
-              "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 999999,
-              "weekly_points": {
-                "3": 3.0,
-                "4": 5.0,
-                "5": 10.0,
-                "8": 8.0
-              },
-              "season_points": 26.0,
-              "games_played": 4,
-              "ppg": 6.5,
-              "recent_ppg": 7.67,
-              "status": "OK"
+              "season_points": 42.4,
+              "games_played": 5,
+              "ppg": 8.48,
+              "recent_ppg": 9.63,
+              "status": "BYE"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
             {
               "slot": "QB",
@@ -2640,13 +2616,6 @@
               "status": "QUESTIONABLE",
               "detail": "Arm",
               "suggested_swap": "Tyler Shough"
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "Carnell Tate",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": "Malik Nabers"
             }
           ],
           "waiver_suggestions": [
@@ -2678,36 +2647,6 @@
               "status": "OK"
             },
             {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 39.1
-              },
-              "season_points": 87.1,
-              "games_played": 8,
-              "ppg": 10.89,
-              "recent_ppg": 17.6,
-              "drop_candidate": {
-                "name": "Bijan Robinson",
-                "ppg": 19.54,
-                "recent_ppg": 10.7
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "8188",
               "name": "Tyquan Thornton",
               "position": "WR",
@@ -2734,26 +2673,27 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Matt Gay",
@@ -2789,6 +2729,33 @@
                 "recent_ppg": 1.93
               },
               "status": "OK"
+            },
+            {
+              "player_id": "7021",
+              "name": "Rico Dowdle",
+              "position": "RB",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 65,
+              "weekly_points": {
+                "1": 4.1,
+                "2": 6.4,
+                "6": 7.9,
+                "7": 14.6,
+                "8": 11.6
+              },
+              "season_points": 44.6,
+              "games_played": 5,
+              "ppg": 8.92,
+              "recent_ppg": 11.37,
+              "drop_candidate": {
+                "name": "Bijan Robinson",
+                "ppg": 19.54,
+                "recent_ppg": 10.7
+              },
+              "status": "BYE"
             }
           ],
           "weekly_points": {
@@ -2937,23 +2904,20 @@
             },
             {
               "slot": "TE",
-              "player_id": "3214",
-              "name": "Hunter Henry",
-              "position": "TE",
-              "team": "NE",
-              "bye_week": 11,
-              "injury_status": "Out",
-              "injury_body_part": "Foot",
-              "search_rank": 92,
-              "weekly_points": {
-                "8": 6.0
-              },
-              "season_points": 6.0,
-              "games_played": 1,
-              "ppg": 6.0,
-              "recent_ppg": 6.0,
-              "status": "OUT",
-              "suggested_swap": null
+              "player_id": "0",
+              "name": "0 D/ST",
+              "position": "DEF",
+              "team": "0",
+              "bye_week": null,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 999999,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -3098,6 +3062,29 @@
               "status": "OK"
             },
             {
+              "player_id": "7002",
+              "name": "Juwan Johnson",
+              "position": "TE",
+              "team": "NO",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 103,
+              "weekly_points": {
+                "2": 10.6,
+                "3": 23.3,
+                "4": 11.9,
+                "5": 5.6,
+                "6": 0.0,
+                "7": 1.7
+              },
+              "season_points": 53.1,
+              "games_played": 6,
+              "ppg": 8.85,
+              "recent_ppg": 2.43,
+              "status": "OK"
+            },
+            {
               "player_id": "8408",
               "name": "Jordan Mason",
               "position": "RB",
@@ -3171,15 +3158,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
-            {
-              "slot": "TE",
-              "player_name": "Hunter Henry",
-              "status": "OUT",
-              "detail": "Foot",
-              "suggested_swap": null
-            },
             {
               "slot": "FLEX",
               "player_name": "Germie Bernard",
@@ -3217,36 +3197,6 @@
               "status": "OK"
             },
             {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 39.1
-              },
-              "season_points": 87.1,
-              "games_played": 8,
-              "ppg": 10.89,
-              "recent_ppg": 17.6,
-              "drop_candidate": {
-                "name": "Jordan Mason",
-                "ppg": 2.59,
-                "recent_ppg": 2.93
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "8188",
               "name": "Tyquan Thornton",
               "position": "WR",
@@ -3273,26 +3223,27 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Will Reichard",
@@ -3323,11 +3274,38 @@
               "ppg": 7.43,
               "recent_ppg": 12.47,
               "drop_candidate": {
-                "name": "Hunter Henry",
-                "ppg": 6.0,
-                "recent_ppg": 6.0
+                "name": "Juwan Johnson",
+                "ppg": 8.85,
+                "recent_ppg": 2.43
               },
               "status": "OK"
+            },
+            {
+              "player_id": "7021",
+              "name": "Rico Dowdle",
+              "position": "RB",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 65,
+              "weekly_points": {
+                "1": 4.1,
+                "2": 6.4,
+                "6": 7.9,
+                "7": 14.6,
+                "8": 11.6
+              },
+              "season_points": 44.6,
+              "games_played": 5,
+              "ppg": 8.92,
+              "recent_ppg": 11.37,
+              "drop_candidate": {
+                "name": "Jordan Mason",
+                "ppg": 2.59,
+                "recent_ppg": 2.93
+              },
+              "status": "BYE"
             }
           ],
           "weekly_points": {
@@ -3356,7 +3334,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 67,
+              "search_rank": 66,
               "weekly_points": {
                 "6": 21.24,
                 "7": 17.96,
@@ -3448,8 +3426,8 @@
               "position": "WR",
               "team": "DET",
               "bye_week": 6,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 7,
               "weekly_points": {
                 "1": 28.7,
@@ -3465,25 +3443,7 @@
               "games_played": 8,
               "ppg": 17.62,
               "recent_ppg": 12.27,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "13276",
-                "name": "Omar Cooper Jr.",
-                "position": "WR",
-                "team": "NYJ",
-                "bye_week": 13,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 151,
-                "weekly_points": {
-                  "7": 22.5,
-                  "8": 0.0
-                },
-                "season_points": 22.5,
-                "games_played": 2,
-                "ppg": 11.25,
-                "recent_ppg": 11.25
-              }
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -3626,26 +3586,19 @@
             },
             {
               "slot": "DEF",
-              "player_id": "NE",
-              "name": "New England Patriots",
+              "player_id": "0",
+              "name": "0 D/ST",
               "position": "DEF",
-              "team": "NE",
-              "bye_week": 11,
+              "team": "0",
+              "bye_week": null,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
-              "weekly_points": {
-                "1": 6.0,
-                "2": 23.0,
-                "3": -1.0,
-                "6": 8.0,
-                "7": 2.0,
-                "8": 8.0
-              },
-              "season_points": 46.0,
-              "games_played": 6,
-              "ppg": 7.67,
-              "recent_ppg": 6.0,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
               "status": "OK"
             }
           ],
@@ -3717,28 +3670,6 @@
               "status": "OK"
             },
             {
-              "player_id": "1945",
-              "name": "Chris Boswell",
-              "position": "K",
-              "team": "PIT",
-              "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 151,
-              "weekly_points": {
-                "1": 8.0,
-                "2": 4.0,
-                "3": 13.0,
-                "7": 11.0,
-                "8": 8.0
-              },
-              "season_points": 44.0,
-              "games_played": 5,
-              "ppg": 8.8,
-              "recent_ppg": 10.67,
-              "status": "BYE"
-            },
-            {
               "player_id": "2133",
               "name": "Davante Adams",
               "position": "WR",
@@ -3764,6 +3695,31 @@
               "status": "OUT"
             },
             {
+              "player_id": "3451",
+              "name": "Ka'imi Fairbairn",
+              "position": "K",
+              "team": "HOU",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 128,
+              "weekly_points": {
+                "1": 9.0,
+                "2": 6.0,
+                "3": 5.0,
+                "4": 16.0,
+                "5": 17.0,
+                "6": 11.0,
+                "7": 11.0,
+                "8": 0.0
+              },
+              "season_points": 75.0,
+              "games_played": 8,
+              "ppg": 9.38,
+              "recent_ppg": 7.33,
+              "status": "OK"
+            },
+            {
               "player_id": "5967",
               "name": "Tony Pollard",
               "position": "RB",
@@ -3787,9 +3743,30 @@
               "ppg": 14.69,
               "recent_ppg": 24.6,
               "status": "BYE"
+            },
+            {
+              "player_id": "CHI",
+              "name": "Chicago Bears",
+              "position": "DEF",
+              "team": "CHI",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 999999,
+              "weekly_points": {
+                "4": 7.0,
+                "5": 2.0,
+                "6": 15.0,
+                "7": 5.0
+              },
+              "season_points": 29.0,
+              "games_played": 4,
+              "ppg": 7.25,
+              "recent_ppg": 7.33,
+              "status": "OK"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 2,
           "alerts": [
             {
               "slot": "RB",
@@ -3797,13 +3774,6 @@
               "status": "QUESTIONABLE",
               "detail": "Hamstring",
               "suggested_swap": "Blake Corum"
-            },
-            {
-              "slot": "WR",
-              "player_name": "Amon-Ra St. Brown",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": "Omar Cooper Jr."
             },
             {
               "slot": "FLEX",
@@ -3849,7 +3819,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 121,
               "weekly_points": {
                 "1": 17.7,
                 "2": 18.48,
@@ -3864,36 +3834,6 @@
               "ppg": 17.17,
               "recent_ppg": 22.85,
               "drop_candidate": null,
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 39.1
-              },
-              "season_points": 87.1,
-              "games_played": 8,
-              "ppg": 10.89,
-              "recent_ppg": 17.6,
-              "drop_candidate": {
-                "name": "Omarion Hampton",
-                "ppg": 7.78,
-                "recent_ppg": 4.2
-              },
               "status": "OK"
             },
             {
@@ -3923,33 +3863,61 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
-                "name": "Chris Boswell",
-                "ppg": 8.8,
-                "recent_ppg": 10.67
+                "name": "Ka'imi Fairbairn",
+                "ppg": 9.38,
+                "recent_ppg": 7.33
               },
               "status": "OK"
+            },
+            {
+              "player_id": "7021",
+              "name": "Rico Dowdle",
+              "position": "RB",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 65,
+              "weekly_points": {
+                "1": 4.1,
+                "2": 6.4,
+                "6": 7.9,
+                "7": 14.6,
+                "8": 11.6
+              },
+              "season_points": 44.6,
+              "games_played": 5,
+              "ppg": 8.92,
+              "recent_ppg": 11.37,
+              "drop_candidate": {
+                "name": "Omarion Hampton",
+                "ppg": 7.78,
+                "recent_ppg": 4.2
+              },
+              "status": "BYE"
             }
           ],
           "weekly_points": {
@@ -4213,8 +4181,8 @@
               "position": "RB",
               "team": "CHI",
               "bye_week": 10,
-              "injury_status": "Out",
-              "injury_body_part": "Thumb",
+              "injury_status": "Questionable",
+              "injury_body_part": "Toe",
               "search_rank": 61,
               "weekly_points": {
                 "1": 23.4,
@@ -4229,7 +4197,7 @@
               "games_played": 7,
               "ppg": 4.9,
               "recent_ppg": 0.0,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "13286",
@@ -4262,9 +4230,9 @@
               "position": "RB",
               "team": "HOU",
               "bye_week": 8,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Groin",
-              "search_rank": 43,
+              "search_rank": 41,
               "weekly_points": {
                 "1": 28.9,
                 "2": 4.4,
@@ -4279,7 +4247,7 @@
               "games_played": 8,
               "ppg": 5.69,
               "recent_ppg": 0.0,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "7525",
@@ -4287,9 +4255,9 @@
               "position": "WR",
               "team": "PHI",
               "bye_week": 10,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Hamstring",
-              "search_rank": 34,
+              "search_rank": 33,
               "weekly_points": {
                 "1": 8.3,
                 "2": 27.7,
@@ -4304,7 +4272,7 @@
               "games_played": 8,
               "ppg": 8.62,
               "recent_ppg": 6.83,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "8131",
@@ -4370,7 +4338,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 121,
               "weekly_points": {
                 "1": 17.7,
                 "2": 18.48,
@@ -4385,36 +4353,6 @@
               "ppg": 17.17,
               "recent_ppg": 22.85,
               "drop_candidate": null,
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 39.1
-              },
-              "season_points": 87.1,
-              "games_played": 8,
-              "ppg": 10.89,
-              "recent_ppg": 17.6,
-              "drop_candidate": {
-                "name": "Kyle Monangai",
-                "ppg": 4.9,
-                "recent_ppg": 0.0
-              },
               "status": "OK"
             },
             {
@@ -4470,6 +4408,33 @@
                 "recent_ppg": 9.03
               },
               "status": "OK"
+            },
+            {
+              "player_id": "7021",
+              "name": "Rico Dowdle",
+              "position": "RB",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 65,
+              "weekly_points": {
+                "1": 4.1,
+                "2": 6.4,
+                "6": 7.9,
+                "7": 14.6,
+                "8": 11.6
+              },
+              "season_points": 44.6,
+              "games_played": 5,
+              "ppg": 8.92,
+              "recent_ppg": 11.37,
+              "drop_candidate": {
+                "name": "Kyle Monangai",
+                "ppg": 4.9,
+                "recent_ppg": 0.0
+              },
+              "status": "BYE"
             }
           ],
           "weekly_points": {
@@ -4491,19 +4456,24 @@
           "starters": [
             {
               "slot": "QB",
-              "player_id": "0",
-              "name": "0 D/ST",
-              "position": "DEF",
-              "team": "0",
-              "bye_week": null,
+              "player_id": "4046",
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "team": "KC",
+              "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 999999,
-              "weekly_points": {},
-              "season_points": 0.0,
-              "games_played": 0,
-              "ppg": null,
-              "recent_ppg": null,
+              "search_rank": 39,
+              "weekly_points": {
+                "3": 17.94,
+                "4": 20.0,
+                "6": 11.48,
+                "7": 7.0
+              },
+              "season_points": 56.42,
+              "games_played": 4,
+              "ppg": 14.11,
+              "recent_ppg": 12.83,
               "status": "OK"
             },
             {
@@ -4615,7 +4585,7 @@
               "position": "WR",
               "team": "TB",
               "bye_week": 10,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Foot",
               "search_rank": 39,
               "weekly_points": {
@@ -4632,7 +4602,7 @@
               "games_played": 8,
               "ppg": 8.89,
               "recent_ppg": 5.93,
-              "status": "OUT",
+              "status": "QUESTIONABLE",
               "suggested_swap": {
                 "player_id": "7526",
                 "name": "Jaylen Waddle",
@@ -4743,7 +4713,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 449,
+              "search_rank": 450,
               "weekly_points": {
                 "4": 18.0,
                 "5": 14.8,
@@ -4822,27 +4792,6 @@
               "games_played": 1,
               "ppg": 2.9,
               "recent_ppg": 2.9,
-              "status": "OK"
-            },
-            {
-              "player_id": "4037",
-              "name": "Chris Godwin Jr.",
-              "position": "WR",
-              "team": "TB",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 88,
-              "weekly_points": {
-                "1": 8.3,
-                "2": 8.8,
-                "3": 5.5,
-                "8": 0.0
-              },
-              "season_points": 22.6,
-              "games_played": 4,
-              "ppg": 5.65,
-              "recent_ppg": 4.77,
               "status": "OK"
             },
             {
@@ -4926,7 +4875,7 @@
               "position": "RB",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Quadriceps",
               "search_rank": 27,
               "weekly_points": {
@@ -4943,7 +4892,7 @@
               "games_played": 8,
               "ppg": 5.31,
               "recent_ppg": 0.0,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             }
           ],
           "alert_count": 3,
@@ -4958,7 +4907,7 @@
             {
               "slot": "WR",
               "player_name": "Emeka Egbuka",
-              "status": "OUT",
+              "status": "QUESTIONABLE",
               "detail": "Foot",
               "suggested_swap": "Jaylen Waddle"
             },
@@ -4999,36 +4948,6 @@
               "status": "OK"
             },
             {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 39.1
-              },
-              "season_points": 87.1,
-              "games_played": 8,
-              "ppg": 10.89,
-              "recent_ppg": 17.6,
-              "drop_candidate": {
-                "name": "Travis Etienne Jr.",
-                "ppg": 3.86,
-                "recent_ppg": 0.0
-              },
-              "status": "OK"
-            },
-            {
               "player_id": "8188",
               "name": "Tyquan Thornton",
               "position": "WR",
@@ -5048,33 +4967,34 @@
               "ppg": 11.22,
               "recent_ppg": 14.97,
               "drop_candidate": {
-                "name": "Chris Godwin Jr.",
-                "ppg": 5.65,
-                "recent_ppg": 4.77
+                "name": "Emeka Egbuka",
+                "ppg": 8.89,
+                "recent_ppg": 5.93
               },
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Brandon Aubrey",
@@ -5110,6 +5030,33 @@
                 "recent_ppg": 9.8
               },
               "status": "OK"
+            },
+            {
+              "player_id": "7021",
+              "name": "Rico Dowdle",
+              "position": "RB",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 65,
+              "weekly_points": {
+                "1": 4.1,
+                "2": 6.4,
+                "6": 7.9,
+                "7": 14.6,
+                "8": 11.6
+              },
+              "season_points": 44.6,
+              "games_played": 5,
+              "ppg": 8.92,
+              "recent_ppg": 11.37,
+              "drop_candidate": {
+                "name": "Travis Etienne Jr.",
+                "ppg": 3.86,
+                "recent_ppg": 0.0
+              },
+              "status": "BYE"
             }
           ],
           "weekly_points": {
@@ -5204,28 +5151,20 @@
             },
             {
               "slot": "WR",
-              "player_id": "5846",
-              "name": "DK Metcalf",
-              "position": "WR",
-              "team": "PIT",
-              "bye_week": 9,
+              "player_id": "0",
+              "name": "0 D/ST",
+              "position": "DEF",
+              "team": "0",
+              "bye_week": null,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 73,
-              "weekly_points": {
-                "1": 8.0,
-                "2": 6.7,
-                "5": 5.3,
-                "6": 20.3,
-                "7": 7.6,
-                "8": 1.4
-              },
-              "season_points": 49.3,
-              "games_played": 6,
-              "ppg": 8.22,
-              "recent_ppg": 9.77,
-              "status": "BYE",
-              "suggested_swap": null
+              "search_rank": 999999,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -5369,7 +5308,7 @@
               "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 262,
+              "search_rank": 263,
               "weekly_points": {
                 "7": 21.4,
                 "8": 29.18
@@ -5405,7 +5344,7 @@
               "position": "WR",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Ankle",
               "search_rank": 17,
               "weekly_points": {
@@ -5422,7 +5361,7 @@
               "games_played": 8,
               "ppg": 2.39,
               "recent_ppg": 4.5,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "8129",
@@ -5443,6 +5382,26 @@
               "ppg": 8.93,
               "recent_ppg": 8.93,
               "status": "OUT"
+            },
+            {
+              "player_id": "8132",
+              "name": "Tyler Allgeier",
+              "position": "RB",
+              "team": "ARI",
+              "bye_week": 14,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 89,
+              "weekly_points": {
+                "5": 3.6,
+                "6": 5.8,
+                "7": 7.9
+              },
+              "season_points": 17.3,
+              "games_played": 3,
+              "ppg": 5.77,
+              "recent_ppg": 5.77,
+              "status": "OK"
             },
             {
               "player_id": "9482",
@@ -5488,16 +5447,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "WR",
-              "player_name": "DK Metcalf",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": null
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "11566",
@@ -5523,36 +5474,6 @@
                 "name": "Josh Allen",
                 "ppg": 25.6,
                 "recent_ppg": 15.95
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 39.1
-              },
-              "season_points": 87.1,
-              "games_played": 8,
-              "ppg": 10.89,
-              "recent_ppg": 17.6,
-              "drop_candidate": {
-                "name": "Zach Charbonnet",
-                "ppg": 1.18,
-                "recent_ppg": 1.97
               },
               "status": "OK"
             },
@@ -5583,26 +5504,27 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Spencer Shrader",
@@ -5638,6 +5560,33 @@
                 "recent_ppg": 2.2
               },
               "status": "OK"
+            },
+            {
+              "player_id": "7021",
+              "name": "Rico Dowdle",
+              "position": "RB",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 65,
+              "weekly_points": {
+                "1": 4.1,
+                "2": 6.4,
+                "6": 7.9,
+                "7": 14.6,
+                "8": 11.6
+              },
+              "season_points": 44.6,
+              "games_played": 5,
+              "ppg": 8.92,
+              "recent_ppg": 11.37,
+              "drop_candidate": {
+                "name": "Zach Charbonnet",
+                "ppg": 1.18,
+                "recent_ppg": 1.97
+              },
+              "status": "BYE"
             }
           ],
           "weekly_points": {
@@ -5711,7 +5660,7 @@
               "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 31,
+              "search_rank": 30,
               "weekly_points": {
                 "1": 24.2,
                 "2": 8.0,
@@ -5764,7 +5713,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 7,
+              "search_rank": 5,
               "weekly_points": {
                 "1": 26.2,
                 "2": 42.5,
@@ -5984,7 +5933,7 @@
               "position": "WR",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Ankle",
               "search_rank": 17,
               "weekly_points": {
@@ -6001,7 +5950,7 @@
               "games_played": 8,
               "ppg": 2.39,
               "recent_ppg": 4.5,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "7002",
@@ -6041,6 +5990,36 @@
           ],
           "waiver_suggestions": [
             {
+              "player_id": "1166",
+              "name": "Kirk Cousins",
+              "position": "QB",
+              "team": "LV",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 263,
+              "weekly_points": {
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6,
+                "5": 13.72,
+                "6": 19.52,
+                "7": 20.4,
+                "8": 28.18
+              },
+              "season_points": 164.66,
+              "games_played": 8,
+              "ppg": 20.58,
+              "recent_ppg": 22.7,
+              "drop_candidate": {
+                "name": "Patrick Mahomes",
+                "ppg": 12.98,
+                "recent_ppg": 14.64
+              },
+              "status": "OK"
+            },
+            {
               "player_id": "8161",
               "name": "Malik Willis",
               "position": "QB",
@@ -6048,7 +6027,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 121,
               "weekly_points": {
                 "1": 17.7,
                 "2": 12.48,
@@ -6062,41 +6041,7 @@
               "games_played": 7,
               "ppg": 15.17,
               "recent_ppg": 20.85,
-              "drop_candidate": {
-                "name": "Patrick Mahomes",
-                "ppg": 12.98,
-                "recent_ppg": 14.64
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 36.1
-              },
-              "season_points": 84.1,
-              "games_played": 8,
-              "ppg": 10.51,
-              "recent_ppg": 16.6,
-              "drop_candidate": {
-                "name": "Rhamondre Stevenson",
-                "ppg": 12.36,
-                "recent_ppg": 12.7
-              },
+              "drop_candidate": null,
               "status": "OK"
             },
             {
@@ -6126,26 +6071,27 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Matt Gay",
@@ -6632,61 +6578,32 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "8161",
-              "name": "Malik Willis",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "MIA",
-              "bye_week": 6,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 263,
               "weekly_points": {
-                "1": 17.7,
-                "2": 12.48,
-                "3": 11.0,
-                "4": 2.5,
-                "5": 20.88,
-                "7": 26.02,
-                "8": 15.64
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6,
+                "5": 13.72,
+                "6": 19.52,
+                "7": 20.4,
+                "8": 28.18
               },
-              "season_points": 106.22,
-              "games_played": 7,
-              "ppg": 15.17,
-              "recent_ppg": 20.85,
+              "season_points": 164.66,
+              "games_played": 8,
+              "ppg": 20.58,
+              "recent_ppg": 22.7,
               "drop_candidate": {
                 "name": "J.J. McCarthy",
                 "ppg": 5.09,
                 "recent_ppg": 5.09
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 36.1
-              },
-              "season_points": 84.1,
-              "games_played": 8,
-              "ppg": 10.51,
-              "recent_ppg": 16.6,
-              "drop_candidate": {
-                "name": "Cam Skattebo",
-                "ppg": 8.8,
-                "recent_ppg": 6.37
               },
               "status": "OK"
             },
@@ -6717,26 +6634,27 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Jason Myers",
@@ -6770,6 +6688,35 @@
                 "name": "Brenton Strange",
                 "ppg": 5.63,
                 "recent_ppg": 5.63
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "13337",
+              "name": "Emmett Johnson",
+              "position": "RB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 113,
+              "weekly_points": {
+                "1": 8.8,
+                "2": 5.5,
+                "3": 1.7,
+                "4": 2.0,
+                "6": 4.4,
+                "7": 3.7,
+                "8": 25.3
+              },
+              "season_points": 51.4,
+              "games_played": 7,
+              "ppg": 7.34,
+              "recent_ppg": 11.13,
+              "drop_candidate": {
+                "name": "Cam Skattebo",
+                "ppg": 8.8,
+                "recent_ppg": 6.37
               },
               "status": "OK"
             }
@@ -7190,61 +7137,32 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "8161",
-              "name": "Malik Willis",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "MIA",
-              "bye_week": 6,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 263,
               "weekly_points": {
-                "1": 17.7,
-                "2": 12.48,
-                "3": 11.0,
-                "4": 2.5,
-                "5": 20.88,
-                "7": 26.02,
-                "8": 15.64
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6,
+                "5": 13.72,
+                "6": 19.52,
+                "7": 20.4,
+                "8": 28.18
               },
-              "season_points": 106.22,
-              "games_played": 7,
-              "ppg": 15.17,
-              "recent_ppg": 20.85,
+              "season_points": 164.66,
+              "games_played": 8,
+              "ppg": 20.58,
+              "recent_ppg": 22.7,
               "drop_candidate": {
                 "name": "Jared Goff",
                 "ppg": 16.14,
                 "recent_ppg": 9.35
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 36.1
-              },
-              "season_points": 84.1,
-              "games_played": 8,
-              "ppg": 10.51,
-              "recent_ppg": 16.6,
-              "drop_candidate": {
-                "name": "Rico Dowdle",
-                "ppg": 5.53,
-                "recent_ppg": 6.0
               },
               "status": "OK"
             },
@@ -7275,26 +7193,27 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Evan McPherson",
@@ -7328,6 +7247,35 @@
                 "name": "Tyler Warren",
                 "ppg": 9.46,
                 "recent_ppg": 1.93
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "13337",
+              "name": "Emmett Johnson",
+              "position": "RB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 113,
+              "weekly_points": {
+                "1": 8.8,
+                "2": 5.5,
+                "3": 1.7,
+                "4": 2.0,
+                "6": 4.4,
+                "7": 3.7,
+                "8": 25.3
+              },
+              "season_points": 51.4,
+              "games_played": 7,
+              "ppg": 7.34,
+              "recent_ppg": 11.13,
+              "drop_candidate": {
+                "name": "Rico Dowdle",
+                "ppg": 5.53,
+                "recent_ppg": 6.0
               },
               "status": "OK"
             }
@@ -7674,7 +7622,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 67,
+              "search_rank": 66,
               "weekly_points": {
                 "2": 13.8,
                 "3": 19.48,
@@ -7728,61 +7676,32 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "8161",
-              "name": "Malik Willis",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "MIA",
-              "bye_week": 6,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 263,
               "weekly_points": {
-                "1": 17.7,
-                "2": 12.48,
-                "3": 11.0,
-                "4": 2.5,
-                "5": 20.88,
-                "7": 26.02,
-                "8": 15.64
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6,
+                "5": 13.72,
+                "6": 19.52,
+                "7": 20.4,
+                "8": 28.18
               },
-              "season_points": 106.22,
-              "games_played": 7,
-              "ppg": 15.17,
-              "recent_ppg": 20.85,
+              "season_points": 164.66,
+              "games_played": 8,
+              "ppg": 20.58,
+              "recent_ppg": 22.7,
               "drop_candidate": {
                 "name": "Josh Allen",
                 "ppg": 24.1,
                 "recent_ppg": 15.29
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 36.1
-              },
-              "season_points": 84.1,
-              "games_played": 8,
-              "ppg": 10.51,
-              "recent_ppg": 16.6,
-              "drop_candidate": {
-                "name": "Emanuel Wilson",
-                "ppg": 12.78,
-                "recent_ppg": 7.9
               },
               "status": "OK"
             },
@@ -7813,26 +7732,27 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Chase McLaughlin",
@@ -7866,6 +7786,35 @@
                 "name": "Sam LaPorta",
                 "ppg": 10.74,
                 "recent_ppg": 3.1
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "13337",
+              "name": "Emmett Johnson",
+              "position": "RB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 113,
+              "weekly_points": {
+                "1": 8.8,
+                "2": 5.5,
+                "3": 1.7,
+                "4": 2.0,
+                "6": 4.4,
+                "7": 3.7,
+                "8": 25.3
+              },
+              "season_points": 51.4,
+              "games_played": 7,
+              "ppg": 7.34,
+              "recent_ppg": 11.13,
+              "drop_candidate": {
+                "name": "Emanuel Wilson",
+                "ppg": 12.78,
+                "recent_ppg": 7.9
               },
               "status": "OK"
             }
@@ -7942,28 +7891,21 @@
             },
             {
               "slot": "RB",
-              "player_id": "4199",
-              "name": "Aaron Jones Sr.",
+              "player_id": "8132",
+              "name": "Tyler Allgeier",
               "position": "RB",
-              "team": "MIN",
-              "bye_week": 6,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 85,
+              "search_rank": 89,
               "weekly_points": {
-                "1": 10.0,
-                "2": 10.5,
-                "3": 14.2,
-                "4": 16.8,
-                "5": 18.7,
-                "6": 0.0,
-                "7": 3.6,
-                "8": 6.0
+                "6": 5.8
               },
-              "season_points": 79.8,
-              "games_played": 8,
-              "ppg": 9.97,
-              "recent_ppg": 3.2,
+              "season_points": 5.8,
+              "games_played": 1,
+              "ppg": 5.8,
+              "recent_ppg": 5.8,
               "status": "OK"
             },
             {
@@ -7996,8 +7938,8 @@
               "position": "WR",
               "team": "ATL",
               "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Head",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 19,
               "weekly_points": {
                 "1": 5.5,
@@ -8013,31 +7955,7 @@
               "games_played": 8,
               "ppg": 13.72,
               "recent_ppg": 11.2,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "11632",
-                "name": "Malik Nabers",
-                "position": "WR",
-                "team": "NYG",
-                "bye_week": 8,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 26,
-                "weekly_points": {
-                  "1": 12.9,
-                  "2": 1.1,
-                  "3": 7.6,
-                  "4": 23.2,
-                  "5": 29.1,
-                  "6": 28.5,
-                  "7": 18.1,
-                  "8": 0.0
-                },
-                "season_points": 120.5,
-                "games_played": 8,
-                "ppg": 15.06,
-                "recent_ppg": 15.53
-              }
+              "status": "OK"
             },
             {
               "slot": "TE",
@@ -8048,7 +7966,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 36,
+              "search_rank": 35,
               "weekly_points": {
                 "1": 0.0,
                 "2": 1.3,
@@ -8067,124 +7985,72 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "13274",
-              "name": "Germie Bernard",
-              "position": "WR",
-              "team": "PIT",
-              "bye_week": 9,
+              "player_id": "5022",
+              "name": "Dallas Goedert",
+              "position": "TE",
+              "team": "PHI",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 194,
+              "search_rank": 94,
               "weekly_points": {
-                "7": 5.7,
-                "8": 8.0
+                "1": 23.7,
+                "2": 1.4,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 9.8,
+                "6": 12.1,
+                "7": 9.8,
+                "8": 7.2
               },
-              "season_points": 13.7,
-              "games_played": 2,
-              "ppg": 6.85,
-              "recent_ppg": 6.85,
-              "status": "BYE",
-              "suggested_swap": {
-                "player_id": "11632",
-                "name": "Malik Nabers",
-                "position": "WR",
-                "team": "NYG",
-                "bye_week": 8,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 26,
-                "weekly_points": {
-                  "1": 12.9,
-                  "2": 1.1,
-                  "3": 7.6,
-                  "4": 23.2,
-                  "5": 29.1,
-                  "6": 28.5,
-                  "7": 18.1,
-                  "8": 0.0
-                },
-                "season_points": 120.5,
-                "games_played": 8,
-                "ppg": 15.06,
-                "recent_ppg": 15.53
-              }
+              "season_points": 64.0,
+              "games_played": 8,
+              "ppg": 8.0,
+              "recent_ppg": 9.7,
+              "status": "OK"
             },
             {
               "slot": "FLEX",
-              "player_id": "5846",
-              "name": "DK Metcalf",
+              "player_id": "11632",
+              "name": "Malik Nabers",
               "position": "WR",
-              "team": "PIT",
-              "bye_week": 9,
+              "team": "NYG",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 73,
+              "search_rank": 28,
               "weekly_points": {
-                "1": 8.0,
-                "2": 6.7,
-                "3": 12.1,
-                "4": 16.5,
-                "5": 5.3,
-                "6": 20.3,
-                "7": 7.6,
-                "8": 1.4
+                "1": 12.9,
+                "2": 1.1,
+                "3": 7.6,
+                "4": 23.2,
+                "5": 29.1,
+                "6": 28.5,
+                "7": 18.1,
+                "8": 0.0
               },
-              "season_points": 77.9,
+              "season_points": 120.5,
               "games_played": 8,
-              "ppg": 9.74,
-              "recent_ppg": 9.77,
-              "status": "BYE",
-              "suggested_swap": {
-                "player_id": "11632",
-                "name": "Malik Nabers",
-                "position": "WR",
-                "team": "NYG",
-                "bye_week": 8,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 26,
-                "weekly_points": {
-                  "1": 12.9,
-                  "2": 1.1,
-                  "3": 7.6,
-                  "4": 23.2,
-                  "5": 29.1,
-                  "6": 28.5,
-                  "7": 18.1,
-                  "8": 0.0
-                },
-                "season_points": 120.5,
-                "games_played": 8,
-                "ppg": 15.06,
-                "recent_ppg": 15.53
-              }
+              "ppg": 15.06,
+              "recent_ppg": 15.53,
+              "status": "OK"
             },
             {
               "slot": "K",
-              "player_id": "1945",
-              "name": "Chris Boswell",
+              "player_id": "2020",
+              "name": "Cairo Santos",
               "position": "K",
-              "team": "PIT",
-              "bye_week": 9,
+              "team": "CHI",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 151,
-              "weekly_points": {
-                "1": 8.0,
-                "2": 4.0,
-                "3": 13.0,
-                "4": 3.0,
-                "5": 13.0,
-                "6": 17.0,
-                "7": 11.0,
-                "8": 8.0
-              },
-              "season_points": 77.0,
-              "games_played": 8,
-              "ppg": 9.62,
-              "recent_ppg": 12.0,
-              "status": "BYE",
-              "suggested_swap": null
+              "search_rank": 190,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
+              "status": "OK"
             },
             {
               "slot": "DEF",
@@ -8212,37 +8078,12 @@
           ],
           "bench": [
             {
-              "player_id": "11632",
-              "name": "Malik Nabers",
-              "position": "WR",
-              "team": "NYG",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 26,
-              "weekly_points": {
-                "1": 12.9,
-                "2": 1.1,
-                "3": 7.6,
-                "4": 23.2,
-                "5": 29.1,
-                "6": 28.5,
-                "7": 18.1,
-                "8": 0.0
-              },
-              "season_points": 120.5,
-              "games_played": 8,
-              "ppg": 15.06,
-              "recent_ppg": 15.53,
-              "status": "OK"
-            },
-            {
               "player_id": "12514",
               "name": "Emeka Egbuka",
               "position": "WR",
               "team": "TB",
               "bye_week": 10,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Foot",
               "search_rank": 39,
               "weekly_points": {
@@ -8259,32 +8100,26 @@
               "games_played": 8,
               "ppg": 8.89,
               "recent_ppg": 5.93,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             },
             {
-              "player_id": "12533",
-              "name": "Jacory Croskey-Merritt",
-              "position": "RB",
-              "team": "WAS",
-              "bye_week": 7,
-              "injury_status": "IR",
-              "injury_body_part": "Groin",
-              "search_rank": 95,
+              "player_id": "13274",
+              "name": "Germie Bernard",
+              "position": "WR",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 194,
               "weekly_points": {
-                "1": 12.6,
-                "2": 5.8,
-                "3": 5.3,
-                "4": 7.0,
-                "5": 14.2,
-                "6": 0.0,
-                "7": 0.0,
-                "8": 0.0
+                "7": 5.7,
+                "8": 8.0
               },
-              "season_points": 44.9,
-              "games_played": 8,
-              "ppg": 5.61,
-              "recent_ppg": 0.0,
-              "status": "OUT"
+              "season_points": 13.7,
+              "games_played": 2,
+              "ppg": 6.85,
+              "recent_ppg": 6.85,
+              "status": "BYE"
             },
             {
               "player_id": "13281",
@@ -8312,32 +8147,57 @@
               "status": "OUT"
             },
             {
-              "player_id": "5022",
-              "name": "Dallas Goedert",
-              "position": "TE",
-              "team": "PHI",
-              "bye_week": 10,
+              "player_id": "4199",
+              "name": "Aaron Jones Sr.",
+              "position": "RB",
+              "team": "MIN",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 94,
+              "search_rank": 85,
               "weekly_points": {
-                "1": 23.7,
-                "2": 1.4,
-                "3": 0.0,
-                "4": 0.0,
-                "5": 9.8,
-                "6": 12.1,
-                "7": 9.8,
-                "8": 7.2
+                "1": 10.0,
+                "2": 10.5,
+                "3": 14.2,
+                "4": 16.8,
+                "5": 18.7,
+                "6": 0.0,
+                "7": 3.6,
+                "8": 6.0
               },
-              "season_points": 64.0,
+              "season_points": 79.8,
               "games_played": 8,
-              "ppg": 8.0,
-              "recent_ppg": 9.7,
+              "ppg": 9.97,
+              "recent_ppg": 3.2,
               "status": "OK"
+            },
+            {
+              "player_id": "5846",
+              "name": "DK Metcalf",
+              "position": "WR",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 73,
+              "weekly_points": {
+                "1": 8.0,
+                "2": 6.7,
+                "3": 12.1,
+                "4": 16.5,
+                "5": 5.3,
+                "6": 20.3,
+                "7": 7.6,
+                "8": 1.4
+              },
+              "season_points": 77.9,
+              "games_played": 8,
+              "ppg": 9.74,
+              "recent_ppg": 9.77,
+              "status": "BYE"
             }
           ],
-          "alert_count": 5,
+          "alert_count": 1,
           "alerts": [
             {
               "slot": "QB",
@@ -8345,93 +8205,36 @@
               "status": "QUESTIONABLE",
               "detail": "Arm",
               "suggested_swap": null
-            },
-            {
-              "slot": "WR",
-              "player_name": "Drake London",
-              "status": "QUESTIONABLE",
-              "detail": "Head",
-              "suggested_swap": "Malik Nabers"
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "Germie Bernard",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": "Malik Nabers"
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "DK Metcalf",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": "Malik Nabers"
-            },
-            {
-              "slot": "K",
-              "player_name": "Chris Boswell",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": null
             }
           ],
           "waiver_suggestions": [
             {
-              "player_id": "8161",
-              "name": "Malik Willis",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "MIA",
-              "bye_week": 6,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 263,
               "weekly_points": {
-                "1": 17.7,
-                "2": 12.48,
-                "3": 11.0,
-                "4": 2.5,
-                "5": 20.88,
-                "7": 26.02,
-                "8": 15.64
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6,
+                "5": 13.72,
+                "6": 19.52,
+                "7": 20.4,
+                "8": 28.18
               },
-              "season_points": 106.22,
-              "games_played": 7,
-              "ppg": 15.17,
-              "recent_ppg": 20.85,
+              "season_points": 164.66,
+              "games_played": 8,
+              "ppg": 20.58,
+              "recent_ppg": 22.7,
               "drop_candidate": {
                 "name": "Matthew Stafford",
                 "ppg": 17.45,
                 "recent_ppg": 14.89
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 36.1
-              },
-              "season_points": 84.1,
-              "games_played": 8,
-              "ppg": 10.51,
-              "recent_ppg": 16.6,
-              "drop_candidate": {
-                "name": "Jacory Croskey-Merritt",
-                "ppg": 5.61,
-                "recent_ppg": 0.0
               },
               "status": "OK"
             },
@@ -8462,31 +8265,32 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
-                "name": "Chris Boswell",
-                "ppg": 9.62,
-                "recent_ppg": 12.0
+                "name": "Cairo Santos",
+                "ppg": null,
+                "recent_ppg": null
               },
               "status": "OK"
             },
@@ -8515,6 +8319,35 @@
                 "name": "Dallas Goedert",
                 "ppg": 8.0,
                 "recent_ppg": 9.7
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "13337",
+              "name": "Emmett Johnson",
+              "position": "RB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 113,
+              "weekly_points": {
+                "1": 8.8,
+                "2": 5.5,
+                "3": 1.7,
+                "4": 2.0,
+                "6": 4.4,
+                "7": 3.7,
+                "8": 25.3
+              },
+              "season_points": 51.4,
+              "games_played": 7,
+              "ppg": 7.34,
+              "recent_ppg": 11.13,
+              "drop_candidate": {
+                "name": "Aaron Jones Sr.",
+                "ppg": 9.97,
+                "recent_ppg": 3.2
               },
               "status": "OK"
             }
@@ -8569,8 +8402,8 @@
               "position": "RB",
               "team": "BUF",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 5,
               "weekly_points": {
                 "1": 9.9,
@@ -8586,8 +8419,7 @@
               "games_played": 8,
               "ppg": 16.46,
               "recent_ppg": 14.13,
-              "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "status": "OK"
             },
             {
               "slot": "RB",
@@ -8617,22 +8449,19 @@
             },
             {
               "slot": "WR",
-              "player_id": "13294",
-              "name": "Makai Lemon",
-              "position": "WR",
-              "team": "PHI",
-              "bye_week": 10,
+              "player_id": "0",
+              "name": "0 D/ST",
+              "position": "DEF",
+              "team": "0",
+              "bye_week": null,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 2.5,
-                "8": 11.7
-              },
-              "season_points": 14.2,
-              "games_played": 2,
-              "ppg": 7.1,
-              "recent_ppg": 7.1,
+              "search_rank": 999999,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
               "status": "OK"
             },
             {
@@ -8773,6 +8602,22 @@
           ],
           "bench": [
             {
+              "player_id": "13424",
+              "name": "Seth McGowan",
+              "position": "RB",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 380,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
+              "status": "OK"
+            },
+            {
               "player_id": "2133",
               "name": "Davante Adams",
               "position": "WR",
@@ -8803,9 +8648,9 @@
               "position": "RB",
               "team": "HOU",
               "bye_week": 8,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Groin",
-              "search_rank": 43,
+              "search_rank": 41,
               "weekly_points": {
                 "1": 28.9,
                 "2": 4.4,
@@ -8820,7 +8665,7 @@
               "games_played": 8,
               "ppg": 5.69,
               "recent_ppg": 0.0,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "7525",
@@ -8828,9 +8673,9 @@
               "position": "WR",
               "team": "PHI",
               "bye_week": 10,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Hamstring",
-              "search_rank": 34,
+              "search_rank": 33,
               "weekly_points": {
                 "1": 8.3,
                 "2": 27.7,
@@ -8845,7 +8690,7 @@
               "games_played": 8,
               "ppg": 8.62,
               "recent_ppg": 6.83,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "8131",
@@ -8898,73 +8743,36 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "James Cook III",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": null
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "8161",
-              "name": "Malik Willis",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "MIA",
-              "bye_week": 6,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 263,
               "weekly_points": {
-                "1": 17.7,
-                "2": 12.48,
-                "3": 11.0,
-                "4": 2.5,
-                "5": 20.88,
-                "7": 26.02,
-                "8": 15.64
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6,
+                "5": 13.72,
+                "6": 19.52,
+                "7": 20.4,
+                "8": 28.18
               },
-              "season_points": 106.22,
-              "games_played": 7,
-              "ppg": 15.17,
-              "recent_ppg": 20.85,
+              "season_points": 164.66,
+              "games_played": 8,
+              "ppg": 20.58,
+              "recent_ppg": 22.7,
               "drop_candidate": {
                 "name": "Trevor Lawrence",
                 "ppg": 17.2,
                 "recent_ppg": 15.91
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 36.1
-              },
-              "season_points": 84.1,
-              "games_played": 8,
-              "ppg": 10.51,
-              "recent_ppg": 16.6,
-              "drop_candidate": {
-                "name": "David Montgomery",
-                "ppg": 5.69,
-                "recent_ppg": 0.0
               },
               "status": "OK"
             },
@@ -8995,26 +8803,27 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Will Reichard",
@@ -9048,6 +8857,35 @@
                 "name": "Isaiah Likely",
                 "ppg": 14.06,
                 "recent_ppg": 9.03
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "13337",
+              "name": "Emmett Johnson",
+              "position": "RB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 113,
+              "weekly_points": {
+                "1": 8.8,
+                "2": 5.5,
+                "3": 1.7,
+                "4": 2.0,
+                "6": 4.4,
+                "7": 3.7,
+                "8": 25.3
+              },
+              "season_points": 51.4,
+              "games_played": 7,
+              "ppg": 7.34,
+              "recent_ppg": 11.13,
+              "drop_candidate": {
+                "name": "Seth McGowan",
+                "ppg": null,
+                "recent_ppg": null
               },
               "status": "OK"
             }
@@ -9201,26 +9039,27 @@
             },
             {
               "slot": "TE",
-              "player_id": "3214",
-              "name": "Hunter Henry",
+              "player_id": "10236",
+              "name": "Dalton Kincaid",
               "position": "TE",
-              "team": "NE",
-              "bye_week": 11,
-              "injury_status": "Out",
-              "injury_body_part": "Foot",
-              "search_rank": 92,
+              "team": "BUF",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 81,
               "weekly_points": {
-                "1": 5.6,
-                "2": 7.0,
-                "7": 14.1,
-                "8": 6.0
+                "1": 18.0,
+                "2": 22.5,
+                "3": 3.8,
+                "4": 1.7,
+                "5": 3.7,
+                "6": 10.8
               },
-              "season_points": 32.7,
-              "games_played": 4,
-              "ppg": 8.18,
-              "recent_ppg": 9.03,
-              "status": "OUT",
-              "suggested_swap": null
+              "season_points": 60.5,
+              "games_played": 6,
+              "ppg": 10.08,
+              "recent_ppg": 5.4,
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -9297,55 +9136,34 @@
             },
             {
               "slot": "DEF",
-              "player_id": "NE",
-              "name": "New England Patriots",
+              "player_id": "CHI",
+              "name": "Chicago Bears",
               "position": "DEF",
-              "team": "NE",
-              "bye_week": 11,
+              "team": "CHI",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
               "weekly_points": {
-                "2": 23.0,
-                "3": -1.0,
-                "4": 6.0,
-                "6": 6.0,
-                "8": 8.0
+                "4": 7.0,
+                "5": 2.0
               },
-              "season_points": 42.0,
-              "games_played": 5,
-              "ppg": 8.4,
-              "recent_ppg": 6.67,
+              "season_points": 9.0,
+              "games_played": 2,
+              "ppg": 4.5,
+              "recent_ppg": 4.5,
               "status": "OK"
             }
           ],
           "bench": [
-            {
-              "player_id": "1166",
-              "name": "Kirk Cousins",
-              "position": "QB",
-              "team": "LV",
-              "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 262,
-              "weekly_points": {
-                "8": 28.18
-              },
-              "season_points": 28.18,
-              "games_played": 1,
-              "ppg": 28.18,
-              "recent_ppg": 28.18,
-              "status": "OK"
-            },
             {
               "player_id": "12474",
               "name": "Woody Marks",
               "position": "RB",
               "team": "HOU",
               "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Leg",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 105,
               "weekly_points": {
                 "6": 10.1,
@@ -9356,7 +9174,7 @@
               "games_played": 3,
               "ppg": 6.4,
               "recent_ppg": 6.4,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "12507",
@@ -9407,75 +9225,80 @@
               "ppg": 6.67,
               "recent_ppg": 0.77,
               "status": "OUT"
-            }
-          ],
-          "alert_count": 1,
-          "alerts": [
+            },
             {
-              "slot": "TE",
-              "player_name": "Hunter Henry",
-              "status": "OUT",
-              "detail": "Foot",
-              "suggested_swap": null
+              "player_id": "3214",
+              "name": "Hunter Henry",
+              "position": "TE",
+              "team": "NE",
+              "bye_week": 11,
+              "injury_status": "Questionable",
+              "injury_body_part": "Foot",
+              "search_rank": 92,
+              "weekly_points": {
+                "1": 5.6,
+                "2": 7.0,
+                "7": 14.1,
+                "8": 6.0
+              },
+              "season_points": 32.7,
+              "games_played": 4,
+              "ppg": 8.18,
+              "recent_ppg": 9.03,
+              "status": "QUESTIONABLE"
+            },
+            {
+              "player_id": "5872",
+              "name": "Deebo Samuel Sr.",
+              "position": "WR",
+              "team": "SF",
+              "bye_week": 8,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hamstring",
+              "search_rank": 130,
+              "weekly_points": {
+                "2": 6.5,
+                "3": 15.4,
+                "4": 18.0,
+                "5": 2.5
+              },
+              "season_points": 42.4,
+              "games_played": 4,
+              "ppg": 10.6,
+              "recent_ppg": 11.97,
+              "status": "QUESTIONABLE"
             }
           ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "8161",
-              "name": "Malik Willis",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "MIA",
-              "bye_week": 6,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 263,
               "weekly_points": {
-                "1": 17.7,
-                "2": 12.48,
-                "3": 11.0,
-                "4": 2.5,
-                "5": 20.88,
-                "7": 26.02,
-                "8": 15.64
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6,
+                "5": 13.72,
+                "6": 19.52,
+                "7": 20.4,
+                "8": 28.18
               },
-              "season_points": 106.22,
-              "games_played": 7,
-              "ppg": 15.17,
-              "recent_ppg": 20.85,
+              "season_points": 164.66,
+              "games_played": 8,
+              "ppg": 20.58,
+              "recent_ppg": 22.7,
               "drop_candidate": {
                 "name": "Brock Purdy",
                 "ppg": 18.75,
                 "recent_ppg": 10.46
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 36.1
-              },
-              "season_points": 84.1,
-              "games_played": 8,
-              "ppg": 10.51,
-              "recent_ppg": 16.6,
-              "drop_candidate": {
-                "name": "Jeremiyah Love",
-                "ppg": 6.67,
-                "recent_ppg": 0.77
               },
               "status": "OK"
             },
@@ -9506,26 +9329,27 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Jake Bates",
@@ -9556,9 +9380,38 @@
               "ppg": 7.43,
               "recent_ppg": 12.47,
               "drop_candidate": {
-                "name": "Hunter Henry",
-                "ppg": 8.18,
-                "recent_ppg": 9.03
+                "name": "Dalton Kincaid",
+                "ppg": 10.08,
+                "recent_ppg": 5.4
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "13337",
+              "name": "Emmett Johnson",
+              "position": "RB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 113,
+              "weekly_points": {
+                "1": 8.8,
+                "2": 5.5,
+                "3": 1.7,
+                "4": 2.0,
+                "6": 4.4,
+                "7": 3.7,
+                "8": 25.3
+              },
+              "season_points": 51.4,
+              "games_played": 7,
+              "ppg": 7.34,
+              "recent_ppg": 11.13,
+              "drop_candidate": {
+                "name": "Jeremiyah Love",
+                "ppg": 6.67,
+                "recent_ppg": 0.77
               },
               "status": "OK"
             }
@@ -9615,7 +9468,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 44,
+              "search_rank": 46,
               "weekly_points": {
                 "1": 32.4,
                 "2": 12.9,
@@ -9634,51 +9487,27 @@
             },
             {
               "slot": "RB",
-              "player_id": "8155",
-              "name": "Breece Hall",
+              "player_id": "11586",
+              "name": "Blake Corum",
               "position": "RB",
-              "team": "NYJ",
-              "bye_week": 13,
-              "injury_status": "Out",
-              "injury_body_part": "Quadriceps",
-              "search_rank": 27,
+              "team": "LAR",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 68,
               "weekly_points": {
-                "1": 19.8,
-                "2": 14.2,
-                "3": 8.5,
-                "4": 0.0,
-                "5": 0.0,
-                "6": 0.0,
-                "7": 0.0,
-                "8": 0.0
+                "1": 5.4,
+                "2": 10.2,
+                "3": 3.5,
+                "4": 3.1,
+                "7": 17.1,
+                "8": 13.3
               },
-              "season_points": 42.5,
-              "games_played": 8,
-              "ppg": 5.31,
-              "recent_ppg": 0.0,
-              "status": "OUT",
-              "suggested_swap": {
-                "player_id": "11586",
-                "name": "Blake Corum",
-                "position": "RB",
-                "team": "LAR",
-                "bye_week": 11,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 68,
-                "weekly_points": {
-                  "1": 5.4,
-                  "2": 10.2,
-                  "3": 3.5,
-                  "4": 3.1,
-                  "7": 17.1,
-                  "8": 13.3
-                },
-                "season_points": 52.6,
-                "games_played": 6,
-                "ppg": 8.77,
-                "recent_ppg": 11.17
-              }
+              "season_points": 52.6,
+              "games_played": 6,
+              "ppg": 8.77,
+              "recent_ppg": 11.17,
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -9707,43 +9536,54 @@
             },
             {
               "slot": "WR",
-              "player_id": "13298",
-              "name": "KC Concepcion Jr.",
+              "player_id": "8148",
+              "name": "Jameson Williams",
               "position": "WR",
-              "team": "CLE",
-              "bye_week": 11,
+              "team": "DET",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 111,
+              "search_rank": 53,
               "weekly_points": {
-                "1": 7.8,
-                "2": 8.2,
-                "5": 1.5,
-                "8": 6.7
+                "1": 8.5,
+                "2": 5.3,
+                "3": 8.9,
+                "4": 16.2,
+                "5": 18.7,
+                "6": 0.0,
+                "7": 26.1,
+                "8": 17.0
               },
-              "season_points": 24.2,
-              "games_played": 4,
-              "ppg": 6.05,
-              "recent_ppg": 5.47,
+              "season_points": 100.7,
+              "games_played": 8,
+              "ppg": 12.59,
+              "recent_ppg": 14.37,
               "status": "OK"
             },
             {
               "slot": "TE",
-              "player_id": "5844",
-              "name": "T.J. Hockenson",
+              "player_id": "4217",
+              "name": "George Kittle",
               "position": "TE",
-              "team": "MIN",
-              "bye_week": 6,
+              "team": "SF",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 80,
               "weekly_points": {
-                "8": 15.8
+                "1": 3.2,
+                "2": 18.0,
+                "3": 26.2,
+                "4": 17.0,
+                "5": 7.4,
+                "6": 17.9,
+                "7": 14.8,
+                "8": 0.0
               },
-              "season_points": 15.8,
-              "games_played": 1,
-              "ppg": 15.8,
-              "recent_ppg": 15.8,
+              "season_points": 104.5,
+              "games_played": 8,
+              "ppg": 13.06,
+              "recent_ppg": 10.9,
               "status": "OK"
             },
             {
@@ -9772,28 +9612,21 @@
               "recent_ppg": 14.87,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "8148",
-                "name": "Jameson Williams",
-                "position": "WR",
-                "team": "DET",
+                "player_id": "5844",
+                "name": "T.J. Hockenson",
+                "position": "TE",
+                "team": "MIN",
                 "bye_week": 6,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 53,
+                "search_rank": 128,
                 "weekly_points": {
-                  "1": 8.5,
-                  "2": 5.3,
-                  "3": 8.9,
-                  "4": 16.2,
-                  "5": 18.7,
-                  "6": 0.0,
-                  "7": 26.1,
-                  "8": 17.0
+                  "8": 15.8
                 },
-                "season_points": 100.7,
-                "games_played": 8,
-                "ppg": 12.59,
-                "recent_ppg": 14.37
+                "season_points": 15.8,
+                "games_played": 1,
+                "ppg": 15.8,
+                "recent_ppg": 15.8
               }
             },
             {
@@ -9824,83 +9657,48 @@
             },
             {
               "slot": "K",
-              "player_id": "11786",
-              "name": "Cam Little",
-              "position": "K",
-              "team": "JAX",
-              "bye_week": 7,
+              "player_id": "0",
+              "name": "0 D/ST",
+              "position": "DEF",
+              "team": "0",
+              "bye_week": null,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 133,
-              "weekly_points": {
-                "1": 12.0,
-                "2": 7.0,
-                "3": 4.0,
-                "4": 14.0,
-                "5": 8.0,
-                "7": 0.0,
-                "8": 6.0
-              },
-              "season_points": 51.0,
-              "games_played": 7,
-              "ppg": 7.29,
-              "recent_ppg": 4.67,
+              "search_rank": 999999,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
               "status": "OK"
             },
             {
               "slot": "DEF",
-              "player_id": "CIN",
-              "name": "Cincinnati Bengals",
+              "player_id": "0",
+              "name": "0 D/ST",
               "position": "DEF",
-              "team": "CIN",
-              "bye_week": 6,
+              "team": "0",
+              "bye_week": null,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
-              "weekly_points": {
-                "3": 3.0,
-                "5": 10.0,
-                "8": 7.0
-              },
-              "season_points": 20.0,
-              "games_played": 3,
-              "ppg": 6.67,
-              "recent_ppg": 6.67,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
               "status": "OK"
             }
           ],
           "bench": [
-            {
-              "player_id": "11586",
-              "name": "Blake Corum",
-              "position": "RB",
-              "team": "LAR",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 68,
-              "weekly_points": {
-                "1": 5.4,
-                "2": 10.2,
-                "3": 3.5,
-                "4": 3.1,
-                "7": 17.1,
-                "8": 13.3
-              },
-              "season_points": 52.6,
-              "games_played": 6,
-              "ppg": 8.77,
-              "recent_ppg": 11.17,
-              "status": "OK"
-            },
             {
               "player_id": "12534",
               "name": "Kyle Monangai",
               "position": "RB",
               "team": "CHI",
               "bye_week": 10,
-              "injury_status": "Out",
-              "injury_body_part": "Thumb",
+              "injury_status": "Questionable",
+              "injury_body_part": "Toe",
               "search_rank": 61,
               "weekly_points": {
                 "1": 20.4,
@@ -9916,57 +9714,95 @@
               "games_played": 8,
               "ppg": 7.41,
               "recent_ppg": 0.0,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             },
             {
-              "player_id": "4217",
-              "name": "George Kittle",
-              "position": "TE",
-              "team": "SF",
+              "player_id": "13298",
+              "name": "KC Concepcion Jr.",
+              "position": "WR",
+              "team": "CLE",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 111,
+              "weekly_points": {
+                "1": 7.8,
+                "2": 8.2,
+                "5": 1.5,
+                "8": 6.7
+              },
+              "season_points": 24.2,
+              "games_played": 4,
+              "ppg": 6.05,
+              "recent_ppg": 5.47,
+              "status": "OK"
+            },
+            {
+              "player_id": "3451",
+              "name": "Ka'imi Fairbairn",
+              "position": "K",
+              "team": "HOU",
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 80,
+              "search_rank": 128,
               "weekly_points": {
-                "1": 3.2,
-                "2": 18.0,
-                "3": 26.2,
-                "4": 17.0,
-                "5": 7.4,
-                "6": 17.9,
-                "7": 14.8,
+                "1": 9.0,
+                "2": 6.0,
+                "4": 16.0,
+                "5": 17.0,
+                "6": 11.0,
+                "7": 11.0,
                 "8": 0.0
               },
-              "season_points": 104.5,
-              "games_played": 8,
-              "ppg": 13.06,
-              "recent_ppg": 10.9,
+              "season_points": 70.0,
+              "games_played": 7,
+              "ppg": 10.0,
+              "recent_ppg": 7.33,
               "status": "OK"
             },
             {
-              "player_id": "8148",
-              "name": "Jameson Williams",
-              "position": "WR",
-              "team": "DET",
+              "player_id": "5844",
+              "name": "T.J. Hockenson",
+              "position": "TE",
+              "team": "MIN",
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 53,
+              "search_rank": 128,
               "weekly_points": {
-                "1": 8.5,
-                "2": 5.3,
-                "3": 8.9,
-                "4": 16.2,
-                "5": 18.7,
-                "6": 0.0,
-                "7": 26.1,
-                "8": 17.0
+                "8": 15.8
               },
-              "season_points": 100.7,
-              "games_played": 8,
-              "ppg": 12.59,
-              "recent_ppg": 14.37,
+              "season_points": 15.8,
+              "games_played": 1,
+              "ppg": 15.8,
+              "recent_ppg": 15.8,
               "status": "OK"
+            },
+            {
+              "player_id": "8155",
+              "name": "Breece Hall",
+              "position": "RB",
+              "team": "NYJ",
+              "bye_week": 13,
+              "injury_status": "Questionable",
+              "injury_body_part": "Quadriceps",
+              "search_rank": 27,
+              "weekly_points": {
+                "1": 19.8,
+                "2": 14.2,
+                "3": 8.5,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 0.0,
+                "7": 0.0,
+                "8": 0.0
+              },
+              "season_points": 42.5,
+              "games_played": 8,
+              "ppg": 5.31,
+              "recent_ppg": 0.0,
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "9226",
@@ -9992,82 +9828,67 @@
               "ppg": 3.08,
               "recent_ppg": 0.0,
               "status": "OUT"
+            },
+            {
+              "player_id": "DEN",
+              "name": "Denver Broncos",
+              "position": "DEF",
+              "team": "DEN",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 999999,
+              "weekly_points": {
+                "1": 3.0,
+                "5": 15.0,
+                "6": 14.0,
+                "7": 4.0
+              },
+              "season_points": 36.0,
+              "games_played": 4,
+              "ppg": 9.0,
+              "recent_ppg": 11.0,
+              "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "Breece Hall",
-              "status": "OUT",
-              "detail": "Quadriceps",
-              "suggested_swap": "Blake Corum"
-            },
             {
               "slot": "FLEX",
               "player_name": "Michael Wilson",
               "status": "QUESTIONABLE",
               "detail": "Ribs",
-              "suggested_swap": "Jameson Williams"
+              "suggested_swap": "T.J. Hockenson"
             }
           ],
           "waiver_suggestions": [
             {
-              "player_id": "8161",
-              "name": "Malik Willis",
+              "player_id": "1166",
+              "name": "Kirk Cousins",
               "position": "QB",
-              "team": "MIA",
-              "bye_week": 6,
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 263,
               "weekly_points": {
-                "1": 17.7,
-                "2": 12.48,
-                "3": 11.0,
-                "4": 2.5,
-                "5": 20.88,
-                "7": 26.02,
-                "8": 15.64
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6,
+                "5": 13.72,
+                "6": 19.52,
+                "7": 20.4,
+                "8": 28.18
               },
-              "season_points": 106.22,
-              "games_played": 7,
-              "ppg": 15.17,
-              "recent_ppg": 20.85,
+              "season_points": 164.66,
+              "games_played": 8,
+              "ppg": 20.58,
+              "recent_ppg": 22.7,
               "drop_candidate": {
                 "name": "Jayden Daniels",
                 "ppg": 12.58,
                 "recent_ppg": 11.99
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 36.1
-              },
-              "season_points": 84.1,
-              "games_played": 8,
-              "ppg": 10.51,
-              "recent_ppg": 16.6,
-              "drop_candidate": {
-                "name": "De'Von Achane",
-                "ppg": 3.08,
-                "recent_ppg": 0.0
               },
               "status": "OK"
             },
@@ -10098,31 +9919,32 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
-                "name": "Cam Little",
-                "ppg": 7.29,
-                "recent_ppg": 4.67
+                "name": "Ka'imi Fairbairn",
+                "ppg": 10.0,
+                "recent_ppg": 7.33
               },
               "status": "OK"
             },
@@ -10151,6 +9973,35 @@
                 "name": "George Kittle",
                 "ppg": 13.06,
                 "recent_ppg": 10.9
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "13337",
+              "name": "Emmett Johnson",
+              "position": "RB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 113,
+              "weekly_points": {
+                "1": 8.8,
+                "2": 5.5,
+                "3": 1.7,
+                "4": 2.0,
+                "6": 4.4,
+                "7": 3.7,
+                "8": 25.3
+              },
+              "season_points": 51.4,
+              "games_played": 7,
+              "ppg": 7.34,
+              "recent_ppg": 11.13,
+              "drop_candidate": {
+                "name": "De'Von Achane",
+                "ppg": 3.08,
+                "recent_ppg": 0.0
               },
               "status": "OK"
             }
@@ -10207,7 +10058,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 449,
+              "search_rank": 450,
               "weekly_points": {
                 "4": 18.0,
                 "5": 14.8,
@@ -10247,25 +10098,25 @@
               "recent_ppg": 18.2,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "6806",
-                "name": "J.K. Dobbins",
+                "player_id": "9753",
+                "name": "Zach Charbonnet",
                 "position": "RB",
-                "team": "DEN",
-                "bye_week": 10,
+                "team": "SEA",
+                "bye_week": 11,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 68,
+                "search_rank": 101,
                 "weekly_points": {
-                  "1": 3.6,
-                  "2": 3.6,
-                  "6": 13.6,
-                  "7": 8.3,
-                  "8": 1.3
+                  "4": 0.0,
+                  "5": 0.0,
+                  "6": 0.0,
+                  "7": 0.0,
+                  "8": 5.9
                 },
-                "season_points": 30.4,
+                "season_points": 5.9,
                 "games_played": 5,
-                "ppg": 6.08,
-                "recent_ppg": 7.73
+                "ppg": 1.18,
+                "recent_ppg": 1.97
               }
             },
             {
@@ -10348,28 +10199,28 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "2449",
-              "name": "Stefon Diggs",
-              "position": "WR",
-              "team": "WAS",
-              "bye_week": 7,
+              "player_id": "1466",
+              "name": "Travis Kelce",
+              "position": "TE",
+              "team": "KC",
+              "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 105,
+              "search_rank": 89,
               "weekly_points": {
-                "1": 15.5,
-                "2": 21.7,
-                "3": 7.3,
-                "4": 8.5,
+                "1": 10.1,
+                "2": 25.1,
+                "3": 13.9,
+                "4": 3.5,
                 "5": 0.0,
-                "6": 16.4,
-                "7": 0.0,
-                "8": 12.8
+                "6": 9.3,
+                "7": 8.4,
+                "8": 11.7
               },
-              "season_points": 82.2,
+              "season_points": 82.0,
               "games_played": 8,
-              "ppg": 10.28,
-              "recent_ppg": 9.73,
+              "ppg": 10.25,
+              "recent_ppg": 9.8,
               "status": "OK"
             },
             {
@@ -10420,22 +10271,19 @@
             },
             {
               "slot": "DEF",
-              "player_id": "TB",
-              "name": "Tampa Bay Buccaneers",
+              "player_id": "DET",
+              "name": "Detroit Lions",
               "position": "DEF",
-              "team": "TB",
-              "bye_week": 10,
+              "team": "DET",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
-              "weekly_points": {
-                "2": 2.0,
-                "8": 18.0
-              },
-              "season_points": 20.0,
-              "games_played": 2,
-              "ppg": 10.0,
-              "recent_ppg": 10.0,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
               "status": "OK"
             }
           ],
@@ -10465,50 +10313,44 @@
               "status": "OK"
             },
             {
-              "player_id": "1466",
-              "name": "Travis Kelce",
-              "position": "TE",
-              "team": "KC",
-              "bye_week": 5,
+              "player_id": "13305",
+              "name": "Mike Washington Jr.",
+              "position": "RB",
+              "team": "LV",
+              "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 10.1,
-                "2": 25.1,
-                "3": 13.9,
-                "4": 3.5,
-                "5": 0.0,
-                "6": 9.3,
-                "7": 8.4,
-                "8": 11.7
-              },
-              "season_points": 82.0,
-              "games_played": 8,
-              "ppg": 10.25,
-              "recent_ppg": 9.8,
+              "search_rank": 123,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
               "status": "OK"
             },
             {
-              "player_id": "6806",
-              "name": "J.K. Dobbins",
-              "position": "RB",
-              "team": "DEN",
-              "bye_week": 10,
+              "player_id": "2449",
+              "name": "Stefon Diggs",
+              "position": "WR",
+              "team": "WAS",
+              "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 68,
+              "search_rank": 105,
               "weekly_points": {
-                "1": 3.6,
-                "2": 3.6,
-                "6": 13.6,
-                "7": 8.3,
-                "8": 1.3
+                "1": 15.5,
+                "2": 21.7,
+                "3": 7.3,
+                "4": 8.5,
+                "5": 0.0,
+                "6": 16.4,
+                "7": 0.0,
+                "8": 12.8
               },
-              "season_points": 30.4,
-              "games_played": 5,
-              "ppg": 6.08,
-              "recent_ppg": 7.73,
+              "season_points": 82.2,
+              "games_played": 8,
+              "ppg": 10.28,
+              "recent_ppg": 9.73,
               "status": "OK"
             },
             {
@@ -10566,10 +10408,40 @@
               "player_name": "Bhayshul Tuten",
               "status": "QUESTIONABLE",
               "detail": "Ankle",
-              "suggested_swap": "J.K. Dobbins"
+              "suggested_swap": "Zach Charbonnet"
             }
           ],
           "waiver_suggestions": [
+            {
+              "player_id": "1166",
+              "name": "Kirk Cousins",
+              "position": "QB",
+              "team": "LV",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 263,
+              "weekly_points": {
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6,
+                "5": 13.72,
+                "6": 19.52,
+                "7": 20.4,
+                "8": 28.18
+              },
+              "season_points": 164.66,
+              "games_played": 8,
+              "ppg": 20.58,
+              "recent_ppg": 22.7,
+              "drop_candidate": {
+                "name": "Dak Prescott",
+                "ppg": 19.12,
+                "recent_ppg": 18.7
+              },
+              "status": "OK"
+            },
             {
               "player_id": "8161",
               "name": "Malik Willis",
@@ -10578,7 +10450,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 121,
               "weekly_points": {
                 "1": 17.7,
                 "2": 12.48,
@@ -10592,66 +10464,7 @@
               "games_played": 7,
               "ppg": 15.17,
               "recent_ppg": 20.85,
-              "drop_candidate": {
-                "name": "Dak Prescott",
-                "ppg": 19.12,
-                "recent_ppg": 18.7
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "9758",
-              "name": "C.J. Stroud",
-              "position": "QB",
-              "team": "HOU",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 102,
-              "weekly_points": {
-                "1": 16.46,
-                "2": 17.02,
-                "3": 11.68,
-                "4": 23.08,
-                "5": 20.94,
-                "6": 23.98,
-                "7": 16.52
-              },
-              "season_points": 129.68,
-              "games_played": 7,
-              "ppg": 18.53,
-              "recent_ppg": 20.48,
               "drop_candidate": null,
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 36.1
-              },
-              "season_points": 84.1,
-              "games_played": 8,
-              "ppg": 10.51,
-              "recent_ppg": 16.6,
-              "drop_candidate": {
-                "name": "Travis Etienne Jr.",
-                "ppg": 3.86,
-                "recent_ppg": 0.0
-              },
               "status": "OK"
             },
             {
@@ -10705,6 +10518,35 @@
                 "name": "Travis Kelce",
                 "ppg": 10.25,
                 "recent_ppg": 9.8
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "13337",
+              "name": "Emmett Johnson",
+              "position": "RB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 113,
+              "weekly_points": {
+                "1": 8.8,
+                "2": 5.5,
+                "3": 1.7,
+                "4": 2.0,
+                "6": 4.4,
+                "7": 3.7,
+                "8": 25.3
+              },
+              "season_points": 51.4,
+              "games_played": 7,
+              "ppg": 7.34,
+              "recent_ppg": 11.13,
+              "drop_candidate": {
+                "name": "Mike Washington Jr.",
+                "ppg": null,
+                "recent_ppg": null
               },
               "status": "OK"
             }
@@ -10829,8 +10671,8 @@
               "position": "WR",
               "team": "DET",
               "bye_week": 6,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 7,
               "weekly_points": {
                 "1": 28.7,
@@ -10846,8 +10688,7 @@
               "games_played": 8,
               "ppg": 17.62,
               "recent_ppg": 12.27,
-              "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "status": "OK"
             },
             {
               "slot": "TE",
@@ -10909,7 +10750,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 12,
+              "search_rank": 11,
               "weekly_points": {
                 "1": 31.2,
                 "2": 8.5,
@@ -10954,27 +10795,19 @@
             },
             {
               "slot": "DEF",
-              "player_id": "KC",
-              "name": "Kansas City Chiefs",
+              "player_id": "0",
+              "name": "0 D/ST",
               "position": "DEF",
-              "team": "KC",
-              "bye_week": 5,
+              "team": "0",
+              "bye_week": null,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
-              "weekly_points": {
-                "2": 1.0,
-                "3": 9.0,
-                "4": 4.0,
-                "5": 0.0,
-                "6": 16.0,
-                "7": 3.0,
-                "8": 1.0
-              },
-              "season_points": 34.0,
-              "games_played": 7,
-              "ppg": 4.86,
-              "recent_ppg": 6.67,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
               "status": "OK"
             }
           ],
@@ -11003,12 +10836,30 @@
               "status": "OUT"
             },
             {
+              "player_id": "1479",
+              "name": "Keenan Allen",
+              "position": "WR",
+              "team": "IND",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 180,
+              "weekly_points": {
+                "7": 6.1
+              },
+              "season_points": 6.1,
+              "games_played": 1,
+              "ppg": 6.1,
+              "recent_ppg": 6.1,
+              "status": "OK"
+            },
+            {
               "player_id": "2216",
               "name": "Mike Evans",
               "position": "WR",
               "team": "SF",
               "bye_week": 8,
-              "injury_status": "Out",
+              "injury_status": "Questionable",
               "injury_body_part": "Achilles",
               "search_rank": 60,
               "weekly_points": {
@@ -11025,7 +10876,7 @@
               "games_played": 8,
               "ppg": 11.12,
               "recent_ppg": 4.13,
-              "status": "OUT"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "4881",
@@ -11053,42 +10904,63 @@
               "status": "OUT"
             },
             {
-              "player_id": "8408",
-              "name": "Jordan Mason",
-              "position": "RB",
-              "team": "MIN",
-              "bye_week": 6,
+              "player_id": "HOU",
+              "name": "Houston Texans",
+              "position": "DEF",
+              "team": "HOU",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 91,
+              "search_rank": 999999,
               "weekly_points": {
-                "1": 11.9,
-                "2": 0.0,
-                "3": 0.0,
-                "4": 0.0,
-                "5": 0.0,
-                "6": 0.0,
-                "7": 6.8,
-                "8": 2.0
+                "1": -1.0,
+                "2": 6.0,
+                "3": 13.0,
+                "5": 16.0,
+                "6": 1.0,
+                "7": 3.0,
+                "8": 0.0
               },
-              "season_points": 20.7,
-              "games_played": 8,
-              "ppg": 2.59,
-              "recent_ppg": 2.93,
+              "season_points": 38.0,
+              "games_played": 7,
+              "ppg": 5.43,
+              "recent_ppg": 1.33,
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "WR",
-              "player_name": "Amon-Ra St. Brown",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": null
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
+            {
+              "player_id": "1166",
+              "name": "Kirk Cousins",
+              "position": "QB",
+              "team": "LV",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 263,
+              "weekly_points": {
+                "1": 15.8,
+                "2": 21.22,
+                "3": 22.22,
+                "4": 23.6,
+                "5": 13.72,
+                "6": 19.52,
+                "7": 20.4,
+                "8": 28.18
+              },
+              "season_points": 164.66,
+              "games_played": 8,
+              "ppg": 20.58,
+              "recent_ppg": 22.7,
+              "drop_candidate": {
+                "name": "Lamar Jackson",
+                "ppg": 10.01,
+                "recent_ppg": 0.0
+              },
+              "status": "OK"
+            },
             {
               "player_id": "8161",
               "name": "Malik Willis",
@@ -11097,7 +10969,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 122,
+              "search_rank": 121,
               "weekly_points": {
                 "1": 17.7,
                 "2": 12.48,
@@ -11111,66 +10983,7 @@
               "games_played": 7,
               "ppg": 15.17,
               "recent_ppg": 20.85,
-              "drop_candidate": {
-                "name": "Lamar Jackson",
-                "ppg": 10.01,
-                "recent_ppg": 0.0
-              },
-              "status": "OK"
-            },
-            {
-              "player_id": "9758",
-              "name": "C.J. Stroud",
-              "position": "QB",
-              "team": "HOU",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 102,
-              "weekly_points": {
-                "1": 16.46,
-                "2": 17.02,
-                "3": 11.68,
-                "4": 23.08,
-                "5": 20.94,
-                "6": 23.98,
-                "7": 16.52
-              },
-              "season_points": 129.68,
-              "games_played": 7,
-              "ppg": 18.53,
-              "recent_ppg": 20.48,
               "drop_candidate": null,
-              "status": "OK"
-            },
-            {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "bye_week": 14,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 89,
-              "weekly_points": {
-                "1": 9.0,
-                "2": 3.9,
-                "3": 4.9,
-                "4": 12.9,
-                "5": 3.6,
-                "6": 5.8,
-                "7": 7.9,
-                "8": 36.1
-              },
-              "season_points": 84.1,
-              "games_played": 8,
-              "ppg": 10.51,
-              "recent_ppg": 16.6,
-              "drop_candidate": {
-                "name": "Jordan Mason",
-                "ppg": 2.59,
-                "recent_ppg": 2.93
-              },
               "status": "OK"
             },
             {
@@ -11200,31 +11013,61 @@
               "status": "OUT"
             },
             {
-              "player_id": "3451",
-              "name": "Ka'imi Fairbairn",
+              "player_id": "10955",
+              "name": "Chad Ryland",
               "position": "K",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "ARI",
+              "bye_week": 14,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 128,
+              "search_rank": 324,
               "weekly_points": {
-                "1": 9.0,
-                "2": 6.0,
-                "3": 5.0,
-                "4": 16.0,
-                "5": 17.0,
-                "6": 11.0,
-                "7": 11.0
+                "1": 15.0,
+                "2": 1.0,
+                "3": 14.0,
+                "4": 9.0,
+                "5": 2.0,
+                "6": 19.0,
+                "7": 11.0,
+                "8": 9.0
               },
-              "season_points": 75.0,
-              "games_played": 7,
-              "ppg": 10.71,
+              "season_points": 80.0,
+              "games_played": 8,
+              "ppg": 10.0,
               "recent_ppg": 13.0,
               "drop_candidate": {
                 "name": "Brandon Aubrey",
                 "ppg": 8.75,
                 "recent_ppg": 9.0
+              },
+              "status": "OK"
+            },
+            {
+              "player_id": "13337",
+              "name": "Emmett Johnson",
+              "position": "RB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 113,
+              "weekly_points": {
+                "1": 8.8,
+                "2": 5.5,
+                "3": 1.7,
+                "4": 2.0,
+                "6": 4.4,
+                "7": 3.7,
+                "8": 25.3
+              },
+              "season_points": 51.4,
+              "games_played": 7,
+              "ppg": 7.34,
+              "recent_ppg": 11.13,
+              "drop_candidate": {
+                "name": "RJ Harvey",
+                "ppg": 9.45,
+                "recent_ppg": 9.53
               },
               "status": "OK"
             }
