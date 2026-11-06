@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T11:55:07.855948+00:00",
+  "generated_at": "2026-11-06T19:03:27.196321+00:00",
   "current_week": 9,
   "season": "2026",
   "leagues": [
@@ -871,7 +871,7 @@
               "position": "RB",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Illness",
               "search_rank": 39,
               "weekly_points": {
@@ -889,7 +889,7 @@
               "games_played": 9,
               "ppg": 3.76,
               "recent_ppg": 1.43,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "13281",
@@ -2943,7 +2943,7 @@
               "position": "WR",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Concussion",
               "search_rank": 38,
               "weekly_points": {
@@ -2961,7 +2961,7 @@
               "games_played": 9,
               "ppg": 12.63,
               "recent_ppg": 6.3,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": null
             },
             {
@@ -3194,7 +3194,7 @@
             {
               "slot": "WR",
               "player_name": "Garrett Wilson",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Concussion",
               "suggested_swap": null
             }
@@ -4672,8 +4672,8 @@
               "position": "WR",
               "team": "TB",
               "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Foot",
               "search_rank": 39,
               "weekly_points": {
                 "1": 11.3,
@@ -4690,7 +4690,32 @@
               "games_played": 9,
               "ppg": 7.9,
               "recent_ppg": 0.0,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "7526",
+                "name": "Jaylen Waddle",
+                "position": "WR",
+                "team": "DEN",
+                "bye_week": 10,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 42,
+                "weekly_points": {
+                  "1": 1.2,
+                  "2": 21.8,
+                  "3": 6.4,
+                  "4": 14.5,
+                  "5": 4.8,
+                  "6": 6.4,
+                  "7": 8.8,
+                  "8": 14.9,
+                  "9": 0.0
+                },
+                "season_points": 78.8,
+                "games_played": 9,
+                "ppg": 8.76,
+                "recent_ppg": 7.9
+              }
             },
             {
               "slot": "TE",
@@ -4963,13 +4988,20 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
             {
               "slot": "WR",
               "player_name": "Christian Watson",
               "status": "QUESTIONABLE",
               "detail": "Undisclosed",
+              "suggested_swap": "Jaylen Waddle"
+            },
+            {
+              "slot": "WR",
+              "player_name": "Emeka Egbuka",
+              "status": "QUESTIONABLE",
+              "detail": "Foot",
               "suggested_swap": "Jaylen Waddle"
             }
           ],
@@ -5191,24 +5223,21 @@
             },
             {
               "slot": "RB",
-              "player_id": "8136",
-              "name": "Rachaad White",
+              "player_id": "6130",
+              "name": "Devin Singletary",
               "position": "RB",
-              "team": "WAS",
-              "bye_week": 7,
+              "team": "NYG",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 125,
+              "search_rank": 660,
               "weekly_points": {
-                "1": 4.7,
-                "7": 0.0,
-                "8": 14.0,
                 "9": 0.0
               },
-              "season_points": 18.7,
-              "games_played": 4,
-              "ppg": 4.67,
-              "recent_ppg": 4.67,
+              "season_points": 0.0,
+              "games_played": 1,
+              "ppg": 0.0,
+              "recent_ppg": 0.0,
               "status": "OK"
             },
             {
@@ -5419,8 +5448,8 @@
               "position": "WR",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Ankle",
+              "injury_status": "Out",
+              "injury_body_part": "Knee",
               "search_rank": 17,
               "weekly_points": {
                 "1": 5.6,
@@ -5437,7 +5466,7 @@
               "games_played": 9,
               "ppg": 2.12,
               "recent_ppg": 2.6,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "8129",
@@ -5461,25 +5490,24 @@
               "status": "OUT"
             },
             {
-              "player_id": "9482",
-              "name": "Michael Mayer",
-              "position": "TE",
-              "team": "LV",
-              "bye_week": 13,
+              "player_id": "8136",
+              "name": "Rachaad White",
+              "position": "RB",
+              "team": "WAS",
+              "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 423,
+              "search_rank": 125,
               "weekly_points": {
-                "5": 1.2,
-                "6": 16.5,
-                "7": 6.2,
-                "8": 10.3,
+                "1": 4.7,
+                "7": 0.0,
+                "8": 14.0,
                 "9": 0.0
               },
-              "season_points": 34.2,
-              "games_played": 5,
-              "ppg": 6.84,
-              "recent_ppg": 5.5,
+              "season_points": 18.7,
+              "games_played": 4,
+              "ppg": 4.67,
+              "recent_ppg": 4.67,
               "status": "OK"
             },
             {
@@ -5645,9 +5673,9 @@
               "ppg": 7.12,
               "recent_ppg": 11.67,
               "drop_candidate": {
-                "name": "Zach Charbonnet",
-                "ppg": 0.98,
-                "recent_ppg": 1.97
+                "name": "Devin Singletary",
+                "ppg": 0.0,
+                "recent_ppg": 0.0
               },
               "status": "OK"
             }
@@ -6009,8 +6037,8 @@
               "position": "WR",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Ankle",
+              "injury_status": "Out",
+              "injury_body_part": "Knee",
               "search_rank": 17,
               "weekly_points": {
                 "1": 5.6,
@@ -6027,7 +6055,7 @@
               "games_played": 9,
               "ppg": 2.12,
               "recent_ppg": 2.6,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "7002",
@@ -7563,7 +7591,7 @@
               "position": "WR",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Concussion",
               "search_rank": 38,
               "weekly_points": {
@@ -7581,7 +7609,7 @@
               "games_played": 9,
               "ppg": 12.63,
               "recent_ppg": 6.3,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": null
             },
             {
@@ -7808,7 +7836,7 @@
             {
               "slot": "WR",
               "player_name": "Garrett Wilson",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Concussion",
               "suggested_swap": null
             }
@@ -8258,8 +8286,8 @@
               "position": "WR",
               "team": "TB",
               "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Foot",
               "search_rank": 39,
               "weekly_points": {
                 "1": 11.3,
@@ -8276,7 +8304,7 @@
               "games_played": 9,
               "ppg": 7.9,
               "recent_ppg": 0.0,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "13274",
