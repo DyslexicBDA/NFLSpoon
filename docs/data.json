@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T14:46:02.596600+00:00",
+  "generated_at": "2026-11-07T19:59:15.610348+00:00",
   "current_week": 9,
   "season": "2026",
   "leagues": [
@@ -824,8 +824,8 @@
               "position": "WR",
               "team": "BUF",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Shoulder",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 206,
               "weekly_points": {
                 "5": 7.7,
@@ -838,7 +838,7 @@
               "games_played": 5,
               "ppg": 5.0,
               "recent_ppg": 0.47,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "12529",
@@ -1399,7 +1399,7 @@
               "position": "QB",
               "team": "MIN",
               "bye_week": 6,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Hamstring",
               "search_rank": 88,
               "weekly_points": {
@@ -1416,7 +1416,7 @@
               "games_played": 8,
               "ppg": 10.07,
               "recent_ppg": 11.93,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "5872",
@@ -3473,8 +3473,8 @@
               "position": "WR",
               "team": "BUF",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 50,
               "weekly_points": {
                 "1": 22.0,
@@ -3491,29 +3491,7 @@
               "games_played": 9,
               "ppg": 5.99,
               "recent_ppg": 5.53,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "11586",
-                "name": "Blake Corum",
-                "position": "RB",
-                "team": "LAR",
-                "bye_week": 11,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 68,
-                "weekly_points": {
-                  "1": 5.4,
-                  "2": 10.2,
-                  "3": 3.5,
-                  "6": 14.0,
-                  "8": 13.3,
-                  "9": 0.0
-                },
-                "season_points": 46.4,
-                "games_played": 6,
-                "ppg": 7.73,
-                "recent_ppg": 9.1
-              }
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -3689,7 +3667,7 @@
               "status": "BYE"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 2,
           "alerts": [
             {
               "slot": "RB",
@@ -3704,13 +3682,6 @@
               "status": "QUESTIONABLE",
               "detail": "Ribs",
               "suggested_swap": "Omar Cooper Jr."
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "DJ Moore",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
-              "suggested_swap": "Blake Corum"
             }
           ],
           "waiver_suggestions": [
@@ -6877,8 +6848,8 @@
               "position": "WR",
               "team": "BUF",
               "bye_week": 7,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 50,
               "weekly_points": {
                 "1": 21.0,
@@ -6895,30 +6866,7 @@
               "games_played": 9,
               "ppg": 5.88,
               "recent_ppg": 5.53,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "3163",
-                "name": "Jared Goff",
-                "position": "QB",
-                "team": "DET",
-                "bye_week": 6,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 61,
-                "weekly_points": {
-                  "3": 19.36,
-                  "4": 20.48,
-                  "5": 28.94,
-                  "6": 0.0,
-                  "7": 18.02,
-                  "8": 10.04,
-                  "9": 0.0
-                },
-                "season_points": 96.84,
-                "games_played": 7,
-                "ppg": 13.83,
-                "recent_ppg": 9.35
-              }
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -7072,8 +7020,8 @@
               "player_id": "8129",
               "name": "Dameon Pierce",
               "position": "RB",
-              "team": "PHI",
-              "bye_week": 10,
+              "team": null,
+              "bye_week": null,
               "injury_status": "Questionable",
               "injury_body_part": "Undisclosed",
               "search_rank": 627,
@@ -7090,20 +7038,13 @@
               "status": "QUESTIONABLE"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
             {
               "slot": "FLEX",
               "player_name": "George Pickens",
               "status": "QUESTIONABLE",
               "detail": "Hamstring",
-              "suggested_swap": "Jared Goff"
-            },
-            {
-              "slot": "FLEX",
-              "player_name": "DJ Moore",
-              "status": "QUESTIONABLE",
-              "detail": "Undisclosed",
               "suggested_swap": "Jared Goff"
             }
           ],
