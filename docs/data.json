@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T23:36:00.998874+00:00",
+  "generated_at": "2026-11-08T05:10:03.740263+00:00",
   "current_week": 9,
   "season": "2026",
   "leagues": [
@@ -5201,22 +5201,24 @@
             },
             {
               "slot": "DEF",
-              "player_id": "DET",
-              "name": "Detroit Lions",
+              "player_id": "SF",
+              "name": "San Francisco 49ers",
               "position": "DEF",
-              "team": "DET",
-              "bye_week": 6,
+              "team": "SF",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 999999,
               "weekly_points": {
-                "1": 11.0,
+                "2": 10.0,
+                "6": 7.0,
+                "7": 0.0,
                 "9": 0.0
               },
-              "season_points": 11.0,
-              "games_played": 2,
-              "ppg": 5.5,
-              "recent_ppg": 5.5,
+              "season_points": 17.0,
+              "games_played": 4,
+              "ppg": 4.25,
+              "recent_ppg": 2.33,
               "status": "OK"
             }
           ],
@@ -7015,27 +7017,6 @@
               "ppg": 3.3,
               "recent_ppg": 5.27,
               "status": "OK"
-            },
-            {
-              "player_id": "8129",
-              "name": "Dameon Pierce",
-              "position": "RB",
-              "team": null,
-              "bye_week": null,
-              "injury_status": "Questionable",
-              "injury_body_part": "Undisclosed",
-              "search_rank": 627,
-              "weekly_points": {
-                "6": 15.0,
-                "7": 11.8,
-                "8": 0.0,
-                "9": 0.0
-              },
-              "season_points": 26.8,
-              "games_played": 4,
-              "ppg": 6.7,
-              "recent_ppg": 3.93,
-              "status": "QUESTIONABLE"
             }
           ],
           "alert_count": 1,
