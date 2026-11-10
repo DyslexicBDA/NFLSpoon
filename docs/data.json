@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:18:17.704121+00:00",
+  "generated_at": "2026-11-10T21:42:01.377311+00:00",
   "current_week": 10,
   "season": "2026",
   "leagues": [
@@ -5191,21 +5191,26 @@
             },
             {
               "slot": "RB",
-              "player_id": "6130",
-              "name": "Devin Singletary",
+              "player_id": "9753",
+              "name": "Zach Charbonnet",
               "position": "RB",
-              "team": "NYG",
-              "bye_week": 8,
+              "team": "SEA",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 660,
+              "search_rank": 101,
               "weekly_points": {
-                "9": 5.9
+                "4": 0.0,
+                "5": 0.0,
+                "6": 0.0,
+                "7": 0.0,
+                "8": 5.9,
+                "9": 9.6
               },
-              "season_points": 5.9,
-              "games_played": 1,
-              "ppg": 5.9,
-              "recent_ppg": 5.9,
+              "season_points": 15.5,
+              "games_played": 6,
+              "ppg": 2.58,
+              "recent_ppg": 5.17,
               "status": "OK"
             },
             {
@@ -5377,8 +5382,8 @@
               "player_id": "1166",
               "name": "Kirk Cousins",
               "position": "QB",
-              "team": "LV",
-              "bye_week": 13,
+              "team": "MIN",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 263,
@@ -5440,6 +5445,24 @@
               "status": "OUT"
             },
             {
+              "player_id": "6130",
+              "name": "Devin Singletary",
+              "position": "RB",
+              "team": "NYG",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 660,
+              "weekly_points": {
+                "9": 5.9
+              },
+              "season_points": 5.9,
+              "games_played": 1,
+              "ppg": 5.9,
+              "recent_ppg": 5.9,
+              "status": "OK"
+            },
+            {
               "player_id": "8136",
               "name": "Rachaad White",
               "position": "RB",
@@ -5458,29 +5481,6 @@
               "games_played": 4,
               "ppg": 6.4,
               "recent_ppg": 6.97,
-              "status": "OK"
-            },
-            {
-              "player_id": "9753",
-              "name": "Zach Charbonnet",
-              "position": "RB",
-              "team": "SEA",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 101,
-              "weekly_points": {
-                "4": 0.0,
-                "5": 0.0,
-                "6": 0.0,
-                "7": 0.0,
-                "8": 5.9,
-                "9": 9.6
-              },
-              "season_points": 15.5,
-              "games_played": 6,
-              "ppg": 2.58,
-              "recent_ppg": 5.17,
               "status": "OK"
             }
           ],
@@ -8717,48 +8717,30 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "13345",
-              "name": "Jonah Coleman",
-              "position": "RB",
-              "team": "DEN",
-              "bye_week": 10,
+              "player_id": "8131",
+              "name": "Isaiah Likely",
+              "position": "TE",
+              "team": "NYG",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 118,
+              "search_rank": 105,
               "weekly_points": {
-                "8": 20.4,
-                "9": 18.8
+                "1": 27.8,
+                "2": 8.3,
+                "3": 3.3,
+                "4": 13.6,
+                "5": 32.4,
+                "6": 23.9,
+                "7": 3.2,
+                "8": 0.0,
+                "9": 16.3
               },
-              "season_points": 39.2,
-              "games_played": 2,
-              "ppg": 19.6,
-              "recent_ppg": 19.6,
-              "status": "BYE",
-              "suggested_swap": {
-                "player_id": "8131",
-                "name": "Isaiah Likely",
-                "position": "TE",
-                "team": "NYG",
-                "bye_week": 8,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 105,
-                "weekly_points": {
-                  "1": 27.8,
-                  "2": 8.3,
-                  "3": 3.3,
-                  "4": 13.6,
-                  "5": 32.4,
-                  "6": 23.9,
-                  "7": 3.2,
-                  "8": 0.0,
-                  "9": 16.3
-                },
-                "season_points": 128.8,
-                "games_played": 9,
-                "ppg": 14.31,
-                "recent_ppg": 6.5
-              }
+              "season_points": 128.8,
+              "games_played": 9,
+              "ppg": 14.31,
+              "recent_ppg": 6.5,
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -8833,6 +8815,25 @@
               "games_played": 8,
               "ppg": 9.18,
               "recent_ppg": 13.2,
+              "status": "BYE"
+            },
+            {
+              "player_id": "13345",
+              "name": "Jonah Coleman",
+              "position": "RB",
+              "team": "DEN",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 118,
+              "weekly_points": {
+                "8": 20.4,
+                "9": 18.8
+              },
+              "season_points": 39.2,
+              "games_played": 2,
+              "ppg": 19.6,
+              "recent_ppg": 19.6,
               "status": "BYE"
             },
             {
@@ -8912,44 +8913,10 @@
               "ppg": 7.67,
               "recent_ppg": 0.0,
               "status": "BYE"
-            },
-            {
-              "player_id": "8131",
-              "name": "Isaiah Likely",
-              "position": "TE",
-              "team": "NYG",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 105,
-              "weekly_points": {
-                "1": 27.8,
-                "2": 8.3,
-                "3": 3.3,
-                "4": 13.6,
-                "5": 32.4,
-                "6": 23.9,
-                "7": 3.2,
-                "8": 0.0,
-                "9": 16.3
-              },
-              "season_points": 128.8,
-              "games_played": 9,
-              "ppg": 14.31,
-              "recent_ppg": 6.5,
-              "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "FLEX",
-              "player_name": "Jonah Coleman",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": "Isaiah Likely"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "9758",
@@ -10523,55 +10490,27 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "4866",
-              "name": "Saquon Barkley",
+              "player_id": "9753",
+              "name": "Zach Charbonnet",
               "position": "RB",
-              "team": "PHI",
-              "bye_week": 10,
+              "team": "SEA",
+              "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 10,
+              "search_rank": 101,
               "weekly_points": {
-                "1": 9.0,
-                "2": 3.0,
-                "3": 9.0,
-                "4": 2.0,
+                "4": 0.0,
                 "5": 0.0,
                 "6": 0.0,
-                "7": 15.1,
-                "8": 12.4,
-                "9": 8.2
+                "7": 0.0,
+                "8": 5.9,
+                "9": 9.6
               },
-              "season_points": 58.7,
-              "games_played": 9,
-              "ppg": 6.52,
-              "recent_ppg": 11.9,
-              "status": "BYE",
-              "suggested_swap": {
-                "player_id": "2449",
-                "name": "Stefon Diggs",
-                "position": "WR",
-                "team": "WAS",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 104,
-                "weekly_points": {
-                  "1": 15.5,
-                  "2": 21.7,
-                  "3": 7.3,
-                  "4": 8.5,
-                  "5": 0.0,
-                  "6": 16.4,
-                  "7": 0.0,
-                  "8": 12.8,
-                  "9": 8.1
-                },
-                "season_points": 90.3,
-                "games_played": 9,
-                "ppg": 10.03,
-                "recent_ppg": 6.97
-              }
+              "season_points": 15.5,
+              "games_played": 6,
+              "ppg": 2.58,
+              "recent_ppg": 5.17,
+              "status": "OK"
             },
             {
               "slot": "K",
@@ -10685,6 +10624,32 @@
               "status": "OK"
             },
             {
+              "player_id": "4866",
+              "name": "Saquon Barkley",
+              "position": "RB",
+              "team": "PHI",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 10,
+              "weekly_points": {
+                "1": 9.0,
+                "2": 3.0,
+                "3": 9.0,
+                "4": 2.0,
+                "5": 0.0,
+                "6": 0.0,
+                "7": 15.1,
+                "8": 12.4,
+                "9": 8.2
+              },
+              "season_points": 58.7,
+              "games_played": 9,
+              "ppg": 6.52,
+              "recent_ppg": 11.9,
+              "status": "BYE"
+            },
+            {
               "player_id": "7543",
               "name": "Travis Etienne Jr.",
               "position": "RB",
@@ -10709,41 +10674,10 @@
               "ppg": 3.43,
               "recent_ppg": 0.0,
               "status": "OUT"
-            },
-            {
-              "player_id": "9753",
-              "name": "Zach Charbonnet",
-              "position": "RB",
-              "team": "SEA",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 101,
-              "weekly_points": {
-                "4": 0.0,
-                "5": 0.0,
-                "6": 0.0,
-                "7": 0.0,
-                "8": 5.9,
-                "9": 9.6
-              },
-              "season_points": 15.5,
-              "games_played": 6,
-              "ppg": 2.58,
-              "recent_ppg": 5.17,
-              "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "FLEX",
-              "player_name": "Saquon Barkley",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": "Stefon Diggs"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "9758",
@@ -10779,8 +10713,8 @@
               "player_id": "1166",
               "name": "Kirk Cousins",
               "position": "QB",
-              "team": "LV",
-              "bye_week": 13,
+              "team": "MIN",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 263,
@@ -11007,8 +10941,8 @@
                 "player_id": "1479",
                 "name": "Keenan Allen",
                 "position": "WR",
-                "team": "IND",
-                "bye_week": 13,
+                "team": "SF",
+                "bye_week": 8,
                 "injury_status": null,
                 "injury_body_part": null,
                 "search_rank": 180,
@@ -11203,8 +11137,8 @@
               "player_id": "1479",
               "name": "Keenan Allen",
               "position": "WR",
-              "team": "IND",
-              "bye_week": 13,
+              "team": "SF",
+              "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 180,
@@ -11348,8 +11282,8 @@
               "player_id": "1166",
               "name": "Kirk Cousins",
               "position": "QB",
-              "team": "LV",
-              "bye_week": 13,
+              "team": "MIN",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
               "search_rank": 263,
