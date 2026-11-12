@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T22:35:34.739483+00:00",
+  "generated_at": "2026-11-12T06:24:35.889938+00:00",
   "current_week": 10,
   "season": "2026",
   "leagues": [
@@ -674,7 +674,7 @@
               "position": "RB",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Illness",
               "search_rank": 39,
               "weekly_points": {
@@ -692,7 +692,7 @@
               "games_played": 9,
               "ppg": 3.76,
               "recent_ppg": 1.43,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": null
             },
             {
@@ -756,8 +756,8 @@
               "position": "TE",
               "team": "CLE",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Groin",
               "search_rank": 63,
               "weekly_points": {
                 "1": 4.1,
@@ -774,7 +774,8 @@
               "games_played": 9,
               "ppg": 11.37,
               "recent_ppg": 16.23,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "FLEX",
@@ -1024,13 +1025,20 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
             {
               "slot": "RB",
               "player_name": "TreVeyon Henderson",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Illness",
+              "suggested_swap": null
+            },
+            {
+              "slot": "TE",
+              "player_name": "Harold Fannin Jr.",
+              "status": "QUESTIONABLE",
+              "detail": "Groin",
               "suggested_swap": null
             }
           ],
@@ -1783,8 +1791,8 @@
               "position": "RB",
               "team": "HOU",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee",
               "search_rank": 105,
               "weekly_points": {
                 "5": 12.5,
@@ -1797,7 +1805,25 @@
               "games_played": 5,
               "ppg": 8.02,
               "recent_ppg": 5.83,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "13337",
+                "name": "Emmett Johnson",
+                "position": "RB",
+                "team": "KC",
+                "bye_week": 5,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 113,
+                "weekly_points": {
+                  "3": 1.7,
+                  "9": 9.4
+                },
+                "season_points": 11.1,
+                "games_played": 2,
+                "ppg": 5.55,
+                "recent_ppg": 5.55
+              }
             },
             {
               "slot": "RB",
@@ -1835,7 +1861,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 7,
+              "search_rank": 5,
               "weekly_points": {
                 "1": 27.2,
                 "2": 45.5,
@@ -2147,8 +2173,16 @@
               "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 1,
+          "alerts": [
+            {
+              "slot": "RB",
+              "player_name": "Woody Marks",
+              "status": "QUESTIONABLE",
+              "detail": "Knee",
+              "suggested_swap": "Emmett Johnson"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "11563",
@@ -2431,7 +2465,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 26,
+              "search_rank": 28,
               "weekly_points": {
                 "1": 12.9,
                 "2": 1.1,
@@ -3274,15 +3308,15 @@
               "position": "WR",
               "team": "HOU",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hand",
               "search_rank": 187,
               "weekly_points": {},
               "season_points": 0.0,
               "games_played": 0,
               "ppg": null,
               "recent_ppg": null,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
           "alert_count": 2,
@@ -3610,7 +3644,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 64,
+              "search_rank": 65,
               "weekly_points": {
                 "1": 9.5,
                 "2": 3.5,
@@ -5309,25 +5343,49 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "8136",
-              "name": "Rachaad White",
-              "position": "RB",
-              "team": "WAS",
-              "bye_week": 7,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 125,
+              "player_id": "5859",
+              "name": "A.J. Brown",
+              "position": "WR",
+              "team": "NE",
+              "bye_week": 11,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee",
+              "search_rank": 17,
               "weekly_points": {
-                "1": 4.7,
-                "7": 0.0,
-                "8": 14.0,
-                "9": 6.9
+                "1": 5.6,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 5.7,
+                "7": 7.8,
+                "8": 0.0,
+                "9": 0.0
               },
-              "season_points": 25.6,
-              "games_played": 4,
-              "ppg": 6.4,
-              "recent_ppg": 6.97,
-              "status": "OK"
+              "season_points": 19.1,
+              "games_played": 9,
+              "ppg": 2.12,
+              "recent_ppg": 2.6,
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "1166",
+                "name": "Kirk Cousins",
+                "position": "QB",
+                "team": "MIN",
+                "bye_week": 6,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 262,
+                "weekly_points": {
+                  "7": 21.4,
+                  "8": 29.18,
+                  "9": 13.64
+                },
+                "season_points": 64.22,
+                "games_played": 3,
+                "ppg": 21.41,
+                "recent_ppg": 21.41
+              }
             },
             {
               "slot": "FLEX",
@@ -5336,8 +5394,8 @@
               "position": "TE",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Foot",
               "search_rank": 92,
               "weekly_points": {
                 "8": 6.0
@@ -5346,7 +5404,26 @@
               "games_played": 1,
               "ppg": 6.0,
               "recent_ppg": 6.0,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "1166",
+                "name": "Kirk Cousins",
+                "position": "QB",
+                "team": "MIN",
+                "bye_week": 6,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 262,
+                "weekly_points": {
+                  "7": 21.4,
+                  "8": 29.18,
+                  "9": 13.64
+                },
+                "season_points": 64.22,
+                "games_played": 3,
+                "ppg": 21.41,
+                "recent_ppg": 21.41
+              }
             },
             {
               "slot": "K",
@@ -5477,34 +5554,44 @@
               "status": "OK"
             },
             {
-              "player_id": "5859",
-              "name": "A.J. Brown",
-              "position": "WR",
-              "team": "NE",
-              "bye_week": 11,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee",
-              "search_rank": 17,
+              "player_id": "8136",
+              "name": "Rachaad White",
+              "position": "RB",
+              "team": "WAS",
+              "bye_week": 7,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 125,
               "weekly_points": {
-                "1": 5.6,
-                "2": 0.0,
-                "3": 0.0,
-                "4": 0.0,
-                "5": 0.0,
-                "6": 5.7,
-                "7": 7.8,
-                "8": 0.0,
-                "9": 0.0
+                "1": 4.7,
+                "7": 0.0,
+                "8": 14.0,
+                "9": 6.9
               },
-              "season_points": 19.1,
-              "games_played": 9,
-              "ppg": 2.12,
-              "recent_ppg": 2.6,
-              "status": "QUESTIONABLE"
+              "season_points": 25.6,
+              "games_played": 4,
+              "ppg": 6.4,
+              "recent_ppg": 6.97,
+              "status": "OK"
             }
           ],
-          "alert_count": 0,
-          "alerts": [],
+          "alert_count": 2,
+          "alerts": [
+            {
+              "slot": "FLEX",
+              "player_name": "A.J. Brown",
+              "status": "QUESTIONABLE",
+              "detail": "Knee",
+              "suggested_swap": "Kirk Cousins"
+            },
+            {
+              "slot": "FLEX",
+              "player_name": "Hunter Henry",
+              "status": "QUESTIONABLE",
+              "detail": "Foot",
+              "suggested_swap": "Kirk Cousins"
+            }
+          ],
           "waiver_suggestions": [
             {
               "player_id": "11563",
@@ -5782,7 +5869,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 7,
+              "search_rank": 5,
               "weekly_points": {
                 "1": 26.2,
                 "2": 42.5,
@@ -8022,7 +8109,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 26,
+              "search_rank": 28,
               "weekly_points": {
                 "1": 12.9,
                 "2": 1.1,
@@ -8633,21 +8720,7 @@
               "ppg": 5.06,
               "recent_ppg": 0.0,
               "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "9502",
-                "name": "Tank Dell",
-                "position": "WR",
-                "team": "HOU",
-                "bye_week": 8,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 187,
-                "weekly_points": {},
-                "season_points": 0.0,
-                "games_played": 0,
-                "ppg": null,
-                "recent_ppg": null
-              }
+              "suggested_swap": null
             },
             {
               "slot": "FLEX",
@@ -8658,7 +8731,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 64,
+              "search_rank": 65,
               "weekly_points": {
                 "1": 9.5,
                 "2": 3.5,
@@ -8828,15 +8901,15 @@
               "position": "WR",
               "team": "HOU",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Hand",
               "search_rank": 187,
               "weekly_points": {},
               "season_points": 0.0,
               "games_played": 0,
               "ppg": null,
               "recent_ppg": null,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
           "alert_count": 1,
@@ -8846,7 +8919,7 @@
               "player_name": "David Montgomery",
               "status": "QUESTIONABLE",
               "detail": "Groin",
-              "suggested_swap": "Tank Dell"
+              "suggested_swap": null
             }
           ],
           "waiver_suggestions": [
@@ -9172,27 +9245,7 @@
               "ppg": 9.47,
               "recent_ppg": 6.77,
               "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "3214",
-                "name": "Hunter Henry",
-                "position": "TE",
-                "team": "NE",
-                "bye_week": 11,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 92,
-                "weekly_points": {
-                  "1": 5.6,
-                  "2": 7.0,
-                  "7": 14.1,
-                  "8": 6.0,
-                  "9": 6.5
-                },
-                "season_points": 39.2,
-                "games_played": 5,
-                "ppg": 7.84,
-                "recent_ppg": 8.87
-              }
+              "suggested_swap": null
             },
             {
               "slot": "FLEX",
@@ -9201,8 +9254,8 @@
               "position": "RB",
               "team": "HOU",
               "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee",
               "search_rank": 105,
               "weekly_points": {
                 "6": 10.1,
@@ -9214,7 +9267,32 @@
               "games_played": 4,
               "ppg": 6.9,
               "recent_ppg": 5.83,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": {
+                "player_id": "12507",
+                "name": "Omarion Hampton",
+                "position": "RB",
+                "team": "LAC",
+                "bye_week": 7,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 12,
+                "weekly_points": {
+                  "1": 8.3,
+                  "2": 17.5,
+                  "3": 5.6,
+                  "4": 13.3,
+                  "5": 4.9,
+                  "6": 7.9,
+                  "7": 0.0,
+                  "8": 4.7,
+                  "9": 6.0
+                },
+                "season_points": 68.2,
+                "games_played": 9,
+                "ppg": 7.58,
+                "recent_ppg": 3.57
+              }
             },
             {
               "slot": "FLEX",
@@ -9243,25 +9321,29 @@
               "recent_ppg": 4.2,
               "status": "QUESTIONABLE",
               "suggested_swap": {
-                "player_id": "3214",
-                "name": "Hunter Henry",
-                "position": "TE",
-                "team": "NE",
-                "bye_week": 11,
+                "player_id": "12507",
+                "name": "Omarion Hampton",
+                "position": "RB",
+                "team": "LAC",
+                "bye_week": 7,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 92,
+                "search_rank": 12,
                 "weekly_points": {
-                  "1": 5.6,
-                  "2": 7.0,
-                  "7": 14.1,
-                  "8": 6.0,
-                  "9": 6.5
+                  "1": 8.3,
+                  "2": 17.5,
+                  "3": 5.6,
+                  "4": 13.3,
+                  "5": 4.9,
+                  "6": 7.9,
+                  "7": 0.0,
+                  "8": 4.7,
+                  "9": 6.0
                 },
-                "season_points": 39.2,
-                "games_played": 5,
-                "ppg": 7.84,
-                "recent_ppg": 8.87
+                "season_points": 68.2,
+                "games_played": 9,
+                "ppg": 7.58,
+                "recent_ppg": 3.57
               }
             },
             {
@@ -9389,8 +9471,8 @@
               "position": "TE",
               "team": "NE",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Foot",
               "search_rank": 92,
               "weekly_points": {
                 "1": 5.6,
@@ -9403,7 +9485,7 @@
               "games_played": 5,
               "ppg": 7.84,
               "recent_ppg": 8.87,
-              "status": "OK"
+              "status": "QUESTIONABLE"
             },
             {
               "player_id": "9493",
@@ -9432,7 +9514,7 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 4,
           "alerts": [
             {
               "slot": "WR",
@@ -9446,14 +9528,21 @@
               "player_name": "Dalton Kincaid",
               "status": "QUESTIONABLE",
               "detail": "Ankle",
-              "suggested_swap": "Hunter Henry"
+              "suggested_swap": null
+            },
+            {
+              "slot": "FLEX",
+              "player_name": "Woody Marks",
+              "status": "QUESTIONABLE",
+              "detail": "Knee",
+              "suggested_swap": "Omarion Hampton"
             },
             {
               "slot": "FLEX",
               "player_name": "Ladd McConkey",
               "status": "QUESTIONABLE",
               "detail": "Back",
-              "suggested_swap": "Hunter Henry"
+              "suggested_swap": "Omarion Hampton"
             }
           ],
           "waiver_suggestions": [
@@ -10895,8 +10984,8 @@
               "position": "TE",
               "team": "CLE",
               "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
+              "injury_status": "Questionable",
+              "injury_body_part": "Groin",
               "search_rank": 63,
               "weekly_points": {
                 "1": 4.1,
@@ -10912,7 +11001,8 @@
               "games_played": 8,
               "ppg": 9.78,
               "recent_ppg": 16.23,
-              "status": "OK"
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "FLEX",
@@ -11135,7 +11225,7 @@
               "status": "OK"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 4,
           "alerts": [
             {
               "slot": "QB",
@@ -11157,6 +11247,13 @@
               "status": "QUESTIONABLE",
               "detail": "Ribs",
               "suggested_swap": "Keenan Allen"
+            },
+            {
+              "slot": "TE",
+              "player_name": "Harold Fannin Jr.",
+              "status": "QUESTIONABLE",
+              "detail": "Groin",
+              "suggested_swap": null
             }
           ],
           "waiver_suggestions": [
