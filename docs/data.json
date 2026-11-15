@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T23:44:07.769670+00:00",
+  "generated_at": "2026-11-15T05:32:10.930343+00:00",
   "current_week": 10,
   "season": "2026",
   "leagues": [
@@ -4943,33 +4943,6 @@
               "status": "OUT"
             },
             {
-              "player_id": "7526",
-              "name": "Jaylen Waddle",
-              "position": "WR",
-              "team": "DEN",
-              "bye_week": 10,
-              "injury_status": "Out",
-              "injury_body_part": "Head",
-              "search_rank": 42,
-              "weekly_points": {
-                "1": 1.2,
-                "2": 21.8,
-                "3": 6.4,
-                "4": 14.5,
-                "5": 4.8,
-                "6": 6.4,
-                "7": 8.8,
-                "8": 14.9,
-                "9": 3.2,
-                "10": 0.0
-              },
-              "season_points": 82.0,
-              "games_played": 10,
-              "ppg": 8.2,
-              "recent_ppg": 6.03,
-              "status": "BYE"
-            },
-            {
               "player_id": "7543",
               "name": "Travis Etienne Jr.",
               "position": "RB",
@@ -9803,28 +9776,25 @@
             },
             {
               "slot": "RB",
-              "player_id": "11586",
-              "name": "Blake Corum",
+              "player_id": "13286",
+              "name": "Jadarian Price",
               "position": "RB",
-              "team": "LAR",
+              "team": "SEA",
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 68,
+              "search_rank": 52,
               "weekly_points": {
-                "1": 5.4,
-                "2": 10.2,
-                "3": 3.5,
-                "4": 3.1,
-                "7": 17.1,
-                "8": 13.3,
-                "9": 11.8,
+                "1": 7.8,
+                "2": 5.0,
+                "3": 1.2,
+                "4": 0.0,
                 "10": 0.0
               },
-              "season_points": 64.4,
-              "games_played": 8,
-              "ppg": 8.05,
-              "recent_ppg": 8.37,
+              "season_points": 14.0,
+              "games_played": 5,
+              "ppg": 2.8,
+              "recent_ppg": 0.4,
               "status": "OK"
             },
             {
@@ -10040,6 +10010,31 @@
               "status": "OUT"
             },
             {
+              "player_id": "11586",
+              "name": "Blake Corum",
+              "position": "RB",
+              "team": "LAR",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 68,
+              "weekly_points": {
+                "1": 5.4,
+                "2": 10.2,
+                "3": 3.5,
+                "4": 3.1,
+                "7": 17.1,
+                "8": 13.3,
+                "9": 11.8,
+                "10": 0.0
+              },
+              "season_points": 64.4,
+              "games_played": 8,
+              "ppg": 8.05,
+              "recent_ppg": 8.37,
+              "status": "OK"
+            },
+            {
               "player_id": "12534",
               "name": "Kyle Monangai",
               "position": "RB",
@@ -10112,33 +10107,6 @@
               "ppg": 15.38,
               "recent_ppg": 10.33,
               "status": "BYE"
-            },
-            {
-              "player_id": "9226",
-              "name": "De'Von Achane",
-              "position": "RB",
-              "team": "MIA",
-              "bye_week": 6,
-              "injury_status": "IR",
-              "injury_body_part": "Knee - ACL",
-              "search_rank": 8,
-              "weekly_points": {
-                "1": 10.6,
-                "2": 12.3,
-                "3": 1.7,
-                "4": 0.0,
-                "5": 0.0,
-                "6": 0.0,
-                "7": 0.0,
-                "8": 0.0,
-                "9": 0.0,
-                "10": 0.0
-              },
-              "season_points": 24.6,
-              "games_played": 10,
-              "ppg": 2.46,
-              "recent_ppg": 0.0,
-              "status": "OUT"
             }
           ],
           "alert_count": 0,
@@ -10200,8 +10168,8 @@
               "ppg": 11.67,
               "recent_ppg": 16.03,
               "drop_candidate": {
-                "name": "De'Von Achane",
-                "ppg": 2.46,
+                "name": "Kyle Monangai",
+                "ppg": 5.93,
                 "recent_ppg": 0.0
               },
               "status": "OK"
@@ -10571,25 +10539,6 @@
           ],
           "bench": [
             {
-              "player_id": "13305",
-              "name": "Mike Washington Jr.",
-              "position": "RB",
-              "team": "LV",
-              "bye_week": 13,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 123,
-              "weekly_points": {
-                "9": -0.3,
-                "10": 0.0
-              },
-              "season_points": -0.3,
-              "games_played": 2,
-              "ppg": -0.15,
-              "recent_ppg": -0.15,
-              "status": "OK"
-            },
-            {
               "player_id": "1466",
               "name": "Travis Kelce",
               "position": "TE",
@@ -10757,9 +10706,9 @@
               "ppg": 11.67,
               "recent_ppg": 16.03,
               "drop_candidate": {
-                "name": "Mike Washington Jr.",
-                "ppg": -0.15,
-                "recent_ppg": -0.15
+                "name": "Travis Etienne Jr.",
+                "ppg": 3.09,
+                "recent_ppg": 0.0
               },
               "status": "OK"
             },
