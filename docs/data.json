@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:53:03.785761+00:00",
+  "generated_at": "2026-11-17T23:23:56.178741+00:00",
   "current_week": 11,
   "season": "2026",
   "leagues": [
@@ -1781,28 +1781,22 @@
             },
             {
               "slot": "RB",
-              "player_id": "12474",
-              "name": "Woody Marks",
+              "player_id": "5995",
+              "name": "Justice Hill",
               "position": "RB",
-              "team": "HOU",
-              "bye_week": 8,
-              "injury_status": "Out",
-              "injury_body_part": "Concussion",
-              "search_rank": 105,
+              "team": "BAL",
+              "bye_week": 13,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 220,
               "weekly_points": {
-                "5": 12.5,
-                "6": 10.1,
-                "7": 9.1,
-                "8": 0.0,
-                "9": 8.4,
-                "10": 7.5
+                "10": 8.8
               },
-              "season_points": 47.6,
-              "games_played": 6,
-              "ppg": 7.93,
-              "recent_ppg": 5.3,
-              "status": "OUT",
-              "suggested_swap": null
+              "season_points": 8.8,
+              "games_played": 1,
+              "ppg": 8.8,
+              "recent_ppg": 8.8,
+              "status": "OK"
             },
             {
               "slot": "RB",
@@ -1919,21 +1913,22 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "5995",
-              "name": "Justice Hill",
-              "position": "RB",
-              "team": "BAL",
-              "bye_week": 13,
+              "player_id": "2505",
+              "name": "Darren Waller",
+              "position": "TE",
+              "team": "CAR",
+              "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 220,
+              "search_rank": 355,
               "weekly_points": {
-                "10": 8.8
+                "4": 6.6,
+                "10": 4.4
               },
-              "season_points": 8.8,
-              "games_played": 1,
-              "ppg": 8.8,
-              "recent_ppg": 8.8,
+              "season_points": 11.0,
+              "games_played": 2,
+              "ppg": 5.5,
+              "recent_ppg": 5.5,
               "status": "OK"
             },
             {
@@ -2051,6 +2046,29 @@
               "status": "OUT"
             },
             {
+              "player_id": "12474",
+              "name": "Woody Marks",
+              "position": "RB",
+              "team": "HOU",
+              "bye_week": 8,
+              "injury_status": "Out",
+              "injury_body_part": "Concussion",
+              "search_rank": 105,
+              "weekly_points": {
+                "5": 12.5,
+                "6": 10.1,
+                "7": 9.1,
+                "8": 0.0,
+                "9": 8.4,
+                "10": 7.5
+              },
+              "season_points": 47.6,
+              "games_played": 6,
+              "ppg": 7.93,
+              "recent_ppg": 5.3,
+              "status": "OUT"
+            },
+            {
               "player_id": "12512",
               "name": "Quinshon Judkins",
               "position": "RB",
@@ -2103,25 +2121,6 @@
               "ppg": 5.34,
               "recent_ppg": 0.77,
               "status": "OUT"
-            },
-            {
-              "player_id": "2505",
-              "name": "Darren Waller",
-              "position": "TE",
-              "team": "CAR",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 355,
-              "weekly_points": {
-                "4": 6.6,
-                "10": 4.4
-              },
-              "season_points": 11.0,
-              "games_played": 2,
-              "ppg": 5.5,
-              "recent_ppg": 5.5,
-              "status": "OK"
             },
             {
               "player_id": "7523",
@@ -2177,15 +2176,8 @@
               "status": "BYE"
             }
           ],
-          "alert_count": 4,
+          "alert_count": 3,
           "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "Woody Marks",
-              "status": "OUT",
-              "detail": "Concussion",
-              "suggested_swap": null
-            },
             {
               "slot": "WR",
               "player_name": "Luther Burden III",
@@ -6100,7 +6092,7 @@
               "position": "WR",
               "team": "TEN",
               "bye_week": 9,
-              "injury_status": "Questionable",
+              "injury_status": "IR",
               "injury_body_part": "Ankle",
               "search_rank": 105,
               "weekly_points": {
@@ -6112,7 +6104,7 @@
               "games_played": 3,
               "ppg": 3.07,
               "recent_ppg": 3.07,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": null
             },
             {
@@ -6371,7 +6363,7 @@
             {
               "slot": "WR",
               "player_name": "Wan'Dale Robinson",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Ankle",
               "suggested_swap": null
             },
@@ -9003,24 +8995,48 @@
             },
             {
               "slot": "RB",
-              "player_id": "13345",
-              "name": "Jonah Coleman",
+              "player_id": "5892",
+              "name": "David Montgomery",
               "position": "RB",
-              "team": "DEN",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 118,
+              "team": "HOU",
+              "bye_week": 8,
+              "injury_status": "Out",
+              "injury_body_part": "Groin",
+              "search_rank": 42,
               "weekly_points": {
-                "8": 20.4,
-                "9": 18.8,
+                "1": 28.9,
+                "2": 4.4,
+                "3": 6.8,
+                "4": 4.3,
+                "5": 1.1,
+                "6": 0.0,
+                "7": 0.0,
+                "8": 0.0,
+                "9": 0.0,
                 "10": 0.0
               },
-              "season_points": 39.2,
-              "games_played": 3,
-              "ppg": 13.07,
-              "recent_ppg": 13.07,
-              "status": "OK"
+              "season_points": 45.5,
+              "games_played": 10,
+              "ppg": 4.55,
+              "recent_ppg": 0.0,
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "13337",
+                "name": "Emmett Johnson",
+                "position": "RB",
+                "team": "KC",
+                "bye_week": 5,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 113,
+                "weekly_points": {
+                  "10": 35.1
+                },
+                "season_points": 35.1,
+                "games_played": 1,
+                "ppg": 35.1,
+                "recent_ppg": 35.1
+              }
             },
             {
               "slot": "WR",
@@ -9133,21 +9149,23 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "13337",
-              "name": "Emmett Johnson",
+              "player_id": "13345",
+              "name": "Jonah Coleman",
               "position": "RB",
-              "team": "KC",
-              "bye_week": 5,
+              "team": "DEN",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 113,
+              "search_rank": 118,
               "weekly_points": {
-                "10": 35.1
+                "8": 20.4,
+                "9": 18.8,
+                "10": 0.0
               },
-              "season_points": 35.1,
-              "games_played": 1,
-              "ppg": 35.1,
-              "recent_ppg": 35.1,
+              "season_points": 39.2,
+              "games_played": 3,
+              "ppg": 13.07,
+              "recent_ppg": 13.07,
               "status": "OK"
             },
             {
@@ -9257,6 +9275,24 @@
               "status": "OK"
             },
             {
+              "player_id": "13337",
+              "name": "Emmett Johnson",
+              "position": "RB",
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 113,
+              "weekly_points": {
+                "10": 35.1
+              },
+              "season_points": 35.1,
+              "games_played": 1,
+              "ppg": 35.1,
+              "recent_ppg": 35.1,
+              "status": "OK"
+            },
+            {
               "player_id": "2133",
               "name": "Davante Adams",
               "position": "WR",
@@ -9282,33 +9318,6 @@
               "ppg": 10.2,
               "recent_ppg": 0.0,
               "status": "BYE"
-            },
-            {
-              "player_id": "5892",
-              "name": "David Montgomery",
-              "position": "RB",
-              "team": "HOU",
-              "bye_week": 8,
-              "injury_status": "Out",
-              "injury_body_part": "Groin",
-              "search_rank": 42,
-              "weekly_points": {
-                "1": 28.9,
-                "2": 4.4,
-                "3": 6.8,
-                "4": 4.3,
-                "5": 1.1,
-                "6": 0.0,
-                "7": 0.0,
-                "8": 0.0,
-                "9": 0.0,
-                "10": 0.0
-              },
-              "season_points": 45.5,
-              "games_played": 10,
-              "ppg": 4.55,
-              "recent_ppg": 0.0,
-              "status": "OUT"
             },
             {
               "player_id": "9484",
@@ -9356,8 +9365,15 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
+            {
+              "slot": "RB",
+              "player_name": "David Montgomery",
+              "status": "OUT",
+              "detail": "Groin",
+              "suggested_swap": "Emmett Johnson"
+            },
             {
               "slot": "WR",
               "player_name": "DeVonta Smith",
@@ -11330,49 +11346,25 @@
           "starters": [
             {
               "slot": "QB",
-              "player_id": "12545",
-              "name": "Tyler Shough",
+              "player_id": "11563",
+              "name": "Bo Nix",
               "position": "QB",
-              "team": "NO",
-              "bye_week": 8,
+              "team": "DEN",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 87,
+              "search_rank": 45,
               "weekly_points": {
-                "5": 1.84,
-                "10": 10.98
+                "1": 6.44,
+                "7": 26.18,
+                "8": 19.28,
+                "9": 16.68,
+                "10": 0.0
               },
-              "season_points": 12.82,
-              "games_played": 2,
-              "ppg": 6.41,
-              "recent_ppg": 6.41,
-              "status": "OK"
-            },
-            {
-              "slot": "RB",
-              "player_id": "8408",
-              "name": "Jordan Mason",
-              "position": "RB",
-              "team": "MIN",
-              "bye_week": 6,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 91,
-              "weekly_points": {
-                "1": 11.9,
-                "2": 0.0,
-                "3": 0.0,
-                "4": 0.0,
-                "5": 0.0,
-                "6": 0.0,
-                "7": 6.8,
-                "8": 2.0,
-                "10": 5.9
-              },
-              "season_points": 26.6,
-              "games_played": 9,
-              "ppg": 2.96,
-              "recent_ppg": 4.9,
+              "season_points": 68.58,
+              "games_played": 5,
+              "ppg": 13.72,
+              "recent_ppg": 11.99,
               "status": "OK"
             },
             {
@@ -11405,26 +11397,79 @@
               "suggested_swap": null
             },
             {
-              "slot": "WR",
-              "player_id": "13274",
-              "name": "Germie Bernard",
-              "position": "WR",
-              "team": "PIT",
-              "bye_week": 9,
+              "slot": "RB",
+              "player_id": "8408",
+              "name": "Jordan Mason",
+              "position": "RB",
+              "team": "MIN",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 194,
+              "search_rank": 91,
               "weekly_points": {
-                "7": 5.7,
-                "8": 8.0,
-                "9": 0.0,
-                "10": 1.0
+                "1": 11.9,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 0.0,
+                "7": 6.8,
+                "8": 2.0,
+                "10": 5.9
               },
-              "season_points": 14.7,
-              "games_played": 4,
-              "ppg": 3.67,
-              "recent_ppg": 3.0,
+              "season_points": 26.6,
+              "games_played": 9,
+              "ppg": 2.96,
+              "recent_ppg": 4.9,
               "status": "OK"
+            },
+            {
+              "slot": "WR",
+              "player_id": "2216",
+              "name": "Mike Evans",
+              "position": "WR",
+              "team": "SF",
+              "bye_week": 8,
+              "injury_status": "Out",
+              "injury_body_part": "Achilles",
+              "search_rank": 60,
+              "weekly_points": {
+                "1": 16.9,
+                "2": 8.4,
+                "3": 12.4,
+                "4": 12.6,
+                "5": 26.3,
+                "6": 12.4,
+                "7": 0.0,
+                "8": 0.0,
+                "9": 0.0,
+                "10": 0.0
+              },
+              "season_points": 89.0,
+              "games_played": 10,
+              "ppg": 8.9,
+              "recent_ppg": 0.0,
+              "status": "OUT",
+              "suggested_swap": {
+                "player_id": "13274",
+                "name": "Germie Bernard",
+                "position": "WR",
+                "team": "PIT",
+                "bye_week": 9,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 194,
+                "weekly_points": {
+                  "7": 5.7,
+                  "8": 8.0,
+                  "9": 0.0,
+                  "10": 1.0
+                },
+                "season_points": 14.7,
+                "games_played": 4,
+                "ppg": 3.67,
+                "recent_ppg": 3.0
+              }
             },
             {
               "slot": "WR",
@@ -11596,28 +11641,6 @@
           ],
           "bench": [
             {
-              "player_id": "11563",
-              "name": "Bo Nix",
-              "position": "QB",
-              "team": "DEN",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 45,
-              "weekly_points": {
-                "1": 6.44,
-                "7": 26.18,
-                "8": 19.28,
-                "9": 16.68,
-                "10": 0.0
-              },
-              "season_points": 68.58,
-              "games_played": 5,
-              "ppg": 13.72,
-              "recent_ppg": 11.99,
-              "status": "OK"
-            },
-            {
               "player_id": "12489",
               "name": "RJ Harvey",
               "position": "RB",
@@ -11643,31 +11666,44 @@
               "status": "OUT"
             },
             {
-              "player_id": "2216",
-              "name": "Mike Evans",
-              "position": "WR",
-              "team": "SF",
+              "player_id": "12545",
+              "name": "Tyler Shough",
+              "position": "QB",
+              "team": "NO",
               "bye_week": 8,
-              "injury_status": "Out",
-              "injury_body_part": "Achilles",
-              "search_rank": 60,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 87,
               "weekly_points": {
-                "1": 16.9,
-                "2": 8.4,
-                "3": 12.4,
-                "4": 12.6,
-                "5": 26.3,
-                "6": 12.4,
-                "7": 0.0,
-                "8": 0.0,
-                "9": 0.0,
-                "10": 0.0
+                "5": 1.84,
+                "10": 10.98
               },
-              "season_points": 89.0,
-              "games_played": 10,
-              "ppg": 8.9,
-              "recent_ppg": 0.0,
-              "status": "OUT"
+              "season_points": 12.82,
+              "games_played": 2,
+              "ppg": 6.41,
+              "recent_ppg": 6.41,
+              "status": "OK"
+            },
+            {
+              "player_id": "13274",
+              "name": "Germie Bernard",
+              "position": "WR",
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 194,
+              "weekly_points": {
+                "7": 5.7,
+                "8": 8.0,
+                "9": 0.0,
+                "10": 1.0
+              },
+              "season_points": 14.7,
+              "games_played": 4,
+              "ppg": 3.67,
+              "recent_ppg": 3.0,
+              "status": "OK"
             },
             {
               "player_id": "7526",
@@ -11697,7 +11733,7 @@
               "status": "OUT"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 3,
           "alerts": [
             {
               "slot": "RB",
@@ -11705,6 +11741,13 @@
               "status": "BYE",
               "detail": "Bye week",
               "suggested_swap": null
+            },
+            {
+              "slot": "WR",
+              "player_name": "Mike Evans",
+              "status": "OUT",
+              "detail": "Achilles",
+              "suggested_swap": "Germie Bernard"
             },
             {
               "slot": "TE",
