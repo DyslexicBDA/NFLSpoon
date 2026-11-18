@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T23:23:56.178741+00:00",
+  "generated_at": "2026-11-18T06:34:09.157187+00:00",
   "current_week": 11,
   "season": "2026",
   "leagues": [
@@ -336,7 +336,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 105,
+              "search_rank": 104,
               "weekly_points": {
                 "1": 15.5,
                 "2": 21.7,
@@ -3710,7 +3710,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 65,
+              "search_rank": 64,
               "weekly_points": {
                 "1": 9.5,
                 "2": 3.5,
@@ -8995,48 +8995,22 @@
             },
             {
               "slot": "RB",
-              "player_id": "5892",
-              "name": "David Montgomery",
+              "player_id": "13337",
+              "name": "Emmett Johnson",
               "position": "RB",
-              "team": "HOU",
-              "bye_week": 8,
-              "injury_status": "Out",
-              "injury_body_part": "Groin",
-              "search_rank": 42,
+              "team": "KC",
+              "bye_week": 5,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 113,
               "weekly_points": {
-                "1": 28.9,
-                "2": 4.4,
-                "3": 6.8,
-                "4": 4.3,
-                "5": 1.1,
-                "6": 0.0,
-                "7": 0.0,
-                "8": 0.0,
-                "9": 0.0,
-                "10": 0.0
+                "10": 35.1
               },
-              "season_points": 45.5,
-              "games_played": 10,
-              "ppg": 4.55,
-              "recent_ppg": 0.0,
-              "status": "OUT",
-              "suggested_swap": {
-                "player_id": "13337",
-                "name": "Emmett Johnson",
-                "position": "RB",
-                "team": "KC",
-                "bye_week": 5,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 113,
-                "weekly_points": {
-                  "10": 35.1
-                },
-                "season_points": 35.1,
-                "games_played": 1,
-                "ppg": 35.1,
-                "recent_ppg": 35.1
-              }
+              "season_points": 35.1,
+              "games_played": 1,
+              "ppg": 35.1,
+              "recent_ppg": 35.1,
+              "status": "OK"
             },
             {
               "slot": "WR",
@@ -9275,24 +9249,6 @@
               "status": "OK"
             },
             {
-              "player_id": "13337",
-              "name": "Emmett Johnson",
-              "position": "RB",
-              "team": "KC",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 113,
-              "weekly_points": {
-                "10": 35.1
-              },
-              "season_points": 35.1,
-              "games_played": 1,
-              "ppg": 35.1,
-              "recent_ppg": 35.1,
-              "status": "OK"
-            },
-            {
               "player_id": "2133",
               "name": "Davante Adams",
               "position": "WR",
@@ -9320,6 +9276,33 @@
               "status": "BYE"
             },
             {
+              "player_id": "5892",
+              "name": "David Montgomery",
+              "position": "RB",
+              "team": "HOU",
+              "bye_week": 8,
+              "injury_status": "Out",
+              "injury_body_part": "Groin",
+              "search_rank": 42,
+              "weekly_points": {
+                "1": 28.9,
+                "2": 4.4,
+                "3": 6.8,
+                "4": 4.3,
+                "5": 1.1,
+                "6": 0.0,
+                "7": 0.0,
+                "8": 0.0,
+                "9": 0.0,
+                "10": 0.0
+              },
+              "season_points": 45.5,
+              "games_played": 10,
+              "ppg": 4.55,
+              "recent_ppg": 0.0,
+              "status": "OUT"
+            },
+            {
               "player_id": "9484",
               "name": "Tucker Kraft",
               "position": "TE",
@@ -9327,7 +9310,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 65,
+              "search_rank": 64,
               "weekly_points": {
                 "1": 9.5,
                 "2": 3.5,
@@ -9365,15 +9348,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 2,
+          "alert_count": 1,
           "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "David Montgomery",
-              "status": "OUT",
-              "detail": "Groin",
-              "suggested_swap": "Emmett Johnson"
-            },
             {
               "slot": "WR",
               "player_name": "DeVonta Smith",
@@ -10936,7 +10912,7 @@
                 "bye_week": 7,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 105,
+                "search_rank": 104,
                 "weekly_points": {
                   "1": 15.5,
                   "2": 21.7,
@@ -10987,7 +10963,7 @@
                 "bye_week": 7,
                 "injury_status": null,
                 "injury_body_part": null,
-                "search_rank": 105,
+                "search_rank": 104,
                 "weekly_points": {
                   "1": 15.5,
                   "2": 21.7,
@@ -11089,7 +11065,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 105,
+              "search_rank": 104,
               "weekly_points": {
                 "1": 15.5,
                 "2": 21.7,
