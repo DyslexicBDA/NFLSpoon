@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T12:37:49.606347+00:00",
+  "generated_at": "2026-11-19T22:57:00.654208+00:00",
   "current_week": 11,
   "season": "2026",
   "leagues": [
@@ -507,35 +507,35 @@
               "status": "OK"
             },
             {
-              "player_id": "7600",
-              "name": "Pat Freiermuth",
+              "player_id": "2505",
+              "name": "Darren Waller",
               "position": "TE",
-              "team": "PIT",
-              "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 230,
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee",
+              "search_rank": 356,
               "weekly_points": {
-                "1": 15.6,
-                "2": 7.4,
-                "3": 5.1,
-                "4": 10.7,
-                "5": 21.5,
-                "6": 3.1,
-                "7": 4.0,
-                "8": 11.6,
-                "10": 11.5
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6,
+                "6": 0.0,
+                "7": 15.0,
+                "8": 2.1,
+                "9": 23.0,
+                "10": 4.4
               },
-              "season_points": 90.5,
+              "season_points": 84.3,
               "games_played": 9,
-              "ppg": 10.06,
-              "recent_ppg": 9.03,
+              "ppg": 9.37,
+              "recent_ppg": 9.83,
               "drop_candidate": {
                 "name": "Sam LaPorta",
                 "ppg": 9.57,
                 "recent_ppg": 5.43
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -1927,48 +1927,20 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "2505",
-              "name": "Darren Waller",
-              "position": "TE",
-              "team": "CAR",
-              "bye_week": 5,
-              "injury_status": "Questionable",
-              "injury_body_part": "Knee",
-              "search_rank": 356,
-              "weekly_points": {
-                "4": 6.6,
-                "10": 4.4
-              },
-              "season_points": 11.0,
-              "games_played": 2,
-              "ppg": 5.5,
-              "recent_ppg": 5.5,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "7523",
-                "name": "Trevor Lawrence",
-                "position": "QB",
-                "team": "JAX",
-                "bye_week": 7,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 41,
-                "weekly_points": {
-                  "2": 7.16,
-                  "3": 20.78,
-                  "4": 13.08,
-                  "5": 28.74,
-                  "6": 28.34,
-                  "7": 0.0,
-                  "8": 20.4,
-                  "9": 20.58,
-                  "10": 28.78
-                },
-                "season_points": 167.86,
-                "games_played": 9,
-                "ppg": 18.65,
-                "recent_ppg": 23.25
-              }
+              "player_id": "12492",
+              "name": "Pat Bryant",
+              "position": "WR",
+              "team": "DEN",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 172,
+              "weekly_points": {},
+              "season_points": 0.0,
+              "games_played": 0,
+              "ppg": null,
+              "recent_ppg": null,
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -2206,16 +2178,8 @@
               "status": "BYE"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "FLEX",
-              "player_name": "Darren Waller",
-              "status": "QUESTIONABLE",
-              "detail": "Knee",
-              "suggested_swap": "Trevor Lawrence"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "4017",
@@ -2269,9 +2233,9 @@
               "ppg": 13.41,
               "recent_ppg": 16.47,
               "drop_candidate": {
-                "name": "Tetairoa McMillan",
-                "ppg": 13.1,
-                "recent_ppg": 11.3
+                "name": "Pat Bryant",
+                "ppg": null,
+                "recent_ppg": null
               },
               "status": "OUT"
             },
@@ -2339,35 +2303,35 @@
               "status": "OK"
             },
             {
-              "player_id": "7600",
-              "name": "Pat Freiermuth",
+              "player_id": "2505",
+              "name": "Darren Waller",
               "position": "TE",
-              "team": "PIT",
-              "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 230,
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee",
+              "search_rank": 356,
               "weekly_points": {
-                "1": 15.6,
-                "2": 7.4,
-                "3": 5.1,
-                "4": 10.7,
-                "5": 21.5,
-                "6": 3.1,
-                "7": 4.0,
-                "8": 11.6,
-                "10": 11.5
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6,
+                "6": 0.0,
+                "7": 15.0,
+                "8": 2.1,
+                "9": 23.0,
+                "10": 4.4
               },
-              "season_points": 90.5,
+              "season_points": 84.3,
               "games_played": 9,
-              "ppg": 10.06,
-              "recent_ppg": 9.03,
+              "ppg": 9.37,
+              "recent_ppg": 9.83,
               "drop_candidate": {
-                "name": "Darren Waller",
-                "ppg": 5.5,
-                "recent_ppg": 5.5
+                "name": "Colston Loveland",
+                "ppg": 8.33,
+                "recent_ppg": 6.97
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -2416,32 +2380,26 @@
             },
             {
               "slot": "RB",
-              "player_id": "9509",
-              "name": "Bijan Robinson",
+              "player_id": "6806",
+              "name": "J.K. Dobbins",
               "position": "RB",
-              "team": "ATL",
-              "bye_week": 11,
+              "team": "DEN",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 1,
+              "search_rank": 68,
               "weekly_points": {
-                "1": 31.3,
-                "2": 11.1,
-                "3": 35.3,
-                "4": 30.7,
-                "5": 15.8,
-                "6": 7.3,
-                "7": 17.2,
-                "8": 7.6,
-                "9": 26.7,
-                "10": 17.7
+                "1": 3.6,
+                "2": 3.6,
+                "6": 13.6,
+                "7": 8.3,
+                "8": 1.3
               },
-              "season_points": 200.7,
-              "games_played": 10,
-              "ppg": 20.07,
-              "recent_ppg": 17.33,
-              "status": "BYE",
-              "suggested_swap": null
+              "season_points": 30.4,
+              "games_played": 5,
+              "ppg": 6.08,
+              "recent_ppg": 7.73,
+              "status": "OK"
             },
             {
               "slot": "RB",
@@ -2579,32 +2537,7 @@
               "ppg": 6.06,
               "recent_ppg": 0.0,
               "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "11620",
-                "name": "Rome Odunze",
-                "position": "WR",
-                "team": "CHI",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 65,
-                "weekly_points": {
-                  "1": 7.2,
-                  "2": 7.3,
-                  "3": 7.4,
-                  "4": 15.4,
-                  "5": 5.0,
-                  "6": 6.9,
-                  "7": 10.9,
-                  "8": 12.7,
-                  "9": 16.0,
-                  "10": 0.0
-                },
-                "season_points": 88.8,
-                "games_played": 10,
-                "ppg": 8.88,
-                "recent_ppg": 9.57
-              }
+              "suggested_swap": null
             },
             {
               "slot": "FLEX",
@@ -2717,33 +2650,6 @@
               "status": "QUESTIONABLE"
             },
             {
-              "player_id": "11620",
-              "name": "Rome Odunze",
-              "position": "WR",
-              "team": "CHI",
-              "bye_week": 10,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 65,
-              "weekly_points": {
-                "1": 7.2,
-                "2": 7.3,
-                "3": 7.4,
-                "4": 15.4,
-                "5": 5.0,
-                "6": 6.9,
-                "7": 10.9,
-                "8": 12.7,
-                "9": 16.0,
-                "10": 0.0
-              },
-              "season_points": 88.8,
-              "games_played": 10,
-              "ppg": 8.88,
-              "recent_ppg": 9.57,
-              "status": "OK"
-            },
-            {
               "player_id": "421",
               "name": "Matthew Stafford",
               "position": "QB",
@@ -2793,23 +2699,43 @@
               "ppg": 4.38,
               "recent_ppg": 7.9,
               "status": "BYE"
+            },
+            {
+              "player_id": "9509",
+              "name": "Bijan Robinson",
+              "position": "RB",
+              "team": "ATL",
+              "bye_week": 11,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 1,
+              "weekly_points": {
+                "1": 31.3,
+                "2": 11.1,
+                "3": 35.3,
+                "4": 30.7,
+                "5": 15.8,
+                "6": 7.3,
+                "7": 17.2,
+                "8": 7.6,
+                "9": 26.7,
+                "10": 17.7
+              },
+              "season_points": 200.7,
+              "games_played": 10,
+              "ppg": 20.07,
+              "recent_ppg": 17.33,
+              "status": "BYE"
             }
           ],
-          "alert_count": 3,
+          "alert_count": 2,
           "alerts": [
-            {
-              "slot": "RB",
-              "player_name": "Bijan Robinson",
-              "status": "BYE",
-              "detail": "Bye week",
-              "suggested_swap": null
-            },
             {
               "slot": "FLEX",
               "player_name": "Carnell Tate",
               "status": "QUESTIONABLE",
               "detail": "Shoulder",
-              "suggested_swap": "Rome Odunze"
+              "suggested_swap": null
             },
             {
               "slot": "K",
@@ -2908,9 +2834,9 @@
               "ppg": 9.51,
               "recent_ppg": 15.7,
               "drop_candidate": {
-                "name": "Josh Jacobs",
-                "ppg": 4.38,
-                "recent_ppg": 7.9
+                "name": "J.K. Dobbins",
+                "ppg": 6.08,
+                "recent_ppg": 7.73
               },
               "status": "OK"
             },
@@ -2946,35 +2872,35 @@
               "status": "OK"
             },
             {
-              "player_id": "7600",
-              "name": "Pat Freiermuth",
+              "player_id": "2505",
+              "name": "Darren Waller",
               "position": "TE",
-              "team": "PIT",
-              "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 230,
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee",
+              "search_rank": 356,
               "weekly_points": {
-                "1": 15.6,
-                "2": 7.4,
-                "3": 5.1,
-                "4": 10.7,
-                "5": 21.5,
-                "6": 3.1,
-                "7": 4.0,
-                "8": 11.6,
-                "10": 11.5
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6,
+                "6": 0.0,
+                "7": 15.0,
+                "8": 2.1,
+                "9": 23.0,
+                "10": 4.4
               },
-              "season_points": 90.5,
+              "season_points": 84.3,
               "games_played": 9,
-              "ppg": 10.06,
-              "recent_ppg": 9.03,
+              "ppg": 9.37,
+              "recent_ppg": 9.83,
               "drop_candidate": {
                 "name": "Tyler Warren",
                 "ppg": 8.65,
                 "recent_ppg": 5.53
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -3133,21 +3059,21 @@
             },
             {
               "slot": "WR",
-              "player_id": "9502",
-              "name": "Tank Dell",
+              "player_id": "10218",
+              "name": "Xavier Hutchinson",
               "position": "WR",
               "team": "HOU",
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 187,
+              "search_rank": 679,
               "weekly_points": {
-                "10": 5.1
+                "3": 8.5
               },
-              "season_points": 5.1,
+              "season_points": 8.5,
               "games_played": 1,
-              "ppg": 5.1,
-              "recent_ppg": 5.1,
+              "ppg": 8.5,
+              "recent_ppg": 8.5,
               "status": "OK"
             },
             {
@@ -3284,24 +3210,6 @@
           ],
           "bench": [
             {
-              "player_id": "10218",
-              "name": "Xavier Hutchinson",
-              "position": "WR",
-              "team": "HOU",
-              "bye_week": 8,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 679,
-              "weekly_points": {
-                "3": 8.5
-              },
-              "season_points": 8.5,
-              "games_played": 1,
-              "ppg": 8.5,
-              "recent_ppg": 8.5,
-              "status": "OK"
-            },
-            {
               "player_id": "11576",
               "name": "Braelon Allen",
               "position": "RB",
@@ -3396,6 +3304,24 @@
               "ppg": 17.36,
               "recent_ppg": 20.0,
               "status": "BYE"
+            },
+            {
+              "player_id": "9502",
+              "name": "Tank Dell",
+              "position": "WR",
+              "team": "HOU",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 187,
+              "weekly_points": {
+                "10": 5.1
+              },
+              "season_points": 5.1,
+              "games_played": 1,
+              "ppg": 5.1,
+              "recent_ppg": 5.1,
+              "status": "OK"
             }
           ],
           "alert_count": 1,
@@ -3535,35 +3461,35 @@
               "status": "OK"
             },
             {
-              "player_id": "7600",
-              "name": "Pat Freiermuth",
+              "player_id": "2505",
+              "name": "Darren Waller",
               "position": "TE",
-              "team": "PIT",
-              "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 230,
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee",
+              "search_rank": 356,
               "weekly_points": {
-                "1": 15.6,
-                "2": 7.4,
-                "3": 5.1,
-                "4": 10.7,
-                "5": 21.5,
-                "6": 3.1,
-                "7": 4.0,
-                "8": 11.6,
-                "10": 11.5
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6,
+                "6": 0.0,
+                "7": 15.0,
+                "8": 2.1,
+                "9": 23.0,
+                "10": 4.4
               },
-              "season_points": 90.5,
+              "season_points": 84.3,
               "games_played": 9,
-              "ppg": 10.06,
-              "recent_ppg": 9.03,
+              "ppg": 9.37,
+              "recent_ppg": 9.83,
               "drop_candidate": {
                 "name": "Juwan Johnson",
                 "ppg": 8.66,
                 "recent_ppg": 5.97
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -4516,8 +4442,8 @@
               "position": "WR",
               "team": "PHI",
               "bye_week": 10,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hamstring",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 33,
               "weekly_points": {
                 "1": 8.3,
@@ -4535,7 +4461,7 @@
               "games_played": 10,
               "ppg": 6.9,
               "recent_ppg": 0.0,
-              "status": "QUESTIONABLE"
+              "status": "OK"
             },
             {
               "player_id": "7611",
@@ -5823,35 +5749,35 @@
               "status": "OK"
             },
             {
-              "player_id": "7600",
-              "name": "Pat Freiermuth",
+              "player_id": "2505",
+              "name": "Darren Waller",
               "position": "TE",
-              "team": "PIT",
-              "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 230,
+              "team": "CAR",
+              "bye_week": 5,
+              "injury_status": "Questionable",
+              "injury_body_part": "Knee",
+              "search_rank": 356,
               "weekly_points": {
-                "1": 15.6,
-                "2": 7.4,
-                "3": 5.1,
-                "4": 10.7,
-                "5": 21.5,
-                "6": 3.1,
-                "7": 4.0,
-                "8": 11.6,
-                "10": 11.5
+                "1": 4.8,
+                "2": 18.3,
+                "3": 10.1,
+                "4": 6.6,
+                "6": 0.0,
+                "7": 15.0,
+                "8": 2.1,
+                "9": 23.0,
+                "10": 4.4
               },
-              "season_points": 90.5,
+              "season_points": 84.3,
               "games_played": 9,
-              "ppg": 10.06,
-              "recent_ppg": 9.03,
+              "ppg": 9.37,
+              "recent_ppg": 9.83,
               "drop_candidate": {
                 "name": "Chig Okonkwo",
                 "ppg": null,
                 "recent_ppg": null
               },
-              "status": "OK"
+              "status": "QUESTIONABLE"
             }
           ],
           "weekly_points": {
@@ -6078,20 +6004,26 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "0",
-              "name": "0 D/ST",
-              "position": "DEF",
-              "team": "0",
-              "bye_week": null,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 999999,
-              "weekly_points": {},
-              "season_points": 0.0,
-              "games_played": 0,
-              "ppg": null,
-              "recent_ppg": null,
-              "status": "OK"
+              "player_id": "13276",
+              "name": "Omar Cooper Jr.",
+              "position": "WR",
+              "team": "NYJ",
+              "bye_week": 13,
+              "injury_status": "Questionable",
+              "injury_body_part": "Ankle",
+              "search_rank": 151,
+              "weekly_points": {
+                "7": 22.5,
+                "8": 0.0,
+                "9": 13.8,
+                "10": 0.0
+              },
+              "season_points": 36.3,
+              "games_played": 4,
+              "ppg": 9.07,
+              "recent_ppg": 4.6,
+              "status": "QUESTIONABLE",
+              "suggested_swap": null
             },
             {
               "slot": "K",
@@ -6162,27 +6094,6 @@
               "ppg": 19.32,
               "recent_ppg": 15.58,
               "status": "BYE"
-            },
-            {
-              "player_id": "13276",
-              "name": "Omar Cooper Jr.",
-              "position": "WR",
-              "team": "NYJ",
-              "bye_week": 13,
-              "injury_status": "Questionable",
-              "injury_body_part": "Ankle",
-              "search_rank": 151,
-              "weekly_points": {
-                "7": 22.5,
-                "8": 0.0,
-                "9": 13.8,
-                "10": 0.0
-              },
-              "season_points": 36.3,
-              "games_played": 4,
-              "ppg": 9.07,
-              "recent_ppg": 4.6,
-              "status": "QUESTIONABLE"
             },
             {
               "player_id": "5859",
@@ -6293,11 +6204,18 @@
               "status": "BYE"
             }
           ],
-          "alert_count": 1,
+          "alert_count": 2,
           "alerts": [
             {
               "slot": "TE",
               "player_name": "Brock Bowers",
+              "status": "QUESTIONABLE",
+              "detail": "Ankle",
+              "suggested_swap": null
+            },
+            {
+              "slot": "FLEX",
+              "player_name": "Omar Cooper Jr.",
               "status": "QUESTIONABLE",
               "detail": "Ankle",
               "suggested_swap": null
@@ -8743,30 +8661,23 @@
             },
             {
               "slot": "RB",
-              "player_id": "5892",
-              "name": "David Montgomery",
+              "player_id": "13345",
+              "name": "Jonah Coleman",
               "position": "RB",
-              "team": "HOU",
-              "bye_week": 8,
+              "team": "DEN",
+              "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 42,
+              "search_rank": 118,
               "weekly_points": {
-                "1": 28.9,
-                "2": 4.4,
-                "3": 6.8,
-                "4": 4.3,
-                "5": 1.1,
-                "6": 0.0,
-                "7": 0.0,
-                "8": 0.0,
-                "9": 0.0,
+                "8": 20.4,
+                "9": 18.8,
                 "10": 0.0
               },
-              "season_points": 45.5,
-              "games_played": 10,
-              "ppg": 4.55,
-              "recent_ppg": 0.0,
+              "season_points": 39.2,
+              "games_played": 3,
+              "ppg": 13.07,
+              "recent_ppg": 13.07,
               "status": "OK"
             },
             {
@@ -8804,8 +8715,8 @@
               "position": "WR",
               "team": "PHI",
               "bye_week": 10,
-              "injury_status": "Questionable",
-              "injury_body_part": "Hamstring",
+              "injury_status": null,
+              "injury_body_part": null,
               "search_rank": 33,
               "weekly_points": {
                 "1": 8.3,
@@ -8823,32 +8734,7 @@
               "games_played": 10,
               "ppg": 6.9,
               "recent_ppg": 0.0,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "11620",
-                "name": "Rome Odunze",
-                "position": "WR",
-                "team": "CHI",
-                "bye_week": 10,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 65,
-                "weekly_points": {
-                  "1": 7.2,
-                  "2": 7.3,
-                  "3": 7.4,
-                  "5": 5.0,
-                  "6": 6.9,
-                  "7": 10.9,
-                  "8": 12.7,
-                  "9": 16.0,
-                  "10": 0.0
-                },
-                "season_points": 73.4,
-                "games_played": 9,
-                "ppg": 8.16,
-                "recent_ppg": 9.57
-              }
+              "status": "OK"
             },
             {
               "slot": "TE",
@@ -8880,23 +8766,21 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "13345",
-              "name": "Jonah Coleman",
+              "player_id": "13337",
+              "name": "Emmett Johnson",
               "position": "RB",
-              "team": "DEN",
-              "bye_week": 10,
+              "team": "KC",
+              "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 118,
+              "search_rank": 113,
               "weekly_points": {
-                "8": 20.4,
-                "9": 18.8,
-                "10": 0.0
+                "10": 35.1
               },
-              "season_points": 39.2,
-              "games_played": 3,
-              "ppg": 13.07,
-              "recent_ppg": 13.07,
+              "season_points": 35.1,
+              "games_played": 1,
+              "ppg": 35.1,
+              "recent_ppg": 35.1,
               "status": "OK"
             },
             {
@@ -9006,24 +8890,6 @@
               "status": "OK"
             },
             {
-              "player_id": "13337",
-              "name": "Emmett Johnson",
-              "position": "RB",
-              "team": "KC",
-              "bye_week": 5,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 113,
-              "weekly_points": {
-                "10": 35.1
-              },
-              "season_points": 35.1,
-              "games_played": 1,
-              "ppg": 35.1,
-              "recent_ppg": 35.1,
-              "status": "OK"
-            },
-            {
               "player_id": "2133",
               "name": "Davante Adams",
               "position": "WR",
@@ -9049,6 +8915,33 @@
               "ppg": 10.2,
               "recent_ppg": 0.0,
               "status": "BYE"
+            },
+            {
+              "player_id": "5892",
+              "name": "David Montgomery",
+              "position": "RB",
+              "team": "HOU",
+              "bye_week": 8,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 42,
+              "weekly_points": {
+                "1": 28.9,
+                "2": 4.4,
+                "3": 6.8,
+                "4": 4.3,
+                "5": 1.1,
+                "6": 0.0,
+                "7": 0.0,
+                "8": 0.0,
+                "9": 0.0,
+                "10": 0.0
+              },
+              "season_points": 45.5,
+              "games_played": 10,
+              "ppg": 4.55,
+              "recent_ppg": 0.0,
+              "status": "OK"
             },
             {
               "player_id": "9484",
@@ -9096,16 +8989,8 @@
               "status": "OK"
             }
           ],
-          "alert_count": 1,
-          "alerts": [
-            {
-              "slot": "WR",
-              "player_name": "DeVonta Smith",
-              "status": "QUESTIONABLE",
-              "detail": "Hamstring",
-              "suggested_swap": "Rome Odunze"
-            }
-          ],
+          "alert_count": 0,
+          "alerts": [],
           "waiver_suggestions": [
             {
               "player_id": "12522",
