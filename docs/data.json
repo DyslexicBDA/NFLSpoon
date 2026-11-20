@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:22:39.832408+00:00",
+  "generated_at": "2026-11-20T16:48:31.354309+00:00",
   "current_week": 11,
   "season": "2026",
   "leagues": [
@@ -116,7 +116,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 12,
+              "search_rank": 11,
               "weekly_points": {
                 "1": 31.2,
                 "2": 8.5,
@@ -396,35 +396,35 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "4017",
-              "name": "Deshaun Watson",
+              "player_id": "12522",
+              "name": "Cam Ward",
               "position": "QB",
-              "team": "CLE",
-              "bye_week": 11,
+              "team": "TEN",
+              "bye_week": 9,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 290,
+              "search_rank": 116,
               "weekly_points": {
-                "1": 18.0,
-                "2": 25.72,
-                "3": 20.26,
-                "4": 14.92,
-                "5": 12.2,
-                "6": 9.46,
-                "7": 19.22,
-                "8": 11.16,
-                "10": 23.38
+                "1": 11.7,
+                "2": 21.02,
+                "3": 10.44,
+                "4": 16.58,
+                "5": 6.0,
+                "6": 7.78,
+                "7": 6.74,
+                "8": 26.26,
+                "10": 21.14
               },
-              "season_points": 154.32,
+              "season_points": 127.66,
               "games_played": 9,
-              "ppg": 17.15,
-              "recent_ppg": 17.92,
+              "ppg": 14.18,
+              "recent_ppg": 18.05,
               "drop_candidate": {
                 "name": "Bo Nix",
                 "ppg": 11.53,
                 "recent_ppg": 7.16
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "10232",
@@ -984,7 +984,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 101,
+              "search_rank": 102,
               "weekly_points": {
                 "6": 25.98,
                 "7": 17.52,
@@ -1012,31 +1012,31 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "4017",
-              "name": "Deshaun Watson",
+              "player_id": "12522",
+              "name": "Cam Ward",
               "position": "QB",
-              "team": "CLE",
-              "bye_week": 11,
+              "team": "TEN",
+              "bye_week": 9,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 290,
+              "search_rank": 116,
               "weekly_points": {
-                "1": 18.0,
-                "2": 25.72,
-                "3": 20.26,
-                "4": 14.92,
-                "5": 12.2,
-                "6": 9.46,
-                "7": 19.22,
-                "8": 11.16,
-                "10": 23.38
+                "1": 11.7,
+                "2": 21.02,
+                "3": 10.44,
+                "4": 16.58,
+                "5": 6.0,
+                "6": 7.78,
+                "7": 6.74,
+                "8": 26.26,
+                "10": 21.14
               },
-              "season_points": 154.32,
+              "season_points": 127.66,
               "games_played": 9,
-              "ppg": 17.15,
-              "recent_ppg": 17.92,
+              "ppg": 14.18,
+              "recent_ppg": 18.05,
               "drop_candidate": null,
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "10232",
@@ -1193,7 +1193,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 22,
+              "search_rank": 21,
               "weekly_points": {
                 "1": 17.66,
                 "2": 14.74,
@@ -1245,7 +1245,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 44,
+              "search_rank": 46,
               "weekly_points": {
                 "1": 32.4,
                 "2": 12.9,
@@ -1354,59 +1354,29 @@
             },
             {
               "slot": "FLEX",
-              "player_id": "2216",
-              "name": "Mike Evans",
+              "player_id": "5846",
+              "name": "DK Metcalf",
               "position": "WR",
-              "team": "SF",
-              "bye_week": 8,
-              "injury_status": "Questionable",
-              "injury_body_part": "Achilles",
-              "search_rank": 60,
+              "team": "PIT",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 73,
               "weekly_points": {
-                "1": 16.9,
-                "2": 8.4,
-                "3": 12.4,
-                "4": 12.6,
-                "5": 26.3,
-                "6": 12.4,
-                "7": 0.0,
-                "8": 0.0,
-                "9": 0.0,
-                "10": 0.0,
+                "1": 8.0,
+                "2": 6.7,
+                "5": 5.3,
+                "6": 20.3,
+                "7": 7.6,
+                "8": 1.4,
+                "10": 15.4,
                 "11": 0.0
               },
-              "season_points": 89.0,
-              "games_played": 11,
+              "season_points": 64.7,
+              "games_played": 8,
               "ppg": 8.09,
-              "recent_ppg": 0.0,
-              "status": "QUESTIONABLE",
-              "suggested_swap": {
-                "player_id": "5872",
-                "name": "Deebo Samuel Sr.",
-                "position": "WR",
-                "team": "SF",
-                "bye_week": 8,
-                "injury_status": null,
-                "injury_body_part": null,
-                "search_rank": 130,
-                "weekly_points": {
-                  "1": 18.0,
-                  "2": 6.5,
-                  "3": 18.4,
-                  "4": 18.0,
-                  "5": 2.5,
-                  "6": 0.0,
-                  "7": 0.0,
-                  "8": 0.0,
-                  "9": 0.0,
-                  "10": 28.9,
-                  "11": 0.0
-                },
-                "season_points": 92.3,
-                "games_played": 11,
-                "ppg": 8.39,
-                "recent_ppg": 9.63
-              }
+              "recent_ppg": 5.6,
+              "status": "OK"
             },
             {
               "slot": "FLEX",
@@ -1486,6 +1456,34 @@
           ],
           "bench": [
             {
+              "player_id": "2216",
+              "name": "Mike Evans",
+              "position": "WR",
+              "team": "SF",
+              "bye_week": 8,
+              "injury_status": "Questionable",
+              "injury_body_part": "Achilles",
+              "search_rank": 60,
+              "weekly_points": {
+                "1": 16.9,
+                "2": 8.4,
+                "3": 12.4,
+                "4": 12.6,
+                "5": 26.3,
+                "6": 12.4,
+                "7": 0.0,
+                "8": 0.0,
+                "9": 0.0,
+                "10": 0.0,
+                "11": 0.0
+              },
+              "season_points": 89.0,
+              "games_played": 11,
+              "ppg": 8.09,
+              "recent_ppg": 0.0,
+              "status": "QUESTIONABLE"
+            },
+            {
               "player_id": "4199",
               "name": "Aaron Jones Sr.",
               "position": "RB",
@@ -1511,58 +1509,6 @@
               "ppg": 8.54,
               "recent_ppg": 5.2,
               "status": "OK"
-            },
-            {
-              "player_id": "5846",
-              "name": "DK Metcalf",
-              "position": "WR",
-              "team": "PIT",
-              "bye_week": 9,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 73,
-              "weekly_points": {
-                "1": 8.0,
-                "2": 6.7,
-                "5": 5.3,
-                "6": 20.3,
-                "7": 7.6,
-                "8": 1.4,
-                "10": 15.4,
-                "11": 0.0
-              },
-              "season_points": 64.7,
-              "games_played": 8,
-              "ppg": 8.09,
-              "recent_ppg": 5.6,
-              "status": "OK"
-            },
-            {
-              "player_id": "5849",
-              "name": "Kyler Murray",
-              "position": "QB",
-              "team": "MIN",
-              "bye_week": 6,
-              "injury_status": "Out",
-              "injury_body_part": "Hamstring",
-              "search_rank": 88,
-              "weekly_points": {
-                "1": 0.62,
-                "3": 14.42,
-                "4": 11.48,
-                "5": 18.26,
-                "6": 0.0,
-                "7": 13.9,
-                "8": 21.9,
-                "9": 0.0,
-                "10": 0.0,
-                "11": 0.0
-              },
-              "season_points": 80.58,
-              "games_played": 10,
-              "ppg": 8.06,
-              "recent_ppg": 0.0,
-              "status": "OUT"
             },
             {
               "player_id": "5872",
@@ -1591,49 +1537,69 @@
               "ppg": 8.39,
               "recent_ppg": 9.63,
               "status": "OK"
-            }
-          ],
-          "alert_count": 1,
-          "alerts": [
+            },
             {
-              "slot": "FLEX",
-              "player_name": "Mike Evans",
-              "status": "QUESTIONABLE",
-              "detail": "Achilles",
-              "suggested_swap": "Deebo Samuel Sr."
-            }
-          ],
-          "waiver_suggestions": [
-            {
-              "player_id": "4017",
-              "name": "Deshaun Watson",
-              "position": "QB",
-              "team": "CLE",
+              "player_id": "8150",
+              "name": "Kyren Williams",
+              "position": "RB",
+              "team": "LAR",
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 290,
+              "search_rank": 13,
               "weekly_points": {
-                "1": 18.0,
-                "2": 25.72,
-                "3": 20.26,
-                "4": 14.92,
-                "5": 12.2,
-                "6": 9.46,
-                "7": 19.22,
-                "8": 11.16,
-                "10": 23.38
+                "1": 15.5,
+                "2": 15.7,
+                "3": 21.8,
+                "4": 36.7,
+                "5": 19.6,
+                "6": 9.7,
+                "7": 18.1,
+                "8": 12.9,
+                "9": 9.1,
+                "10": 5.2,
+                "11": 0.0
               },
-              "season_points": 154.32,
+              "season_points": 164.3,
+              "games_played": 11,
+              "ppg": 14.94,
+              "recent_ppg": 4.77,
+              "status": "BYE"
+            }
+          ],
+          "alert_count": 0,
+          "alerts": [],
+          "waiver_suggestions": [
+            {
+              "player_id": "12522",
+              "name": "Cam Ward",
+              "position": "QB",
+              "team": "TEN",
+              "bye_week": 9,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 116,
+              "weekly_points": {
+                "1": 11.7,
+                "2": 21.02,
+                "3": 10.44,
+                "4": 16.58,
+                "5": 6.0,
+                "6": 7.78,
+                "7": 6.74,
+                "8": 26.26,
+                "10": 21.14
+              },
+              "season_points": 127.66,
               "games_played": 9,
-              "ppg": 17.15,
-              "recent_ppg": 17.92,
+              "ppg": 14.18,
+              "recent_ppg": 18.05,
               "drop_candidate": {
                 "name": "Jayden Daniels",
                 "ppg": 6.48,
                 "recent_ppg": 0.0
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "10232",
@@ -1790,7 +1756,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 55,
+              "search_rank": 56,
               "weekly_points": {
                 "3": 37.28,
                 "4": 25.62,
@@ -2220,35 +2186,35 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "4017",
-              "name": "Deshaun Watson",
+              "player_id": "12522",
+              "name": "Cam Ward",
               "position": "QB",
-              "team": "CLE",
-              "bye_week": 11,
+              "team": "TEN",
+              "bye_week": 9,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 290,
+              "search_rank": 116,
               "weekly_points": {
-                "1": 18.0,
-                "2": 25.72,
-                "3": 20.26,
-                "4": 14.92,
-                "5": 12.2,
-                "6": 9.46,
-                "7": 19.22,
-                "8": 11.16,
-                "10": 23.38
+                "1": 11.7,
+                "2": 21.02,
+                "3": 10.44,
+                "4": 16.58,
+                "5": 6.0,
+                "6": 7.78,
+                "7": 6.74,
+                "8": 26.26,
+                "10": 21.14
               },
-              "season_points": 154.32,
+              "season_points": 127.66,
               "games_played": 9,
-              "ppg": 17.15,
-              "recent_ppg": 17.92,
+              "ppg": 14.18,
+              "recent_ppg": 18.05,
               "drop_candidate": {
                 "name": "Trevor Lawrence",
                 "ppg": 16.79,
                 "recent_ppg": 16.45
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "10232",
@@ -2405,7 +2371,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 87,
+              "search_rank": 88,
               "weekly_points": {
                 "4": 16.94,
                 "5": 1.84,
@@ -2804,35 +2770,35 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "4017",
-              "name": "Deshaun Watson",
+              "player_id": "12522",
+              "name": "Cam Ward",
               "position": "QB",
-              "team": "CLE",
-              "bye_week": 11,
+              "team": "TEN",
+              "bye_week": 9,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 290,
+              "search_rank": 116,
               "weekly_points": {
-                "1": 18.0,
-                "2": 25.72,
-                "3": 20.26,
-                "4": 14.92,
-                "5": 12.2,
-                "6": 9.46,
-                "7": 19.22,
-                "8": 11.16,
-                "10": 23.38
+                "1": 11.7,
+                "2": 21.02,
+                "3": 10.44,
+                "4": 16.58,
+                "5": 6.0,
+                "6": 7.78,
+                "7": 6.74,
+                "8": 26.26,
+                "10": 21.14
               },
-              "season_points": 154.32,
+              "season_points": 127.66,
               "games_played": 9,
-              "ppg": 17.15,
-              "recent_ppg": 17.92,
+              "ppg": 14.18,
+              "recent_ppg": 18.05,
               "drop_candidate": {
                 "name": "Tyler Shough",
                 "ppg": 11.66,
                 "recent_ppg": 10.56
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "10232",
@@ -3410,35 +3376,35 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "4017",
-              "name": "Deshaun Watson",
+              "player_id": "12522",
+              "name": "Cam Ward",
               "position": "QB",
-              "team": "CLE",
-              "bye_week": 11,
+              "team": "TEN",
+              "bye_week": 9,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 290,
+              "search_rank": 116,
               "weekly_points": {
-                "1": 18.0,
-                "2": 25.72,
-                "3": 20.26,
-                "4": 14.92,
-                "5": 12.2,
-                "6": 9.46,
-                "7": 19.22,
-                "8": 11.16,
-                "10": 23.38
+                "1": 11.7,
+                "2": 21.02,
+                "3": 10.44,
+                "4": 16.58,
+                "5": 6.0,
+                "6": 7.78,
+                "7": 6.74,
+                "8": 26.26,
+                "10": 21.14
               },
-              "season_points": 154.32,
+              "season_points": 127.66,
               "games_played": 9,
-              "ppg": 17.15,
-              "recent_ppg": 17.92,
+              "ppg": 14.18,
+              "recent_ppg": 18.05,
               "drop_candidate": {
                 "name": "Caleb Williams",
                 "ppg": 11.21,
                 "recent_ppg": 7.59
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "10232",
@@ -3588,21 +3554,25 @@
           "starters": [
             {
               "slot": "QB",
-              "player_id": "12522",
-              "name": "Cam Ward",
+              "player_id": "3163",
+              "name": "Jared Goff",
               "position": "QB",
-              "team": "TEN",
-              "bye_week": 9,
+              "team": "DET",
+              "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 116,
+              "search_rank": 61,
               "weekly_points": {
+                "5": 28.94,
+                "8": 11.04,
+                "9": 6.3,
+                "10": 29.42,
                 "11": 0.0
               },
-              "season_points": 0.0,
-              "games_played": 1,
-              "ppg": 0.0,
-              "recent_ppg": 0.0,
+              "season_points": 75.7,
+              "games_played": 5,
+              "ppg": 15.14,
+              "recent_ppg": 11.91,
               "status": "OK"
             },
             {
@@ -3730,7 +3700,7 @@
               "bye_week": 13,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 422,
+              "search_rank": 417,
               "weekly_points": {
                 "5": 1.2,
                 "6": 16.5,
@@ -3919,7 +3889,7 @@
               "position": "WR",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Ankle",
               "search_rank": 151,
               "weekly_points": {
@@ -3933,7 +3903,7 @@
               "games_played": 5,
               "ppg": 7.26,
               "recent_ppg": 4.6,
-              "status": "QUESTIONABLE"
+              "status": "OUT"
             },
             {
               "player_id": "2133",
@@ -3971,7 +3941,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 67,
+              "search_rank": 66,
               "weekly_points": {
                 "6": 21.24,
                 "7": 17.96,
@@ -3991,35 +3961,35 @@
           "alerts": [],
           "waiver_suggestions": [
             {
-              "player_id": "4017",
-              "name": "Deshaun Watson",
+              "player_id": "12522",
+              "name": "Cam Ward",
               "position": "QB",
-              "team": "CLE",
-              "bye_week": 11,
+              "team": "TEN",
+              "bye_week": 9,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 290,
+              "search_rank": 116,
               "weekly_points": {
-                "1": 18.0,
-                "2": 25.72,
-                "3": 20.26,
-                "4": 14.92,
-                "5": 12.2,
-                "6": 9.46,
-                "7": 19.22,
-                "8": 11.16,
-                "10": 23.38
+                "1": 11.7,
+                "2": 21.02,
+                "3": 10.44,
+                "4": 16.58,
+                "5": 6.0,
+                "6": 7.78,
+                "7": 6.74,
+                "8": 26.26,
+                "10": 21.14
               },
-              "season_points": 154.32,
+              "season_points": 127.66,
               "games_played": 9,
-              "ppg": 17.15,
-              "recent_ppg": 17.92,
+              "ppg": 14.18,
+              "recent_ppg": 18.05,
               "drop_candidate": {
-                "name": "Cam Ward",
-                "ppg": 0.0,
-                "recent_ppg": 0.0
+                "name": "Jared Goff",
+                "ppg": 15.14,
+                "recent_ppg": 11.91
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "10232",
@@ -4376,7 +4346,7 @@
               "bye_week": 13,
               "injury_status": "Questionable",
               "injury_body_part": "Ankle",
-              "search_rank": 20,
+              "search_rank": 19,
               "weekly_points": {
                 "1": 0.0,
                 "2": 0.0,
@@ -4568,31 +4538,31 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "4017",
-              "name": "Deshaun Watson",
+              "player_id": "12522",
+              "name": "Cam Ward",
               "position": "QB",
-              "team": "CLE",
-              "bye_week": 11,
+              "team": "TEN",
+              "bye_week": 9,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 290,
+              "search_rank": 116,
               "weekly_points": {
-                "1": 18.0,
-                "2": 25.72,
-                "3": 20.26,
-                "4": 14.92,
-                "5": 12.2,
-                "6": 9.46,
-                "7": 19.22,
-                "8": 11.16,
-                "10": 23.38
+                "1": 11.7,
+                "2": 21.02,
+                "3": 10.44,
+                "4": 16.58,
+                "5": 6.0,
+                "6": 7.78,
+                "7": 6.74,
+                "8": 26.26,
+                "10": 21.14
               },
-              "season_points": 154.32,
+              "season_points": 127.66,
               "games_played": 9,
-              "ppg": 17.15,
-              "recent_ppg": 17.92,
+              "ppg": 14.18,
+              "recent_ppg": 18.05,
               "drop_candidate": null,
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "10232",
@@ -4749,7 +4719,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 40,
+              "search_rank": 39,
               "weekly_points": {
                 "3": 17.94,
                 "4": 20.0,
@@ -4803,7 +4773,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 392,
+              "search_rank": 390,
               "weekly_points": {
                 "4": 18.0,
                 "5": 14.8,
@@ -5072,7 +5042,7 @@
               "bye_week": 13,
               "injury_status": "Out",
               "injury_body_part": "Hamstring",
-              "search_rank": 378,
+              "search_rank": 376,
               "weekly_points": {
                 "8": 2.9,
                 "9": 11.2,
@@ -5093,7 +5063,7 @@
               "bye_week": 13,
               "injury_status": "IR",
               "injury_body_part": "Thumb",
-              "search_rank": 11,
+              "search_rank": 9,
               "weekly_points": {
                 "1": 32.96,
                 "2": 16.8,
@@ -5182,35 +5152,35 @@
           ],
           "waiver_suggestions": [
             {
-              "player_id": "4017",
-              "name": "Deshaun Watson",
+              "player_id": "12522",
+              "name": "Cam Ward",
               "position": "QB",
-              "team": "CLE",
-              "bye_week": 11,
+              "team": "TEN",
+              "bye_week": 9,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 290,
+              "search_rank": 116,
               "weekly_points": {
-                "1": 18.0,
-                "2": 25.72,
-                "3": 20.26,
-                "4": 14.92,
-                "5": 12.2,
-                "6": 9.46,
-                "7": 19.22,
-                "8": 11.16,
-                "10": 23.38
+                "1": 11.7,
+                "2": 21.02,
+                "3": 10.44,
+                "4": 16.58,
+                "5": 6.0,
+                "6": 7.78,
+                "7": 6.74,
+                "8": 26.26,
+                "10": 21.14
               },
-              "season_points": 154.32,
+              "season_points": 127.66,
               "games_played": 9,
-              "ppg": 17.15,
-              "recent_ppg": 17.92,
+              "ppg": 14.18,
+              "recent_ppg": 18.05,
               "drop_candidate": {
                 "name": "Lamar Jackson",
                 "ppg": 8.19,
                 "recent_ppg": 0.0
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "10232",
@@ -5452,7 +5422,26 @@
               "ppg": 2.8,
               "recent_ppg": 3.37,
               "status": "QUESTIONABLE",
-              "suggested_swap": null
+              "suggested_swap": {
+                "player_id": "13294",
+                "name": "Makai Lemon",
+                "position": "WR",
+                "team": "PHI",
+                "bye_week": 10,
+                "injury_status": null,
+                "injury_body_part": null,
+                "search_rank": 89,
+                "weekly_points": {
+                  "1": 2.5,
+                  "8": 11.7,
+                  "9": 12.1,
+                  "11": 0.0
+                },
+                "season_points": 26.3,
+                "games_played": 4,
+                "ppg": 6.57,
+                "recent_ppg": 7.93
+              }
             },
             {
               "slot": "WR",
@@ -5608,7 +5597,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 261,
+              "search_rank": 260,
               "weekly_points": {
                 "7": 21.4,
                 "8": 29.18,
@@ -5667,6 +5656,27 @@
               "status": "OUT"
             },
             {
+              "player_id": "13294",
+              "name": "Makai Lemon",
+              "position": "WR",
+              "team": "PHI",
+              "bye_week": 10,
+              "injury_status": null,
+              "injury_body_part": null,
+              "search_rank": 89,
+              "weekly_points": {
+                "1": 2.5,
+                "8": 11.7,
+                "9": 12.1,
+                "11": 0.0
+              },
+              "season_points": 26.3,
+              "games_played": 4,
+              "ppg": 6.57,
+              "recent_ppg": 7.93,
+              "status": "OK"
+            },
+            {
               "player_id": "9480",
               "name": "Brenton Strange",
               "position": "TE",
@@ -5689,25 +5699,6 @@
               "ppg": 6.26,
               "recent_ppg": 4.37,
               "status": "OK"
-            },
-            {
-              "player_id": "9501",
-              "name": "DeMario Douglas",
-              "position": "WR",
-              "team": "NE",
-              "bye_week": 11,
-              "injury_status": null,
-              "injury_body_part": null,
-              "search_rank": 485,
-              "weekly_points": {
-                "10": 1.4,
-                "11": 0.0
-              },
-              "season_points": 1.4,
-              "games_played": 2,
-              "ppg": 0.7,
-              "recent_ppg": 0.7,
-              "status": "BYE"
             },
             {
               "player_id": "9753",
@@ -5742,40 +5733,40 @@
               "player_name": "Caleb Douglas",
               "status": "QUESTIONABLE",
               "detail": "Shoulder",
-              "suggested_swap": null
+              "suggested_swap": "Makai Lemon"
             }
           ],
           "waiver_suggestions": [
             {
-              "player_id": "4017",
-              "name": "Deshaun Watson",
+              "player_id": "12522",
+              "name": "Cam Ward",
               "position": "QB",
-              "team": "CLE",
-              "bye_week": 11,
+              "team": "TEN",
+              "bye_week": 9,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 290,
+              "search_rank": 116,
               "weekly_points": {
-                "1": 18.0,
-                "2": 25.72,
-                "3": 20.26,
-                "4": 14.92,
-                "5": 12.2,
-                "6": 9.46,
-                "7": 19.22,
-                "8": 11.16,
-                "10": 23.38
+                "1": 11.7,
+                "2": 21.02,
+                "3": 10.44,
+                "4": 16.58,
+                "5": 6.0,
+                "6": 7.78,
+                "7": 6.74,
+                "8": 26.26,
+                "10": 21.14
               },
-              "season_points": 154.32,
+              "season_points": 127.66,
               "games_played": 9,
-              "ppg": 17.15,
-              "recent_ppg": 17.92,
+              "ppg": 14.18,
+              "recent_ppg": 18.05,
               "drop_candidate": {
                 "name": "Kirk Cousins",
                 "ppg": 16.12,
                 "recent_ppg": 10.01
               },
-              "status": "BYE"
+              "status": "OK"
             },
             {
               "player_id": "10232",
@@ -5951,7 +5942,7 @@
               "bye_week": 5,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 40,
+              "search_rank": 39,
               "weekly_points": {
                 "3": 16.94,
                 "4": 17.0,
@@ -6084,7 +6075,7 @@
               "bye_week": 13,
               "injury_status": "Questionable",
               "injury_body_part": "Ankle",
-              "search_rank": 20,
+              "search_rank": 19,
               "weekly_points": {
                 "1": 0.0,
                 "2": 0.0,
@@ -6141,7 +6132,7 @@
               "position": "WR",
               "team": "NYJ",
               "bye_week": 13,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_body_part": "Ankle",
               "search_rank": 151,
               "weekly_points": {
@@ -6155,7 +6146,7 @@
               "games_played": 5,
               "ppg": 7.26,
               "recent_ppg": 4.6,
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "suggested_swap": null
             },
             {
@@ -6210,7 +6201,7 @@
               "bye_week": 11,
               "injury_status": "Out",
               "injury_body_part": "Ankle",
-              "search_rank": 8,
+              "search_rank": 12,
               "weekly_points": {
                 "1": 12.82,
                 "2": 9.02,
@@ -6355,7 +6346,7 @@
             {
               "slot": "FLEX",
               "player_name": "Omar Cooper Jr.",
-              "status": "QUESTIONABLE",
+              "status": "OUT",
               "detail": "Ankle",
               "suggested_swap": null
             }
@@ -6541,7 +6532,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 101,
+              "search_rank": 102,
               "weekly_points": {
                 "7": 16.52,
                 "10": 21.44,
@@ -6826,7 +6817,7 @@
               "bye_week": 13,
               "injury_status": "Out",
               "injury_body_part": "Hamstring",
-              "search_rank": 378,
+              "search_rank": 376,
               "weekly_points": {
                 "11": 1.8
               },
@@ -8028,7 +8019,7 @@
               "bye_week": 11,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 67,
+              "search_rank": 66,
               "weekly_points": {
                 "2": 13.8,
                 "3": 19.48,
@@ -8229,7 +8220,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 261,
+              "search_rank": 260,
               "weekly_points": {
                 "8": 28.18,
                 "11": 0.0
@@ -9371,7 +9362,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 55,
+              "search_rank": 56,
               "weekly_points": {
                 "1": 22.1,
                 "2": 28.48,
@@ -9953,7 +9944,7 @@
               "bye_week": 7,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 22,
+              "search_rank": 21,
               "weekly_points": {
                 "1": 17.66,
                 "2": 14.74,
@@ -9982,7 +9973,7 @@
               "bye_week": 10,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 44,
+              "search_rank": 46,
               "weekly_points": {
                 "1": 32.4,
                 "2": 12.9,
@@ -10620,7 +10611,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 392,
+              "search_rank": 390,
               "weekly_points": {
                 "4": 18.0,
                 "5": 14.8,
@@ -11320,7 +11311,7 @@
               "bye_week": 6,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 12,
+              "search_rank": 11,
               "weekly_points": {
                 "1": 31.2,
                 "2": 8.5,
@@ -11435,7 +11426,7 @@
               "bye_week": 8,
               "injury_status": null,
               "injury_body_part": null,
-              "search_rank": 87,
+              "search_rank": 88,
               "weekly_points": {
                 "5": 1.84,
                 "10": 10.98,
